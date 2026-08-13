@@ -1,0 +1,110 @@
+Fon Bh Ae eae tn dnt Seu a liao
+
+ER
+
+MODEL 548 AMPLIFIER
+
+FIG. 10.
+Guide, Top 128970
+2 Strip 115492
+126012
+125709
+Input 113420
+Complete 131256
+Red Dot (Requires
+n, 5 W. Resistor) 129547
+74818-2
+125695,
+131254
+Rectifier (4) 71588-21
+Transformer, Audio 131304
+former, Driver 126502
+tor, Driver (2) Q8, Q? 131261
+Transistor, Q5 131262
+Transistor, (2) Ql, Q2 Green
+1 Dot 130537-5
+Transistor, (2) Q3, Q4 Yellow
+___ Dot 130537-4
+1 "Transistor, (2) Q6, Q7 Red
+! Orange or Yellow Dot
+(Specify color) 130537 -2, 3, 4
+I Barretters (2) 125989
+oo Clamp (2) 76266
+Pacitor (2) (1200 Mfd.) 76263
+Opti 76622
+Fuse, 8 Amp. ee 71590-33
+3 Amp. 71590-22
+
+WORLTZ ER
+
+10.
+12.
+13.
+1.
+16.
+17.
+18.
+
+19.
+20.
+
+21.
+
+22.
+
+23.
+24.
+25.
+
+Loudness Control Assy.
+Loudness Control
+Plug, 9 Pin, Miniature
+
+Socket, 6 Pin
+
+Cancel Switch
+
+Switch, Line
+
+Socket, 2 Pole, 110V.
+
+Fuse Post
+Fuse, 15 Amp.
+
+Socket, 2 Pole, 110V.
+
+Amplifier Guide, Bottom
+
+Line Cord
+Strain Relief
+
+Terminal Strip
+
+Transformer, Power
+
+Capacitor, Blectrolytic
+
+Socket, 11 Pin
+
+Capacitor, Electrolytic
+
+Heat Sink and Socket Assy-
+Heat Sink
+
+Transistor, P.A- Module
+Qo, Qui, Qi2, Us. Red,
+Or Green, oF Blue
+
+(pecify Color)
+
+Knob )
+switch (4)
+Cover & Silk Sereen Assy:
+
+SECTION E
+
+125703
+125720
+125708
+131266
+

@@ -1,0 +1,59 @@
+SECTION B
+
+FIG. 18.
+1. Plug, 11 121584
+2. Socket, 12 114325
+3. Plug & Wire Assy., Red (T.T. Jumper) 123990
+4, Socket, 11 38492
+5. Socket, 4 Pin Min. 69090
+6. Socket, 4 Circuit 122650
+
+Jumper Plug 126223
+7. Terminal Bushing 124835
+8. Plug & Wire Assy. , Blue (Spec. Prog.) 124279
+9. Capacitor, 124 Mfd., SOV., A.C. 74808
+Capacitor, 35 Mfd., 50V. 76356
+Capacitor, 65-93 Mfd., 50V., A.C. 70901
+Capacitor, .047, 400V. 74569-24
+Capacitor, 100 Mfd., 50V. 73846-32
+Resistor, 310 ohm, 5W. 70684-2
+Page 10B
+
+JUNCTION BOX - 200
+
+Socket, 4
+Relay, White Cover, 28V., D.C.
+Relay, Red Cover, 24V., A.C.
+Socket, Relay, Without Color Code
+Switch
+Circuit Breaker
+Lamp Socket
+
+Lamp, No. 303
+Socket, 6
+Plug & Wire Assy. (Stepper Jumper)
+Socket, 11
+
+Cap
+
+ee
+
+30495
+122133
+122366
+122131
+123715
+128801
+122358
+122359
+
+32881
+121319
+
+58898
+
+16610
+
+WURLITZER
+
+j

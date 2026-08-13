@@ -1,0 +1,62 @@
+4
+
+=e eee eee
+
+CTION €
+
+jetter latch switch
+
+YUS-9) to 5,
+; LATCH aye
+: SWITOHES: ine wee
+AHO) -0)49
+
+oo O
+
+start Switch - Letter Coil
+
+> through thermostat to 69, through ry-2(12-8) to 60, through sta
+. . , , rt switch to 63, through
+= , through A letter coil to a, through A letter selector switch, through control
+1-2 to 46, through ry-4(7-11) to 40. Letter coil is energized, Al selector pin is
+
+RyY2
+g THERMOSTAT 12-8 wie re
+
+CICOB 6 as ne
+“OZ SACO
+
+rough free play switch, through counter to 50, through ry-4(8-12) to 40. Counter registers
+
+4 - Cancel Solenoid
+
+mon 32 through cancel solenoid to 45, through ry-4(5-9) to 35. Cancel solenoid cancels one credit.
+
+TGA
+4 - Ry-1
+
+istor across ry-l
+35 from ry-1 coll (see schematic 2). The capacitor and res!
+
+ee 1 the length of the letter coll pulse.
+
+ry-1 momentarily to contro
+
+aes
+
+5) open releasing number 1 number cotl and ry~2 (see schematic 4).
+4
+*. Ry-2 Releases
+
+atic 5), Larch
+mon 32 from 77 and latch solenold interlock (see schem:
+
+the
+tion. Contacts 1-2 gpee 85 ohm
+tarmp, 48 close to restore shunt across
+
+© schematic 9), 3-4 open the c! ctlon.
+tor (see schematic 3) in preparation for the oa
+
+WURLITZER
+

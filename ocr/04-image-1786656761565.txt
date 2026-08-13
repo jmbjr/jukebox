@@ -1,0 +1,152 @@
+SECTION E
+
+SPEAKER CONNECTIONS
+
+A terminal board is provided at the output of the
+Model 548 Dual Channel Solid State Amplifier to
+which both phonograph speaker lines are connected.
+Each channel has four low impedance output termi~
+nals labeled A, B, C, and D. In addition, one termi-
+nal labeled G is the common ground for both. The
+Phonograph speakers are normally connected at the
+factory to terminals A on each channel and the com-
+mon ground G. When installing remote auxiliary
+speakers, it may be desirable to reduce the phono-
+graph output while maintaining a relatively high out-
+put at the remote speakers. To do this, it is only
+necessary to move the phonograph speaker leads
+from the A terminals to B, C, or D, whichever pro-
+vides the desired level. CV or 500 ohm speakers
+(speakers equipped with a matching transformer)
+may be connected to the Model 548 Amplifier to op-
+erate stereophonic or monophonic as illustrated.
+
+In making this check, be sure to use the same
+channel. Also, it is advisable to disconnect the
+phono speakers.
+
+ching trans-
+
+f line mate
+
+tee installations requiring
+rs may be
+
+of wire or when auxiliary one peace
+
+ee ny at various sound levels jl ee
+
+eee sults +
+
+should be in phase for best re: Le arked (Cota
+
+Wurlitzer Auxiliary pica bee (those without
+
+impencpould be connected t0 the
+
+NOTE: The install,
+formers is recommende:
+
+terminal of low
+
+i transformer:
+aeaiet of the Model 548 Amplifier identified with
+
+‘Vv or 500 ohm speakers
+dot. The G of ©’
+
+pee centig transformers) should be eae
+a CV terminal of the Model 548 Amplifier identi
+
+with a blue dot.
+
+CAUTION |
+
+OHM SPEAK-
+NOT CONNECT CV OR 500
+
+a LINES TO THE G TERMINAL OR CHASSIS
+GROUND OF THE MODEL 548 AMPLIFIER. TO
+DO SO WILL RESULT IN REDUCED OUTPUT.
+
+PHONOGRAPH SPEAKER CONNECTIONS
+
+Maximum number of wall speakers with matching
+transformer connected to500 ohm tap is 5 at full out -
+Put, or 10 if connected to 1000 ohm tap. For reduced
+output more speakers may be used.
+
+CAUTION Do not connect low impedance speakers
+(those less matching transformers) to CV terminals.
+If impedance of speaker line is unknown try it on the
+A and G low impedance terminals and then on the CV
+terminals. If loudness is about the same, connect the
+speaker line to A, B, C, or D and G. If loudness is
+much greater on CV than on A &G, connect line to CV
+terminals. Disconnect phono speakers for this test).
+
+Maximum number of 8 ohm speakers which may be
+connected to the low impedance output terminals .
+Note: Two 16 ohm speakers in parallel are equivalent
+to one 8 ohm speaker. One 3 1/2 ohm speakers is
+equivalent to two 8 ohm speakers in parallel.
+
+The phonograph speakers may be considered as one 8
+ohm speaker per channel. They may be moved to B,
+C, or D for required level with respect to level of
+auxiliary speakers.
+
+Phasing of terminals - Blue and yellow dots indicate
+terminals of the same phase relation. Blue dots are
+not common with each other nor with the yellow dot
+
+terminals.
+"70.7 Volt Line" - If speakers with 70.7 volt line
+
+transformers are connected to the CV terminals the
+total watts as indicated on the transformers may be
+
+Page 12E
+
+T—MONO—j
+Ta
+Zaye] ANY
+fB CV iN 5
+E E Se
+— ° ole 28
+My —MoNno—
+1
+‘7 O:
+i
+2 ] [oie
+P |e a Dis
+Eee @elgte
+R HOH pwe
+SA kes
+E cEts el sie
+ze
+A (= »© LS
+ABCD ° Ee fee
+2 2 )
+oe "S| | @
+2
+10 |&, =
+'2 2 (36 G °
+£47 abe@! Lele dés
+3 Ff > fry
+lapels ae Ee
+t ieee: —— oe |
+
+BLACK SPKR. LEAD
+
+40 (or even more if loudness contr
+
+‘ol setting is re-
+duced). If the phono speakers are connected to Ater-
+minals multiply the above by 1/2, if on B by 3/4, ifon
+C by 7/8, or on Dby 1, :
+called "70 volt line" as used with
+
+mage the power output compon:
+tion given by the Barretters
+

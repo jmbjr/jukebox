@@ -1,0 +1,55 @@
+SECTION E
+
+‘29303
+
+veLtow 00T
+
+3425
+
+i27612
+
+FIG. 7, PHONOGRAPH SPEAKER LAYOUT - REAR VIEW
+A.C. measurements made with
+A.C. VTVM RCA WV-76A
+
+A.C. VOLTAGE MEASUREMENTS
+
+SNE [CONDITION | CONDITION | «sd /edch (channel wire to G.
+FREQUENCY - 500 TO 1500 EPS
+[2] .0270V TONES - MAXIMUM h
+l2 | BALANCE —- MID-POSITION
+2 INPUTS A&B - PARALLELED
+3 3 1.0V 1.0V
+ZS pnl4 5 LOUDNESS
+[oe -70V.
+EE wees Saas
+2 le [Rrorerry
+a 10 MV 300 MV
+aa cas
+£
+J - Se eo 3.0K /5%
+cH DRIVER. ;
+COUT een fia
+O PU" _ —
+TO LOAD] 1.134V > = +
+a
+CONDITION #1 NO. 1 NO. 2 ‘a
+BMY leper use 4 Volt and Anenustor, 41
+CONDITION #2 * ™, Loudness Full On.
+Same as Condition #1 except 3 A, F
+CONDITION #3 pre Amp Fuses putled. (No feedback)
+300 MV Input or use 1 Volt and Attentuator #2, Loug,
+NOTES: P MUNEES OI (NEG tee
+
+1. Line Volatge - 117 V.A.c.
+2. Channel A&B are identical, therefor
+3. K=1000 Ohms--- =Ohms *Ssigned the Same
+4. Test points 1 thru 6 for channe} A&7 thru 12 for ¢)
+be compared to each other both A.C gp c channel B are eo
+5. Test voltage should be within 10% of yoke as responding Circuit points
+6. D.C. Voltages are with no signal applied and a Wn unless Marked RR
+chassis. * shown adjnceces sce
+7. A.C. Voltages are shown in chart above Measureg to the ¢
+from ch,
+lass.
+Page 10E Ma
