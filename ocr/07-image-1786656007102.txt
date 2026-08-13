@@ -1,0 +1,110 @@
+(c) The right hand intermediate stop
+position should be checked by manually operating the
+stop arm (item 1) and moving the rotating plate and
+rocker arm assembly to position the stop bracket
+(item 4) against the stop tab (item 5) on the arma-
+ture. In this position, the tips of the twenty rocker
+arms (fig. 13, item 3) should be in alignment with
+ten selector pins number two, A through K, and ten
+selector pins number seven, A through K. Adjust-
+ment is accomplished by forming the stop tab (fig. 12,
+item 5) on the armature.
+
+(a) The left hand intermediate stop
+position should be checked in the same manner as
+for the right hand stop. The stop bracket (fig. 12,
+item 4) should be manually held against the stop tab
+(item 3) on the stop magnet armature. In this posi-
+tion, the tips of twenty rocker arms (fig. 13, item 3)
+should be in alignment with the ten selector pins
+number four, A through K,.and ten selector pins
+number nine, A through K. The stop tab (fig. 12,
+Id adjustment be required.
+
+FIG. 13. ELECTRIC SELECTOR ASSEMBLY - 100
+
+1. Solenoid, Selector (20) 64602
+2. Contact Plate 66186
+3. Tip of Rocker Arm, Short (10) 117692
+4. Rocker Arm Long (10) 115788
+
+g- DRIVER SOLENOID ADJUSTMENT
+
+(1) The two driver solenoids shown in
+figure 12, labeled L.H. and R.H., serve to turn the
+rotating plate and rocker arm assembly to position
+the tips of the rocker arms at the correct selector
+pin as determined by the number button selected. To
+check the adjustment, manually hold the R.H. driver
+solenoid plunger bottomed in the solenoid. The
+coupling spring of the plug and spring assembly
+(item 10) should stretch 1/16" while the stop bracket
+(item 4) on the rotating plate and rocker arm assem-
+ply is held firmly against the extreme right hand stop
+(ivem 6). Adjustment may be accomplished by loosen-
+ing two screws in the solenoid mounting bracket, one
+of which is shown at item 8. It is important to aa
+tain the straight-in-line position between the soleno
+
+and plunger and there must be no bind on the rotating
+
+plate or its operating linkage.
+
+WURLITZER
+
+SECTION B
+
+(2) The L.H. driver solenoid should be
+checked by manually holding the plunger bottomed
+in the solenoid. The coupling spring (item 13) should
+stretch 1/16" while the stop bracket (item 4) on the
+rotating plate and rocker arm assembly is held
+firmly against the extreme left hand stop (item 2).
+The solenoid is adjusted by loosening the two mount-
+ing screws, one of which is shown at item 14.
+
+FIG. 14. ELECTRIC SELECTOR CENTERING - 200
+1. Guide Bracket, Selector Support Casting 68757
+2, Guide Bracket, L.H. 68759
+3, Centering Shaft 69247
+4. Guide Bracket, R.H. 68760
+5.  Gulde Bracket, R.H., Selector Support Casting - 68758
+6. Mounting Screws, 1/4-20 x 1", Socket Hd. 73571-66
+
+h. ELECTRIC SELECTOR CENTERING
+
+Centering of the 200 selector assembly must
+be carefully done whenever the unit is removed from
+the changer mechanism. The assembly-is held in
+Position by two mounting screws (fig. 14, item 6) and
+
+by the support plate (fig. 15, item 4) at the rear of
+the changer.
+
+(1) To remove the electric selector assem-
+bly from the changer mechanism, disconnect the
+mute plug from the amplifier, the chassis plug from
+the junction box and the changer motor plug from the
+junction box. The cables wired to the plugs discon-
+nected above should be removed from the cable clips
+on the support plate and placed on top of the chassis
+mounting plate where they will be out of the work
+area. Disconnect the four plugs on the bottom of the
+electric selector. Manually rotate the record car-
+rier so that the selector crank arms are approxi-
+mately over A-0 and L-O selections. Remove the
+two front mounting cap screws (fig. 14, item 6) first,
+which allows the electric selector to rest on the front
+guide brackets (items 1 and 5). Loosen the rear
+upper mounting screws (fig. 15, item 2). Grasp the
+rear support plate with one hand below the screws
+and remove both screws. Lower the support bracket
+and the rear edge of the electric selector far enough
+to clear the rotary contact wipers on the bottom of
+the main shaft. With the other hand supporting the
+electric selector from underneath, slowly move the
+assembly down and to the rear, carefully removing it
+from the cabinet.
+
+Page 7B
+

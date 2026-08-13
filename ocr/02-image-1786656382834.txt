@@ -1,0 +1,142 @@
+SECTION F
+
+SOUND FAILURE CONT'D.
+
+SYMPTOMS | eed
+
+CORRECTIONS
+
+(e) Mute switch shorted
+
+Clean and adjust mute and play switch
+see page 8!
+
+contacts
+
+(f) Open speaker circuit. ,
+
+Check and repair open speaker circuit,
+
+=
+
+2. Poor tone quality.
+Sioa (a) Blown 3 amp. fuse F4 in one channel.
+
+Replace fuse. Check for shorts in
+auxiliary speaker lines. Check P.A.
+module, See amplifier schematic.
+
+(b) Pick up cartridge open or shorted
+in one channel.
+
+Check contacts at connector plug
+Check cartridge, replace if defective.
+
+$- Automatic level con- (a) Mute and squelch switch not connected.
+
+Insert muting plug.
+
+trol not squelched.
+
+(b) Open contact on squelch switch
+
+Adjust play switch to operate squelch
+circuit. Check contacts.
+
+(c) Defective Q5, Di, VR-1, VR-2.
+
+Check and replace if found defective.
+See amplifier schematic.
+
+4. Tone distortion. Remote speakers mismatched
+
+Check remote speakers for proper matching.
+
+(b) Defective cartridge.
+
+Replace defective cartridge.
+
+(©) Chassis not floating on mounting
+springs.
+
+Unscrew chassis hold-down bolts to
+
+1/2” clearance, chassis to cone washer.
+
+(d) Stereo cartridge not properly
+connected.
+
+Refer to amplifier schematic for
+cartridge connections.
+
+Phono speaker incorrectly connected.
+
+See page 108,
+
+=
+
+Waver in music. (a) Drag in turntable assembly.
+
+(e) Turntable shaft or motor bearings ury.
+
+Check turntable and turntable motor
+adjustments on page 10C.
+
+Lubricate, see page 17C.
+
+(c) Turntable belts loose.
+
+Tighten belts, see page 12C.
+
+(J) Oil on belts or drive wheel,
+
+(e) Too much end play in turntable shaft.
+
+(9) Warped or Eccentric record.
+
+(g) Record drags on lift arm or record
+track.
+
+6. Noise from speakers
+when mechanism is
+changing records,
+
+(a) Mute switch not vonnueted.
+
+(b) Mute switch fails 10 close,
+
+Noixe from speakers:
+while record is play-
+ing.
+
+filter capacitor in amplifier,
+
+arm wire tov eh
+and trip switch cable,
+
+SU 10 safely
+
+Page 8F
+
+Remove oil with nuptha.
+
+Add shim between turntable bushing
+and pulley, see page 17C.
+
+Replace record.
+
+Check record lift arm height and re
+track stop bracket adjustments, see
+Pages 4C und 5c.
+
+Check mute and play switch socket aml
+plug on amplifier,
+
+Clean and axjust mute
+see page Hi
+
+nd plity switch,
+
+Replace defective capacitor,
+
+Reroute tune arn cable,

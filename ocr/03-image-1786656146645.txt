@@ -1,0 +1,35 @@
+4 FIG, 20. ELECTRIC SELECTOR - 100
+
+1. Plate & Spacer 122372 29, Stop, Centering Yoke 115824
+2, Solenoid, Selector (20) 64602 30. Spring (2) 115821
+Plunger 130461 31. Guide Plate, Centering Yoke 115822
+3, Override Switch (4) 115918 32. Socket, 12 Pin 114325
+4. Insulator (4) 64595 33, Slide Switch 123715
+5. Contact Plate 66186 34. Terminal Bushing 124835
+Spring, Rotating Plate 115973 35. Socket, 11 Pin 38492
+Socket, 8 Pin 10964 36. Socker, 12 Pin 114325
+Socket, 11 Pin 38492 37. Circuit Breaker 128801
+Capacitor, 20 Mfd., 50V. 73840-42 Palnut 73797-15
+Resistor, 560 ohms, 2W. 72474-32 Lockwasher 73607-11
+Resistor, 85 ohm Sw. 74819-2 38. Socket, 4 Circuit 122650
+Resistor, 310 ohms, 5W. . 70684-2 39. Jumper Plug 126223
+13, Socket, Relay, Without Color Code 122131 40. Resistor, 560 ohms, 2W. 72474-32
+Retainer, Socket (4) 122132. 41. Capacitor, 50 Mfd., 50V. 73845-32
+Capacitor, .1 Mfd., 600V. 74321-16 42. - Resistor, 560 ohms, 2W. 72474-32
+Socket, 6 Pin 32881 43. Capacitor, 150 Mfd., 50V. 73889-620
+. Guide, Selector Mount 61850 44. Spring, Stop Arm 64773
+17. Roller 64630 45. Stop Pivot 64649
+Plug & Wire Assy. 121319 46. Stop Arm 115862
+Rocker, Short (10) 117692 47._-—~Rectifier, Selenium 118663
+Rocker, Long (10) 115788 48. Mounting Plate 117986 i
+Rotating Plate 115787 49, Magnet & Frame 117987
+Guide, Centering Yoke 115823 50, Stop Bracket, Selector 115789
+Centering Yoke 115802 51, Wobble Plate 115796
+Solenoid, Driver (2) 115975 52. + Capacitor, 124 Mfd., 50V. A.C. 74808
+: Spring & Plug Assy. 64783 53, Latch Pin, Inner (50) 115806
+Adjustment Bracket 115798 54. Spring, Latch Pin (100) 57110
+Retaining Ring 73724-50 55. Latch Pin, Outer (50) 115807
+28. Screw, 8-32 x 7/8", Hex 73793-87
+Page 13B
+| WURLITZER
+

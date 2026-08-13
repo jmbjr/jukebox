@@ -1,0 +1,98 @@
+SECTION F
+
+MECHANICAL AND ELECTRICAL FAILURES CONT'D.
+—
+
+CORRECTIONS |
+
+nally until hole in
+rive pawl spring weak or broken Turn mechanism mant
+( Srap and spring ascer main gear is over drive pawl mounting
+
+in reverse direction Seton ives rerewt Remove nut and screw and
+pun does Wok ebive tension to engage drive paw airy There
+pat ces assembly may be adjusted or replaced
+at this time
+
+eee ai
+
+Check adjustment of actuating screw and
+
+SYMPTOMS coe
+
+4. Main cam motor turns
+
+Selector crank jammed | (a) Wrong holding pawl engaged tooth 2
+against selector pin. on record carrier casting. stop screw, See paragraphs m and n,page 6C,
+Check selector pin cancelling adjustment,
+(b) Cancelled selector pin fails to latch. see beeageebll cs Cape ae
+
+J
+—
+
+a
+
+Remove bad record.
+
+6. Record fails co clamp (a) Record hole off center.
+
+on turntable.
+(b) Record guide spacing incorrect. See page 10C for turntable adjustments
+(c) Record guide track stop brackets not See instructions for adjustment,
+properly adjusted. paragraph k, page 5C ea)
+
+(4) Record lift arm up position not See instructions for adjustments,
+
+properly adjusted. paragraph i, page 4C.
+=o Bind on T.T. pilot. Bind on clamp shaft.
+(©) Record clamp fingers fail to engage Sie Vania eta et eps mane!
+aia Lubricate and check for binds
+
+eee |
+
+(a) Undersize record. Remove undersize record.
+(>) Tone arm feed-in start position not Adjust tone arm start position, see
+
+properly adjusted. page 12C.
+
+7. Tone arm misses
+record.
+
+Place record in empty space. Check
+record lift arms for freedom of action,
+
+see pages 3C and 4C. Check back stop
+pawl setting, see page 6C. Check record
+pilot hole for undersize. Too tight on
+turntable pilot. Ream record if necessary.
+
+(c) No record in selected carrier space.
+
+8. Turntable does not
+run.
+
+Open contact 4 & 5 on override relay. il eter anaensee contacts for proper
+Ry-5 located in amp. action.
+
+Defective turntable motor. Repair or replace motor.
+
+(c) Turntable belts broken. Replace belts .
+
+(4) Motor leads disconnected at plug
+
+Seat motor plug firmly into socke
+
+(a) Trip switch not operating. Adjust trip switch, page 13¢,
+(b) Defective trip switch, Replace defective switch.
+(c) Open contact 4 & 5 in play switch. Clean and adjust contacts, see page 8C
+
+(@) Open changer motor circuit, See wiring diagram 3200-3210.
+
+(@) Shorted trip switc!
+
+(b) Shorted reject button
+y Repair or replace sho;
+rted
+(c) Shorted remote control cancel aoe ltt
+circuit,
+

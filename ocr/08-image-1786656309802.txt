@@ -1,0 +1,68 @@
+SECTION F
+
+SYMPTOMS
+
+1, Fluorescent lamps do
+
+not light; phonograph
+does not operate.
+
+POWER AND LIGHT FAILURE
+
+ie
+
+(a) Line cord plug not making contact Repair or replace plug or outlet.
+in outlet.
+
+(b) Internal break in line cord. Repair or replace line cord.
+
+Check for shorts in phonograph
+wiring. Replace fuse.
+
+(d) “House” fuse blown. Check for overload. Replace fuse.
+(f) Main switch defective. Replace main switch in amplifier.
+
+____ 2 eS
+
+Fluorescent lamps do (a) Defective lamp. Replace lamp.
+
+not light; phonograph
+(b) Defective starter.
+
+(c) 15 amp. line fuse blown.
+
+operates normally. Replace starter.
+
+(c) Defective ballast. Replace ballast.
+
+(a) Open circuit in lamp, starter or Trace and repair, see wiring diagrams
+ballast wiring. for 3200-3210.
+
+Seat lamp firmly in socket.
+
+(e) Lamp loose in socket.
+
+(Ballast line plug out of
+amplifier socket.
+
+Insert plug.
+
+Adjust safety switch, sez paragraph r,
+page 9C.
+
+(a) Safety switch open.
+
+(o) Warped record caught between record
+carrier and record guide casting Remove warped record.
+causing safety switch to open.
+
+(a) Lamp burned out. Replace with GE-12 lamp.
+
+(b) Selector control switch contacts Clean and adjust switch, see para-
+|} «3 and 4 dirty or incorrectly adjusted.
+ae
+
+graph f, page 3B.
+‘ohm resistor, mounted on
+
+Replace resistor.

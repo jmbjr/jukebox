@@ -1,0 +1,72 @@
+Cie id. The 85 ohm resistor
+hanically opened by the latch solenoid.
+
+- ec
+
+4 ae me cepnoid to prevent overheatlNg-
+
+b. Control switch contacts 5
+limits the current through the
+
+1 switch contacts 3-4
+through contro
+through 175 ohm resistor,
+
+Common 32 through select lamp,
+to 35. Select lamp lights.
+
+LETTER
+
+i W LATCH
+SWITCHES Tisiae are
+
+CONTROL
+SWITCH
+
+Al Selected - Latch Switches Close
+
+Common 32 through ry-1(9-5) to 74 to 54, through letter latch switch contacts 4-3, through number latch
+through number 1 number coil to 30, through
+
+switch contacts 3-4, through number selector switch to 1, ‘
+both ry-2 coil and the 303 lamp to 35. The number 1 number coil and ry-2 are energized.
+303
+NUMBER LAMP
+SWITCHES
+
+LATCH
+SWITCHES
+
+- Latch Solenoid Interlock
+
+Common 32 through ry-2(10-6) to 77, through the 270 ohm resistor, through the latch solenoid and the
+
+85 ohm resistor to 35. The latch solenoid is interlocked.
+
+RY2
+10-6 270 LATCH es
+
+OHM SOLENOID
+
+Ry-2 - Selection Motor
+
+Common 32 through thermostat (in selection motor) to 69, throu;
+
+; gh ry-2(8-12) to 60,
+winding of selection motor to 40. The motor drives the rotating ares ae 1 Senn! on ae
+the number quadrant clockwise, mechanically operating the reverse and the start switches, and
+
+SELECTION é
+
+7. Ry-3 - Reverse Switch
+
+Common 32 through thermostat to 69,
+ry-3 coil to 35. Ry-3 is energized.
+
+REVERSE
+1 THERMOSTAT ‘SwitcH Ate
+
+©-260-3.65
+
+Page 14E
+

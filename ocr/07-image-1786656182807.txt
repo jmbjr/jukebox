@@ -1,0 +1,33 @@
+Diode
+
+Capacitor, .22 Mfd., 400 Volts
+Capacitor, 20Mfd., 50 Volts
+Resistor, 560 ohm, 2W.
+
+Ohonwe
+
+WURLITZER
+
+Relay, White Cover, 28 V.D.C.
+
+FIG, 5.
+
+122133
+71588-17
+74325 -24
+73840-42
+72474-32
+
+L.P. UNIT
+6. Contact Plate, A.C.
+7. Contact Hub & Spring Assy.
+8. Motor
+9, Contact Plate, D.C.
+
+SECTION B
+
+124454
+124453
+119275,
+124455
+

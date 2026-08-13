@@ -1,0 +1,173 @@
+WIRING DIAGRAM COLOR CODE
+
+SOLID
+‘COLOR
+100 200 WIRE TRACER
+AL A Tan Brown
+A6 B Red Brown
+Bl c Orange Brown
+Bo D Yellow Brown
+Cy E Lt. Green Brown
+C6 F Lt. Blue Brown
+Di G Purple Brown
+De 4H Gray Brown
+El J White Brown
+Ee XK Pink Brown
+Fl L Brown Black
+Fo M Red Black
+Gy N Orange Black
+G6 P Yellow Black
+Hi Q Lt. Green Black
+H6 R Lt. Blue Black
+j Ss Purple Black
+Ilo OT Gray Black
+Ki U White Black
+Ko Vv Tan Black
+1 1 Brown Orange
+2 2 Red Orange
+3 Tan Orange
+4 4 Yellow Orange
+5 5 Lt. Green Orange
+6 Lt. Blue Orange
+7 Purple Orange
+8 Gray Orange
+9 White Orange
+0 Black Orange
+100-200
+19 White Purple
+21 Brown Red
+22 Tan Red
+23 Orange Red
+24 Yellow Red
+25 Lt. Green Red
+26 Lt. Blue Red
+27 Purple Red
+28 Gray Red
+29 White Red
+30-130 Black Red
+31 Tan None
+32 Red None
+33 Orange None
+34 Yellow None
+35 Dr. Green None
+36 Dr. Blue None
+37 Purple None
+38 Gray None
+
+Page 2E
+
+SOLID
+COLOR
+WIRE
+
+White
+Black
+Brown
+Red
+Orange
+Tan
+
+Dr. Green
+Dr. Blue
+Purple
+Gray
+White
+Black
+Brown
+Red
+Orange
+Yellow
+Tan
+
+Lt. Blue
+Purple
+Gray
+White
+Black
+Brown
+Red
+Orange
+Yellow
+Lt. Green
+Tan
+Pink
+Gray
+White
+Black
+Brown
+Red
+Orange
+Yellow
+Lt. Green
+Lt. Blue
+Tan
+Gray
+White
+Black
+Brown
+Red
+Orange
+Yellow
+Lt. Green
+Lt. Blue
+Purple
+Gray
+Tan
+Black
+
+TRACER
+
+None
+None
+Yellow
+Yellow
+Yellow
+Yellow
+Yellow
+Yellow
+Yellow
+Yellow
+Yellow
+Yellow
+Green
+Green
+Green
+Green
+Green
+Green
+Green
+Green
+Green
+Green
+Blue
+Blue
+Blue
+Blue
+Blue
+Blue
+Blue
+Blue
+Blue
+Blue
+Purple
+Purple
+Purple
+Purple
+Purple
+Purple
+Purple
+Purple
+Purple
+Purple
+White
+White
+White
+White
+White
+White
+White
+White
+White
+White
+
+WURLITZ

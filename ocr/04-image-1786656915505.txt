@@ -1,0 +1,88 @@
+SECTION E
+
+NUMBER
+
+SWITCHES | ta6
+ORIVER
+
+SOLENOID
+
+¢ Coil Energized
+
+3 - 1to Al, thr
+n 32 through Al-5 letter coll , through letter switch, through number swi
+-{ to 46, through circuit breaker, through ry-4 (7-11), through St ee
+
+contacts 2
+“t energized, Al selector pin released.
+— NUMBER
+
+LETTER SWITCH
+
+SWITCH 1 CONTROL
+‘SWITCH CIRCUIT
+\ 2 sreaner "(4 RY!
+ne 3-11
+TOC g——©
+
+Counte
+Fe > through free play switch, through counter to 50, through ry~4 (6-10) to 40. Counter registers
+
+one selection.
+
+mmon 3:
+
+FREE
+PLAY
+SWITCH
+
+= a
+
+COUNTER 8-10
+
+1 Solenoid
+
+£
+
+32 through cancel solenoid to 45, through ry-4 (5-9) to 35. Cancel solenoid cancels one credit.
+
+RY4
+6-9
+
+Ry-2 released after capacitor discharges through
+
+CANCEL
+SOLENOID
+
+y-2 Released
+
+-9) open removing -D.C. 35 from y=2 colts
+esistor and ry-2 coil (see schematic 4).
+
+4. Latch Solenoid Released
+a. Ry-2 (11-7) open releasing latch solenoid (see schematic 5).
+1 (see schematic 10). Contacts 3-4
+
+e circuit to the letter coil
+4 hunt across 85 ohm resistor (see
+
+b. Control switch contacts 1-2 open th
+4-5 close to restore S!
+
+open the circuit to the select lamp,
+schematic 3).
+
+Ry-4 Released
+
+Ry-4 (12-8) open releasing driver solenoid (see echematic 9).
+
+b
+
+Ry-4 (6-10) open releasing counter (see schematic 11).
+
+:  Ry-4 (5-9) open releasing cancel solenoid (see schematic 12).
+
+7 Page 21E
+
+WORUTZER
+

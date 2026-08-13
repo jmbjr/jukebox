@@ -1,0 +1,80 @@
+SPCTION F
+
+FIG. 9. 169-A REMOTE VOLUME CONTROL.
+
+Choke (2)
+Cable Clamp
+Resistor, 47 ohm, 1/2W. (2)
+Motor, Mtg. Brkt. & Wire Assy.
+Motor & Pinion Assy.
+Mounting Screw, 6-32 x 1/4”, Hex,
+Type 23 (2)
+Mounting Bracket Assy.
+' Spring Retainer
+Roll Pin (2)
+Spring
+Connector Link
+Gear
+
+Page 22E
+
+121291
+74264-5,
+72160-32
+121006
+120880
+
+73776-22
+120872
+120871
+
+73782-6
+120998
+120862
+120866
+
+10.
+11,
+12,
+
+13,
+14,
+15,
+16.
+
+17,
+
+Spring Connector (2)
+
+Terminal Board & Lug Assy.
+
+Mounting Screw, 1/2"-8, R.H.,
+Type A
+
+Switch, Cancel
+
+Push Button Knob
+
+Switch, Loudness Control
+Knob
+
+Stop Plate
+
+Control Case Assy., Complete
+Case
+
+Bottom Cover
+
+120863
+121235
+
+73592-20
+120708
+120988
+120984
+126135
+126134
+121008
+120985
+120987
+

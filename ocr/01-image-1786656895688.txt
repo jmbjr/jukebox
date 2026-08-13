@@ -1,0 +1,61 @@
+SOLONIE matic 5A). Ry-6 Is released,
+
+8 switcn
+
+10.
+
+Page 18E
+
+reaking ry-6 Interlock (wee #¢
+
+ce. ‘Transfer switch contacts 5-6 open
+
+Play Switch
+
+d reaches the playing position.
+
+chante stuated when the recor ae
+
+#. The play awitch te mechan ca veaking the chassis motor Interlock. ‘The motor stops
+jay switch contacts 6-5
+
+record in playing position. (See schematic 6B.)
+
+Trip Switch
+
+e arm.
+a. The trip switch {s mechanically actuated by the tone ee
+Common 32 through trip switch to 37, through play switc z
+rl is in reverse.
+motor reverse winding and thermostat to 40, The motor run
+
+PLay
+TRIP SWITCH
+
+THERMOSTAT
+
+Play Switch
+
+Shortly after the chassis motor starts in reverse, the play switch returns to the rest position restoring
+
+the reverse winding interlock described in 6b.
+Transfer Switch
+
+:
+:
+
+a. The transfer switch returns to the rest position as the record changer completes the mechanical
+cycle.
+
+b. Transfer contacts 1-2 open removing common 32 from 31 and ry-5 coil. Ry-5 is released. (See
+schematic 6A.)
+
+¢- Transfer switch contacts 5-4 open removing common 32 from reverse winding of chassis motor.
+(See schematic 6B.)
+
+d. Transfer switch contacts 5-6 close in preparation for next cycle. (See schematic 3.)
+Ry-5 Released
+@- Ry-5 (2-1) open removing common 32 from chassis motor circuit. (See schematic 3.)
+
+b. Ry-5S (5-4) open removing 117V. A.C. from turntable motor.
+

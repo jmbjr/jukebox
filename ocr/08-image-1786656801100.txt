@@ -1,0 +1,79 @@
+SECTION E
+
+15, Ry-3 Releases
+Ry-3(9-5) open removing 35 from ry-4 (see schematic 6). The capacitor and resistor across ry-4 coil
+
+hold ry-4 momentarily to control the length of the cancel solenoid pulse.
+
+16. Selection Motor Reverse
+q
+
+to 69, through reverse switch to 64, through ry-2(11-3), through
+.e winding of the selection motor to 40. The motor-drives the
+the start switch and the reverse switch
+
+Common 32 through thermostat
+ry-3(11-3) to 61, through the revers
+rotating plate counter-clockwise returning the number quadrant,
+to the rest position.
+
+SELECTION
+MOTOR
+
+RY3
+
+REVERSE Ws cs
+
+16 thermostat ew
+
+17. Ry-4 Releases
+a. Capacitor across ry-4 coil discharges, ry-4 releases (see schematic 8).
+b. Ry-4(9-5) open removing 35 from cancel solenoid (see schematic 11).
+c. Ry-4(12-8) open removing 40 from counter (see schematic 10).
+
+d. Ry-4(9-1) close to restore 35 through 58 and 55 to ry-1(13) in preparation for next selection (see
+schematic 2).
+
+3200 SERIES RECORD CHANGER SEQUENCE
+
+1. Selector Pin in Selected Position
+
+Common 32 through override switch to 53, through transfer switch contacts 3-2 to 31, through ry-5 coil
+to 35, Ry-5 is energized.
+
+OVERIDE
+I TRANSFER
+‘SWITCH ‘SWITCH
+@Ho nrcow RYs
+oe 2
+Gi) 000 ——(s)
+
+2. Ry-5 - Turntable Motor
+
+117V. A.C. through line fuse to 38, through safety switch to 33
+
+» th
+ry-5 (5-4) and the line switch to 117V. A.C, rough turntable motor to 36, through
+TURNTABLE
+MOTOR
+LINE SAFETY Cop
+
+FUSE SWITCH
+5-4
+LINE
+
+@
+7
+zg Gs) O00 (36) switcn
+:
+Common 32 through ry-5 (2-1) to 34, through transfer switch ¢
+Ontacts 5,
+
+49, through loading switch to 83, through forward wot
+chassis motor) to 40. Motor runs forward driving ee of chassi;
+arrier and
+
+3. Ry-S - Chassis Motor
+
+Page 16E
+

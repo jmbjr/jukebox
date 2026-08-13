@@ -1,0 +1,148 @@
+SECTION F
+
+MECHANICAL AND ELECTRICAL FAILURES CONT'D.
+
+SYMPTOMS
+
+CAUSE
+
+CORRECTIONS
+
+AL. Throws records.
+
+—
+
+(a) Bind in record lift arm guide rollers.
+
+e rollers, wee pages 4C and 5G.
+
+Adjust gu
+
+properly aligned.
+
+nee page 4C
+
+Straighten guide tips
+
+(c) Bent record separators,
+
+Straighten record separators
+
+(a) Carrier not properly indexed.
+
+See page 6C for back stop pawl
+
+adjustment.
+
+12. One side of record
+turns at correct
+speed. The other
+side does not.
+
+(a) Record track stop brackets not
+adjusted properly, causing record
+to drag.
+
+Adjust record track stop bracket, see
+page SC.
+
+(>) Record lift arm coming up too high.
+
++
+‘Adjust record lift arm height, see page 4C.
+
+ee
+
+13. Tone arm jumps
+one or two grooves,
+giving a thumping
+sound while record
+is playing.
+
+(a) Worn needie.
+
+(b) Too much end play in turntable shaft.
+
+Shim between turntable pulley and
+bushing, see page 17C.
+
+(c) Tone arm not balanced properly.
+
+Check tone arm balance, see page 13C.
+
+(d) Tracking pressure of tone arm too
+
+light.
+
+Check tone arm needle pressure, see
+page 13C.
+
+14. Record wear faster
+than normal.
+
+(a) Worn or chipped needle.
+
+(b) Bind in tone arm.
+
+Replace needle. Replace worn record.
+
+Examine Gimbal bearings for binds and
+adjust for freedom of action.
+
+Incorrect needle pressure.
+
+(©)
+
+Adjust to 5 to 7 grams pressure, sce page 13C,
+
+Poor material in records.
+
+(d)
+
+Replace worn records. Check needie wear.
+
+15. Needle skips, sound
+distorted.
+
+(a) Excessive lint and dust on the stylus.
+
+Remove lint from needle and brush with
+small brush, Spray needle, cartridge
+and brush with anti-static cleaner.
+
+(b) Tone arm brush incorrectly adjusted.
+
+1, Turntable turning.
+No sound from
+record.
+
+SOUND FAILURE
+
+Adjust tone arm needle brush, see page 14C.
+
+CAUSE
+
+(a) Pick-up cartridge open or shorted.
+
+CORRECTIONS
+
+Check contacts at connector plug to
+cartridge for open or shorts. Check
+cartridge, replace if defective.
+
+(b) Pick-up cable open or shorted or
+plug disconnected.
+
+(c) Blown 8 ampere amplifier fuse F3.
+
+Check pick-up cable for open and shorts.
+
+Check for short circuit. Replace with
+correct size fuse. Fuse located inside
+
+amplifier.
+
+(d) Loudness control turned off. Turn up loudness control.
+
+Page 7F
+

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Wurlitzer 3210 Virtual Manual</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header><div><p class="eyebrow">Series 3200 • Model 3210</p><h1>Virtual Service Manual</h1></div><button id="theme" aria-label="Toggle theme">◐</button></header>
+  <main>
+    <aside>
+      <input id="search" type="search" placeholder="Search OCR, e.g. latch solenoid" autocomplete="off">
+      <div id="filters" aria-label="Section filters"></div>
+      <p id="status"></p>
+      <nav id="pages"></nav>
+    </aside>
+    <article>
+      <section class="notice"><strong>Use the image as authority.</strong> OCR can misread wire numbers, contacts, dimensions and schematic symbols.</section>
+      <div class="viewer"><img id="pageImage" alt="Selected manual page"></div>
+      <div class="meta"><div><p id="pageSection"></p><h2 id="pageTitle">Loading…</h2></div><a id="original" download>Download image</a></div>
+      <details><summary>Searchable OCR text</summary><pre id="ocr"></pre></details>
+      <section class="knowledge"><h2>Curated knowledge</h2><div id="knowledgeLinks"></div></section>
+    </article>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
