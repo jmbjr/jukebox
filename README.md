@@ -8,6 +8,7 @@ Searchable visual archive and knowledge store assembled from photographs of the 
 - OCR text is provided for discovery and may contain errors.
 - Schematics, terminal numbers, wire identifiers, contact states, dimensions, and part numbers must be verified against the image.
 - `knowledge/` contains curated summaries with source-page references and confidence labels.
+- Every catalog entry has an explicit clockwise `rotation` value (`0`, `90`, `180`, or `270`). The viewer applies it while leaving the original photograph and download unchanged. OCR is intentionally not regenerated until orientation review is approved.
 
 ## Open locally
 
