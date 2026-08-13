@@ -58,13 +58,37 @@ const groups={
   '1786656923989':['Section E','22E','169-A remote volume control'],
   '1786656940632':['Section E','23E','Model 548 amplifier exploded view']
 };
+// Clockwise display correction for each original photograph. Originals stay untouched.
+// Values are explicit so orientation can be reviewed and corrected independently of OCR.
+const rotations={
+  '1786654485902':0, '1786654498597':0, '1786654522999':0,
+  '1786654539312':0, '1786654550830':0, '1786654571094':0,
+  '1786654582511':0, '1786655934155':180, '1786655943542':90,
+  '1786655950205':0, '1786655983189':90, '1786655989640':0,
+  '1786656000486':0, '1786656007102':0, '1786656015083':90,
+  '1786656036121':0, '1786656044225':0, '1786656130793':0,
+  '1786656141686':180, '1786656146645':0, '1786656161160':90,
+  '1786656165880':0, '1786656174314':270, '1786656182807':0,
+  '1786656309802':0, '1786656316460':0, '1786656327777':0,
+  '1786656374692':0, '1786656382834':0, '1786656388924':180,
+  '1786656507223':0, '1786656534182':0, '1786656565300':0,
+  '1786656586123':0, '1786656605420':0, '1786656622280':90,
+  '1786656635215':0, '1786656736108':0, '1786656743902':0,
+  '1786656749112':180, '1786656761565':270, '1786656767091':270,
+  '1786656779385':270, '1786656786123':180, '1786656801100':0,
+  '1786656812088':0, '1786656895688':270, '1786656903262':0,
+  '1786656910134':0, '1786656915505':90, '1786656923989':0,
+  '1786656940632':0
+};
 const files=fs.readdirSync(pagesDir).filter(f=>f.endsWith('.jpg')).sort();
 const catalog=files.map((file,i)=>{
   const key=file.match(/(\d{13})/)[1];
   const [section,label,title]=groups[key]??['Unsorted','unknown',file];
   const ocrFile=file.replace(/\.jpg$/,'.txt');
   let ocr=''; try{ocr=fs.readFileSync(path.join(ocrDir,ocrFile),'utf8').trim()}catch{}
-  return {id:`p${String(i+1).padStart(3,'0')}`,section,label,title,image:`assets/pages/${file}`,sourceFile:file,ocr};
+  const rotation=rotations[key];
+  if(![0,90,180,270].includes(rotation)) throw new Error(`Missing or invalid rotation for ${file}`);
+  return {id:`p${String(i+1).padStart(3,'0')}`,section,label,title,image:`assets/pages/${file}`,sourceFile:file,rotation,ocr};
 });
 fs.mkdirSync(path.join(root,'data'),{recursive:true});
 fs.writeFileSync(path.join(root,'data/pages.json'),JSON.stringify(catalog,null,2)+'\n');
