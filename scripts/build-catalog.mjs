@@ -8,7 +8,6 @@ const groups={
   '1786654485902':['Identity','Backplate','Model 3210 backplate'],
   '1786654498597':['Front matter','Cover','Series 3200 service manual cover'],
   '1786654522999':['Front matter','Contents','Table of contents'],
-  '1786654539312':['Section C','unknown','Record changer adjustment spread'],
   '1786654550830':['Section E','1E','Electrical and sound systems'],
   '1786654571094':['Section E','3E','Series 3200 wiring diagram, Section B'],
   '1786654582511':['Section E','2E','Wiring diagram color code'],
@@ -35,7 +34,6 @@ const groups={
   '1786656374692':['Section F','7F','Mechanical, electrical and sound failures'],
   '1786656382834':['Section F','8F','Sound failure continued'],
   '1786656388924':['Section F','9F','Top Tunes selector failure'],
-  '1786656507223':['Section E','2E duplicate','Wiring diagram color code'],
   '1786656534182':['Section E','3E','Series 3200 wiring diagram, Section A'],
   '1786656565300':['Section E','4E','Series 3200 wiring diagram, Section B'],
   '1786656586123':['Section E','5E','Series 3200 wiring diagram, Section C'],
@@ -67,20 +65,21 @@ const rotations={
   '1786655950205':0, '1786655983189':90, '1786655989640':0,
   '1786656000486':0, '1786656007102':0, '1786656015083':90,
   '1786656036121':0, '1786656044225':0, '1786656130793':0,
-  '1786656141686':180, '1786656146645':0, '1786656161160':90,
+  '1786656141686':90, '1786656146645':0, '1786656161160':90,
   '1786656165880':0, '1786656174314':270, '1786656182807':0,
   '1786656309802':0, '1786656316460':0, '1786656327777':0,
   '1786656374692':0, '1786656382834':0, '1786656388924':180,
-  '1786656507223':0, '1786656534182':0, '1786656565300':0,
-  '1786656586123':0, '1786656605420':0, '1786656622280':90,
+  '1786656507223':0, '1786656534182':270, '1786656565300':0,
+  '1786656586123':0, '1786656605420':0, '1786656622280':180,
   '1786656635215':0, '1786656736108':0, '1786656743902':0,
-  '1786656749112':180, '1786656761565':270, '1786656767091':270,
-  '1786656779385':270, '1786656786123':180, '1786656801100':0,
+  '1786656749112':90, '1786656761565':270, '1786656767091':270,
+  '1786656779385':270, '1786656786123':90, '1786656801100':0,
   '1786656812088':0, '1786656895688':270, '1786656903262':0,
-  '1786656910134':0, '1786656915505':90, '1786656923989':0,
+  '1786656910134':0, '1786656915505':180, '1786656923989':0,
   '1786656940632':0
 };
-const files=fs.readdirSync(pagesDir).filter(f=>f.endsWith('.jpg')).sort();
+const excluded=new Set(['1786654539312','1786656507223']);
+const files=fs.readdirSync(pagesDir).filter(f=>f.endsWith('.jpg')&&!excluded.has(f.match(/(\d{13})/)?.[1])).sort();
 const catalog=files.map((file,i)=>{
   const key=file.match(/(\d{13})/)[1];
   const [section,label,title]=groups[key]??['Unsorted','unknown',file];
