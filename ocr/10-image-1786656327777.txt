@@ -1,98 +1,149 @@
 SECTION F
 
-MECHANICAL AND ELECTRICAL FAILURES CONT'D.
-—
+MECHANICAL AND ELECTRICAL
 
-CORRECTIONS |
+FAILURES CONT'D-
 
-nally until hole in
-rive pawl spring weak or broken Turn mechanism mant
-( Srap and spring ascer main gear is over drive pawl mounting
+SYMPTOMS
 
-in reverse direction Seton ives rerewt Remove nut and screw and
-pun does Wok ebive tension to engage drive paw airy There
-pat ces assembly may be adjusted or replaced
-at this time
+CAUSE
 
-eee ai
+CORRECTIONS
 
-Check adjustment of actuating screw and
-
-SYMPTOMS coe
+but does not drive
 
 4. Main cam motor turns
+in reverse direction
 
-Selector crank jammed | (a) Wrong holding pawl engaged tooth 2
-against selector pin. on record carrier casting. stop screw, See paragraphs m and n,page 6C,
+()_ Drive pawl spring weak or broken
+Strap and spring assembly lacks
+tension to engage drive pawl.
+
+Turn mechanism manually uncil hole In
+main gear is over drive pawl mounting
+screw, Remove nut and screw and
+replace drive pawl, Strap and spring
+assembly may be adjusted or replaced
+
+against selector pin.
+
+tain cam.
+at this time
+she us of actuating screw and
+or cr d Vrong hold awl engaged tooth Check adjustment :
+ea | ae We stop screw, See paragraphs m and n,page 6C,
+
+on record carrier casting.
+
+(b) Cancelled selector pin fails to latch.
+
 Check selector pin cancelling adjustment,
-(b) Cancelled selector pin fails to latch. see beeageebll cs Cape ae
 
-J
-—
+see paragraph c, page 2C.
 
-a
+=
+
+on turntable.
+
+Record fails to clamp
+
+(a) Record hole off center.
 
 Remove bad record.
 
-6. Record fails co clamp (a) Record hole off center.
+(b) Record guide spacing incorrect.
 
-on turntable.
-(b) Record guide spacing incorrect. See page 10C for turntable adjustments
-(c) Record guide track stop brackets not See instructions for adjustment,
-properly adjusted. paragraph k, page 5C ea)
+See page 10C for turntable adjustments.
 
-(4) Record lift arm up position not See instructions for adjustments,
+(c) Record guide track stop brackets not
+properly adjusted.
 
-properly adjusted. paragraph i, page 4C.
-=o Bind on T.T. pilot. Bind on clamp shaft.
-(©) Record clamp fingers fail to engage Sie Vania eta et eps mane!
-aia Lubricate and check for binds
+See instructions for adjustment,
+paragraph k, page 5C. |
 
-eee |
+(4) Record lift arm up position not
+properly adjusted.
 
-(a) Undersize record. Remove undersize record.
-(>) Tone arm feed-in start position not Adjust tone arm start position, see
+See instructions for adjustments,
+paragraph i, page 4C.
 
-properly adjusted. page 12C.
+) Record clamp fingers fail to engage
+records.
 
-7. Tone arm misses
-record.
+eI
 
-Place record in empty space. Check
-record lift arms for freedom of action,
+Bind on T.T. pilot. Bind on clamp shaft.
+Check clamping adjustments page 10C.
 
-see pages 3C and 4C. Check back stop
-pawl setting, see page 6C. Check record
-pilot hole for undersize. Too tight on
-turntable pilot. Ream record if necessary.
-
-(c) No record in selected carrier space.
+Lubricate and check for binds
 
 8. Turntable does not
 run.
 
-Open contact 4 & 5 on override relay. il eter anaensee contacts for proper
-Ry-5 located in amp. action.
+9. Record fails to
+return to carrier
+after playing.
 
-Defective turntable motor. Repair or replace motor.
+10. Puts record back
+without playing.
 
-(c) Turntable belts broken. Replace belts .
+7. Tone arm misses
+record.
 
-(4) Motor leads disconnected at plug
+(a) Undersize record.
 
-Seat motor plug firmly into socke
+Remove undersize record.
 
-(a) Trip switch not operating. Adjust trip switch, page 13¢,
-(b) Defective trip switch, Replace defective switch.
-(c) Open contact 4 & 5 in play switch. Clean and adjust contacts, see page 8C
+(b) Tone arm feed-in start position not
+properly adjusted.
 
-(@) Open changer motor circuit, See wiring diagram 3200-3210.
++
 
-(@) Shorted trip switc!
+Adjust tone arm start position, see
+page 12C.
 
-(b) Shorted reject button
-y Repair or replace sho;
-rted
-(c) Shorted remote control cancel aoe ltt
-circuit,
+(c) No record in selected carrier space.
 
+Place record in empty Check
+record lift arms for freedom of action,
+see pages 3C and 4C. Check back stop
+pawl setting, see page 6C. Check record
+pilot hole for undersize. Too tight on
+turntable pilot. Ream record if necessary
+
+ice.
+
+(@) Open contact 4 & 5 on override relay.
+Ry-5 located in amp.
+
+=
+Clean and check contacts for proper
+action.
+
+Defective turntable motor.
+
+Repair or replace motor.
+
+Turntable belts broken.
+
+Motor leads disconnected at plug.
+
+Replace belts.
+
+Seat motor plug firmly into socker,
+
+(a) Trip switch not operating.
+
+(b) Defective trip switch,
+(c) Open contact 4 & 5 in play switch,
+
+(@) Open changer motor circuit,
+
+(2) Shorted trip
+
+() Shorted reject button.
+
+(©) Shorted remote control cancel
+circuit.
+
+Repair or replace shorted components
