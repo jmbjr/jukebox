@@ -86,16 +86,16 @@ function select(p){
 function renderFigures(page){
   const host=$('#figures'),items=figures.filter(f=>f.pageId===page.id);
   host.hidden=!items.length;
-  host.innerHTML=items.map(f=>`<article class="figure-card">
+  host.innerHTML=items.map(f=>{const callouts=[...f.callouts].sort((a,b)=>Number(a.number)-Number(b.number));return `<article class="figure-card">
     <div class="figure-heading"><div><p class="eyebrow">Extracted figure ${f.number}</p><h2>${f.title}</h2></div><small>From page ${f.source.pageLabel}</small></div>
-    <p class="figure-help">Select a numbered callout to identify the referenced part.</p>
+    <p class="figure-help">${f.hotspotsVerified?'Select a numbered hotspot or the ordered index to identify the referenced part.':'Match the figure’s printed numbers to the ordered index.'}</p>
     <div class="figure-layout">
-      <div class="figure-image"><img src="${f.image}" alt="Figure ${f.number}: ${f.title}">${f.callouts.map(c=>`<button type="button" class="callout" style="--x:${c.x}%;--y:${c.y}%" data-figure="${f.id}" data-callout="${c.number}" aria-label="Callout ${c.number}: ${c.label}">${c.number}</button>`).join('')}</div>
+      <div class="figure-image"><img src="${f.image}" alt="Figure ${f.number}: ${f.title}">${f.hotspotsVerified?callouts.map(c=>`<button type="button" class="callout" style="--x:${c.x}%;--y:${c.y}%" data-figure="${f.id}" data-callout="${c.number}" aria-label="Callout ${c.number}: ${c.label}">${c.number}</button>`).join(''):''}</div>
       <div><div class="callout-detail" id="${f.id}-detail" aria-live="polite"><strong>Choose a callout</strong><span>Its manual description and part number will appear here.</span></div>
-      <div class="callout-index" aria-label="Figure ${f.number} callout index">${f.callouts.map(c=>`<button type="button" data-figure="${f.id}" data-callout="${c.number}"><strong>${c.number}</strong><span>${c.label}</span></button>`).join('')}</div></div>
+      <div class="callout-index" aria-label="Figure ${f.number} callout index">${callouts.map(c=>`<button type="button" data-figure="${f.id}" data-callout="${c.number}"><strong>${c.number}</strong><span>${c.label}</span></button>`).join('')}</div></div>
     </div>
     <p class="figure-source">Extracted from the photographed page. The full page remains authoritative.</p>
-  </article>`).join('');
+  </article>`}).join('');
   host.querySelectorAll('.callout').forEach(button=>button.onclick=()=>{
     const figure=figures.find(f=>f.id===button.dataset.figure),callout=figure.callouts.find(c=>c.number===button.dataset.callout);
     host.querySelectorAll(`[data-figure="${figure.id}"]`).forEach(item=>item.classList.toggle('active',item.dataset.callout===button.dataset.callout));
