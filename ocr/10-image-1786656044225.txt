@@ -1,59 +1,237 @@
+i
+
 SECTION B
 
-FIG. 18.
-1. Plug, 11 121584
-2. Socket, 12 114325
-3. Plug & Wire Assy., Red (T.T. Jumper) 123990
-4, Socket, 11 38492
-5. Socket, 4 Pin Min. 69090
-6. Socket, 4 Circuit 122650
+i
 
-Jumper Plug 126223
-7. Terminal Bushing 124835
-8. Plug & Wire Assy. , Blue (Spec. Prog.) 124279
-9. Capacitor, 124 Mfd., SOV., A.C. 74808
-Capacitor, 35 Mfd., 50V. 76356
-Capacitor, 65-93 Mfd., 50V., A.C. 70901
-Capacitor, .047, 400V. 74569-24
-Capacitor, 100 Mfd., 50V. 73846-32
-Resistor, 310 ohm, 5W. 70684-2
-Page 10B
+SS
 
-JUNCTION BOX - 200
+2 |
 
-Socket, 4
-Relay, White Cover, 28V., D.C.
-Relay, Red Cover, 24V., A.C.
-Socket, Relay, Without Color Code
-Switch
-Circuit Breaker
-Lamp Socket
+oad
 
-Lamp, No. 303
-Socket, 6
-Plug & Wire Assy. (Stepper Jumper)
-Socket, 11
+G
 
-Cap
+Sis
+
+oi
+
+<<,
+
+cy
+
+ed
+
+Sy
+
+Ke
+
+SZ
+
+eS
+
+Gs
+
+CD)
+
+wy
+
+LAS
+
+\
+
+Dy
+
+SS
+
+"
+
+A
+
+RSs
+
+2
+
+U)
+
+if
+
+Zs
+
+® RAY
+
+i.
+
+VF
+
+Bak
+
+=
+
+Us
+
+pe
+
+=
+
+b
+
+‘Ze
 
 ee
 
+«
+
+(
+
+s\
+
+FIG. 18.
+
+JUNCTION BOX - 200
+
+10
+
+Plug, 11
+
+121584
+
+Socket, 4
+
 30495
+
+Socket, 12
+
+114325
+
+11
+
+Relay, White Cover, 28V., D.C.
+
 122133
+
+Plug & Wire Assy., Red (T.T. Jumper)
+
+123990
+
+12
+
+Relay, Red Cover, 24V., A.C.
+
 122366
+
+Socket, 11
+
+38492
+
+13
+
+5.
+
+Socket, Relay, Without Color Code
+
 122131
+
+Socket, 4 Pin Min
+
+69090
+
+14
+
+Switch
+
 123715
+
+6.
+
+Socket, 4 Circuit
+
+122650
+
+15
+
+Circuit Breaker
+
 128801
+
+Jumper Plug
+
+126223
+
+16
+
+Lamp Socket
+
 122358
+
+Terminal Bushing
+
+124835,
+
+Lamp, No. 303
+
 122359
 
+8.
+
+Plug & Wire Assy., Blue (Spec. Pr
+
+124279
+
+17
+
+Socket, 6
+
 32881
+
+9.
+
+Capacitor, 124 Mid.
+
+50V., A.C.
+
+PP)
+
+74808
+
+18.
+
+Capacitor, 35 Mfd., 50V.
+
+Plug & Wire Assy. (Stepper Jumper)
+
 121319
+
+76356
+
+19
+
+Socket, 11
 
 58898
 
+Capacitor, 65-93 Mfd., 50V., A.C.
+
+70901
+
+Cap
+
+Capacitor, .047, 400V.
+
+74569-24
+
 16610
+
+Capacitor, 100 Mid. , 50V.
+
+73846-32
+
+Resistor, 310 ohm, 5W.
+
+70684-2
+
+Page 10B
 
 WURLITZER
 
-j
+ee

@@ -43,14 +43,14 @@ function setSection(name){
 function itemsForActive(){
   const q=$('#search').value.trim().toLowerCase();
   let items=active==='Reference'?referencePages():active==='Contents'?manualPages():catalog.filter(p=>p.section===active).sort((a,b)=>pageNumber(a)-pageNumber(b)||a.label.localeCompare(b.label,undefined,{numeric:true}));
-  if(q)items=items.filter(p=>`${p.label} ${p.title} ${p.section} ${p.ocr}`.toLowerCase().includes(q));
+  if(q)items=items.filter(p=>`${p.label} ${p.title} ${p.section} ${['good','partial'].includes(p.ocrQuality?.status)?p.ocr:''}`.toLowerCase().includes(q));
   return items;
 }
 function renderList(){
   const q=$('#search').value.trim();
   const items=itemsForActive();
   $('#status').textContent=q?`${items.length} search result${items.length===1?'':'s'}`:active==='Contents'?'Manual sections A–F':`${items.length} scanned page${items.length===1?'':'s'}`;
-  $('#pages').innerHTML=items.map(p=>`<button data-id="${p.id}" class="${selected?.id===p.id?'active':''}">${p.label} — ${p.title}</button>`).join('');
+  $('#pages').innerHTML=items.map(p=>{const ocrMatch=q&&['good','partial'].includes(p.ocrQuality?.status)&&p.ocr.toLowerCase().includes(q.toLowerCase());return `<button data-id="${p.id}" class="${selected?.id===p.id?'active':''}">${p.label} — ${p.title}${ocrMatch?'<small class="match">OCR match</small>':''}</button>`}).join('');
   $('#pages').querySelectorAll('button').forEach(b=>b.onclick=()=>select(catalog.find(p=>p.id===b.dataset.id)));
 }
 function showContents(){$('#contentsView').hidden=false;$('#pageView').hidden=true;}
@@ -69,7 +69,11 @@ function select(p){
   const image=$('#pageImage'),viewer=image.closest('.viewer'),rotation=p.rotation??0;
   image.src=p.image;image.alt=p.title;image.style.setProperty('--rotation',`${rotation}deg`);
   viewer.classList.toggle('quarter-turn',rotation===90||rotation===270);viewer.dataset.rotation=String(rotation);
-  $('#pageTitle').textContent=p.title;$('#pageSection').textContent=`${p.section} • ${p.label}`;$('#original').href=p.image;$('#ocr').textContent=p.ocr||'OCR unavailable';
+  $('#pageTitle').textContent=p.title;$('#pageSection').textContent=`${p.section} • ${p.label}`;$('#original').href=p.image;
+  const details=$('#ocr').closest('details'),quality=p.ocrQuality?.status||'poor',usable=['good','partial'].includes(quality);
+  details.hidden=!usable;details.open=false;
+  details.querySelector('summary').textContent=usable?`Searchable OCR text — ${quality}`:'OCR hidden because recognition quality is poor';
+  $('#ocr').textContent=usable?p.ocr:'OCR unavailable for display. Use the page image as authority.';
   const ordered=active==='Reference'?referencePages():catalog.filter(x=>x.section===active).sort((a,b)=>pageNumber(a)-pageNumber(b)||a.label.localeCompare(b.label,undefined,{numeric:true}));
   const index=ordered.findIndex(x=>x.id===p.id);
   $('#previous').disabled=index<=0;$('#next').disabled=index<0||index===ordered.length-1;

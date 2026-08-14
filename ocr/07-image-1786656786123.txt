@@ -1,62 +1,70 @@
-4
+ACTION &
 
-=e eee eee
+ay SP through ry=1(=5) to 74 to 44, throu w/ 8 2. letter latch switch
+8 » through number lateh awit y
+Stout ange eh contacts 2-
+t-2 to St, through ry-8(12-8) to 48, through ry=4 coll to 64 to 62 oh eae
+pee h2, through ry-M5-9) to of
 
-CTION €
+Ryod is &
+Ry!
+, SS
 
-jetter latch switch
+LATCH RYS
 
-YUS-9) to 5,
-; LATCH aye
-: SWITOHES: ine wee
-AHO) -0)49
+Switch - Letter Coil
 
-oo O
+> through thermostat to 69, through ry-2(12-8) to 60, through s
 
-start Switch - Letter Coil
+; ‘therm y , tart switch to 63, through
+aker tS , through A letter coil to a, through A letter selector switch, through control
+cacts 1-2 to 46, through ry-4(7-11) to 40. Letter coil is energized, Al selector pin is
 
-> through thermostat to 69, through ry-2(12-8) to 60, through sta
-. . , , rt switch to 63, through
-= , through A letter coil to a, through A letter selector switch, through control
-1-2 to 46, through ry-4(7-11) to 40. Letter coil is energized, Al selector pin is
+LETTER CONTROL
+‘SWITCHES SwitcH are
 
-RyY2
-g THERMOSTAT 12-8 wie re
+START a
+Switch CIRCUIT LETTER
+I BREAKER COIL
 
-CICOB 6 as ne
-“OZ SACO
+LONWCOTOD
 
-rough free play switch, through counter to 50, through ry-4(8-12) to 40. Counter registers
+hrough free play switch, through counter to 50, through ry-4(8-12) to 40. Counter registers
 
-4 - Cancel Solenoid
+RY4
+COUNTER 8-12
 
-mon 32 through cancel solenoid to 45, through ry-4(5-9) to 35. Cancel solenoid cancels one credit.
+:
 
-TGA
-4 - Ry-1
+-4 - Cancel Solenoid
+
+non 32 through cancel solenoid to 45, through ry-4(5-9) to $5. Cancel solenoid cancels one cresit-
+
+AL steno me
+~~ TIO. 48)
+Ry-4 - Ry-1
 
 istor across ry-l
-35 from ry-1 coll (see schematic 2). The capacitor and res!
+Ky-4(9-1) open removing 35 from ry-1 coll (see schematic 2). The capacitor and res!
+length of the letter coil pulse.
 
-ee 1 the length of the letter coll pulse.
+ll hold ry-1 momentarily to control the
+Ry-l Releases
 
-ry-1 momentarily to contro
+Ky-1(9-5) open releasing number 1 number coll and ry~2 (see schematic 4).
 
-aes
+Ry-2 Releases
+atic 5). Latch
+from 77 and latch solenoid infor tea act sn Jonata.
+{tion, Contacts I~ pe
+iges lamp, 4-5 close t0 restore shunt across
 
-5) open releasing number 1 number cotl and ry~2 (see schematic 4).
-4
-*. Ry-2 Releases
+ext selection.
 
-atic 5), Larch
-mon 32 from 77 and latch solenold interlock (see schem:
+Ry-2(10-6) open removing common 32
+volenold releases, control switches return to rest
+©0ll (see schematic 9), 3-4 open the circult (0 the
+resistor (see schematic 3) in preparation for te
 
-the
-tion. Contacts 1-2 gpee 85 ohm
-tarmp, 48 close to restore shunt across
-
-© schematic 9), 3-4 open the c! ctlon.
-tor (see schematic 3) in preparation for the oa
-
-WURLITZER
-
+i Page 1SE
+“URLITZER

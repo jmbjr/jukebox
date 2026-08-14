@@ -1,68 +1,63 @@
 SECTION F
 
-SYMPTOMS
-
-1, Fluorescent lamps do
-
-not light; phonograph
-does not operate.
-
 POWER AND LIGHT FAILURE
 
-ie
-
-(a) Line cord plug not making contact Repair or replace plug or outlet.
-in outlet.
-
+SYMPTOMS CAUSE CORRECTION
+| —l|
+1. Fluorescent lamps do (a) Line cord plug not making contact Repair or replace plug or outlet.
+not light; phonograpt in outlet
+does ni
 (b) Internal break in line cord. Repair or replace line cord.
-
-Check for shorts in phonograph
-wiring. Replace fuse.
-
-(d) “House” fuse blown. Check for overload. Replace fuse.
-(f) Main switch defective. Replace main switch in amplifier.
-
-____ 2 eS
-
-Fluorescent lamps do (a) Defective lamp. Replace lamp.
-
-not light; phonograph
-(b) Defective starter.
-
-(c) 15 amp. line fuse blown.
-
-operates normally. Replace starter.
-
-(c) Defective ballast. Replace ballast.
-
-(a) Open circuit in lamp, starter or Trace and repair, see wiring diagrams
+5 eck for shorts in phonograph
+(c) 15 amp. line fuse blown. wiglig; Replace ise:
+(d) “House” fuse blown. for overload. Replace fuse
+{e) Main switch off Turn main switch on. |
+(f) Main switch defective. Replace main switch in amplifi |
+2. Fluorescent lamps do (a) Defective Replace lamp.
+not light; phonograph _— —
+operates normally. (bo) Defective starter. Replace starter
+Defective ballas! Replace ballast
+(d) Open circuit in lamp, starter or Trace and repair, see wiring diagrams
 ballast wiring. for 3200-3210.
-
-Seat lamp firmly in socket.
-
-(e) Lamp loose in socket.
-
-(Ballast line plug out of
-amplifier socket.
-
+(e) Lamp loose in socket. Seat lamp firmly
+(f) Ballast line plug out of
 Insert plug.
+amplifier socket. Inge ne pve
+=|
+Phonograph does not Oicutee epien cues, h, se2 paragraph r
+rate; fluorescent
+- lamps light.
+j (b) Warped record caught between record
+j carrier and record guide casting warped record.
+} causing safety switch to open.
+—
+4. Select lamp does not Lamp burned out. Replace with GE-12 lamp.
+light; phonograph
+operates normally. (b) Selector control switch contacts Clean and adjust switch, see para-
+3 and 4 dirty or incorrectly adjusted. graph f, page 3B.
+175 ohm resistor, mounted on
 
-Adjust safety switch, sez paragraph r,
-page 9C.
+(c)
+selector switch assembly, open. Replace resistor.
 
-(a) Safety switch open.
+CORRECTION
 
-(o) Warped record caught between record
-carrier and record guide casting Remove warped record.
-causing safety switch to open.
+(@) Bind in reject rod assembly
+holding rejector gate open.
 
-(a) Lamp burned out. Replace with GE-12 lamp.
+1. Coins rejected or
+hang in slug rejector.
 
-(b) Selector control switch contacts Clean and adjust switch, see para-
-|} «3 and 4 dirty or incorrectly adjusted.
-ae
+Remove bind.
 
-graph f, page 3B.
-‘ohm resistor, mounted on
+Clean rejector.
 
-Replace resistor.
+See National Rejectors bulletin for
+
+(c) Rejector improperly adjusted,
+ho. 1-22-000-NDQH rejector.
+
+Page 2F
+age WURLITZER
+
+Level phonograph.

@@ -6,9 +6,10 @@ Searchable visual archive and knowledge store assembled from photographs of the 
 
 - Page images are the visual source of truth.
 - OCR text is provided for discovery and may contain errors.
+- OCR is generated from temporary oriented, grayscale derivatives. Each page records a quality status and confidence; poor and diagram-derived OCR is excluded from search and hidden in the reader.
 - Schematics, terminal numbers, wire identifiers, contact states, dimensions, and part numbers must be verified against the image.
 - `knowledge/` contains curated summaries with source-page references and confidence labels.
-- Every catalog entry has an explicit clockwise `rotation` value (`0`, `90`, `180`, or `270`). The viewer applies it while leaving the original photograph and download unchanged. OCR is intentionally not regenerated until orientation review is approved.
+- Every catalog entry has an explicit clockwise `rotation` value (`0`, `90`, `180`, or `270`). The viewer applies it while leaving the original photograph and download unchanged. OCR generation applies the approved orientation before recognition.
 
 ## Open locally
 
@@ -26,3 +27,14 @@ Open `index.html` directly in a browser. No build step or server is required. Th
 ## Known gaps
 
 Section F pages 4F and 5F were not present in the supplied photographs. Several front-matter and Section E images do not expose a readable page number; the catalog marks these conservatively.
+
+## Regenerate OCR
+
+Requires ImageMagick and Tesseract 5 with English language data:
+
+```bash
+node scripts/run-ocr.mjs
+node scripts/build-catalog.mjs
+```
+
+The original photographs are never modified. The pipeline writes diagnostic TSV output locally to `ocr/raw/`; that generated directory is ignored and is not published as verified transcription.

@@ -1,86 +1,66 @@
-EES '’=S
+EEE :SC— Oe
 
 SECTION E
 
-ECTION SEQUENCE
+ECTION SEQUENCE,
 
-og Coin Switch
+3200 SEL!
+1o¢ Coin Switch
 
-ymmon 32 through 10¢ coin switch, through 10¢
+common 32 through 10¢ coin switch, through 10¢ «
+magnet rel the accumulator and cancel wt ae eee
+t position closing the key switch. ussi=
 
-c
-the accumulator
+thre
+igen hes circuit breaker to 40. The coin
+‘ancel wheel to advance to the one
 
-coin magnet
-and cancel wheels allowing
+“10¢
+104
+comm
+cork. CIRCUIT
+| SWITCH ySenET BREAKER
 
-through circuit breaker to 40. The coin
+a Q
 
-t position closing the key switch wing the cancel wh
-é P ‘ cel wheel to advanc
-oe nce to the one
-| co on CIRCUIT
-8 AGN BREAKER
+through the key switch to 42
+- t ,» throu sele 2]
+through ry-2 (1-9) to 35. Ry-1 is eee ee ctor series switches t
 
-=
-&
-|
-
-on 32 through the key switch to 42, through selector series switches t
-
-sugh ry-2 (1-9) to 35. Ry-1 is energized. 0 47, through ry-1 coil to 55
-
+0 47, through ry-1 coll to 5
+‘ 55
 Common 32 to 147, through ry-1 (8-12) interlocks
 
 SERIES
 SWITCHES
 
-h Latch Solenoid
-
 Common 32 through ry-1 (9-5) to 48, through letter selector switches to 177, through button
-switch, through latch solenoid, through control switch contacts 5-4 to 35. The latch so-
-
-releas
+r switch, through latch solenoid, through control switch contacts 5-4 to 35. The latch so-
 
 lenoid is energized.
 
-yntrol switch contacts 5-4 are mechanically opened by the latch solenoid. The 85 ohm resistor
-rough the latch solenoid to prevent overheating.
+Control switch contacts 5-4 are mechanically opened by the latch solenoid. The 85 ohm resistor
+limits the current through the latch solenoid to prevent overheating.
 
-limits the current th:
+lect lamp, through 175 ohm resistor, through control switch contacts a4
 
-through 175 chm resistor, through control switch contacts a4
+mmon 32ithrough se
 
-mon 32 through select lamp,
 Select lamp lights.
 
-ert BUTTON LATCH
-Pon bis RELEASE SOLENOID
-
 85
-OHM
-
-Selected - La it Close
-e atch Switches erie button release
-
-L
-ter selector switches 0 through ry-4 :
-nigh te ehrough ry-2 Gall to 48: DEON
-
-Common 32 “1 (9- 8, thro
-mon 32 through ry-1 (9-5) to 4 itches to 44 to 74,
-
-Switch to 77, through diode, through latch 8 Pe
-(1-9) to 35, Ry-2 is energized, Bees oitnes
-
-LETTER RELEASE
+ETTER BUTTON LATCH
+se RELEASE SOLENOID one
 
 SWITCHES
+Al Selected - Latch Switches Close ee.
+77, through button F
+Co: 32 selector switches to 177) ip
+mmon 32 through ry-1 (9-5) to 48, through letter Through Ty-2 Goll to 43, teres ry
+ER
 
-B
-= ee
-e-
-
-WURLITZER
-
-|
+switch to 77, through diode, through latch switches 10 Aha") ny? 8
+(1-9) to 35. Ry-2 is energized.
+BUTTON
+LETTER RELEASE
+SWITCHES

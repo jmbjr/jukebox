@@ -4,6 +4,9 @@ import path from 'node:path';
 const root=path.resolve(import.meta.dirname,'..');
 const pagesDir=path.join(root,'assets/pages');
 const ocrDir=path.join(root,'ocr');
+let existingCatalog=[];
+try{existingCatalog=JSON.parse(fs.readFileSync(path.join(root,'data/pages.json'),'utf8'))}catch{}
+const catalogExisting=new Map(existingCatalog.map(page=>[page.sourceFile,page]));
 const groups={
   '1786654485902':['Identity','Backplate','Model 3210 backplate'],
   '1786654498597':['Front matter','Cover','Series 3200 service manual cover'],
@@ -85,9 +88,10 @@ const catalog=files.map((file,i)=>{
   const [section,label,title]=groups[key]??['Unsorted','unknown',file];
   const ocrFile=file.replace(/\.jpg$/,'.txt');
   let ocr=''; try{ocr=fs.readFileSync(path.join(ocrDir,ocrFile),'utf8').trim()}catch{}
+  const existing=catalogExisting.get(file);
   const rotation=rotations[key];
   if(![0,90,180,270].includes(rotation)) throw new Error(`Missing or invalid rotation for ${file}`);
-  return {id:`p${String(i+1).padStart(3,'0')}`,section,label,title,image:`assets/pages/${file}`,sourceFile:file,rotation,ocr};
+  return {id:`p${String(i+1).padStart(3,'0')}`,section,label,title,image:`assets/pages/${file}`,sourceFile:file,rotation,ocr,...(existing?.ocrQuality?{ocrQuality:existing.ocrQuality}:{})};
 });
 fs.mkdirSync(path.join(root,'data'),{recursive:true});
 fs.writeFileSync(path.join(root,'data/pages.json'),JSON.stringify(catalog,null,2)+'\n');

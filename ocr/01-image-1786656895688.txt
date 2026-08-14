@@ -1,61 +1,59 @@
-SOLONIE matic 5A). Ry-6 Is released,
+SECTION E
 
-8 switcn
+se achematic 5A). Ry-6 Is released,
+h tacts 5-6 open breaking ry~6 Inter lock (see 8c
+©. Transfer switch contacts 5~
 
-10.
+7. Play Switch
+en the record reaches the playing position.
 
-Page 18E
+y actuated wh rlock. The motor stops with the
 
-reaking ry-6 Interlock (wee #¢
+: lay switch ts mechanicall ied
+‘ my iviceh contacts 6-8 open breaking thereraesle m
+record in playing position. (See schematic 6B.
 
-ce. ‘Transfer switch contacts 5-6 open
+8, Trip Switch
 
-Play Switch
+sally actuated by the tone arm.
++ The wip switch is mechanically actuated : f coer
+~ Gea rou cal switch to 37, through play switch contacts 4-5 to 84, througl
 
-d reaches the playing position.
-
-chante stuated when the recor ae
-
-#. The play awitch te mechan ca veaking the chassis motor Interlock. ‘The motor stops
-jay switch contacts 6-5
-
-record in playing position. (See schematic 6B.)
-
-Trip Switch
-
-e arm.
-a. The trip switch {s mechanically actuated by the tone ee
-Common 32 through trip switch to 37, through play switc z
-rl is in reverse.
-motor reverse winding and thermostat to 40, The motor run
+8 in reverse.
+motor reverse winding and thermostat to 40. The motor run
 
 PLay
-TRIP SWITCH
+TRIP switcn CHASSIS
+SWITCH 4-68 GTO!
 
-THERMOSTAT
+(8)
 
-Play Switch
+9. Play Switch
 
 Shortly after the chassis motor starts in reverse, the play switch returns to the rest position restoring
-
 the reverse winding interlock described in 6b.
-Transfer Switch
 
-:
-:
+10. Transfer Switch
 
-a. The transfer switch returns to the rest position as the record changer completes the mechanical
-cycle.
+| a. The transfer switch returns to the rest position as the record changer completes the mechanical
+i cycle.
 
 b. Transfer contacts 1-2 open removing common 32 from 31 and ry-5 coil. Ry-5 is released. (See
 schematic 6A.)
 
-¢- Transfer switch contacts 5-4 open removing common 32 from reverse winding of chassis motor.
+¢- Transfer switch contacts 5-4 open removing common 32 from reverse winding of chasis motor.
 (See schematic 6B.)
 
 d. Transfer switch contacts 5-6 close in preparation for next cycle. (See schematic 3.)
-Ry-5 Released
-@- Ry-5 (2-1) open removing common 32 from chassis motor circuit. (See schematic 3.)
+11. Ry-5 Released
+2. Ry-5 (2-1) open removing common 32 from chassis motor circuit. (See schematic 3.)
 
 b. Ry-5S (5-4) open removing 117V. A.C. from turntable motor.
 
+FIG. 8& METHOD OF NUMBER,
+ING SWITCH AND R
+ELAY CONTACTS
+
+Page 18E
+
+oe ae oe hl oe | o

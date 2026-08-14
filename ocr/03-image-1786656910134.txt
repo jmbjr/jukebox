@@ -1,84 +1,84 @@
 SECTION E
 
-5. Latch Solenoid Interlock sesistor to 35 interlocks latch
-
-Commo & -7) to 77 ol ai id and 85 ohm
-32 through ry-2 (11-7) t0 77> through latch solenoid
-mmon
-
+ae g5 ohm resistor to 35 interlocks latch
+2 (11-7) to 77, through latch solenoid and
+Common 32 through ry-2 (11- 5
 solenoid.
+85
+OHM
 
-Driver Solenoid
-selector switch to 1, through 1 and 6
+Driver Solenoid :
+selector switchito. 1, through Lang
 
-- = 12. 54, through number :
-net 4 clockwise to index rockers in line with
+mber a mi
+y-2 (8-12) to 54, throuBll Trnter-clockwise to index rockers in line with
 
-Common 32 through 7
-‘The rotating plate rotates counter~
+Common 32 through j
+The rotating plate rotates counter
 
 driver solenoid to 35.
 the number 1 selector pins.
 
 NUMBER
+SWITCHES ,
 
-SWITCHES | WEG
-
+1a6
 DRIVER
 
-Ow aiiN @)
+SOLENOID ©
+O(1)~“000
 
-°
-°
+O°
+O°
 
 If A2 is selected the following sequence will apply.
 
-s to 2, through a diode (a section
-
-Common 32 through ry-2 (8-12) to 54, through number switche
-35. Also from 2 through a diode
-
-of the selenium rectifier), through the 1 and 6 driver solenoid to
+Common 32 through ry-2 (8-12) to 54, through number switches to 2, through a diode (a section
+of the selenium rectifier), through the 1 and 6 driver solenoid to 35. Also from 2 through a diode
 and the index solenoid to 35.
 
 ‘The index solenoid will stop the rotating plate with the rockers in line with the number 2 selector
 
-pins. ae
+pins. ACO
+
 DRIVER
 SOLENOID
 
-NUMBER
-SWITCHES SELENIUM
-RECTIFIER
+NUMBER COO — —_—_—_—_:)
+
+‘SWITCHES: SELENIUM
+RECTIFIER INDEX
 SOLENOID
 
-Ry-2 (1-9) open removing 35 from 58-55 and
+Ry-2 (1-9) open removing 35 from 58-55 and ry- i
+: y-1 (see schematic 2
+ry-1 coil hold ry-1 momentarily to provide sufficient time for the eee cL ae Soe a
+index properly.
+Ry-1 Released - Ry-4 Energized
 
-i : s ry-l (see schematic 2)
+Common 32 through ry-2 (11-7) to 77, throu
+; gh dio
+(10-2), through ry-4 coil to 68 to 35. Ry-4 1s Hoe
 
-ry-1 coil hold ry-1 momentarily to provide sufficient time for the nee nail vik Gee
-© to index properly.
+RY2
+"-7
 
-Ry-1 Released - Ry-4 Energized yi
+through 1: i
+os igh latch switches to 44 to 74, through ry-1
 
-Common 32 through ry-2 (11-7) to 77
-» through diod
-(10-2), through ry-4 coil to 68 t ‘ ©, through latch swit
-ie 0 35. Ry-4 is energized, itches to 44 to 74, through ry-1
-
-piove LATCH RY4
-SWITCHES 107;
+LATCH RYI RY4
+101
+DIODE gwiTcHES lo-z
 
 Driver Solenoid Interlock
 
-Common 32 through ry-4 (12-8)
-th
-through 1 and 6 driver solenoid to 35.8) °° 8M resistor to 54
-: » thr
+Common 32 through ry-4 (12-8), th;
+through 1 and 6 driver solenoid to 35°) © o0™ resi
 
-1 and 6 dr
-ver solenoid is aes number selector switch
-om
+Sto}
++ 1 and 6 drive, sae
 
-Page 20E cked,
+54, throu,
+¥ solenoid is faeoe Selector switch
 
+Page 20E

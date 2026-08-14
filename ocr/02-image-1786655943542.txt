@@ -1,119 +1,126 @@
-43BZLNM
+SECTION 8
 
-*(1) uy pauypno a.mpasoad ames aI MOTOS ‘(qT wart
-“p °34y) :2eA9] yorey zane] ayy isnfpe oL (2)
+SELECTOR SWITCH ADJ USTMENT
 
-“WawleseZus 19e}U09 YyoiMs 10199198
-Pue Buyyrie] tedord roy ong Jequinu yosra Yayo
-“8Sk9]81 uonng ap Buisseadap Aq uonnq rdaquinu amy
-SSBd|aY *pauary3n s} (9 woi}) matos ay) se Sumas
-SIM UlewieW *(— wen) r9aaq] din szequinu ay Jo
-PMs Sitenbs sty isureSe Aw4yy isa ptnoys (¢ (911)
-T9A9] YO] OY *({ wart) qei dois ay) isuyeBe saz
-02 1aA9] din ayy moyye 01 (¢ war ‘F *BYy) Twed yorey
-dequinu ay) sAow ‘passeadep Aj[ny ong taquinu &
-Ploy Ajjenuew vay ‘yerhetg ay uo upers e Suyysiy
--qeise Aq (6 wary ‘Zz *31J) prousjos yore] ay) azi10
--US “Isaay yore] Joequinu sy) asnf{pe of (1)
+The selector switch assembly may
+from the cabinet for Servicing. Open the lower front
+door by releasing the two latch levers located near
+the ends of the lower fluorescent lamp. Remove
+the four hex head screws that secure the selector
+Switch assembly mounting brackets to the inner sides
+of the cabinet. Lift the selector
+straight up.
 
-+(e ydeazSe.red 93s)
-squaunsn{pe YUN] ay) WII0J1ed 01 pauasooy arm (g pur
-9 swan ‘z *34y) smaxos Sunsn{pe yorey ay,
+be removed
 
-INSWLsnlay HOLYT ‘Pp
+switch ass
 
-*g wo
-ye umoys se (¢ won) Teas, din amp pue (6 War)
-pmis aienbs ay) usamieq aouerea]o ., 9/1 epiaocad 01
-ano (QT way) meros Sunsnfpe oy yoeg (z)
+mbly.
 
-“7 Wen Ie uMoYs sp Med yore]
-aw pue (T] Wor) pms azenbs ay: usamieq souezea]o
-.9/1 apiaoad 0) 9yDe2q dois ay2 AoW pue (z WAI)
-smeios Supsn{pe ey2 ussooy -uomtsod isoz jeurzou
-Si Ul (F Wisi) aAsy aseajex om WIM parsn{pe oq
-Pinoys (¢ wan “¢ -3y) 1yDeIq dois sy, (tT)
+a, CONNECTOR LINK PLATE ADJUSTMENT
 
-GION3 TOS HOLYT
-- LNSWIsMfady LaxOvUd dOLs ‘>
+Should the connector link plate require ad-
+Justment, readjust the entire assembly through the
+following sequences,
 
-“your Ue 50 91/¢ pasoxe io Pinoys
-Teaen szeBunjd ayy “(¢ wom) xoao] d aquinu
-ay) pue (/ ula!) 1eAa] aseater ay uo qe) ay) useM)
+(1) Loosen the screws (fig. 1, item 3) and
+» items 6 and 8),
 
-yolzit Poustos yoreq “6
-¥E-EESEL “PHT ‘6/1 ze-g ‘mozsg *g
-zor6zt IeAe] asvatoy ‘qe dois
-E-eeSeL “PH a X z£-g ‘mazog
-169211 SzaquinN ‘10Aq7] diay,
-ZL-G0SEL PHY 't/@ X Ze-9 ‘maaag Hush
-$6911 siene'] ‘10A07] diay
-¥e-EESEL "PHY ‘6/1 X 26-8 ‘ma19g
-1-FOIZI1 Ploustos youer] ‘z03unig
-GIONS'10s HOLY
-4O LNSWLSMIGY AYVNINITA Yd “Old
+(fig
 
-9% 9804
+(2) Fully depress a number button. Position
+the lever (fig. 1, item 11) in a vertical position and
+tighten the screws (fig. 1, item 3), Following the
 
--9q aoueiva[s uinunxeu .f9/¢ aplaord o1 pouatos
-ai 18s ‘proustos ayy ut pautonog Aquway (qT an)
-Aasuntd proustos aya ploy Atrenuep *(z ata) smaros
-Sunsnf{pe proustos yoiry 8] UssooyT ‘surn} om) ut
-(F wan ‘Zz *3y) marss Sunsnfpe oy) win
+ne procedure, adjust the connector link
 
-ION TOS HOLYT
-dO LNAWLsAldy AUVNINITEYd *4
+letter
 
-oeroet Behe as
-oorros bs pate)
-ToesOS aqeiiagy Ioeu05
-Utd 6 ‘e19eIdex0y «gy
-sran2y ‘Assy 19497 9 UIT “4y zr
-sioqunN "Assy tacaq y yuIT ‘zeus 1
-AIPW ‘19P2003,
-‘mg “or
-ateuiag ‘oRIU0D
-Wd 9 ‘atoridasay 5
-oot
-0z Lee),
-taoeds «7
-eee sng tapinoys -9
-Fe PH X9H ‘.g/¢ x ze-9 s
-IDaNUOD“g
-PH xeH mazog “E
-eds -z
-aseaay uoung ‘yomMS — -T
+FIG. 1. CONNECTOR LINK PLATE ADJUSTMENT
+1 Bu 128854
+2 126299
+3 8-3. Hex Hd
+4 Connector Link Plate
+5. Screw, 6-32 x 3/8", Hex Hd
+6 Shoulder Bushing
+7. Spacer
+8. Connector Link 200
+100
+9 Receptacle, 6 Pin 131171
+Contact, Female 50430)
+10. Plug, 12 Pin 131176
+Contact, Male 504300
+Shaft, Link & Lever Assy., Numbers 126510
+Shaft, Link & Lever A: sy., Letters 126507
+Receptacle, 9 Pin 131179
+Contact, Female 504301
+ntact, Male 504300
+14. Brace 130439
 
-saretd
+b. PRELIMINARY ADJUSTMENT OF
+LATCH SOLENOID
 
-ToWauUOd 49a] a41 Isn{pe ‘sinpacord sures
+Turn the adjusting screw (fig. 2, item 4)
 
-MOOT “(f WONT ‘T -3y) smozos om uaysn
+in two turns. Loosen the latch solenoid adjusting
+screws (item 2). Manually hold the solenoid plunger
+(item 1) firmly bottomed in the solenoid, set the
+solenoid to provide 3/64" maximum clearance be-
 
-Pue uoysod [eontea eB ur (Ty wart ‘1 *S1y) teaay 342
-wontsog ‘Young taquinu e ssazdap Ating (z)
+Page 2B
 
-ig pue 9 sway ‘z +31)
-pue (¢ wai} ‘T +313) smatos am uasooy (1)
+PRELIMINARY ADJUSTMENT OF
+LATCH SOLENOID
 
-*seouanbas Suymorqoy
-ay ysnormp A[qWasse aanus oy ysn{peor ‘quounsnt
--pe aainbax ayeyd yu, xooduU09 ay pynoys
+the , Latch Solenoid 112104-1
+2. 8-32 x 1/4", R.Hd. 73533-34
+3. Trip Lever, Letters 117694
+4. Adjusting Setew, 6-32 x 3/4", R. Ha 73503-72
+5. Trip Lever, Num! 117691
+6. Screw, 8-32 x 1/ 73533-34
+7. Stop Tab, Release Lever 129102
+8. Screw, 8-32 x 1/4", R.Hd. 73533-34
+9, Latch Solenoid 112104
 
-LNAWLSAIGY ALY Td ANIT YOLOANNOD *e
+tween the tab on the release lever (item 7) and the
+number trip lever (item 5). The plunger travel
+should not exceed 3/16 of an inch.
 
-*dn 1y8tens
-IMS TOIATaS axa YT “ieUIqea am Jo
-apis Touuy ay 02 sieyovaq Supunow A[qwasse YoMs
-oI919s 942 saNdas IeIN SMed9s pray xoy ano} amp
-sAoway ‘duty ausosexony z2moT aq Jo spua sip
-vou paiwoo| S19A9q Yor] omN aya SuIsea[az Aq zoop
-uo4} JOMO] Ou Udo *BuID!A198 Jo} YeUIGRD om wLosy
-Paaouiot aq Av A[quiasse YorMS 10199195 ayy,
+c. STOP BRACKET ADJUSTMENT -
+LATCH SOLENOID
 
-AN3WISNfav HOLIMS ¥O19313as
+(1) The stop bracket (fig. 3, item 3) should
+be adjusted with the release lever (item 4) in its
+normal rest position. Loosen the adjusting screws
+(item 2) and move the stop bracket to provide 1/64"
+clearance between the square stud (item 11) and the
+latch pawl as shown at item 1.
 
-Alquiesse
+(2) Back the adjusting screw (item 10) out
+to provide 1/64" clearance between the square stud
+(item 9) and the trip lever (item 5) as shown at
+item 8.
 
-@ NOILD3a5
+d. LATCH ADJUSTMENT
 
+The latch adjusting screws (fig. 2, items 6
+and 8) were loosened to perform the link adjustments
+(see paragraph a).
+
+(1) To adjust the number latch lever, en-
+ergize the latch solenoid (fig. 2, item 9) by estab-
+lishing a credit on the Playrak, then manually hold
+a number button fully depressed. Move the number
+latch pawl (fig. 4, item 5) to allow the trip lever to
+rest against the stop tab (item 7). The latch lever
+(item 5) should rest firmly against the Square stud
+of the number trip lever (item 4). Maintain this
+Setting as the screw (item 6) is tightened, Release
+the number button by depressing the button release,
+Check each number button for Proper latching and
+selector switch contact engagement.
+
+(2) To adj the letter latch lever? (fig. 4,
+item 1), follow the same procedure outlined in (1).
+
+WURLITZER

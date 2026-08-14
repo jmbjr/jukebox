@@ -2,103 +2,87 @@ SECTION F
 
 COIN AND CREDIT FAILURE CONT'D.
 
-contacts in ry-2, ry-11, ry-12,
-golden bar switch 1, number selector
+SYMPTOMS CAUSE CORRECTIONS
 
-switch.
-
-sie
-CAUSE CORRECTIONS
-Gotha reach coinbag | (0) Playrek cleeult Breaker tripped Reset circult breaker.
+Goins reach coin bag (a) Playrak circuit breaker tripped Reset circult breaker.
 but do not establish
-credits in playrak (b) Open or burned coin magnet coll. Replace coil,
-(suns ieee oricormiuchantam lie
-Seat plug fletnly ln socket,
-not firmly seated in socket Lie Sab :
-(a) Incorrect alignment of rejector and Seat rejector properly in mounting
-’ soln, av teh paca channel.
+credits in play:
+
+(b) Open or burned coin magnet coll. Replace coil,
+
+(c) Slug rejector or coin mechanism plug
+
+Seat plug firmly In socket.
+not firmly seated in socket Pie een
+
+(4) Incorrect alignment of rejector and rejector properly in mounting
+
+coin switch paddies channel.
 (©) Dirty or improperly adjusted coin Clean and adjust coin switch, see
-switehs parageaph 2 page 9A.
+switch. paragraph a, page 3A.
+
 3. Half dollar coin does not
-eatablion cents ~ | () Jumper plug missing from top tunes
-stablish credits, other » J : plug missing from top tun Replace jumper plug.
-coins establish credits, socket in junction box.
+
+establish credits, other | ©) Jumper plug missing from top tunes Replace jumper plug.
+coins estabiishbckeaire= socket in junction box.
 4. Half dollar coin (a) 200 selection phonograph. Open
-establishes only one contacts in ry-3, ry-I1, ry-12, Clean relay contacts, clean and adjust
-credit. golden bar switch 1, letter or switches
-humbex larch witches
+establishes only one contacts in ry-3, ry-11, ry-12, Clean relay contacts, clean and adjust
+credit. golden bar switch 1, letter or switches.
+
+number latch switches.
+
 (b) 100 selection phonograph. Open
 
-Clean relay contacts, clean and adjust
-switches.
+contacts in ry-2, ry-11, ry-12, Clean relay contacts, clean and adjust
+golden bar switch 1, number selector switches.
+switch.
+Three credits for two (a) Jumper plug (white nylon) missing Replace fireente
+consecutive quarters. from junction box.
+(pb) Dirty or incorrectly adjusted 25¢ Clean and adjust switch, see para-
+credit switch in playrak. graph 6, page OA.
 
-Three credits for two
+(c) Contacts 4-12, ry-8 (playrak)
 
-consecutive quarters.
+dirty or incorrectly adjusted. Clean relay contacts.
 
-(a)
+—
+Credits established in (Oe Revuwiici ope: Clean and adjust key switch, see para-
+playrak; select lamp graph 1, page 4A.
 
-Jumper plug (white nylon) missing
-from junction box.
+does not light; selec~
 
-Replace jumper plug.
+tions cannot be made. Clean and adjust series switches, see
 
-(b)
+(b) Selector series switches open.
 
-Dirty or incorrectly adjus
-credit switch in playrak.
-
-Clean and adjust switch, see para-
-graph 6, page 6A.
-
-(c)
-
-Contacts 4-12, ry-8 (playrak)
-dirty or incorrectly adjusted.
-
-Clean relay contacts.
-
-Credits established in
-playrak; select lamp
-does not light; selec-
-tions cannot be made.
 See paragraph 2,
 page 13E, paragraph 3,
 pages 13E and 14E.
 
-6.
-
-Key switch open.
-
-Selector series switches open.
-
-8 amp. dc, fuse blown.
-
-Top tunes jumper plug missing in
-junction box.
-
-Defective latch solenoid,
-
-Button release switch (n.c.) open.
-
-Dirty contacts 1-9, ry-4 (ry-2 in 100
-selection phonograph), or 3-11, ry-12,
-
-Clean and adjust key switch, see para-
-graph L, page 4A.
-
-Clean and adjust series switches, see
 paragraph h, page 4B.
 
 Replace fuse. Check for shorts in U.c.
 circuit, check fuse for proper size.
 
+(c) 8 amp. d.c, fuse blown.
+
+Dirty contacts 1-9, ry-4 (ry-2 in 100
+selection phonograph), or 3-11, ry-12,
+
 Clean relay contacts.
 
-Replace jumper plug.
+Top tunes jumper plug missing in
+Junction box.
 
-Replace latch solenoid.
+Replace jumper plug. =|
+
+Defective latch solenoid. Replace Pees |
 
 Check button release switch (item 1,
 fig. 1, page 2B) for opén circuit or bind.
 
+Button release switch (n.c.) open.
+
+Page 3F
+
+WURLITZER

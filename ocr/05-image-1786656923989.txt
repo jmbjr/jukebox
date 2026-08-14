@@ -1,16 +1,16 @@
-SPCTION F
+SECTION FE
 
-FIG. 9. 169-A REMOTE VOLUME CONTROL.
+FIG. 9. 169-A REMOTE VOLUME CONTROL
 
 Choke (2)
 Cable Clamp
 Resistor, 47 ohm, 1/2W. (2)
 Motor, Mtg. Brkt. & Wire Assy.
 Motor & Pinion Assy.
-Mounting Screw, 6-32 x 1/4”, Hex,
+Mounting Screw, 6-32 x 1/4’, Hex,
 Type 23 (2)
 Mounting Bracket Assy.
-' Spring Retainer
+" Spring Retainer
 Roll Pin (2)
 Spring
 Connector Link
@@ -24,7 +24,7 @@ Page 22E
 121006
 120880
 
-73776-22
+73776 -22
 120872
 120871
 
@@ -42,7 +42,7 @@ Page 22E
 15,
 16.
 
-17,
+17
 
 Spring Connector (2)
 
@@ -60,10 +60,12 @@ Knob
 
 Stop Plate
 
-Control Case Assy., Complete
+Control Case Assy.,
 Case
 
 Bottom Cover
+
+Complete
 
 120863
 121235
@@ -75,6 +77,5 @@ Bottom Cover
 126135
 126134
 121008
-120985
+120985.
 120987
-

@@ -1,33 +1,174 @@
-FIG. 108. TOP TUNES & ALBUM AUTOMATIC PROGRAMMING ASSEMBLY
+FIG. 108.
+200
 
-200 | 100 200 100
-1. Motor & Worm 124928 124928 23. Button Top Tunes 124997 124997
-2. Choke Coil, 150 Uh. 121291 | 121291 24, Mounting Bracket 125215 | 125215
-3. Actuator, Disc & Hub 126784 | 126784 25. Window Blank, Clear 125213 | 125213
-4, Switch, Full Cycle 124015 | 124015 26. Coin Denomination Label 129506 | 129506
-5. Latch Lever (2) 126190 | 126191 27. Window Blank, Translucent 125214] 125214
-6. Switch, Release 124002 | 124002 28. Insert 125276 | 125276
-7. Spring (2) 110480 | 125737 29, Nut 73601-3 | 73601-3
-8. Spring (3) 124086 | 124086 Screw, 4-40 x 1/4", F1.74959-23 | 74959-23
-9. Slide & Spring 124170 | 124171 30. Socket 111817 | 111817
-10. Trip Lever 124084 124108 31. Screw, 6-32 x 3/4", R.Hd.73533-28 | 73533-28
-11. Actuator, T.T.T. 124073 | 124097 32. Relay, White, 24 Volt,
-Actuator, 9 T.T. 124075 | 124099 D.C. 122133 | 122133
-Actuator, 8T.T. 124076 | 124100 33, Fuse Post 121809 | 121809
-Actuator, 7 T.T. 124077 | 124101 Fuse, .5 Amp. 71591-6 | 71591-6
-Actuator, 6 T.T. 124078 124102 34, Socket, 4 Pin Min. 69090 69090
-12. Actuator, Latch Pin, Lower 124031 124049 35. Socket, 12 114325 114325
-13. Actuator, 10 T.T. 124074 | 124098 36. Rectifter 71588-17 | 71588-17
-14, Switch 124014 | 124014 37. Capacitor, 100 Mfd.,
-15. Gear, Pinion & Bracket 50 Volt 73846-32 | 73846-32
-Assy, 125968 125968 38. Resistor, 560 ohm, 2W. 72474-32 | 72474-32
-16. Resistor, 25 ohms, 5W. 74817-2 | 74817-2 Resistor, 1.8 ohm,
-17. Socket 113530 | 113530 10W. 74896-2 | 74896-2
-18. Contacts 111527 111527 39, Plug, 12 114324 114324
-19. Bracket & Light Shield 125218 | 125218 40. Cap, 4 122649 | 122649
-20. Switch 125221 | 125221 Contact 111527} 111527
-21. Bulb 111816 | 111816 41. Cap, 9 113529} 113
-22, Pivot Bracket 125216 | 125216 Contact 111527 ee
+1. Motor & Worm 124928
+2. Choke Coil, 150 Uh. 121291
+3. Actuator, Disc & Hub 126784
+4. Switch, Full Cycle 124015.
+5. Latch Lever (2) 126190
+6. Switch, Release 124002
+7. Spring (2) 110480
+8. Spring (3) 124086
+9. Slide & Spring 124170
+10. Trip Lever 124084
+11. Actuator, T.T.T. 124073
+Actuator, 9 T.T. 124075
+Actuator, 8T.T. 124076
+Actuator, 7 T.T. 124077
+Actuator, 6 T.T. 124078
+12. Actuator, Latch Pin, Lower 124031
+13. Actuator, 10 T.T. 124074
+14, Switch 124014
+
+15. Gear, Pinion & Bracket
+Assy. 125968
+16. Resistor, 25 ohms, 5W. 74817-2
+17. Socket 113530
+18. Contacts 111527
+19. Bracket & Light Shield 125218
+20. Switch 125221
+21. Bulb 111816
+22. Pivot Bracket 125216
+
 Page 16B
+
+TOP TUNES & ALBUM AUTOMATIC PROGRAMMING ASSEMBLY
+
+100
+
+124928
+
+121291
+126784
+124015
+126191
+124002
+125737
+124086
+124171
+124108
+124097
+124099
+124100
+124101
+124102
+124049
+124098
+124014
+
+125968
+74817-2
+113530
+111527
+125218
+125221
+111816
+125216
+
+33,
+34,
+35)
+36.
+37,
+38.
+39,
+40.
+
+41.
+
+Button Top Tunes
+Mounting Bracket
+Window Blank, Clear
+Coin Denomination Label
+
+Window Blank, Translucent
+
+Insert
+Nut
+
+200
+
+124997
+
+125215
+125213.
+129506
+125214
+125276
+73601-3
+
+Screw, 4-40 x 1/4", F1.74959-23
+
+Socket
+
+111817
+
+Serew, 6-32 x 3/4", R.Hd.73533-28
+
+Relay, White, 24 Volt,
+D.C.
+Fuse Post
+Fuse, .5 Amp.
+Socket, 4 Pin Min.
+Socket, 12
+Rectifier
+Capacitor, 100 Mfd.,
+50 Volt
+Resistor, 560 ohm, 2W.
+Resistor, 1.8 ohm,
+10W.
+Plug, 12
+Cap, 4
+Contact
+Cap, 9
+Contact
+
+122133
+121809
+71591-6
+69090
+114325
+71588-17
+
+73846-32
+72474-32
+
+74896 -2
+114324
+122649
+111527
+113529
+111527
+
+100
+
+124997
+125215
+125213
+129506
+125214
+125276
+
+73601-3
+74959-23
+111817
+73533-28
+
+122133
+121809
+71591-6
+69090
+114325
+71588-17
+
+73846-32
+72474-32
+
+74896-2
+114324
+122649
+111527
+113529
+111527
 
 WURLITZER

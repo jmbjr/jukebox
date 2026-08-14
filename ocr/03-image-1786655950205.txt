@@ -1,48 +1,51 @@
-CAUTION |
+CAUTION |!
 
-Check to be sure
-crews were tightened.
+Check to be sure the adjustment did not
+when the screws were tightened.
 
-€ adjustment did not chang:
+hange
 
-when the
+e. FINAL LATCH SOL
 
-e. FINAL LATCH SOLENOID ADJUSTMENT
+NOID ADJUSTMEN?
+
 (1) Loosen the latch solenoid adjusting
-ct (fig. 2, item 2). Manually hold the plunger
-(item 1) firmly bottomed in the solenoid. Move the
-solenoid to provide 5/64" maximum clearance be-
-tween the tab (item 7) on the release lever and the
+. 2, item 2). Manually hold the plunger
+nly bottomed in the solenoid. Move the
 
-trip lever (item 5).
+to provide 5/64’ maximum clearance be-
+
+solenoid
+tween the tab (item 7) on the release lever and the
+number trip lever (item 5).
 
 (2) The plunger travel should not exceed
 Check the release lever action for mechani-
-c the plunger within the solenoid. Realigr
-the 1 lenoid with the plur cessary but
+of the plunger within the solenoid. Re
+ch solenoid with the plunger if ne
+ain the adjustment as outlined
 
-t as outlin
+3/16".
+cal k
+the 1
 
-adjustme:
+lign
+essary but
 
-56628
-129102
-17694
+STOP BRACKET AL
+LATCH SOLENOID
 
-1
-ae:
-
-3. Stop Bracket
-4, Release Lever
-5
-6
-
-a ension, 1/64” Clearance
-
-9. L , Letters 65009
-10 6-32 x R He 73503-72
-56 Numbers 117691
-= f. CONTROL SWITCH ADJUSTMENT
+Dimension, 1/64" Clearance
+Screw, 8-32 x 1/4", R.Hd. 73533-34
+Stop Bracket 56628
+4, Release Leve 129102
+Se 7694
+6.
+8.
+oe
+10
+11. 117691
+eset CONTROL SWITCH ADJUSTMENT
 
 Manually hold the latch solenoid plunger
 (fig. 5, item 1) in the actuated position. Loosen the
@@ -54,28 +57,36 @@ should close with a 1/32" overtravel.
 
 LETTER AND NUMBER LATCH
 
-g-
+g.
 SWITCH ADJUSTMENT
 
-Manually hold the latch solenoid plunger
+the latch solenoid plunger
 
-d position. Loosen
-ig. 5, item 1) in the actuate
-AG See latch switch adjusting screws (item 2) and
+1d
+Manually hol Loosen
+
+i ted position.
+fig. 5, item 1) in the actual
+ice Jatch switch adjusting screws (item 2) and
 
 WURLITZER
 
-————— Ul
+————— lll
 
-533-34
-129102
-73533-34
+SECTION B
+
+, Numbers
+5 atch Le imber 117
+x 1/4", ReHd. 533-34
+se Lever 129102
+", RuHd. 73533-34
 
 FIG. 5. CONTROL & LATCH SWITCH ADJUSTMENT
 1, Plunger, Latch Solenoid 112104-1
 2, Screw, 8-32 x 1/4", R.Hd. 73533-34
 3. Zero Clearance
-4. Contacts Open 1/32"
+
+4. Contacts Open 1/32”
 
 5. Zero Clearance
 
@@ -85,20 +96,19 @@ FIG. 5. CONTROL & LATCH SWITCH ADJUSTMENT
 8. Control Switch & Mounting Bracket 125406
 9. Contacts Close With 1/32" Overtravel
 
-10, Screws, 8-32 x 1/4", R.Hd. 73533-34
+10. Screws, 8-32 x 1/4", R.Hd. 73533-34
 
 set the long blade of the switch assembly to zero
 clearance with the insulated stud on the trip lever as
-shown at item 3. The contacts are set normally open
+shown at item 3, The contacts are set normally open
 1/32", When a letter button is latched, the contacts
 should close with 1/32" overtravel. The contact
 ‘blades may be formed to provide the proper gap and
 overtravel.
 
-The number latch switch may be adjusted in
+‘The number latch switch may be adjusted in
 the same manner by loosening the screws (fig. 5,
 item 6). The contact setting should be the same as
 for the letter latch switch above.
 
 Page 3B
-

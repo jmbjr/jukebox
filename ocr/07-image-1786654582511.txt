@@ -1,226 +1,603 @@
-Page 2E
-
-100
-Al
-BL
-Ci
-Di
-El
-Fl
-F6
-Gi
-Hi
-Jo
-
-Ki
-Ko
-
-200
-
-ACHPWOVZZOCATLCOBNMHVAS
-
-COOUHFAHWhwWNe
-
-100-200
-
-19
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30-130
-31
-32
-33
-34
-35
-36
-37
-38
-
 WIRING DIAGRAM COLOR CODE
 
 SOLID
 
-COLOR
-
-WIRE TRACER
-Tan Brown
-Red Brown
-Orange Brown
-Yellow Brown
-
-Lt. Green Brown
-Lt. Blue Brown
-
-Purple Brown
-Gray Brown
-White Brown
-Pink Brown
-Brown Black
-Red Black
-
-Orange Black
-Yellow Black
-Lt. Green Black
-Lt. Blue Black
-
-Purple Black
-Gray Black
-White Black
-Tan Black
-Brown Orange
-Red Orange
-Tan Orange
-
-Yellow Orange
-Lt. Green Orange
-Lt. Blue Orange
-
-Purple Orange
-Gray Orange
-White Orange
-Black Orange
-White Purple
-Brown Red
-Tan Red
-Orange —- Red
-Yellow Red
-
-Lt. Green Red
-Lt. Blue Red
-
-Purple Red
-Gray Red
-White Red
-Black Red
-Tan None
-Red None
-Orange None
-Yellow None
-
-Dr. Green None
-Dr. Blue None
-Purple None
-Gray None
-
 SOLID
-COLOR
-WIRE
 
-White
-Black
-Brown
-Red
-Orange
-Tan
-Dr. Green
-Dr. Blue
-Purple
-Gray
-White
-Black
-Brown
-Red
-Orange
-Yellow
-Tan
-Lt. Blue
-Purple
-Gray
-White
-Black
-Brown
-Red
-Orange
-Yellow
-Lt. Green
-Tan
-Pink
-Gray
-White
-Black
-Brown
-Red
-Orange
-Yellow
-Lt. Green
-Lr. Blue
-Tan
-Gray
-White
-Black
-Brown
-Red
-Orange
-Yellow
-Lt. Green
-Lt. Blue
-Purple
-Gray
-Tan
-Black
+‘COLOR
+
+COLOR
+
+100
+
+200
+
+WIRE
 
 TRACER
 
+100-200
+
+WIRE
+
+TRACER
+
+Al
+
+Tan
+
+Brown
+
+39
+
+White
+
 None
+
+Red
+
+Brown
+
+40-140
+
+Black
+
 None
+
+BL
+
+Orange
+
+Brown
+
+41
+
+Brown
+
 Yellow
+
 Yellow
+
+Brown
+
+42
+
+Red
+
 Yellow
+
+Ci
+
+Lt. Green Brown
+
+43
+
+Orange
+
 Yellow
+
+C6
+
+t. Blue
+
+Brown
+
+44
+
+Tan
+
 Yellow
-Yellow
-Yellow
-Yellow
-Yellow
-Yellow
-Green
-Green
-Green
-Green
-Green
-Green
-Green
-Green
-Green
-Green
-Blue
-Blue
-Blue
-Blue
-Blue
-Blue
-Blue
-Blue
-Blue
-Blue
+
+Di
+
 Purple
+
+Brown
+
+45
+
+Dr. Green
+
+Yellow
+
+Gray
+
+Brown
+
+46
+
+Dr. Blue
+
+Yellow
+
+El
+
+White
+
+Brown
+
+47-147
+
 Purple
+
+Yellow
+
+E6
+
+K
+
+Pink
+
+Brown
+
+48
+
+Gray
+
+Yellow
+
+Fl
+
+Brown
+
+Black
+
+49
+
+White
+
+Yellow
+
+Red
+
+F6
+
+Black
+
+50
+
+Black
+
+Yellow
+
+Gi
+
+N
+
+Orange
+
+Black
+
+51
+
+Brown
+
+Green
+
+Yellow
+
+Black
+
+G6
+
+52
+
+Red
+
+Green
+
+AL
+
+Lt. Green Black
+
+53
+
+Orange
+
+Green
+
+He
+
+Lt. Blue
+
+Black
+
+54
+
+Yellow
+
+Green
+
+ii
+
 Purple
+
+Black
+
+55
+
+Tan
+
+Green
+
+Jo
+
+Black
+
+56
+
+t. Blue
+
+Gray
+
+Green
+
+Ki
+
+White
+
+Black
+
+57
+
 Purple
+
+Green
+
+Ko
+
+Tan
+
+Black
+
+58
+
+Green
+
+Gray
+
+59
+
+White
+
+Green
+
+Brown
+
+Orange
+
+60
+
+Black
+
+Green
+
+Red
+
+61
+
+Orange
+
+Brown
+
+Blue
+
+Tan
+
+Orange
+
+62
+
+Red
+
+Blue
+
+Yellow
+
+Orange
+
+63
+
+64
+
+Orange
+
+Blue
+
+Lt. Green Orange
+
+Yellow
+
+Blue
+
+Lt. Blue
+
+Orange
+
+65
+
+Lt. Green
+
+Blue
+
 Purple
+
+Orange
+
+66
+
+Tan
+
+Blue
+
+Gray
+
+Orange
+
+67
+
+Pink
+
+Blue
+
+White
+
+Orange
+
+68
+
+Gray
+
+Black
+
+Orange
+
+69
+
+Blue
+
+White
+
+Blue
+
+70
+
+Black
+
+Blue
+
+100-200
+
+71
+
+Brown
+
+19
+
+White
+
 Purple
+
+72
+
 Purple
+
+21
+
+Red
+
 Purple
+
+Brown
+
+Red
+
+73
+
+Orange
+
+22
+
+Tan
+
+Red
+
+74
+
+Yellow
+
 Purple
+
+23
+
+Orange
+
+Red
+
+Purple
+
+24
+
+75 = 17:
+
+Lt. Green
+
+Purple
+
+Yellow
+
+Red
+
+76
+
+Lr. Blue
+
+25
+
+Lt. Green Red
+
+77-177
+
+Tan
+
+Purple
+
+26
+
+Lt. Blue
+
+Red
+
+78
+
+Purple
+
+27
+
+Re
+
+Gray
+
+Purple
+
+Purple
+
+79-179
+
+White
+
+28
+
+Gray
+
+Red
+
+80
+
+Black
+
+Purple
+
+29
+
+White
+
+Red
+
+81
+
 Purp!
-White
-White
-White
-White
-White
-White
-White
-White
-White
+
+30-130
+
+Black
+
+Red
+
+Brown
+
 White
 
-=
+31
 
-WURLITZER
+Tan
+
+82
+
+Red
+
+White
+
+None
+
+83
+
+Orange
+
+32
+
+Red
+
+None
+
+84
+
+Yellow
+
+White
+
+33
+
+Orange
+
+None
+
+85
+
+White
+
+34
+
+Yellow
+
+None
+
+Lt. Green
+
+White
+
+Dr. Green None
+
+86
+
+Lt. Blue
+
+35
+
+87
+
+Purple
+
+White
+
+36
+
+Dr. Blue
+
+None
+
+88
+
+White
+
+37
+
+Purple
+
+None
+
+89
+
+Gray
+
+White
+
+38
+
+Gray
+
+None
+
+Tan
+
+90
+
+Black
+
+White
+
+White
+
+Page 2E
+
+w .

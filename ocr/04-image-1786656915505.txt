@@ -1,88 +1,79 @@
 SECTION E
 
 NUMBER
-
 SWITCHES | ta6
-ORIVER
-
+ORIVER,
 SOLENOID
 
-¢ Coil Energized
+auer Coil Energized
 
-3 - 1to Al, thr
-n 32 through Al-5 letter coll , through letter switch, through number swi
--{ to 46, through circuit breaker, through ry-4 (7-11), through St ee
+on ae
 
-contacts 2
-“t energized, Al selector pin released.
-— NUMBER
+through Al-S letter coil to Al, through letter switch, through number switch, through i
+‘ control
 
+common 32 three, to 46, through circuit break
+arch contacts 2— , cult breaker, through ry-4 (7-11 -
+switch orregized, Al selector pin released. remedial ee MEE MOEEL: Li
+ae NUMBER
 LETTER SWITCH
 
-SWITCH 1 CONTROL
-‘SWITCH CIRCUIT
-\ 2 sreaner "(4 RY!
-ne 3-11
-TOC g——©
+SWITCH | CONTROL
+SWITCH GIRCUIT
+ry 2 BReaKen oy; AY!
+Bl
+=
 
-Counte
-Fe > through free play switch, through counter to 50, through ry~4 (6-10) to 40. Counter registers
-
-one selection.
-
-mmon 3:
+Oe ee
 
 FREE
 PLAY
-SWITCH
 
-= a
+1
 
-COUNTER 8-10
+COUNTER 10
 
-1 Solenoid
+2] Solenoid
 
-£
+common 82 through cancel solenoid to 45, through ry-4 (5-9) to 35. Cancel solenoid cancels one credit.
 
-32 through cancel solenoid to 45, through ry-4 (5-9) to 35. Cancel solenoid cancels one credit.
+J SOLENOID 6-9
+) S
 
-RY4
-6-9
-
+Released
 Ry-2 released after capacitor discharges through
 
-CANCEL
-SOLENOID
+4 (1-9) open removing -D.G. 35 from ry-2 coil.
+sistor and ry-2 coil (see schematic 4).
 
-y-2 Released
+3S
 
--9) open removing -D.C. 35 from y=2 colts
-esistor and ry-2 coil (see schematic 4).
+h Solenoid Released
 
-4. Latch Solenoid Released
 a. Ry-2 (11-7) open releasing latch solenoid (see schematic 5).
-1 (see schematic 10). Contacts 3-4
 
-e circuit to the letter coil
-4 hunt across 85 ohm resistor (see
+atic 10). Contacts 3-4
 
-b. Control switch contacts 1-2 open th
-4-5 close to restore S!
+reuit to the letter coil (see schem:
+85 ohm resistor (see
 
-open the circuit to the select lamp,
+b. Control switch contacts 1-2 open the cl
+5 close to restore shunt across
+
+open the circuit to the select lamp, 4~
 schematic 3).
 
-Ry-4 Released
+4 Released
 
-Ry-4 (12-8) open releasing driver solenoid (see echematic 9).
+@. Ry-4 (12-8) open releasing driver solenoid (see schematic 9).
 
-b
+b. Ry-4 (6-10) open releasing counter (see echematic 11).
 
-Ry-4 (6-10) open releasing counter (see schematic 11).
+©. Ry-4 (5-9) open releasing cancel solenoid (see schematic 12).
 
-:  Ry-4 (5-9) open releasing cancel solenoid (see schematic 12).
+ae
 
-7 Page 21E
+ZER
+Page 21E
 
 WORUTZER
-
