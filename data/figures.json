@@ -1,0 +1,26 @@
+[
+  {
+    "id": "2b-fig-2",
+    "pageId": "p008",
+    "number": "2",
+    "title": "Preliminary adjustment of latch solenoid",
+    "image": "assets/figures/2b-fig-2.jpg",
+    "source": {
+      "pageLabel": "2B",
+      "sourceFile": "02-image-1786655943542.jpg",
+      "crop": { "x": 590, "y": 92, "width": 505, "height": 300 },
+      "coordinateSpace": "page image after approved 90 degree clockwise rotation"
+    },
+    "callouts": [
+      { "number": "1", "label": "Plunger, latch solenoid", "partNumber": "112104-1", "x": 20, "y": 10 },
+      { "number": "2", "label": "Screw, 8-32 × 1/4 in., round head", "partNumber": "73533-34", "x": 30, "y": 10 },
+      { "number": "3", "label": "Trip lever, letters", "partNumber": "117694", "x": 49, "y": 8 },
+      { "number": "4", "label": "Adjusting screw, 6-32 × 3/4 in., round head", "partNumber": "73503-72", "x": 60, "y": 8 },
+      { "number": "5", "label": "Trip lever, numbers", "partNumber": "117691", "x": 76, "y": 8 },
+      { "number": "6", "label": "Screw, 8-32 × 1/4 in., round head", "partNumber": "73533-34", "x": 78, "y": 80 },
+      { "number": "7", "label": "Stop tab, release lever", "partNumber": "129102", "x": 64, "y": 80 },
+      { "number": "8", "label": "Screw, 8-32 × 1/4 in., round head", "partNumber": "73533-34", "x": 48, "y": 80 },
+      { "number": "9", "label": "Latch solenoid", "partNumber": "112104", "x": 20, "y": 78 }
+    ]
+  }
+]

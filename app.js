@@ -6,7 +6,7 @@ const sections=[
   {key:'Section E',letter:'E',title:'Electrical and Sound Systems'},
   {key:'Section F',letter:'F',title:'Trouble Shooting'}
 ];
-let catalog=[],active='Contents',selected=null;
+let catalog=[],figures=[],active='Contents',selected=null;
 const $=s=>document.querySelector(s);
 const pageNumber=p=>Number.parseInt(p.label,10)||Number.MAX_SAFE_INTEGER;
 const canonicalSort=(a,b)=>{
@@ -18,7 +18,10 @@ const manualPages=()=>catalog.filter(p=>sections.some(s=>s.key===p.section)).sor
 const referencePages=()=>catalog.filter(p=>!sections.some(s=>s.key===p.section));
 
 async function load(){
-  catalog=await fetch('data/pages.json',{cache:'no-store'}).then(r=>r.json());
+  [catalog,figures]=await Promise.all([
+    fetch('data/pages.json',{cache:'no-store'}).then(r=>r.json()),
+    fetch('data/figures.json',{cache:'no-store'}).then(r=>r.json())
+  ]);
   renderSections();renderContents();renderList();showContents();
 }
 function renderSections(){
@@ -74,10 +77,29 @@ function select(p){
   details.hidden=!usable;details.open=false;
   details.querySelector('summary').textContent=manual?'Searchable transcription — manually verified':usable?`Searchable OCR text — ${quality}`:'OCR hidden because recognition quality is poor';
   $('#ocr').textContent=usable?p.ocr:'OCR unavailable for display. Use the page image as authority.';
+  renderFigures(p);
   const ordered=active==='Reference'?referencePages():catalog.filter(x=>x.section===active).sort((a,b)=>pageNumber(a)-pageNumber(b)||a.label.localeCompare(b.label,undefined,{numeric:true}));
   const index=ordered.findIndex(x=>x.id===p.id);
   $('#previous').disabled=index<=0;$('#next').disabled=index<0||index===ordered.length-1;
   $('#previous').onclick=()=>index>0&&select(ordered[index-1]);$('#next').onclick=()=>index<ordered.length-1&&select(ordered[index+1]);
+}
+function renderFigures(page){
+  const host=$('#figures'),items=figures.filter(f=>f.pageId===page.id);
+  host.hidden=!items.length;
+  host.innerHTML=items.map(f=>`<article class="figure-card">
+    <div class="figure-heading"><div><p class="eyebrow">Extracted figure ${f.number}</p><h2>${f.title}</h2></div><small>From page ${f.source.pageLabel}</small></div>
+    <p class="figure-help">Select a numbered callout to identify the referenced part.</p>
+    <div class="figure-layout">
+      <div class="figure-image"><img src="${f.image}" alt="Figure ${f.number}: ${f.title}">${f.callouts.map(c=>`<button type="button" class="callout" style="--x:${c.x}%;--y:${c.y}%" data-figure="${f.id}" data-callout="${c.number}" aria-label="Callout ${c.number}: ${c.label}">${c.number}</button>`).join('')}</div>
+      <div class="callout-detail" id="${f.id}-detail" aria-live="polite"><strong>Choose a callout</strong><span>Its manual description and part number will appear here.</span></div>
+    </div>
+    <p class="figure-source">Extracted from the photographed page. The full page remains authoritative.</p>
+  </article>`).join('');
+  host.querySelectorAll('.callout').forEach(button=>button.onclick=()=>{
+    const figure=figures.find(f=>f.id===button.dataset.figure),callout=figure.callouts.find(c=>c.number===button.dataset.callout);
+    host.querySelectorAll(`[data-figure="${figure.id}"]`).forEach(item=>item.classList.toggle('active',item===button));
+    $(`#${figure.id}-detail`).innerHTML=`<strong>Item ${callout.number}: ${callout.label}</strong><span>Part number: ${callout.partNumber||'not listed'}</span>`;
+  });
 }
 $('#search').addEventListener('input',()=>{renderList();if($('#search').value.trim()&&active==='Contents'){$('#contentsView').hidden=true;$('#pageView').hidden=true;}});
 $('#theme').onclick=()=>document.body.classList.toggle('dark');
