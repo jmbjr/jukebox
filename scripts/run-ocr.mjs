@@ -8,8 +8,10 @@ const catalogPath=path.join(root,'data/pages.json');
 const catalog=JSON.parse(fs.readFileSync(catalogPath,'utf8'));
 const outputDir=path.join(root,'ocr');
 const rawDir=path.join(outputDir,'raw');
+const curatedDir=path.join(outputDir,'curated');
 const referencePdf=process.env.WURLITZER_REFERENCE_PDF;
 const pdftoppm=process.env.PDFTOPPM||'pdftoppm';
+const onlyPage=process.env.OCR_PAGE;
 fs.mkdirSync(rawDir,{recursive:true});
 
 const sectionPdfOffsets={B:14,C:31,D:60,E:66,F:90};
@@ -56,6 +58,7 @@ const tempRoot=fs.existsSync(os.tmpdir())?os.tmpdir():root;
 const temp=fs.mkdtempSync(path.join(tempRoot,'jukebox-ocr-'));
 try{
   for(const page of catalog){
+    if(onlyPage&&![page.id,page.label,page.sourceFile].includes(onlyPage))continue;
     const input=path.join(root,page.image);
     const base=page.sourceFile.replace(/\.jpg$/,'');
     const normalized=path.join(temp,`${base}.png`);
@@ -69,13 +72,23 @@ try{
       execFileSync('convert',[input,'-rotate',String(page.rotation||0),'-colorspace','Gray','-auto-level','-sharpen','0x0.8','-density','300',normalized]);
     }
     const psm=/schematic|wiring diagram|exploded view/i.test(page.title)?'11':'3';
-    const text=execFileSync('tesseract',[normalized,'stdout','-l','eng','--oem','1','--psm',psm],{encoding:'utf8',maxBuffer:20e6,stdio:['ignore','pipe','ignore']}).trim();
+    const generatedText=execFileSync('tesseract',[normalized,'stdout','-l','eng','--oem','1','--psm',psm],{encoding:'utf8',maxBuffer:20e6,stdio:['ignore','pipe','ignore']}).trim();
     const tsv=execFileSync('tesseract',[normalized,'stdout','-l','eng','--oem','1','--psm',psm,'tsv'],{encoding:'utf8',maxBuffer:30e6,stdio:['ignore','pipe','ignore']});
     const words=wordsFromTsv(tsv);
+    const curatedPath=path.join(curatedDir,`${base}.txt`);
+    const curated=fs.existsSync(curatedPath);
+    const text=curated?fs.readFileSync(curatedPath,'utf8').trim():generatedText;
     fs.writeFileSync(path.join(outputDir,`${base}.txt`),text+'\n');
     fs.writeFileSync(path.join(rawDir,`${base}.tsv`),tsv);
     page.ocr=text;
-    page.ocrQuality=qualityFor(page,words,pdfPage);
+    page.ocrQuality=curated?{
+      status:'good',
+      confidence:100,
+      wordCount:text.split(/\s+/).filter(Boolean).length,
+      engine:'manual transcription',
+      preprocessing:'row-by-row transcription from reference PDF',
+      source:`reference PDF page ${pdfPage}, manually verified`
+    }:qualityFor(page,words,pdfPage);
     console.log(`${page.label.padEnd(10)} ${page.ocrQuality.status.padEnd(12)} ${String(page.ocrQuality.confidence).padStart(5)}% ${words.length} words ${pdfPage?`PDF ${pdfPage}`:'scan'}`);
   }
   fs.writeFileSync(catalogPath,JSON.stringify(catalog,null,2)+'\n');

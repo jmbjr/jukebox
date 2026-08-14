@@ -70,9 +70,9 @@ function select(p){
   image.src=p.image;image.alt=p.title;image.style.setProperty('--rotation',`${rotation}deg`);
   viewer.classList.toggle('quarter-turn',rotation===90||rotation===270);viewer.dataset.rotation=String(rotation);
   $('#pageTitle').textContent=p.title;$('#pageSection').textContent=`${p.section} • ${p.label}`;$('#original').href=p.image;
-  const details=$('#ocr').closest('details'),quality=p.ocrQuality?.status||'poor',usable=['good','partial'].includes(quality);
+  const details=$('#ocr').closest('details'),quality=p.ocrQuality?.status||'poor',usable=['good','partial'].includes(quality),manual=p.ocrQuality?.engine==='manual transcription';
   details.hidden=!usable;details.open=false;
-  details.querySelector('summary').textContent=usable?`Searchable OCR text — ${quality}`:'OCR hidden because recognition quality is poor';
+  details.querySelector('summary').textContent=manual?'Searchable transcription — manually verified':usable?`Searchable OCR text — ${quality}`:'OCR hidden because recognition quality is poor';
   $('#ocr').textContent=usable?p.ocr:'OCR unavailable for display. Use the page image as authority.';
   const ordered=active==='Reference'?referencePages():catalog.filter(x=>x.section===active).sort((a,b)=>pageNumber(a)-pageNumber(b)||a.label.localeCompare(b.label,undefined,{numeric:true}));
   const index=ordered.findIndex(x=>x.id===p.id);
