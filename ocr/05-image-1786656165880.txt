@@ -1,39 +1,39 @@
 4 FIG. 20. SELECTOR SWITCH ASSEMBLY
 
-200 | ‘100 200 100.
-1. Support Bracket, R.H. 128965 128965, 24, Release Lever 129102 129102
-. Lever & Bracket 120799 120799 25. Screws, 8-32 x 1/4",
+200 | 100 200 100
+1, Support Bracket, R.H. 128965 128965, 24. Release Lever 129102 129102
+. Lever & Bracket 120799 | 120799 25. Screws, 8-32 x 1/4",
 3. Reject Rod 128769 | 128769 R.Hd. 73533-34 | 73533-34
 Nut (2) 73601-10 |73601-10 26. Spring, Letter Trip 126007 | 126007
-4. Mounting Bracket 125215 125215 27. Spring, Number Trip 57129 57129
-5. Thumb Screw 126080 126080 28. Latch Lever, Numbers 117695 117695
-6. Light Shield 129101 129101 29, Trip Lever, Numbers 117691 117691
-7. Clamp 128880 128880 30, Trip Lever, Letters 117694 117694
-8. Numbers, 1-5 128877 128877 31. Adjusting Screw,
-Numbers, 6-0. 128878 128878 6-32 x 3/4", R.Hd. 73503-72 | 73503-72
-Light Diffuser, Red, 32. Latch Lever, Letters 65009 65009
-Numbers & Letters 128969 128969 33. Latch Switch & Bracket
-9, Escutcheon, Button Release 128846 128846 Assy., Numbers 126314 126314
-10. Selector Casting 130814 130819 34, Series Switch & Bracket
-11, Letters, A-E 128873 128873 . Assy., Numbers 66007 66007
-Letters, F-K 128874 128874 35. Series Switch & Bracket
-Letters, L-Q 128875 Assy., Letters 111810 111810
+4, Mounting Bracket 125215 | 125215 27. Spring, Number Trip 57129 | 57129
+5. Thumb Screw 126080 | 126080 28. Latch Lever, Numbers 117695 | 117695
+6. Light Shield 129101 | 129101 29, ‘Trip Lever, Numbers 117691 | 117691
+7. Clamp 128880 | 128880 30, Trip Lever, Letters 117694 | 117694
+8. Numbers, 1-5 128877 | 128877 31. Adjusting Screw,
+Numbers, 6-0 128878 | 128878 6-32 x 3/4", R.Hd.  73503-72 | 73503-72
+Light Diffuser, Red, 32. Latch Lever, Letters 65009 | 65009
+Numbers & Letters 128969 | 128969 33. Latch Switch & Bracket
+9, Escutcheon, Button Release 128846 | 128846 Assy., Numbers 126314 | 126314
+10. Selector Casting 130814 | 130819 34, Series Switch & Bracket
+11, Letters, A-E 128873 | 128873 . Assy., Numbers 66007 | 66007
+Letters, F-K 128874 | 128874 35. Series Switch & Bracket
+Letters, L-Q 128875 Assy., Letters 11igio | 111810
 Letters, R-V 128876 36. Latch Switch & Bracket
-12, Clamp 128856 128856 Assy., Letters 126314 126314
-13. Support Bracket, L.H. 129466 129466 37. Control Switch & Bracket
-14, Light Shield 130977 130977 Assy. 125406 125406
-15. Clamp 125357 125357 38. Latch Solenoid 112104 112104
+12. Clamp 128856 | 128856 Assy., Letters 126314 | 126314
+13. Support Bracket, LH. 129466 | 129466 37. Control Switch & Bracket
+i4. Light Shield 130977 | 130977 Assy. 125406 | 125406
+15. Clamp 125357 | 125357 38. __Latch Solenoid 112104 | 112104
 16. Light Box 128900 | 128900 Plunger, Solenoid 112104-A |112104-A
-17. Socket (2) 111817 | 111817 Pin, Solenoid Plunger 65947 65947
-Lamp (2) 111816 111816 Washer 487 487
-18. Button 128509 | 128509 Cotter Pin 23355 | 23355
+17. Socket (2) 111817 | 111817 Pin, Solenoid Plunger 65947 | 65947
+Lamp (2) 111816 | 111816 Washer 487 487
+18. Button 128509 | 128509 Cotter Pin 23955 | 23355
 19. Switch, Button Release 128854 | 128854 39. Counter 129486 | 129486
-20. Light Diffuser, Front 128881 | 128881 40. Resistor, 85 ohm, SW. —74819-2 74819-2
-21. Light Diffuser, Rear 128914 128914 41. Resistor, 175 ohm, SW. 74824-2 | 74824-2
-rive renee [rasa Sek, Rese | ae
-‘ 12 43. Selector Switch, Letters
-22, Selector Switch, Numbers Aa vane Pheetrccait, vat ta10ss | 131059
-23. Crank & Link geenee Re isi" 181058
+20. Light Diffuser, Front 128881 | 128881 40. Resistor, 85 ohm, 5W. —74819-2 74819-2
+21. Light Diffuser, Rear ig014 | 128914 41. Resistor, 175 ohm, SW. 748242 74824-2
+Rivet 73623-41 |73623-41 42. Switch, Free Play 126106 | 126106
+22. Selector Switch, Numbers 128888 | 128912 43. Selector Switch, Letters 128887 | 128911
+& Link 111720 | 111720 44. Light Shield, LH. 131085 | 131059
+By Gea Light Shield, R.H. 131054 131058
 Page 15B
 
-west ———
+WURLITZER ———————  —F
