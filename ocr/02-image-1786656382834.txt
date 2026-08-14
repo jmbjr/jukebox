@@ -1,142 +1,107 @@
 SECTION F
 
-SOUND FAILURE CONT'D.
-
-SYMPTOMS | eed
-
+SOUND FAILURE CONT'D. =
 CORRECTIONS
 
-(e) Mute switch shorted
+SYMPTOMS Ale
 
 Clean and adjust mute and play switch
-see page 8!
 
-contacts
+(e) Mute switch shorted. contacts, see page 8C.
 
-(f) Open speaker circuit. ,
+! Check and repair open speaker circuit,
 
-Check and repair open speaker circuit,
+(f) Open speaker circuit.
+SS =|
+Check for shorts in
+Check P.A.
 
-=
+Replace fuse.
+auxiliary speaker lines.
+nodule. See amplifier schem
 
-2. Poor tone quality.
-Sioa (a) Blown 3 amp. fuse F4 in one channel.
+Poor tone quality.
 
-Replace fuse. Check for shorts in
-auxiliary speaker lines. Check P.A.
-module, See amplifier schematic.
-
-(b) Pick up cartridge open or shorted
-in one channel.
+(a) Blown 3 amp. fuse F4 in one channel.
+atic.
 
 Check contacts at connector plug
-Check cartridge, replace if defective.
 
-$- Automatic level con- (a) Mute and squelch switch not connected.
+(b) Pick up cartridge open or shorted
+2 ‘ — Check cartridge, replace if Uefective,
 
-Insert muting plug.
+in one channel.
 
+3. Automatic level con- (a) Mute and squelch switch not connected. Insert muting plug.
 trol not squelched.
-
-(b) Open contact on squelch switch
-
 Adjust play switch to operate squelch
-circuit. Check contacts.
+(b) Open contact on squelch switch. eeetlou Giecbcameen
 
-(c) Defective Q5, Di, VR-1, VR-2.
+4 Check and replace if found defective.
+Re <2) PL VEL, VR-2, See amplifier schematic.
 
-Check and replace if found defective.
-See amplifier schematic.
++ Tone distortion. Remote speakers mismatched. Check remote speakers for proper matching.
 
-4. Tone distortion. Remote speakers mismatched
+(b) Defective cartridge. Replace defective cartridge.
 
-Check remote speakers for proper matching.
+(c) Chassis not floating on mounting Unscrew chassis hold-down bolts to
+1/2" clearance, chassis to cone washer.
 
-(b) Defective cartridge.
-
-Replace defective cartridge.
-
-(©) Chassis not floating on mounting
-springs.
-
-Unscrew chassis hold-down bolts to
-
-1/2” clearance, chassis to cone washer.
-
-(d) Stereo cartridge not properly
-connected.
-
-Refer to amplifier schematic for
-cartridge connections.
-
-Phono speaker incorrectly connected.
-
-See page 108,
-
-=
-
-Waver in music. (a) Drag in turntable assembly.
-
-(e) Turntable shaft or motor bearings ury.
-
-Check turntable and turntable motor
+springs. Rp
+(d) Stereo cartridge not properly Refer to amplifier schematic for
+connected. cartridge connections.
+iL
+Phono speaker incorrectly connected. See page 10E,
+is Waver in music. ] (a) Drag in turntable assembly. Check turntable and turntable motor
 adjustments on page 10C.
+Turntable shaft or motor bearings dry. | Lubricate, see page 17C.
+(©) Turntable belts loose. Tighten belts, see page 12C.
+(d) Oil on belts or drive wheel, Remove oil with nuptha.
 
-Lubricate, see page 17C.
+(e) Too much end play in turntable shaft. Add shim between turntable bushing
 
-(c) Turntable belts loose.
+and pulley, see page 17C.
 
-Tighten belts, see page 12C.
+(Warped or Evcentrie record, Replace record.
 
-(J) Oil on belts or drive wheel,
+Check record lift army height and record
+track stop bracket adjustments
+Pages 4C und 5c.
 
-(e) Too much end play in turntable shaft.
+(g) Record drags on lift arm or revoru
 
-(9) Warped or Eccentric record.
+track. see
 
-(g) Record drags on lift arm or record
-track.
-
-6. Noise from speakers
+6. Noise from speukers
 when mechanism is
 changing records,
 
-(a) Mute switch not vonnueted.
+Check mute and play switch socket and
 
-(b) Mute switch fails 10 close,
+(a) Mute switch not vonne.
+plug on amplifier.
 
-Noixe from speakers:
+ected,
+
+Clean and adjust mute
+see page 8C
+
+nel phy switch,
+
+Noise from speakers
 while record is play-
 ing.
 
-filter capacitor in amplifier,
+ve filter capacitor in amplifier, Replace dete,
 
-arm wire tov eh
-and trip switch cable,
+tive capacitor,
 
-SU 10 safely
+(b) Tone arm wire ino close to sulfely
+
+and irip switch cable, Reroute tone
+
+M1 Cable,
 
 Page 8F
 
-Remove oil with nuptha.
-
-Add shim between turntable bushing
-and pulley, see page 17C.
-
-Replace record.
-
-Check record lift arm height and re
-track stop bracket adjustments, see
-Pages 4C und 5c.
-
-Check mute and play switch socket aml
-plug on amplifier,
-
-Clean and axjust mute
-see page Hi
-
-nd plity switch,
-
-Replace defective capacitor,
-
-Reroute tune arn cable,
+wurtiTZe
