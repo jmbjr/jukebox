@@ -5,7 +5,6 @@
     "number": "2",
     "title": "Preliminary adjustment of latch solenoid",
     "image": "assets/figures/2b-fig-2.jpg",
-    "hotspotsVerified": true,
     "source": {
       "pageLabel": "2B",
       "sourceFile": "02-image-1786655943542.jpg",
@@ -25,8 +24,8 @@
     ]
   },
   {
-    "id":"2b-fig-1","pageId":"p008","number":"1","title":"Connector link plate adjustment","image":"assets/figures/2b-fig-1.jpg","source":{"pageLabel":"2B","sourceFile":"02-image-1786655943542.jpg","crop":{"x":15,"y":390,"width":430,"height":390},"coordinateSpace":"900 px oriented review derivative"},"callouts":[
-      {"number":"1","label":"Switch, button release","partNumber":"128854","x":52,"y":27},{"number":"2","label":"Spacer","partNumber":"126299","x":61,"y":27},{"number":"3","label":"Screw, 8-32 × 5/8 in., hex head","partNumber":"71493-39","x":70,"y":27},{"number":"4","label":"Connector link plate","partNumber":"126521","x":80,"y":27},{"number":"5","label":"Screw, 6-32 × 3/8 in., hex head","partNumber":"71493-24","x":90,"y":27},{"number":"6","label":"Shoulder bushing","partNumber":"124018","x":91,"y":69},{"number":"7","label":"Spacer","partNumber":"124040","x":82,"y":69},{"number":"8","label":"Connector link, 200","partNumber":"126550","x":74,"y":69},{"number":"9","label":"Connector link, 100","partNumber":"126851","x":66,"y":69},{"number":"10","label":"Plug, 12 pin","partNumber":"131176","x":57,"y":69},{"number":"11","label":"Shaft, link and lever assembly, numbers","partNumber":"126510","x":49,"y":69},{"number":"12","label":"Shaft, link and lever assembly, letters","partNumber":"126507","x":38,"y":69},{"number":"13","label":"Receptacle, 9 pin","partNumber":"131179","x":21,"y":69},{"number":"14","label":"Brace","partNumber":"130439","x":11,"y":69}
+    "id":"2b-fig-1","pageId":"p008","number":"1","title":"Connector link plate adjustment","image":"assets/figures/2b-fig-1.jpg","calloutsPositioned":true,"source":{"pageLabel":"2B","sourceFile":"02-image-1786655943542.jpg","crop":{"x":15,"y":390,"width":430,"height":390},"coordinateSpace":"900 px oriented review derivative"},"callouts":[
+      {"number":"1","label":"Switch, button release","partNumber":"128854","x":61.4,"y":34},{"number":"2","label":"Spacer","partNumber":"126299","x":72.6,"y":34.6},{"number":"3","label":"Screw, 8-32 × 5/8 in., hex head","partNumber":"71493-39","x":81.9,"y":35.3},{"number":"4","label":"Connector link plate","partNumber":"126521","x":87.6,"y":35.7},{"number":"5","label":"Screw, 6-32 × 3/8 in., hex head","partNumber":"71493-24","x":93.9,"y":35},{"number":"6","label":"Shoulder bushing","partNumber":"124018","x":94.6,"y":66.9},{"number":"7","label":"Spacer","partNumber":"124040","x":88.6,"y":66.9},{"number":"8","label":"Connector link, 200","partNumber":"126550","x":83,"y":66.5},{"number":"9","label":"Connector link, 100","partNumber":"126851","x":77.1,"y":66.6},{"number":"10","label":"Plug, 12 pin","partNumber":"131176","x":71,"y":66.6},{"number":"11","label":"Shaft, link and lever assembly, numbers","partNumber":"126510","x":63.6,"y":66.6},{"number":"12","label":"Shaft, link and lever assembly, letters","partNumber":"126507","x":53.7,"y":66},{"number":"13","label":"Receptacle, 9 pin","partNumber":"131179","x":29.1,"y":66.6},{"number":"14","label":"Brace","partNumber":"130439","x":21,"y":66.9}
     ]
   },
   {

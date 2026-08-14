@@ -43,4 +43,4 @@ Printed section/page labels are mapped to their corresponding reference-PDF page
 
 Manually verified structured transcriptions live under `ocr/curated/` and take precedence over generated OCR, so future full OCR runs do not overwrite them.
 
-Unverified figure hotspots appear as a sequential quick-callout tray. Use **Adjust positions** to drag them onto the printed figure numbers, then **Copy positions** to export the figure ID and percentage coordinates for review and curation. Only figures marked `hotspotsVerified` display spatial overlays by default.
+Unpositioned figure hotspots appear as a sequential quick-callout tray. Use **Adjust positions** to drag them onto the printed figure numbers, then **Copy positions** to export the figure ID and percentage coordinates for review and curation. Figures marked `calloutsPositioned` hide the tray and display their saved spatial overlays by default.

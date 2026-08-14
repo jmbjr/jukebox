@@ -84,14 +84,14 @@ function select(p){
   $('#previous').onclick=()=>index>0&&select(ordered[index-1]);$('#next').onclick=()=>index<ordered.length-1&&select(ordered[index+1]);
 }
 function renderFigures(page){
-  const host=$('#figures'),items=figures.filter(f=>f.pageId===page.id);
+  const host=$('#figures'),items=figures.filter(f=>f.pageId===page.id).sort((a,b)=>Number(a.number)-Number(b.number));
   host.hidden=!items.length;
-  host.innerHTML=items.map(f=>{const callouts=[...f.callouts].sort((a,b)=>Number(a.number)-Number(b.number));return `<article class="figure-card">
+  host.innerHTML=items.map(f=>{const callouts=[...f.callouts].sort((a,b)=>Number(a.number)-Number(b.number)),positioned=f.calloutsPositioned===true;return `<article class="figure-card">
     <div class="figure-heading"><div><p class="eyebrow">Extracted figure ${f.number}</p><h2>${f.title}</h2></div><small>From page ${f.source.pageLabel}</small></div>
-    <p class="figure-help">${f.hotspotsVerified?'Select a numbered hotspot or the ordered index to identify the referenced part.':'Select a numbered circle or index entry. Use Adjust positions to align the circles with the figure.'}</p>
-    ${f.hotspotsVerified?'':`<div class="figure-tools"><div class="callout-palette" aria-label="Figure ${f.number} quick callouts">${callouts.map(c=>`<button type="button" data-figure="${f.id}" data-callout="${c.number}" aria-label="Callout ${c.number}: ${c.label}">${c.number}</button>`).join('')}</div><button type="button" class="position-edit-toggle" data-figure="${f.id}">Adjust positions</button><button type="button" class="copy-positions" data-figure="${f.id}" hidden>Copy positions</button><span class="copy-status" aria-live="polite"></span></div>`}
+    <p class="figure-help">${positioned?'Select a numbered hotspot or index entry. Use Adjust positions to refine the saved locations.':'Select a numbered circle or index entry. Use Adjust positions to align the circles with the figure.'}</p>
+    <div class="figure-tools">${positioned?'':`<div class="callout-palette" aria-label="Figure ${f.number} quick callouts">${callouts.map(c=>`<button type="button" data-figure="${f.id}" data-callout="${c.number}" aria-label="Callout ${c.number}: ${c.label}">${c.number}</button>`).join('')}</div>`}<button type="button" class="position-edit-toggle" data-figure="${f.id}">Adjust positions</button><button type="button" class="copy-positions" data-figure="${f.id}" hidden>Copy positions</button><span class="copy-status" aria-live="polite"></span></div>
     <div class="figure-layout">
-      <div class="figure-image"><img src="${f.image}" alt="Figure ${f.number}: ${f.title}">${f.hotspotsVerified?callouts.map(c=>`<button type="button" class="callout" style="--x:${c.x}%;--y:${c.y}%" data-figure="${f.id}" data-callout="${c.number}" aria-label="Callout ${c.number}: ${c.label}">${c.number}</button>`).join(''):''}</div>
+      <div class="figure-image"><img src="${f.image}" alt="Figure ${f.number}: ${f.title}">${positioned?callouts.map(c=>`<button type="button" class="callout" style="--x:${c.x}%;--y:${c.y}%" data-figure="${f.id}" data-callout="${c.number}" aria-label="Callout ${c.number}: ${c.label}">${c.number}</button>`).join(''):''}</div>
       <div><div class="callout-detail" id="${f.id}-detail" aria-live="polite"><strong>Choose a callout</strong><span>Its manual description and part number will appear here.</span></div>
       <div class="callout-index" aria-label="Figure ${f.number} callout index">${callouts.map(c=>`<button type="button" data-figure="${f.id}" data-callout="${c.number}"><strong>${c.number}</strong><span>${c.label}</span></button>`).join('')}</div></div>
     </div>
@@ -103,6 +103,7 @@ function renderFigures(page){
     document.getElementById(`${figure.id}-detail`).innerHTML=`<strong>Item ${callout.number}: ${callout.label}</strong><span>Part number: ${callout.partNumber||'not listed'}</span>`;
   };
   host.querySelectorAll('[data-figure][data-callout]').forEach(button=>button.onclick=()=>selectCallout(button));
+  host.querySelectorAll('.figure-image .callout').forEach(button=>enableCalloutDrag(button,figures.find(f=>f.id===button.dataset.figure)));
   host.querySelectorAll('.position-edit-toggle').forEach(toggle=>toggle.onclick=()=>{
     const figure=figures.find(f=>f.id===toggle.dataset.figure),card=toggle.closest('.figure-card'),image=card.querySelector('.figure-image'),editing=!image.classList.contains('editing');
     image.classList.toggle('editing',editing);toggle.textContent=editing?'Finish adjusting':'Adjust positions';card.querySelector('.copy-positions').hidden=!editing;
@@ -117,7 +118,7 @@ function renderFigures(page){
   });
 }
 function enableCalloutDrag(button,figure){
-  button.addEventListener('pointerdown',event=>{event.preventDefault();button.setPointerCapture(event.pointerId);button.classList.add('dragging');});
+  button.addEventListener('pointerdown',event=>{if(!button.parentElement.classList.contains('editing'))return;event.preventDefault();button.setPointerCapture(event.pointerId);button.classList.add('dragging');});
   button.addEventListener('pointermove',event=>{
     if(!button.hasPointerCapture(event.pointerId))return;
     const box=button.parentElement.getBoundingClientRect(),x=Math.max(0,Math.min(100,(event.clientX-box.left)/box.width*100)),y=Math.max(0,Math.min(100,(event.clientY-box.top)/box.height*100)),callout=figure.callouts.find(c=>c.number===button.dataset.callout);
