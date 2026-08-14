@@ -1,12 +1,32 @@
-a
-y
-:
-SECTION B :
-FIG, 5. LP. UNIT
-i 1. Relay, White Cover, 28 V.D.C. 122133 6. Contact Plate, A.C. 124454
-2. Diode 71588-17 ts Contact Hub & Spring Assy. 124453
-3. Capacitor, .22 Mfd., 400 Volts 74325 -24 8. Motor 119275,
-4. Capacitor, 20 Mfd., 50 Volts 73840-42 OG Contact Flate, D.C. 124455
-5. Resistor, 560 ohm, 2W. 72474-32
+1. Relay, White Cover, 28 V.D.C.
+2. Diode
+
+ae Capacitor, .22 Mfd., 400 Volts
+4. Capacitor, 20 Mfd., 50 Volts
+Se Resistor, 560 ohm, 2W.
+WURLITZER
+
+FIG. 5.
+
+122133
+71588-17
+74325 -24
+73840-42
+72474-32
+
+L.P, UNIT
+6. Contact Plate, A.C.
+7 Contact Hub & Spring Assy.
+8, Motor
+9. Contact Flate, D.C,
+
+MaxManuals
+
+SECTION B
+
+124454
+124453
+119275
+124455
+
 Page 17B
-i WURLITZER 9

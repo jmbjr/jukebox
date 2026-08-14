@@ -2,62 +2,157 @@ SECTION F
 
 POWER AND LIGHT FAILURE
 
-SYMPTOMS CAUSE CORRECTION
-| —l|
-1. Fluorescent lamps do (a) Line cord plug not making contact Repair or replace plug or outlet.
-not light; phonograpt in outlet
-does ni
-(b) Internal break in line cord. Repair or replace line cord.
-5 eck for shorts in phonograph
-(c) 15 amp. line fuse blown. wiglig; Replace ise:
-(d) “House” fuse blown. for overload. Replace fuse
-{e) Main switch off Turn main switch on. |
-(f) Main switch defective. Replace main switch in amplifi |
-2. Fluorescent lamps do (a) Defective Replace lamp.
-not light; phonograph _— —
-operates normally. (bo) Defective starter. Replace starter
-Defective ballas! Replace ballast
-(d) Open circuit in lamp, starter or Trace and repair, see wiring diagrams
-ballast wiring. for 3200-3210.
-(e) Lamp loose in socket. Seat lamp firmly
-(f) Ballast line plug out of
-Insert plug.
-amplifier socket. Inge ne pve
-=|
-Phonograph does not Oicutee epien cues, h, se2 paragraph r
-rate; fluorescent
-- lamps light.
-j (b) Warped record caught between record
-j carrier and record guide casting warped record.
-} causing safety switch to open.
-—
-4. Select lamp does not Lamp burned out. Replace with GE-12 lamp.
-light; phonograph
-operates normally. (b) Selector control switch contacts Clean and adjust switch, see para-
-3 and 4 dirty or incorrectly adjusted. graph f, page 3B.
-175 ohm resistor, mounted on
+SYMPTOMS
 
-(c)
-selector switch assembly, open. Replace resistor.
+CAUSE
 
 CORRECTION
 
-(@) Bind in reject rod assembly
-holding rejector gate open.
+1, Fluorescent lamps do
+not light; phonograph
+does not operate.
 
-1. Coins rejected or
+(a)
+
+Line cord plug not making contact
+in outlet.
+
+Repair or replace plug or outlet,
+
+{b)
+
+Internal break in line cord.
+
+Repair or replace line cord,
+
+(c)
+
+15 amp. line fuse blown.
+
+Check for shorts in phonograph
+wiring, Replace fuse.
+
+2. Fluorescent lamps do
+not light; phonograph
+operates normally,
+
+(d) “House” fuse blown, Check for overload. Repiace fuse.
+{e) Main switch off. Turn main switch on.
+
+(f) Main switch defective. Replace main switch in amplifier.
+(a) Defective lamp. Replace lamp.
+
+(b) Defective starter. . Replace starter.
+
+(c) Defective ballast. Replace ballast.
+
+(d)
+
+Open circuit ip lamp, starter or
+ballast wiring.
+
+‘Trace and repair, see wiring diagrams
+
+for 3200-3210.
+
+(e)
+
+Lamp loose in socket.
+
+Seat lamp firmly in socket.
+
+(f)
+
+Ballast line plug out of
+amplifier socket.
+
+Insert plug.
+
+3, Phonograph does not
+operate; fluorescent
+lamps light.
+
+(a)
+
+Safety switch open,
+
+Adjust safety switch, see paragraph r,
+
+page 9C.
+
+{b)
+
+Warped record caught between record
+carrier and record guide casting
+causing safety switch to open.
+
+Remove warped record.
+
+4, Select lamp does nor
+light; phonograph
+operates normally.
+
+(a)
+
+Lamp burned out.
+
+Replace with GE-12 lamp.
+
+(b)
+
+Selector control switch contacts
+3 and 4 dirty or incorrectly adjusted.
+
+Clean and adjust switch, see para-
+graph f, page 3B,
+
+{c)
+
+175 ohm resistor, mounted on
+selector switch assembly, open.
+
+Replace resistor.
+
+COIN AND CREDIT FAILURE
+
+SYMPTOMS
+
+CAUSE
+
+CORRECTION
+
+1, Coins rejected or
+
 hang in slug rejector.
 
-Remove bind.
+{a)
+
+Bind in reject rod assembly
+holding rejector gate open.
+
+Remove bind,
+
+(b)
+
+Dirt in rejector,
 
 Clean rejector.
 
-See National Rejectors bulletin for
+(c)
 
-(c) Rejector improperly adjusted,
-ho. 1-22-000-NDQH rejector.
+Rejector improperly adjusted.
 
-Page 2F
-age WURLITZER
+See Nationa) Rejectors bulletin for
+no, 1-22-000-NDQH rejector,
+
+(9)
+
+Phonograph not level.
 
 Level phonograph.
+
+Page 2F
+
+MaxManuals
+
+WURLITZER

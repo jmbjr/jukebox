@@ -1,127 +1,74 @@
-hy
-
 SECTION B
 
-TOR - 100
+(a) Turn the service switch on the
+junction box OFF.
 
-Override Switch 115918
-Override Switch 115918
-Override Switch 115918
-Override Switch 115918
+{b) Release selector pin C3 and manu-
+ally move the selector pin down and allow it to slowly
+move up. When the lower edge of the latch recess in
+the outside edge of the pin is 1/32" above the latch
+plate the override switch adjacent to C3 selector pin
+should close. The contact tension should be adjusted
+to allow the pin to make its full upward travel. Each
+override switch should be checked and adjusted in the
+same manner using the pins listed in the first para-
+graph above.
 
-11, items 1, 2, 3, and 4,
-
-K9 should be use
-
-Selector pins
-0 check the
-de switch in line with the pins noted above. A
-
-FIG. 12. ROTATING PLATE & ROCKER ARM ADJUSTMENT
-Stop Arm
-
-1. 115662
-2. Stop Tab-Mounting Plate 117986
-3. Stop Tab-Stop Arm 115862
-4. Stop Bracket-Selector 115789
-5. Stop Tab-Stop Arm 115862
-6. Stop Tab-Mounting Plate 117986
-7. Screw, 8-32x 5/16", R.Hd.
-
-8. Screw, 8-32 x 5/16", R.Hd.
-
-9. Screw, 8-32x 7/8", Hex
-10. Spring & Plug Assy.
-
-11. Centering Shaft & Plate Assy. 115812
-12, Screws, 10-32 x 7/16", R.Hd. 73692-49
-13. Spring & Plug Assy. 64783
-14, Screw 73533-35
-
-Page 6B
-
-the service switch on the
-
-(b) Release selector pin C3 and manu
-lector pin down and allow it to slowly
-n the lower in
-
-ally move the
-move up. Wh
-
-ge of the latch reces
-edge of the pin is 1/32
-
-above the latch
-
-ide switch adjacent to G3 selector pin
-ntact tensic ould be adjusted
-Now Pin to make Its full upward trav: Each
-{de switch should be ct | and adjusted in the
-, the pins listed in the first para-
-taph at
-ROTATING PLATE AND ROCKER
+f. ROTATING PLATE AND ROCKER
 ARM ADJUSTMENT - 100
-To adjust the rotating plate and rocker
-alignment, remove the electric selector ass
-from th hanger mechanism and remove
-cover. Stand the assembly on edge m-
 
-ponents in the position shown in figur
+To adjust the rotating plate and rocker arm
+alignment, remove the electric selector assembly
+from the changer mechanism and remove the bottom
+cover. Stand the assembly on edge with the com-
+ponents in the position shown in figure 12.
 
-(1) The guide plate neld by the
-screws (fig. 12, item 7) should be set to z
-ance with the stop bracket (item 4)
+FIG, 11. OVERRIDE SWITCH-ELECTRIC SELECTOR ~ 100
+
+1. Contact, Override Switch 115918 (1) The guide plate held by the adjusting
+2, Contact, Override Switch 115918 — screws (fig. 12, item 7) should be set to zero clear-
+3. Contact, Override Switch 115918 ~~ ance with the stop bracket (item 4) on the rotating
+4, Contact, Override Switch 115918 .
+
 plate and rocker arm assembly.
 
-adjusting
+in figure 11, items 1, 2, 3, and 4. Selector pins
 
-on the
+nos, C3, E9, H4, and K9 should be used to check the
 
-stating
-
-2) The
-be set to align the t
-(fig. 13, item 3) with ten selector pins number thr:
-A through K and ten selector pins number eight,
-through K. ‘This is the normal rest position for
-rotating plate and rocker arm assembly. To che
-the alignment of the rocker arms with the other
-
-udjusting screw (item 9) should
-
-of the twenty rocker atms
-
+override switch in line with the pins noted above. A (2) The adjusting screw (item 9) should
+convenient method is as follows: be set to align the tips of the twenty rocker arms
+: (fig. 13, item 3) with ten selector pins number three,
+A through K and ten selector pins number eight, A
+through K. This is the normal rest position for the
+rotating plate and rocker arm assembly, To check
+the alignment of the rocker arms with the other se-
 lector pins, the following steps are suggested.
 
 (a) Manually move the rotating plate
 and rocker arm assembly to the extreme right hand
 stop position with the stop bracket (fig. 12, item 4)
 resting against the stop tab (item 6). In this position
-
-the tips of the twenty rocker arnis should be in align-
-
+the tips of the twenty rocker arms should be in align-
 ment with ten selector pins number one, A through K
-A through K,
-required, the thr
+and ten selector pins number six, A through K.
+Should adjustment be required, the three mounting
+3 screws (item 12)may be loosened and the stop magnet
+FIG. 12. ROTATING PLATE & ROCKER ARM ADJUSTMENT mounting plate moved to provide correct alignment.
 
-and ten selector pins number six,
-Should adjustment t e mounting
-y t ItOp Magnet
-mounting plate moved to provide correct alignment.
+1. Stop Arm 115862
+2. Stop Tab-Mounting Plate 117986 (b) Manually hold the rotating plate and
+3. Stop Tab-Stop Arm 115862 rocker arm assembly in its extreme left hand posi-
+fal | ap giopepenenartnnee Scie tion with the stop bracket (fig. 12, item 4) resting
+5. Stop Tab-Stop Arm 115862 - :
+6. Stop Tab-Mounting Plate 117986 against the stop tab (item 2). In this position, the
+7. Screw, 8-32 x 5/16", R.Hd. 73533-35 tips of the twenty rocker arms should be in alignment
+8. Screw, 8-32 x 5/16", R.Hd. 7353335 with ten selector pins number five, A through K and
+a screw, of x 778", Hex 737038 ten selector pins number zero, A through K. The
+. ir sy. 4 : =
+IL. Centering Shit & Plate Assy. LSet tag ates ecxwernmens 12) vo-anrive.ar wet
+12. Screws, 10-32 x 7/16", R.Hd. 73692-49 ng
+13. Spring & Plug Assy. 64783 factory setting for both the right and left hand
+14, Screw 73533-35 position.
 
-screws (item 12) ma loosened and the
-
-(b) Manually hold the rotating plate and
-rocker arm) assembly in lts extreme left hand posi-
-tlon with the stop bracket (fg, 12, item 4) resting
-against the stop tab (item 2), In this position, the
-tips of the twenty rocker arms should be in alignment
-with ten selector pins number five, A through K and
-ten selector pins number zero, A through K. ‘The
-stop magnet mounting plate may be moved by loosen-
-ing the three screws (item 12) to arrive at a Satis~
-factory setting for both the right and left hand
-position.
-
-WURLITZER
+Page 6B Max Manuals WURLITZER

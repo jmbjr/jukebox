@@ -1,66 +1,50 @@
-4 FIG, 20.
+4 FIG.
 
-Plate & Spacer
+1. Plate & Spacer
 
-Solenoid, Selector (20)
+2. Solenoid, Selector (20)
 Plunger
 
-Override Switch (4)
+3. Override Switch (4)
 
-Insulator (4)
+4. Insulator (4)
 
-Contact Plate
+5. Contact Plate
 
-Spring, Rotating Plate
+6. Spring, Rotating Plate
 
-Socket, 8 Pin
+7. Socket, 8 Pin
 
-Socket, 11 Pin
+8. Socket, 11 Pin
 
-Capacitor, 20 Mfd., 50V.
+9. Capacitor, 20 Mfd., 50V.
+10. Resistor, 560 ohms, 2W.
 
-Resistor, 560 ohms, 2W.
+ll. Resistor, 8 ohms, 5W.
+12. Resistor, 310 ohms, 5W.
 
-Resistor, 85 ohms, 5W.
+13. Socket, Relay, Without Color Code
 
-Resistor, 310 ohms, 5W. .
-
-Socket, Relay, Without Color Code
 Retainer, Socket (4)
-
-Capacitor, .1 Mfd., 600V.
-
-Socket, 6 Pin
-
-Guide, Selector Mount
-
-Roller
-
-Plug & Wire Assy.
-
-Rocker, Short (10)
-
-Rocker, Long (10)
-
-Rotating Plate
-
-Guide, Centering Yoke
-
-Gentering Yoke
-
-Solenoid, Driver (2)
-
-Spring & Plug Assy.
-
-Adjustment Bracket
-
-Retaining Ring
-
-Screw, 8-32 x 7/8", Hex
+14, Capacitor, .1 Mfd., 600V.
+15. Socket, 6 Pin
+16. Guide, Selector Mount
+17. Roller
+18. Plug & Wire Assy.
+19. Rocker, Short (10)
+20. Rocker, Long (10)
+21. Rotating Plate
+22, Guide, Centering Yoke
+23, Centering Yoke
+24. Solenoid, Driver (2)
+25. Spring & Plug Assy.
+26. Adjustment Bracket
+27. Retaining Ring
+28. Screw, 8-32.x 7/8", Hex
 
 WURLITZER
 
-EL
+20. ELECTRIC SELECTOR - 100
 
 122372
 64602
@@ -84,7 +68,7 @@ EL
 121319
 117692
 115788
-115787
+LL5787
 115823
 115802
 115975
@@ -93,16 +77,36 @@ EL
 73724-50
 73793-87
 
-TRIC SELE!
-
 29,
-30.
-31.
-32,
-33,
-34,
+30,
+SL.
+32.
+33.
+34.
+35.
+36.
+37,
 
-CTOR - 100
+38,
+39,
+40.
+41,
+42.
+43,
+44,
+45.
+46,
+47.
+48.
+49.
+50.
+SL.
+52.
+53,
+34.
+55.
+
+MaxManuals
 
 Stop, Centering Yoke
 Spring (2)
@@ -116,48 +120,35 @@ Terminal Bushing
 
 Socket, 11 Pin
 
-Socker, 12 Pin
+Socket, 12 Pin
 
 Circuit Breaker
 
 Palnut
+
 Lockwasher
-
 Socket, 4 Circuit
-
 Jumper Plug
-
 Resistor, 560 ohms, 2W.
-
-Capacitor, 50 Mfd., 50V.
-
+Capacitor, 50 Mfd,, 50¥.
 Resistor, 560 ohms, 2W.
-
 Capacitor, 150 Mfd., 50V.
-
 Spring, Stop Arm
-
 Stop Pivot
-
 Stop Arm
-
 Rectifier, Selenium
-
 Mounting Plate
-
 Magnet & Frame
-
 Stop Bracket, Selector
-
 Wobble Plate
 
-Capacitor, 124 Mfd., 50V. A.C.
+Capacitor, 124 Mfd., SOV. A.C.
 
 Latch Pin, Inner (50)
-
 Spring, Latch Pin (100)
-
 Latch Pin, Outer (50)
+
+SECTION B
 
 115824
 115821
@@ -168,15 +159,14 @@ Latch Pin, Outer (50)
 38492
 114325
 128801
-
-73797-15
-73607-11
+73797 -15
+73607 -11
 122650
 126223
 72474-32
-73845-32
+73845 -32
 72474-32
-73889-620
+73889 -620
 64773
 64649
 115862

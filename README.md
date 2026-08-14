@@ -30,11 +30,11 @@ Section F pages 4F and 5F were not present in the supplied photographs. Several 
 
 ## Regenerate OCR
 
-Requires ImageMagick and Tesseract 5 with English language data:
+Requires Poppler, ImageMagick, and Tesseract 5 with English language data. For best results, point the pipeline at a private, clean reference PDF. The PDF is used only as the OCR source and is never added to the repository:
 
 ```bash
-node scripts/run-ocr.mjs
+WURLITZER_REFERENCE_PDF=/private/path/wurlitzer3200.pdf node scripts/run-ocr.mjs
 node scripts/build-catalog.mjs
 ```
 
-The original photographs are never modified. The pipeline writes diagnostic TSV output locally to `ocr/raw/`; that generated directory is ignored and is not published as verified transcription.
+Printed section/page labels are mapped to their corresponding reference-PDF pages. Pages without a PDF counterpart fall back to the photographed scan. The original photographs and reference PDF are never modified. `private-source/` and diagnostic TSV output under `ocr/raw/` are ignored by Git.

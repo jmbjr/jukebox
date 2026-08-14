@@ -1,86 +1,85 @@
-\
+SECTION
 
-AY
+TOP TUNES SELECTOR FAILURE
 
-Avoupii Hite daitanw
-Nunta ta anteut tig
-Vn, Maden ve tiny
+SYMPTOMS
 
-Avwnyit (TE OTE
-' Helin t Chany tap
-Vuinar Wav ay (ohare
+CAUSE
 
-Avveybie HAL slotline
-WH nal Haneda
+CORRECTIONS
 
-edi ta played
+L. Accepts half dollars.
+Fails to select top
+tunes. Selector bar
+remains lighted.
 
-Maken ane ne
-tyom haytany
+Check for short circuits or coin switch
 
-Seoepie any eat
-Dow ior anette
-jail ¥
-Hunt ute wuloetion
+: ) 3 x os :
 
-dann
+(a) 1/2 amp. fuse blown in top tunes held closed in 5010 wall box. Repair
+control box. and replace fuse.
 
-Aveupie Hilt dull
-Hop dive hin doew
-Hol Lilt
+(b}) Open contucts, releuse switch, top Clean and adjust contacts, Check
 
-LOWE
+tunes Lrip ussy., or conlacts 7 & 11
+on ry-ll or 1 & 9 on ry-2.
 
-YOR TOMER SHLEO TOM PAILUME
+contacts 4 & 12 on ry-2 (3210).
 
-(a) 12s ie bli tie bap fine
+Open circuit at top tunes selector Switch.
 
-Heal Hk
+See wiring diagram 3200-3210,
 
-(H) pen pantie Hanne wwital) ta
+2. Accepts half dollars.
+Cannot select from top
+tunes bur or phono-
+graph keyboard.
 
-Om win WL
+Ry-bl does not remain energized,
+Open contacts $ and 12 on ry-1L or
+open contacts | & 9 on ry-2, oF
+[& 9, ry-4 (3210).
 
-Ewan eyed
+Clean anu adjust contacts, See wiring
+diagram 3200-3210,
 
-(0) CNH ELD eHHE AT Cap Giiewe melee tin ay/ttell
+3. Accepts half dollar.
+Will not transfer
+credits to playrak,
 
-Wy LE dew at remain anne gieael
-One vate HM TE on rye EE
-on Haniel Da an yey op
+Makes one selection
+from keyboard.
 
-Th yd COD
+a)
 
-Open von Ean ey on
-Hine tian hos ONO)
+Open vontacts 4 & 12 on ry-3 on
+junction box (3210).
 
-(pon vonune tie | anil Lot lawl wool
-i hayhoaed (410) oF vontiniti A Re AU
+Clean contacts.
 
-abry 2 (10)
+(b)
 
-pan eontiete Oke LO on rye L QMNO) oF
-pen conten 8A Yon pyel (MND)
+Open contacts 1 and 2 of latch sweteh
+on keyboard (3210) or contacts 4 & LU
+of ry-2 (3210),
 
-Dirty conten EO on yyed op
-vom 7 ALE on rye bark
-ony? GMD
+Clean and adjust vontacts,
 
-Fineak foe AOE LOUIE OF Bain itn
-fall clawed i SUN Wal Ay aquhe
-wil rape Hine
+4, Accepts any coin.
+Doves nol energize
 
-(loan an wijual eomtaeta, Cheek
-anne AW LOW EYE NANO)
+‘ an contacts 6 & 10 - ur
+latch solenoid or (u) pil ae ° hy ine ‘ aaa. " See wiring diagram 3200-3210,
+light make selection pen contaels « ile .
+lamp.
+3. Aveepts half dollars. {a) Dirty contacts | & 9 on ry-2 or
+Top tune hur docs comcts 7 & Ll on ry-Ll or 4& 12 Clean contacts.
+not light. on cy-2 (3210).
+(b) Defective lamp, tap tune selector. Repluce lamp, G.E. #12
 
-ow vAriie diner ann WAN VINO
+WURLITZER
 
-Clown anid adjunt contanin, Baw wiring
+MaxManuals
 
-Hinwrany 00-9210
-
-(lua vontnety
-
-Bow Wining Magram 8200-4210,
-
-(h) Defoetive timp, fap Hine veloute
+Page 9F_

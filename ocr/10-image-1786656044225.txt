@@ -1,124 +1,140 @@
-i
-
 SECTION B
 
-i
+Ve {
 
-SS
+a,
 
-2 |
+a |
 
-oad
+Sel ©
 
-G
+ar
 
-Sis
+Gm  @)
 
-oi
+Piss
 
-<<,
-
-cy
-
-ed
-
-Sy
-
-Ke
-
-SZ
-
-eS
-
-Gs
-
-CD)
-
-wy
-
-LAS
-
-\
-
-Dy
-
-SS
-
-"
-
-A
-
-RSs
-
-2
-
-U)
-
-if
-
-Zs
-
-® RAY
-
-i.
-
-VF
-
-Bak
-
-=
-
-Us
-
-pe
-
-=
-
-b
-
-‘Ze
+a (2)
 
 ee
 
-«
+fat
 
-(
+ey
 
-s\
+4
+
+CD
+
+~
+
+® g
+
+Ly
+
+VA
+
+S \
+
+VS
+
+C
+
+\
+
+S
+
+>»
+
+OF?
+
+pf
+
+~~
+
+Hi
+
+US
+
+-f7
+
+wi
+
+7)
+
+ty
+
+HI
+
+Hi
+
+R
+
+Ui
+
+IZ
+
+2
+
+a~ 4
+
+Hf
+
+il
+
+7
+
+Uf
+
+Y
+
+—\
+
+y. oe,
+
+\
+
+VAX
+
+“\
+
+ayy
+
+\%
 
 FIG. 18.
 
 JUNCTION BOX - 200
 
-10
-
 Plug, 11
 
 121584
 
-Socket, 4
+10
+
+Socket
 
 30495
-
-Socket, 12
 
 114325
 
 11
 
-Relay, White Cover, 28V., D.C.
+Relay, White Cover, 28V., D.C
 
 122133
 
-Plug & Wire Assy., Red (T.T. Jumper)
+Socket, 12
 
-123990
+122366
+
+Plug & Wire Assy., Red (T.T. Jumper) 123990
 
 12
 
-Relay, Red Cover, 24V., A.C.
+Relay, Red Cover, 24V., A.C
 
-122366
+4,
 
 Socket, 11
 
@@ -126,13 +142,11 @@ Socket, 11
 
 13
 
-5.
+Socket
 
-Socket, Relay, Without Color Code
+Relay, Without Color Code
 
 122131
-
-Socket, 4 Pin Min
 
 69090
 
@@ -141,6 +155,10 @@ Socket, 4 Pin Min
 Switch
 
 123715
+
+5.
+
+Sucket, 4 Pin Min
 
 6.
 
@@ -154,8 +172,6 @@ Circuit Breaker
 
 128801
 
-Jumper Plug
-
 126223
 
 16
@@ -164,19 +180,21 @@ Lamp Socket
 
 122358
 
-Terminal Bushing
+Jumper Plug
 
-124835,
+124835
 
 Lamp, No. 303
 
 122359
 
+Ve
+
+Terminal Bushing
+
 8.
 
-Plug & Wire Assy., Blue (Spec. Pr
-
-124279
+Plug & Wire Assy., Blue (Spec. Prog.) 124279
 
 17
 
@@ -186,23 +204,17 @@ Socket, 6
 
 9.
 
-Capacitor, 124 Mid.
-
-50V., A.C.
-
-PP)
+124 Mfd., SOV., A.C
 
 74808
 
-18.
-
-Capacitor, 35 Mfd., 50V.
+18
 
 Plug & Wire Assy. (Stepper Jumper)
 
 121319
 
-76356
+Capacitor
 
 19
 
@@ -210,28 +222,38 @@ Socket, 11
 
 58898
 
-Capacitor, 65-93 Mfd., 50V., A.C.
+Capacitor, 35 Mfd., 50V
+
+76356
+
+Capacitor, 65-93 Mfd
+
+50V., A.C
 
 70901
 
 Cap
 
-Capacitor, .047, 400V.
+16610
+
+047, 400V
 
 74569-24
 
-16610
+Capacitor,
 
-Capacitor, 100 Mid. , 50V.
+Capacitor, 100 Mfd
 
-73846-32
+50V
 
-Resistor, 310 ohm, 5W.
+73846 -32
+
+Resistor, 310 ohm, 5W
 
 70684-2
 
 Page 10B
 
-WURLITZER
+MaxManuals
 
-ee
+WURLITZER

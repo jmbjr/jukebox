@@ -1,81 +1,18 @@
-SECTION FE
+SECTION E
 
-FIG. 9. 169-A REMOTE VOLUME CONTROL
+FIG, 9. 169-A REMOTE VOLUME CONTROL
 
-Choke (2)
-Cable Clamp
-Resistor, 47 ohm, 1/2W. (2)
-Motor, Mtg. Brkt. & Wire Assy.
-Motor & Pinion Assy.
-Mounting Screw, 6-32 x 1/4’, Hex,
-Type 23 (2)
-Mounting Bracket Assy.
-" Spring Retainer
-Roll Pin (2)
-Spring
-Connector Link
-Gear
-
-Page 22E
-
-121291
-74264-5,
-72160-32
-121006
-120880
-
-73776 -22
-120872
-120871
-
-73782-6
-120998
-120862
-120866
-
-10.
-11,
-12,
-
-13,
-14,
-15,
-16.
-
-17
-
-Spring Connector (2)
-
-Terminal Board & Lug Assy.
-
-Mounting Screw, 1/2"-8, R.H.,
-Type A
-
-Switch, Cancel
-
-Push Button Knob
-
-Switch, Loudness Control
-Knob
-
-Stop Plate
-
-Control Case Assy.,
-Case
-
-Bottom Cover
-
-Complete
-
-120863
-121235
-
-73592-20
-120708
-120988
-120984
-126135
-126134
-121008
-120985.
-120987
+Ll. Choke (2) 12129] 10, Spring Connector (2) 120863
+Cable Clamp 74264-5 11, Terminal Board & Lug Assy. 121235
+2. Resistor, 47 ohm, L/2W. (2) 72160-32 12, Mounting Screw, 1/2"-8, R.H.,
+3. Motor, Mtg. Brkt. & Wire Assy. 121006 Type A 73592-20
+Motor & Pinion Assy. 120880 13. Switch, Cancel 120708
+4. Mounting Screw, 6-32 x 1/4", Hex, 14. Push Button Kneb 120988
+Type 23 (2) 73776-22 15. Switch, Loudness Control 120984
+5. Mounting Bracket Assy, 120872 Knob 126135
+6. Spring Retainer 120871 Stop Plate 126134
+Roll Pin (2) 73782-6 16. Control] Case Assy., Complete 121008
+7. Spring 120998 Case 120985
+8. Connector Link 120862 17. Bottom Cover 120987
+9. Gear . 120866
+Page 22E MaxManuals WURLITZER

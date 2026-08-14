@@ -1,76 +1,124 @@
 SECTION E
 
-Se
+oO  @
 
-a
+K >
 
-i
+NY
 
-Sie
+SS
 
-22
+fa
 
-NS
+, (~
 
-es
+i)
 
-ot
+<
 
-a NG
+mie
 
-sS
+e &
 
-=
+fs
 
-«NS
+iD
 
-x)
+ae
 
-<s
+a?
+
+ee
+
+<1
 
 &
 
-@®,
+>
 
-“>
+SS
 
-é
+se;
 
-ul
+a
 
-oe
+oN
 
-NEE
+ra
 
-iS
+hh)
 
-vy}
+co
 
-ty ©
+143
 
-FIG.
+co
+
+ye
+
+-
+
+‘d
+
+a
+
+GP =>
+
+~
+
+td
+
+Oo
+
+QS
+
+3
+
+IRS
+
+&
+
+oD
+
+D
+
+=
+
+NSE
+
+ra a“
+
+*
+
+aa
+
+eo
+
+i)
+
+FIG
 
 10.
 
 MODEL 548 AMPLIFIER
 
-Loudness Control Assy.
-
-131255
-
-Guide, Top
-
 128970
 
-125700
+Amplifier Guide, Top
 
-inal St
+Loudness Control Assy.
+
+131253
+
+Terminal Strip
 
 115492
 
-Loudness Control
+Loudness Contrgt
 
-ip
+125700
+
+Handle
 
 126012
 
@@ -78,47 +126,45 @@ Plug, 9 Pin, Miniature
 
 125702
 
-Handle
-
-Socket, 6 Pin
-
 32881
+
+Switch
 
 125709
 
-68770
+Socket, 6 Pin
 
-eptacl
+Receptacle, Input
 
 113420
 
 Cancel Switch
 
-121301
-
-Input
+68770
 
 131256
 
 10
 
-Switch, Line
+Switch,
 
-nt
+Line
 
-ed
+121301
 
-card, Complete
+Printed Board, Complete
 
-11
+Relay, RY-5 Red Dot (Requires
 
-Socket, 2 Pole, 110V.
+Lia
+
+Socket, 2 Pole,
+
+110¥,
 
 13037
 
-RY-5 Red Dot (Requires
-
-120853
+50 ohm, 5 W. Resistor)
 
 129547
 
@@ -126,57 +172,57 @@ RY-5 Red Dot (Requires
 
 Fuse Post
 
-71590-48
-
-0 ohm, 5 W. Resistor)
+126853
 
 74818-2
 
+71590-48
+
+Resistor, 50 ohm, 5 W.
+
 Fuse, 15 Amp.
 
-13037
-
-istor, 50 ohm, 5 W.
-
-13
-
-Socket, 2 Pole, 110V.
+Fuse Block
 
 125695
 
-129032
+13
 
-Bl lock
+Socket, 2 Pole,
 
-abel
+110¥.
+
+13037
+
+Label
 
 131254
 
-14
+i4
 
 Amplifier Guide, Bottom
 
-67464
+129032
 
 71588-21
 
 15
 
+~
+
 Line Cord
 
-7878-6
+7464
 
-ifier (4)
+Rectifier (4)
 
-Strain Relief
-
-125616
-
-sformer, Audio
+Transformer, Audio
 
 131304
 
-Driver
+Strain Relief
+
+71878-6
 
 126502
 
@@ -184,170 +230,142 @@ Driver
 
 Terminal Strip
 
-131303
+125616
 
-‘ansformer,
+Transformer, Driver
+
+Transistor,
+
+Driver (2) Q8, Q9
 
 131261
 
-17.
+l7
 
 Transformer, Power
 
-7e621L
+131303
 
-Tr
+Transistor,
 
-nsistor,
+Qs
 
-Driver (2) Q8, Q9
+131262
 
 18
 
 Capacitor, Electrolytic
 
-38492
+76621
 
-nsistor,
-
-Q
-
-131262
+Transistor,
 
 19
 
 Socket, 11 Pin
 
-76620
+38492
 
-Transistor,
+(2) Ql, Q2 Green
 
-Q) Ql, Q2 Green
+Dot
 
 130537-5
 
 20
 
-Capacitor,
+Capacitor, Electrolytic
 
-Electrolytic
-
-131264
-
-Dot
-
-21
-
-Heat Sink and
-
-Socket ASSY-
-
-131265
+76620
 
 Transistor,
 
 (2) Q3, Q4 Yellow
 
-125693
+21
+
+Heat Sink and Socket Assy.
+
+131264
 
 Dot
 
-130537-4
+130537 -4
 
 Heat Sink
 
+131265
+
+Transistor,
+
+(2) Q6, Q7 Red
+
 Socket (4)
 
-Transistor, (2) Q6, Q7 Red
+125693
 
-22.
+22
 
-‘Transistor,
-
-p.A. Module
+Transistor, P.A. Module
 
 Orange or Yellow Dot
 
-Q12, Q13, Red,
-
-130537-2, 3, 4
-
-Q10, Qll,
-
-or Blue
-
-125703
-
 (Specify color)
 
-Orange
+130537 -2, 3, 4
 
-Green,
+Qi0, Ql1, QL2, QL3, Red,
 
 Barretters (2)
 
 125989
 
-(Specify Color)
-
-125720
-
-Clamp (2)
+Orange Green, or Blue
 
 76266
 
-1b
+125703
 
-125708
+Clamp (2)
+
+(Specify Color)
+
+Capacitor (2) (1200 Mfd.)
 
 76263
 
 23
 
-131266
+Knob
 
-Capacitor (2) (1200 Mfd.)
-
-24.
-
-switch (4)
-
-r
-
-|
+125720
 
 Optional
 
 76622
 
-25.
+24
 
-Cover & S!
+Switch (4)
 
-ilk Screen Assy+
+125708
 
 Fuse, 8 Amp.
 
-71590-33
+71590 -33
 
-71590-22
+25
 
-4
+Cover & Silk Screen Assy.
 
-a
+131266
 
 3 Amp.
 
-|
+71590 -22
 
-a
+MaxManuals
+
+WURLITZER
 
 Page 23E
-
-ER
-
-a
-
-URUTZER
-
-—

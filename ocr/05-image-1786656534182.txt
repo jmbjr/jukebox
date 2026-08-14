@@ -1,361 +1,513 @@
-=
-
-CC —— ae
-
-SECTION E
-
 MODEL 3200 WIRING DIAGRAM
 
-sie
+ee a ee ee ee ee eee ee ee CO Nn 0 8 Kn 6S  -— OS
 
-———
+r
 
-—__
+SELECTION MOTOR
 
-lig
-
-a
-
-=
-
-— on
+74 F
 
 THERMOSTAT
 
-\f
+| |
 
-CS)
+[CONT ROL,
 
-I
-
-Lise
-
-Ei
-
-ce
-
-4
-
-r=)
-
-|
-
-al
-
-==)
+SPEAKER
 
 ae
 
-thy
+, Hey yeni
 
-=
+| |
 
-& #ee5
+[V 234
 
-att
+START REVERS
 
-MD
+d !
 
-If
+t2s3
 
-i
+456
 
-Ee Ee
+2 | I
 
-BEERS
+‘
 
-Sy
+SWITCH SWITCH |
 
-38 88
+* | |
 
-wat
-
-3
-
-|
-
-un
-
-=
-
-Tease
-
-ae
-
-| LaLa
-
-Rd
-
-nt
-
-| ae
-
-%
-
-ee
-
-So
-
-3s
-
-395
-
-OVERRIDE
-
-‘|
-
-950
-
-ee
-
-2
-
-ragle
-
-ney
-
-TA1P
-
-7
-
-5358!
-
-SS
-
-Switcy SAITO
-
-Te a
-
-|
-
-i=)
-
-ae
-
-A
-
-=O?
-
-Tt)
-
-|
-
-pee
-
-<TD
-
-~te0ne >
-
-cAaniace
-
-mH
-
-|
-
-Sas
-
-|
-
-‘i
-
-1)
-
-1]
-
-i
-
-cay
+50¢ COIL
 
 a
 
-\!
+¢
 
-|
+REDIT
 
-Saree
-
-‘|
-
-{|
-
-ill
-
-|
-
-1)
-
-|
-
-|!
-
-j
-
-5
+S88
 
 2
 
-ae
+i]
 
-il
+00 -
 
-2% Grermosrar
+iT a
 
-ll
+MUTING
 
-(1
+TO AMP.
+
+~ ct
+
+LEVEL CONTROL bl
+
+TO AMP
+
+iv hit f|
+
+wwe
+
+SWITCH
+
+43
+
+Mm oro
+
+oo
+
+Ss
+
+™m wo
+
+Qmm
+
+'2345
+
+CAA
+
+VY AA
+
+| |
+
+\A
+
+AWA
+
+PLAY
+
+TRANSFER
+
+LOADING
+
+| |
+
+\{ |
+
+SWITCH
+
+SWITCH
+
+SWITCH
+
+PESTO
+
+| |
+
+| |
+
+coIL
+
+1o¢
+
+| |
+
+nN
+
+| |
 
 |
 
-|
+C0
 
-i
+99
 
-q
+OVERRIDE
 
-a4
+TURNTABLE
 
-\\
-
-LL)
-
-Mr
-
-frac
-
-Bay
-
-iH
-
-1]
-
-ee
-
-| | sesh
-
-—
-
-| I
+SWITCH
 
 |
-
-aaa
-
-YYelyy
-
-Sh
-
-2s
-
-\
-
-COT
-
-dae
-
-fe eee
-
-Agos SEE
-
-Wy yal
-
-WAN
-
-WY)
-
-I
-
-cane nenego
-
-py)
-
-yy |
-
-eG
-
-iit
-
-se
-
-1
-
-petite i
-
-Coin MECHANISM BLOG,
-
-pov
-
-Lint.
-
-r5¥8
-
-4s ezecenro>
-
-fiery Pe Spey
-
-(ely eho Perec
-
-PhEL
-
-Titi
 
 MOTOR
 
-[revinsne swrrem puss] JL
+Maley,
 
-Toss TeSesat
+99999
 
-SOCKETS!
+SA —$¥_
 
-ojos
+[|
 
-|_ [SELECTOR Col Socket
+SAFETY
 
-ie
+SWITCH
 
-SELECTOR COM.
+TRIP
 
-SoGhET#s]_[SELECTOR COIL PLUG a)
+"Op
 
-Tose 5 67 69100
+go
 
-renwal
+*—»e——__ W \]
 
-ees
+SWITCH
 
-[resesera seu)
+1o¢
 
-Tes on
+ia]
 
-Tose 5 6 769101
+99999
 
-Tes4 5676900) |
+| |
 
-3200 WIRING DIAGRAM SECTION A- 131157
+9
 
-NOTE,
+OOOO
 
-ALL SWIC
+o™
 
-SWITCHES ARE SHOWN IN A
+| |
 
-CONDITION AT THE TIME OF PRINTING
+5 4.
+
+00000
+
+090009
+
+2a
+
+If
+
+4?
+
+—/
+
+e
+
+HO009
+
+20000
+
+carrie OL
+
+oN
+
+|
+
+l2
+
+8
+
+*
+
+*
+
+hh
+
+y-<
+
+SWITCH
+
+|
+
+~~
+
+ZL)
+
+“ t
+
+*
+
+|
+
+7 &—e
+
+| |
+
+fol
+
+ad
+
+CAM
+
+| |
+
+64 2
+
+LEVER
+
+\ |
+
+SWITCH
+
+| |
+
+||
+
+v
+
+°
+
+||
+
+4,
+
+SPEED CONTROL
+
+SOLENOID
+
+INTERLOCK|
+
+O!1D
+
+| |
+
+| |
+
+e
+
+CANCEL
+
+CHASSIS
+
+rit MFO
+
+| |
+
+MOTOR
+
+©
+
+| |
+
+THERMOSTAT
+
+| |
+
+t
+
+| 1
+
+a
+
+9)
+
+N
+
+| |
+
+ia)
+
+a)
+
+[ FoR LP,
+
+ONLY
+
+KEY
+
+| |
+
+|
+
+SWITCH
+
+| |
+
+| |
+
+||
+
+G
+
+| |
+
+a 1
+
+th
+
+CIRCUIT
+
+| |
+
+| |
+
+BREAKER
+
+| |
+
+/) | |
+
+COO0C (etre
+
+/ |
+
+YeTy)
+
+\\
+
+(100 (((( EE
+
+| |
+
+(IVY VV)
+
+Wyyyyyyy)
+
+YVAN NNS4
+
+—nntnonwaan0?
+
+onae
+
+orm
+
+| |
+
+On~nn Oo
+
+Anew noeoe &
+
+o-~”wor
+
+oyun FT
+
+IM0OWULOT XN
+
+JS3SZ0042HVFI>6
+
+oO oO
+
+ra)
+
+| |
+
+VAM MESH
+
+Ooo nwn
+
+—omnrvyet
+
+TT ON
+
+|
+
+Ltt 1 |
+
+Liiit
+
+| {| | |
+
+{| | |
+
+|
+
+|_| |
+
+| |
+
+|
+
+Liiit
+
+Lite
+
+iyi}
+
+| |
+
+i
+
+| |
+
+it
+
+i
+
+aeneneeee
+
+| |
+
+Litt
+
+[{ | | 14}
+
+|
+
+ji.
+
+SELECTOR COIL SOCKET *I
+
+SELECTOR COIL ae
+
+SELECTOR COIL SOCKET *3
+
+SELECTOR COIL PLUG *4
+
+Jl
+
+CHASSIS
+
+MOTOR
+
+REVERSING SWITCH PLUG] | | __
+
+COIN MECHANISM PLUG
+
+_I
+
+1234567 8e9 011
+
+1234567891011
+
+1234567893 1011
+
+!2345 678910
+
+12345 6
+
+1234
+
+le345678 910lII
+
+11098 765432 !
 
 THIS SCHEMATIC IS SHOWN IN THE LATEST
 
-MECHANICAL “AT REST” POSITION
+NOTE, ALL SWITCHES ARE SHOWN IN A
 
-SECTION A
+MECHANICAL “AT REST" POSITION
+
+CONDITION AT THE TIME OF PRINTING
+
+3200 WIRING DIAGRAM SECTION A
+
+IS1157
+
+WURLITZER
+
+MaxManuals
 
 FIG
 
 1
 
-SERIES 3200 WIRING DAG!
+SERIES 3200 WIRING DIAGRAM, SECTION A
 
-RAM
-
-Poge SE
-
-ZER
-
-dee
+Page 3E
