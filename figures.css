@@ -20,6 +20,31 @@
 .figure-help {
   margin: 8px 0 14px;
 }
+.figure-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin: -4px 0 14px;
+}
+.callout-palette { display: flex; flex-wrap: wrap; gap: 6px; }
+.callout-palette button {
+  width: 34px;
+  height: 34px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background: rgba(138, 45, 37, .9);
+  color: white;
+  font-weight: 800;
+  box-shadow: 0 1px 4px #777;
+  cursor: pointer;
+}
+.callout-palette button:hover,
+.callout-palette button:focus-visible,
+.callout-palette button.active { background: #fff; color: #111; border-color: var(--accent); outline: 2px solid var(--accent); }
+.position-edit-toggle,
+.copy-positions { padding: 7px 10px; border: 1px solid var(--line); border-radius: 6px; background: var(--panel); color: inherit; cursor: pointer; }
+.copy-status { color: var(--muted); font-size: .82rem; }
 .figure-layout {
   display: grid;
   grid-template-columns: minmax(280px, 560px) minmax(220px, 1fr);
@@ -53,7 +78,10 @@
   font-weight: 800;
   box-shadow: 0 1px 5px #000;
   cursor: pointer;
+  touch-action: none;
 }
+.figure-image.editing .callout { cursor: grab; }
+.figure-image.editing .callout.dragging { cursor: grabbing; }
 .callout:hover,
 .callout:focus-visible,
 .callout.active {
