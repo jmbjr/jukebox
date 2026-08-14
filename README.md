@@ -38,3 +38,5 @@ node scripts/build-catalog.mjs
 ```
 
 Printed section/page labels are mapped to their corresponding reference-PDF pages. Pages without a PDF counterpart fall back to the photographed scan. The original photographs and reference PDF are never modified. `private-source/` and diagnostic TSV output under `ocr/raw/` are ignored by Git.
+
+Manually verified structured transcriptions live under `ocr/curated/` and take precedence over generated OCR, so future full OCR runs do not overwrite them.
