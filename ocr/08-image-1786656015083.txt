@@ -1,35 +1,33 @@
 SECTION B
 
 (2) To install the electric selector assem-
-bly after icing, check to see that the selector
-crank arms are in the same position as for removal
+bly after servicing, check to see that the selector
+erank arms are in the same position as for removal
 of the assembly. Carefully engage the brackets
 (fig. 14, items 2 and 4) with the support brackets
-(items 1 and 5). Use caution to avoid damaging the
+(items Ll and 5), Use caution to avoid damaging the
 rotary wiper contacts on the bottom of the main shaft.
 Lift the rear support bracket and insert the mount-
 ing screws (fig. 15, item 2), tighten both screws.
 
-Insert the centering shaft (fig. 14,
+Insert
+
+the centering shaft (fig. [4,
+
 item 3) through the center bushing in the electric
-selector and into the main shaft. NOTE: A no, 2
+selector and into the main shaft. NOTE: A no. 2
 Phillips screw driver may be substituted for the
 Wurlitzer centering shaft.
 
-FIG. 15. ELECTRIC SELECTOR ADJUSTMENT - 200
-
-1. Tapping Pla 117243
-2, Screws, 10-32 x 1/2", Hex 73793-118
-3. Screws, 10-32 x 1/2", Hex 73793-118
-4. Support Plate 68799
+FIG. 15, ELECTRIC SELECTOR ADJUSTMENT - 200
+Ll. Tapping Place 117243
+2. Screws, 10-32 x 1/2", Hex 73793-1198
+3. Screws, 10-32 x 1/2", Hex 73793-L18
+4, Support Plate 68799
 5. Bracket, Support Plate 117242
 
-Install the
-
-two front mounting cap
-screws (fig. 14,
-
-item 6), turning them in by hand
+Install the two front mounting cap
+screws (fig. 14, item 6), turning them in by hand
 until the mounting surfaces make contact. While in
 this loose condition, locate the electric selector so
 that the centering shaft (item 3) slides freely in and
@@ -45,8 +43,10 @@ and the assembly recentered. When centering of the
 
 Page 8B
 
+MaxManuals
+
 electric selector assembly has been completed, the
-selector crank arm adjustments should be che
+selector crank arm adjustments should be checked
 and the mechanism checked for correct selections.
 
 (3) When an electric selector assembly
@@ -54,7 +54,7 @@ must be exchanged on a 200 selection phonograph,
 the following procedure should be used:
 
 (a) Mount the electric selector in ac-
-Cordance with the steps described in paragraph (2)
+cordance with the steps described in paragraph (2)
 above to the point where the assembly is centered
 and the two front mounting screws are loose. Loosen
 the two bottom screws (fig. 15, item 3) which will
@@ -69,9 +69,9 @@ shown in figure 16, item 1. While in this position,
 the electric selector assembly may be turned in
 either direction on its mounting to locate H-1 se-
 lector pin (item 2) to the right of the-tip (item 1) on
-the selector crank arm. The tip should be approxi-
-mately on the center line between H-1, the inner pin,
-and H-2, the outer pin, as shown at item 3. Maintain
+the selector crank arm. The up should be approxi-
+mately on the center line between H-{, the inner pin,
+and H-2, the outer pin, as shown at item 3, Maintain
 this alignment and tighten the lower mounting screws
 (fig. 15, item 3) in the rear support plate. Continue
 by following the directions under paragraph (2) for
@@ -79,33 +79,32 @@ centering the electric selector and tighten al] mount-
 ing screws, checking to make sure that the centering
 shaft will slide freely in and out of the main shaft.
 Following the installation of a replacement electric
-selector, it may be necessary to readjust the se-
+selector, it may he necessary to readjust the se-
 lector crank arm actuating screw, the kick-off
 screw and possibly the selector crank clearance and
+cancel lever, These adjustments will be found in
+Section C,
 
-cancel lever. These adjustments will be found in
-Section C.
-
-{. CENTERING OF THE 100 SELECTION
+i. CENTERING OF THE 100 SELECTION
 ELECTRIC SELECTOR
 
 (1) Centering of the electric selector as-
 sembly is normally not required if the original unit
 is retained with its changer. The assembly may be
 removed by disconnecting all plugs and removing
-three screws, one of which is shown in figure 17,
-item 3. The guide plate (item 2) held by the screws
-(item 5) should not be loosened. However, where
+three screws, one of which is shown in figure I7,
+item 3, The guide plate (item 2) held by the screws
+(item 5) should not be loosened, However, where
 electric selector assemblies are interchanged, the
 three guide plates, one of which is shown in fig-
-ure 17, item 2, should be loosened. The a: embly
+ure 17, item 2, should be loosened. The assembly
 should be loosely mounted on the studs (item 1) so
 that the mounting surfaces make contact. Manually
 rotate the record carrier until D-5 record compart-
-ment is indexed over the left hand record lift arm,
+ment is indexed over the left hand record lift arm.
 Insert the centering shaft (item 4) or a no. 2 Phillips
 screw driver, through the center bushing as shown
 and into the main shaft. Turn the electric selector
-assembly to locate D-5 selector Pin to the right of
+assembly to locate D-5 selector pin to the right of
 
 WURLITZER

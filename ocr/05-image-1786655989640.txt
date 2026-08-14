@@ -1,34 +1,30 @@
-al
-
-rant (item 9) re at the forward stop screw
+rant (item 9) rests against the forward stop screw
 (item 6). Hold the number quadrant firmly in position
 with the nylon gear and back out the adjusting screw
-( §) untll the switch is in its normally open
-position, Carefully turn the adjusting screw in until
+(item 8) until the switch is in its normally open
+position. Carefully turn the adjusting screw in until
 the start switch actuates plus one half turn for over-
+travel, This provides .015" overtravel,
 
-travel, This provides .015" overtravel.
-
-REVER:
-
-SWITCH ADJUSTMENT
+c. REVERSE SWITCH ADJUSTMENT
 
 The reverse switch (fig. 9, item 6) should
-y adjustment of the forward stop
-w. Follow the sam re used in adjusting
+be checked after any adjustment of the forward stop
+screw. Follow the same procedure used in adjusting
 the start switch except turn the reverse switch ad-
 justing screw (item 5) in two and one half turns. This
 provides 3/32" overtravel.
 
 d. BACK STOP SCREW ADJUSTMENT
 
-‘The number quadrant (fig. 9, item 4) is held
+The number quadrant (fig. 9, item 4) is held
 against the back stop screw (item 2). in its normal
 rest position by the retracting spring (item 3). The
 following method may be used to adjust the back stop
 screw.
 
-he number quadrant must be in its normal
+The number quadrant must be in its normal
+rest position.
 
 Turn the back stop screw (fig. 9, item 2) in,
 driving the number quadrant (item 4) forward until
@@ -37,67 +33,62 @@ stop screw out until the reverse switch resets plus
 two and one half turns for overtravel.
 
 e. OVERRIDE SWITCH ADJUSTMENT
-
 (WOBBLE PLATE SWITCH)
 
 (1) 200 ELECTRIC SELECTOR
-
-switch.
-
-off service
+Turn off service switch.
 
 When a selector latch pin (fig. 10,
 item 2) is released, the wobble ring (item 5) is
 moved upward by the tension of the selector latch pin
 spring (item 1). The spacer (item 3) closes the con-
-tacts of one of the override switches (item 4), To
+tacts of one of the override switches (item 4). To
 check for correct switch action, choose a selector
 pin midway between two spacers. Release the se-
-lector pin and slowly work the pin up and down. The
+lector pin and slowly work the pin up and down, The
 override switch contacts on each side of the selector
 pin should make at about one third of the upward
 travel of the pin and allow the pin to make its full
-travel. Each set of contacts should close with 2
+travel, Each set of contacts should close with a
 minimum of 1/32" overtravel and the normally open
-contact spacing should be 1/16". Should adjustment
+contact spacing should be 1/16", Should adjustment
 be required, form the blades with a suitable contact
 adjusting tool. Each pair of override switches should
 be checked using pins nos. E8, K8, Q8, and V8,
 making sure that the contacts on each side of the re-
-jeased selector pin close with good overtravel and
-
+leased selector pin close with good overtravel and
 permit the pin to make its full travel.
 
-WURLITZER
+SECTION B
 
-an
+ELECTRIC SELECTOR - 200
 
-00655
-78660-159
+FIG. 9,
+1. Start Switch 60055
+2. Screw, 10-32 x1", Hex 73660-159
+3. Spring 62773
+4, Mounting Casting Assy., Number Quadrant 115915
+5, Screw, 442 x 1", Hex 73793-88
+6. Switch, Reverse 61546
 
-Spring 62773
-Mounting Casting Assy., Number Quadrant 115915
-Screw, 8-32 x 1", Hex 73793-88
-Switch, Reverse 61596
+ATT aL LTT
+_ a r i
 
-the
+FIG, 10. SELECTOR PLATE & LATCH PIN ASSEMBLY
 
-hone
+1. = Spring 110480
+Zs Latch Pin, Inner 110941
+3. Spacer (4) 68650
+4. Switch Assy, 65952 .
+Be Wobble Ring 67927
 
-FIG. 10. SELECTOR PLATE & LATCH PIN ASSEMBLY
-
-Spring 110480
-Latch Pin, Inner 110941
-Spacer (4) 68650
-Switch Assy. 65952
-
-67927
-
-Wobble Ring
 (2) 100 ELECTRIC SELECTOR
 
 The override switches are mounted on
+the wobble plate in the 100 electric selector as shown
 
-wobble plate in the 100 electric selector as shown
+MaxManuals
+
+WURLITZER
 
 Page 5B

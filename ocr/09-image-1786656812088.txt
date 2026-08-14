@@ -1,62 +1,72 @@
-ail
+SECTION E
 
-ugh
-
-| to
-(in
-
-TRANEFER ave LOADING
-
-eve switon io-k Switcy THERMOSTAT
-
-32 through carriage switch to 66, through ry-6 coil to 40 Ry-6
-y to 40. is energized,
-
-CARRIAGE
-swiTcH nye
-comL
-
-O 2 om rn
-
-on 3.
-
-(2-1) to 34, through transfer switch contacts 5-6 to 82, through ry-6
-
-(9-5) to 66, through ry-6 coil to.40. Ry-6 is interlocked.
-RYs TRANSFER
-et SWITCH
-
-comez-or
-
-c. Common 32 through ry-6 (12-8) to 65, through play switch contacts 6-5 to 84, through reverse
-winding of changer motor and thermostat to 40. Motor runs in reverse mechanically actuating
-
-transfer switch. CHASSIS
+CHASSIS
 MOTOR
 
-Switch
+RYS TRANSFER RY 6 LOADING MFD. biased
 
-through transfer switch contacts 1-2 to 31, through ry-5 coll to 35, Ry-5 is
+(40)
 
-a. Common
+4. Carriage Switch
+
+Common 32 through carriage switch to 66, through ry-6 coil to 40, Ry-6 is energized.
+
+4 CARRIAGE
+SWITCH RY 6
+COIL
+O (66) were (40)
+5. Ry-6
+
+a. Common 32 through ry-5 (2-1) to 34, through transfer switch contacts 5-6 to 82, through ry~6
+(9-5) to 66, through ry-6 coil to.40. Ry-6 is interlocked.
+
+5 RY 5 TRANSFER
+A et SWITCH
+COM2-02 RY6
+
+9°5 RYS
+COIL
+
+(49)
+
+b. Ry-6 (10-2) open removing common 32 from forward winding of chassis motor. (See schematic 3.)
+
+ie)
+
+Common 32 through ry-6 (12-8) to 65, through play switch contacts 6-5 to 84, through reverse
+winding of changer motor and thermostat to 40. Motor runs in reverse mechanically actuating
+transfer switch. CHASSIS
+
+MOTOR
+
+124 THERMOSTAT
+PLAY MFD
+RY 6 SWITCH (40)
+5B oi2-8 6-5 YC
+@)42 al Ls
+5(6)-2
+
+6. Transfer Switch
+
+a. Common 32 through transfer switch contacts 1-2 to 31, through ry-5 coil to 35, Ry-5 is
+
 interlocked.
-
 TRANSFER RYS
-Switcn f
-= C31 ae ©
-@+ 000
-cle cOms
+SWITCH COIL
 
-contacts 5-4, through play switeh
-
-ough transfer switch thermostat to 40, Chassis
-
-Common 32 through ry-5 @-1) to 34, UONEH OTs motor and
-contacts 6-5 to 84, through reverse
+b, Common 32 through ry-5 (2-1) to 34, through transfer switch contacts 5-4, through play switch
+contacts 6-5 to 84, through reverse winding of chassis motor and thermostat to 40. Chassis
 motor reverse winding is interlocked.
 
 CHASSIS
-oh tye TRANSFER mores
-be SwiTcH
-sz - come—ce PLAY
-foe. | switch
+RYS TRANSFER MOTOR
+
+6B e-| SWITCH
+cCOM2—ce2 PLAY 124 THERMOSTAT
+
+G2) SWITCH MFD. >
+6-5 9)
+
+WURLITZER Max Manuals
+
+Page 17E

@@ -1,174 +1,158 @@
-FIG. 108.
-200
+SECTION B
 
-1. Motor & Worm 124928
-2. Choke Coil, 150 Uh. 121291
-3. Actuator, Disc & Hub 126784
-4. Switch, Full Cycle 124015.
-5. Latch Lever (2) 126190
-6. Switch, Release 124002
-7. Spring (2) 110480
-8. Spring (3) 124086
-9. Slide & Spring 124170
-10. Trip Lever 124084
-11. Actuator, T.T.T. 124073
-Actuator, 9 T.T. 124075
-Actuator, 8T.T. 124076
-Actuator, 7 T.T. 124077
-Actuator, 6 T.T. 124078
-12. Actuator, Latch Pin, Lower 124031
-13. Actuator, 10 T.T. 124074
-14, Switch 124014
+FIG. 108. ‘TOP TUNES & ALBUM AUTOMATIC PROGRAMMING ASSEMBLY
+
+1. Motor & Worm
+
+2. Choke Coil, 150 Uh.
+3. Actuator, Disc & Hub
+4. Switch, Full Cycle
+5. Latch Lever (2)
+
+6. Switch, Release
+
+7. Spring (2)
+
+8. Spring (3)
+
+9, Slide & Spring
+
+10. Trip Lever
+11. Actuator, T.T.T.
+
+Actuator, 9 T.T.
+Actuator, 8 T.T.
+Actuator, 7 T.T.
+Actuator, 6 T.T.
+
+12. Actuator, Latch Pin, Lower
+
+13. Actuator, 10 T.T.
+
+14. Switch
 
 15. Gear, Pinion & Bracket
-Assy. 125968
-16. Resistor, 25 ohms, 5W. 74817-2
-17. Socket 113530
-18. Contacts 111527
-19. Bracket & Light Shield 125218
-20. Switch 125221
-21. Bulb 111816
-22. Pivot Bracket 125216
+Assy.
+
+16. Resistor, 25 ohms, 5W.
+
+17. Socket
+
+L8. Contacts
+
+19. Bracket & Light Shield
+
+20. Switch
+
+21. Bulb
+
+22. Pivot Bracket
 
 Page 16B
 
-TOP TUNES & ALBUM AUTOMATIC PROGRAMMING ASSEMBLY
+200 Loo
+124928 124928
+121291 12129]
+126784 120784
+124015 124015
+126190 12619]
+124002 124002
+110480 125737
+124086 124086
+124170 124171
+124084 124108
+124073 124097
+124075 124099
+124076 124100
+124077 124101
+124078 124102
+124031 124049
+124074 124098
+124014 124014
+125968 125968
 
-100
+F4817-2 | 74817-2
+113530 113530
+LL1L527 111527
+125218 125218
+125221 125221
+111816 LLEBLO
+125216 125216
 
-124928
-
-121291
-126784
-124015
-126191
-124002
-125737
-124086
-124171
-124108
-124097
-124099
-124100
-124101
-124102
-124049
-124098
-124014
-
-125968
-74817-2
-113530
-111527
-125218
-125221
-111816
-125216
-
-33,
-34,
-35)
-36.
-37,
-38.
-39,
-40.
-
-41.
+MaxManuals
 
 Button Top Tunes
 Mounting Bracket
 Window Blank, Clear
-Coin Denomination Label
 
-Window Blank, Translucent
+Coin Denomination Label
+Window Blank, ‘Vranslucent
 
 Insert
 Nut
 
 200
+124997 124997
+125215 125215
+125213 125213
+129506 129506
+125214 125214
+125276 125276
+73601-3 | 73601-3
 
-124997
+100
 
-125215
-125213.
-129506
-125214
-125276
-73601-3
-
-Screw, 4-40 x 1/4", F1.74959-23
+Screw, 4-40 x 1/4", Fl.74959-23 | 74959-23
 
 Socket
 
-111817
-
-Serew, 6-32 x 3/4", R.Hd.73533-28
+Screw, 6-32 x 3/4", R.Ed.
 
 Relay, White, 24 Volt,
-D.C.
+D.C,
+
 Fuse Post
 Fuse, .5 Amp.
-Socket, 4 Pin Min.
+
+Socket, + Pin Min.
+
 Socket, 12
+
 Rectifier
-Capacitor, 100 Mfd.,
+
+Capacitor, LOU Mfd.,
 50 Volt
-Resistor, 560 ohm, 2W.
+
+Resistor, 500 ohm, 2W.
+
 Resistor, 1.8 ohm,
-10W.
+i0W.
 Plug, 12
 Cap, 4
 Contact
 Cap, 9
 Contact
 
-122133
-121809
-71591-6
-69090
-114325
-71588-17
+111817 111817
 
-73846-32
-72474-32
+73533-28 | 73533-28
 
-74896 -2
-114324
-122649
-111527
-113529
-111527
+122133 | 122133
+121809 | 121809
+71591-6 | 7L591-6
+69090 | 69090
+114325 | 184325
 
-100
+FI588-17 | 71588-17
 
-124997
-125215
-125213
-129506
-125214
-125276
+73846-32 | 73846-32
+72474-32 | 72474-32
 
-73601-3
-74959-23
-111817
-73533-28
-
-122133
-121809
-71591-6
-69090
-114325
-71588-17
-
-73846-32
-72474-32
-
-74896-2
-114324
-122649
-111527
-113529
-111527
+74896-2 | 74890-2
+114324 {14324
+122649 122049
+LL1527 111527
+113529 113529
+111527 111527
 
 WURLITZER

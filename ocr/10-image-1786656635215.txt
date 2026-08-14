@@ -1,157 +1,1105 @@
-eae
+SOUND SYSTEM SGHEMATIC - MODEL 548 AMPLIFIER
 
-SECTION E
+ee eee ee ee ee ee ee ee eit
 
-.
+rn
 
-SCHEMATIC = MODEL 548 AMPLIFIER
++25VDG
 
-* fen
+RED Awite
 
-aamnaton 2ATh
++47VDG
 
-=
+TRANSISTOR DATA
 
-SOUND SYSTEM
++33 VDC
 
-=
+Re
 
-———
+RO
 
-rr)
+cs
 
-saves
+T2
 
-sree.
+Fa
 
-ss]
+P-N-P
 
-ro
+N-P-N
 
-fear 7
+47K
 
-owe Cl ps
+6.2K
 
-TTS es
+see
 
-ve
+ci4
 
-m
+Rig
 
-=| |
+im
 
-ee
+iat
 
-ga
+R ne
 
-|
+3K
 
-|
+OuT
 
-==)
+AMP.
 
-|-~ "9
+SYMBOL
 
-an
+R39
 
-Bee
+MIC
 
-oney
+Tf
 
-=
+BR
 
-| A
+MFD
 
-“eae
+«22
 
-—<—<—$——
+820n:
 
-=e
+0068
 
-so ee
+(S)+8.svoc (er
 
-Lorleee
+Oni
 
-ee
+rail
 
-—
+©.
 
-once
+c2 +Livoc
 
-Sacirs © cn
+cT
 
-—
+22k i=
 
-ge SN,
+1+0.77V0C
 
-on
+as
 
-{2
+ed
 
-=
+ia
+
+ANA
+
+VW
+
+C4
+
+R7
+
+MFD
+
+e
+
+180K
+
+06 8
+
++0.5V0C
+
+MFO
+
+MEG.
 
 a
+
+390n 5w.
+
+ce
+
+2 RIS
+
+ci3
+
+BIAS
+
+cs
+
+0077
+
+ci2
+
+<
+
+Ri7
+
+je. svc |
+
+TOP VIEW Oo. O-
+
+Ra
+
+21K
+
+—+.!
+
+0
+
+>,
+
+‘ 6.6K
+
+MFD
+
+amK
+
+S5¥0C
+
+pits
+
++0.14VDC
+
+il
+
+160K
+
+clo
+
+C18
+
+> A2
+
+~
+
+066
+
+RIs
+
+R20
+
+2702
+
+|
+
+Ee e|
+
+23.5V
+
+“
+
+MFD
+
+$3
+
+RI6
+
+R3t
+
+'.8n2w
+
+5, A6K
+
+cé
+
+|
+
+4am™%
+
+4.3K
+
+18a
+
+S00/ t5v.
+
+1202
+
+R33
+
+100,
+
+RS
+
+<
+
+Rit
+
+Rl2
+
+R2i.
+
+cis
+
+tow
+
+i
+
+>
+
+2.4K
+
+Ri2
+
+470n'
+
+0018
+
+3900.
+
+> 7500
+
+3
+
+3.6K
+
+MFD
+
+Sso/ 15v. |
+
+Sw
+
+if
+
+1200MFD
+
+35)
+
+ai
+
+R35 C2!
+
+R3
+
+2725.
+
+oaks
+
+5a
+
+be
+
+wn
+
+33.MFO
+
+100 «
+
++ MFD
+
+;
+
+a a
+
+—
+
+AFB
+
+54.
+
+cr
+
+_
+
+2R22
+
+MUTING
+
+“punts
+
+L
+
+BOTTOM VIEW oe Oo
+
+(75,
+
+—
+
+2 180K
+
+RIO
+
+Shake
+
+6v
+
+R25
+
+R34
+
+;
+
+47K
+
+100K
+
+[2]
+
+a
+
+VN
+
+we
+
+BALANCE
+
+390
+
+ae,a9
+
+.e)
+
+rt
+
+R27
+
+5w
+
+si
+
+vRi
+
+Tyre
+
+100 K}:
+
+R26 L
+
+|% 1
+
+LF
+
+2m
+
+[ala}atelclo[s
+
+“|
+
+i a
+
+CV-A STEREO
+
+|
+
+\* |
+
+cié
+
+Tate
+
+©
+
+R29
+
+—— —CV-MONO
+
+E
+
+c
+
+8B
+
+i¥
+
+©)
+
+sf
+
+reg
+
+'v- MONO
+
+R3
+
+Li
+
+rtd
+
+as
+
+CV-8 STEREO
+
+100 «
+
+«22
+
+$
+
+-
+
+ReT
+
+AUX
+
+@
+
+Bfaleicfo[e
 
 aS
 
-‘ne vocraet PNAS
+R23
 
-a=
+Rio
 
-noes
+100 K
 
-eearry
+R26
 
-Se ae
+R30
 
-SS SS SSS SS SSS TS SS SES
+R34
 
-=
+([2]
 
-Lieto Se
+27K
 
-Se
+amK
 
-a ed
+27K
 
-ee
+33K
 
-Site See ae
+END VIEW
 
-Tt Se ee eee
+ar BN
 
-Piles ne on
+390
 
-ee
+Sw
 
-==
+CONNECTED TO COLLECTOR
 
-Te rns ee Ee
+R24.
 
-vow cass
+K
 
-Lao
+das
 
-5
+{{
 
-=
+—
 
-==
++33V0C
+
+R26
+
++33 VDC
+
+|i eS a ee ee ee es el
+
+R31
+
+[e)
+
+R2
+
+\t_ +25 VDC
+
+120
+
+E
+
+5.6K
+
+Len
+
+RIS
+
+low
+
+BOTTOM VIEW
+
+oe °
+
+100 5y
+
+VV
+
+RID
+
+R&
+
+cs
+
+C14
+
+3.3K
+
+47K
+
+oak +12.5V0C
+
+Ri4
+
+6.8K
+
+gout
+
+°
+
+Roo
+
+TF
+
+«22
+
+R39
+
+MIC
+
+0068
+
++1.VDC
+
+a3
+
+MFD
+
+6200
+
+cu
+
+MFO
+
+rO.7 7VOC
+
+@+esvoc =
+
++47 VDC
+
+Ri
+
+c2
+
+wl oO}
+
+R7
+
+Fa
+
+180K
+
+a!
+
+#0.5VDC
+
+FD
+
+1 MEG.
+
+Th
+
+ci3
+
+ite
+
+068
+
+R6
+
+{K.) a7
+
+BIAS
+
+AMP
+
+MFO
+
+@
+
+ii
+
+NFD
+
+RI7
+
+21K
+
+cs
+
+itasvoc
+
+On
+
+R4
+
+“ans
+
+47K
+
++1.5Y0C
+
+ro
+
++0.14v0C
+
+cise
+
+1BOK
+
+LI
+
+RIS
+
+R20
+
+2702
+
+MFD
+
+s2
+
+3902
+
++235
+
+cé
+
+mon
+
+RI6
+
+4.3K
+
+en
+
+500 /15Y.
+
+NOTES:
+
+RS
+
+Ri
+
+Ri3
+
+SY ie
+
+Qi3
+
+10%,
+
+IK
+
+750 DL
+
+Ri2
+
+3.64
+
+R2i
+
+crs
+
+C19
+
+T3
+
+1, LINE VOLTAGE
+
+UT VAC,
+
+2.4K
+
+470n
+
+OO18&
+
+c20
+
+MFO
+
+T2
+
+e
+
+R32
+
+OvDG
+
+als
+
+2. CHANNEL A&B ARE IDENTICAL THEREFORE THEY
+
+of
+
+BASS
 
 a
 
 =
 
-———
+ARE ASSIGNED THE SAME VALUES AND PART NUM-
+
+en 2w
+
++23.5 '
+
+eg
+
+R35
+
+c21
+
+R33
+
+ai
+
+BER.
+
+a
+
+a
+
+3 K=1000 OHMS——~- “ = OHMS.
+
+ion
+
+3902
+
+Po
+
+— oo
+
+——
+
+— ee ae ee eee ee
+
+BFB
+
+nie es! a
+
+-33MFD
+
++47 VOC
+
+Sw
+
+4 TEST POINTS | THRU 6 FOR CHANNEL A,7 THRU
+
+(4
+
+12 FOR CHANNEL B, ARE CORRESPONDING CIRCUIT
+
+|
+
+LOUDNESS
+
+REMOTE LOUONESS
+
+=
+
+85V00 95
+
+POINTS AND SHOULD BE COMPARED TO EACH OTHER
+
+BOTH AG. & DC.
+
+Lowen pe s
+
+S. TEST VOLTAGE SHOULO BE WITHIN +10% OF VALUE
+
+SHOWN UNLESS MARKED REF. ONLY.
+
+—t
+
+6.D.C. VOLTAGES ARE WITH NO SIGNAL APPLIED
+
+au
+
+MOTOR |
+
+AND ARE SHOWN ADJACENT TO THE TEST POINTS,
+
+Cd
+
+cook
+
+f
+
+MEASURED FROM CHASSIS.
+
+A.C. VOLTAGE MEASUREMENT
+
+CANCEL
+
+[|
+
+03,
+
+3
+
+CANCEL
+
+(ALL VALUE ARE IN VOLTS)
+
+SR2
+
+R37
+
+MFO
+
+7.A,C. VOLTAGES ARE SHOWN IN CHART BELOW,
+
+| ey
+
+ma eo ee at es |
+
+SRI
+
+MEASURED FROM CHASSIS.
+
+FREQUENCY 1000 CPS
+
+SRS
+
+45
+
+iow
+
+|
+
+g
+
+TONES - MAXIMUN
+
+© @ ‘© ‘) ©) @® ©) (9) loner fouTPuT
+
+8. WHEN REPLACING TRANSISTORS, USE THE SAME
+
+BALANCE-MID-POSITION
+
+OUTPUT}
+
+TO LOAD}
+
+SR4
+
+c23
+
+whe
+
+R36.
+
+ss
+
+COLOR AS THE ORIGINAL.
+
+tNPUT A &B PARALLELEO|
+
+ATOG
+
+ALL SWITCHES SHOWN iN A MECHANICAL "AT
+
+F3
+
+10.n.
+
+© |©|/@/@|@/@
+
+3000
+
+c24
+
+C27
+
+Iw
+
+JUNCTION
+
+CONDITION *;
+
+REST" POSITION
+
+6SV.AC
+
+1o MV.
+
+INPUT OR USE
+
+144
+
+143
+
+cT
+
+| VOLT AND ATTENUATOR |.0027 |0028
+
+093
+
+044
+
+REF,
+
+044
+
+,050
+
+o
+
+REF.
+
+4.134
+
+THIS SCHEMATIC IS SHOWN IN THE LATEST
+
+|
+
+2000, =
+
+al
+
+LOUDNESS FULL ON
+
+ONLY
+
+ONLY
+
+CONDITION AT THE TIME OF PRINTING
+
+F2
+
+R36
+
+50
+
+CONDITION #2
+
+AMP
+
+FS
+
+5w
+
+SAME AS CONDITION *)
+
+.70
+
+1,0¥,
+
+1,0W,
+
+ak
+
+EXCEPT PA. 3 AMP.
+
+-0027 1.0028 | .094
+
+0125
+
+REF.
+
+-010
+
+050
+
+o
+
+—
+
+Se
+
+BROWN
+
+AMP
+
+Cs
+
+FUSES PULLED
+
+ONLY
+
+1oK
+
+6.8K
+
+24V.
+
+24v.
+
+(MO FEEDBACK)
+
+5%
+
+5%
+
+TI
+
+RED
+
+CONDITION
+
+#3
+
+10 mv
+
+300 MV
+
+300 MV. INPUT OR USE
+
+LOUDNESS
+
+1.84
+
+100
+
+3.0K
+
+siacn( VY
+
+BLACK/RED
+
+IWOLT ANO ATTENUATOR | .0270 |.0272
+
+-90
+
+TURNED OF F
+
+Vv.D.C.
+
+5%
+
+5%
+
+40
+
+#2 LOUDNESS OFF
+
+u
+
+(ALe TEST)
+
+Fi
 
 548 AMPLIFIER
 
-om
+15
 
-ye
+£)
 
-ruet
+A.G.MEASUREMENTS MADE WITH AC. VTVM, AS RCA WV-76A
 
-SOUN
+AMP
 
-EE 548 AMPLIFIER
+4
+
+LOAD EACH CHANNEL WITH 5 OHMS A TOG.
+
+aT aon ATTENUATOR
+
+UTILITY
+
+LIGHTS
+
+ISII6I
+
+FIG.
+
+6.
+
+SOUND SYSTEM SCHEMATIC - MODEL 548 AMPLIFIER
+
+Page 8E
+
+WURLITZER
+
+MaxManuals

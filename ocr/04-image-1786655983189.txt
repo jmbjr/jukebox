@@ -1,71 +1,99 @@
-FIG. 6. ELECTRIC S.
-1 Shoulder Screw
-2. Selector Plate & Latch Pin Assy
-3. Socket, 3 Circuit
-Cap, 3 Circutt 11782
+SECTION B
 
+h. LETTER AND NUMBER SERIES SWITCH
+ADJUSTMENT
+
+The letter series switch may be adjusted
+with the latch solenoid plunger at rest position.
+Loosen the screws (fig. 3, item 6), set the long
+blade of the series switch to zero clearance with
+the fiber stud (item 7). The contacts should open
+1/32" with any letter button depressed and should
+close with 1/32" overtravel with the button re-
+leased.
+
+ELECTRIC SELECTOR ADJUSTMENTS — 200
+
+The selector plate and latch pin assembly
+(fig. 6, item 2) may be removed from the electric
+selector assembly by separating the 3 circuit socket
+and cap (items 3 and 4). Remove 4 screws (items 1
+and 5). Lift the selector plate and latch pin assem-
+bly straight up. To replace, reverse the above
+procedure. The socket and cap (items 3 and 4)
+should be positioned as illustrated in figure lL,
+item 4.
+
+FIG. 6. BLECTRIC SELECTOR - 200
+1. Shoulder Screw 129531
+2, Selector Plate & Latch Pin Assy, 123831
+3. Socket, 3 Circuit 117824
+4. Cap, 3 Circuit 117823
 5. Shoulder Screw 129531
 
-a. QUADRANT FORWARD MECHANICAL
-OP ADJUSTMENT
+a. QUADRANT. FORWARD MECHANICAL
+STOP ADJUSTMENT
 
-Remove relay 3 from the junction box. Es-
+Remove relay 3 from the junction box. [Es-
 tablish credits then select K-O at the selector switch.
-The selection motor will turn the rotating plate (fig.
+The selection motor will turn the rotating plate (Lig.
 7, item 5) clockwise, driving the number quadrant
 (item 9) against the forward mechanical stop (item 6)
 where it will remain until the phonograph line switch
-is turned off. A rocker tip (fig. 8, item 2) should
+is turned off, A rocker tip (fig. 8, item 2) should
 center over the K-O selector pin (item 1). If neces-
 sary, adjust the forward mechanical stop (fig. 7, item
 6) to secure proper centering. Check the position of
-the letter solenoid plungers for a minimum of 1/16'
+the letter solenoid plungers for a minimum of 1/16"
 between the plunger and the end of the rocker (fig. 8,
-
 item 3). Turn the phonograph line switch off then on.
-Repeat the above procedure with K-1 selected, Rein-
-stall relay 3 inthe junction box. NOTE! The selec-
+Repeat the above procedure with K-1 selected. Rein-
+stall relay 3 in the junction box. NOTE! The selec -
+
 Page 4B
 
-LLLASL
-73600-159
+MaxManuals
 
-5. OR re & Rocker Assy.
+, ai tiene -. he
+4 Bi... watt aie =
 
-10-32 x 1",
+TT TE dt
 
-6. Screw
+FIG. 7. ELECTRIC SELECTOR - 200
 
-ELECTRIC SELECTOR
-110942
-07920
+WITH PLATE & PIN ASSY. REMOVED
+1. Solenoid, Selector Stop, No. "0" 68617
+2. Solenoid, Selector Stop, No, "1" 68804
+3. Stop Pin (2!) LE54Lb
+4. Gear & Hub Assy, 68717
+5. Rotating Plate & Rocker Assy. Lib4sl
+6. Screw, 10-32 x L", Hex 73660-159
+as Stare Switch O655
+a, Screw, 8-32 x 1", Hex 73793-88
+68276
 
-elector Lateh Pin, K-O
-Tip of Rocker
+9. Mounting Casting, Stop Solenoid
 
-3 Dimension, 1/16
+FIG. 8 ELECTRIC SELECTOR
+as Selector Latch Pin, K-O 110942
+2. Tip of Rucker 7926
+3 Dimension, 1/16"
 
-stor thermostat may open if the motor remains
-zed over two minutes. Should this occur, turn
+tion motor thermostat may open if the motor remains
+energized over two minutes. Should this occur, turn
 the phonograph off to allow the thermostat to cool.
+
 b. START SWITCH ADJUSTMENT
+
 The start switch (fig. 7, item 7) should be
 checked after any adjustment of the forward stop
-It is actuated by the forward movement of
-
-screw.
+screw. It is actuated by the forward movement of
 the number quadrant (item 9) and the adjusting screw
 (item 8). Adjust as follows:
 
 Manually hold a number solenoid plunger
-
-essed, Turn the rotating plate and rocker arm
-mbly in a turning the
-
+depressed. Turn the rotating plate and rocker arm
+assembly in a clockwise direction by turning the
 nylon gear (fig. 7, item 4) until the number quad-
 
-depr
-
-a clockwise direction by
-
-WURUTZER
+WURLITZER

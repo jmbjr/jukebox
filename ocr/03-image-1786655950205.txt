@@ -1,112 +1,104 @@
-CAUTION |!
+CAUTION !
 
-Check to be sure the adjustment did not
+Check to be sure the adjustment did not change
 when the screws were tightened.
 
-hange
-
-e. FINAL LATCH SOL
-
-NOID ADJUSTMEN?
+e. FINAL LATCH SOLENOID ADJUSTMENT
 
 (1) Loosen the latch solenoid adjusting
-. 2, item 2). Manually hold the plunger
-nly bottomed in the solenoid. Move the
-
-to provide 5/64’ maximum clearance be-
-
-solenoid
+screws (fig. 2, item 2). Manually hold the plunger
+(item 1) firmly bottomed in the solenoid. Move the
+solenoid to provide 5/64" maximum clearance he-
 tween the tab (item 7) on the release lever and the
 number trip lever (item 5).
 
 (2) The plunger travel should not exceed
-Check the release lever action for mechani-
-of the plunger within the solenoid. Re
-ch solenoid with the plunger if ne
-ain the adjustment as outlined
+3/16". Check the release lever action for mechani-
+cal bind of the plunger within the solenoid. Realign
+the latch solenoid with the plunger if necessary but
+maintain the adjustment as outlined above.
 
-3/16".
-cal k
-the 1
+FIG. 3.
 
-lign
-essary but
-
-STOP BRACKET AL
+STOP BRACKET ADJUSTMENT,
 LATCH SOLENOID
 
-Dimension, 1/64" Clearance
-Screw, 8-32 x 1/4", R.Hd. 73533-34
-Stop Bracket 56628
-4, Release Leve 129102
-Se 7694
-6.
-8.
-oe
-10
-11. 117691
-eset CONTROL SWITCH ADJUSTMENT
+1. Dimension, 1/64" Clearance
+
+2. Screw, 8-32 x 1/4", R.Ha, 73533-34
+3. Stop Bracket 56628
+4. Release Lever 129102
+5. Trip Lever, Letters 117694
+6. Screw, 8-32 x 1/4", R.Hd. 73533-34
+7. Zero Clearance
+
+8. Dimension, 1/64" Clearance
+
+9. Latch Lever, Letters 65009
+10, Adjusting Screw, 6-42 x 3/47, Rd, 73503 -F2
+IL, Trip Lever, Numbers 117691
+
+f. CONTROL SWITCH ADJUSTMENT
 
 Manually hold the latch solenoid plunger
-(fig. 5, item 1) in the actuated position. Loosen the
+(fig. 5, item L) in the actuated position. Loosen the
 adjusting screws (item 10) and move the control
 switch and bracket assembly to provide 1/32" to
 1/16" opening (item 4) of the normally closed con-
 tacts. The normally open contacts (items 7 and 9)
-should close with a 1/32" overtravel.
+should close with a 1/32" overtravel,.
 
-LETTER AND NUMBER LATCH
-
-g.
+g. LETTER AND NUMBER LATCH
 SWITCH ADJUSTMENT
 
-the latch solenoid plunger
+Manually hold the latch solenoid plunger
+(fig. 5, item 1) in the actuated position. Loosen
 
-1d
-Manually hol Loosen
-
-i ted position.
-fig. 5, item 1) in the actual
-ice Jatch switch adjusting screws (item 2) and
+the letter latch switch adjusting screws (item 2) and
 
 WURLITZER
 
-————— lll
+MaxManuals
 
 SECTION B
 
-, Numbers
-5 atch Le imber 117
-x 1/4", ReHd. 533-34
-se Lever 129102
-", RuHd. 73533-34
+FIG. 4. LATCH ADJUSTMENT
+1. Latch Pawl, Letters 65009
+2. ‘Trip Lever, Letters 117694
+3. Adjusting Screw, 6-32 x 3/4", R. Hd. 73503 -72
+4. Trip Lever, Numbers 117691
+5. Latch Lever, Number 117695
+6, Serew, 8-32 x 1/4", R.Hd. 73533-34
+7. Stop Tsh, Release Lever 129102
+8, Screw, 8-32 x 1/4", R.Hd. 73533-34
 
-FIG. 5. CONTROL & LATCH SWITCH ADJUSTMENT
-1, Plunger, Latch Solenoid 112104-1
-2, Screw, 8-32 x 1/4", R.Hd. 73533-34
-3. Zero Clearance
+FIG. 5, CONTROL & LATCH SWITCH ADJUSTMENT
 
-4. Contacts Open 1/32”
+1. Plunger, Latch Solenoid 112104-1
+2. Serew, 8-32 x 1/4", R.Hd. 73533-34
+3. Zero Clearance .
+
+4. Contracts Open 1/32"
 
 5. Zero Clearance
 
-6. Screws, 8-32 x 1/4", R.Hd. 73533-34
-7. Contacts Close With 1/32" Overtravel
+6. Serews, 8-32 x 1/4", R,Hd. 73533-34
+7. | Contacts Close With 1/32" Overtravel
 
 8. Control Switch & Mounting Bracket 125406
 9. Contacts Close With 1/32" Overtravel
-
-10. Screws, 8-32 x 1/4", R.Hd. 73533-34
+{0. Screws, &-32 x 1/4", R.Hd, 73533-34
 
 set the long blade of the switch assembly to zero
 clearance with the insulated stud on the trip lever as
-shown at item 3, The contacts are set normally open
-1/32", When a letter button is latched, the contacts
+shown at item 3. The contacts are set normally open
+1/32". When a letter button is latched, the contacts
 should close with 1/32" overtravel. The contact
+
 ‘blades may be formed to provide the proper gap and
 overtravel.
 
-‘The number latch switch may be adjusted in
+The number latch switch may be adjusted in
 the same manner by loosening the screws (fig. 5,
 item 6). The contact setting should be the same as
 for the letter latch switch above.

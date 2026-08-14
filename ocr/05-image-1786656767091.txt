@@ -1,94 +1,61 @@
-5
-=)
-
 SECTION E
 
 SEQUENCE OF OPERATIONS
 
 3200 SERIES ELECTRICAL
+Each electrical circuit is numbered; for example...32, 40, 47, etc. These numbers identify the circuits in
 
-jcal circuit is numbered; for exampl
-gach electrical ple...32, 40, 47, et
-Bach oe diagrams ap-well aa designate Wire exiGrast (eNe'eoiee as ae sume identify the circuits in
-, page 2B.)
+the wiring diagrams as weil as designate wire colors. (See color code, page 2E.)
 
-the W!
+Relays are designated ry-I, ry-2, etc., ry-1(13) indicates relay 1, terminal 13; ry-2(10-6) indicates relay 2,
+terminals 10 and 6. Blade switches are numbered in accordance with figure 8, page L8E.
 
-are designated ry-1, ry-2, etc., ry-1(13) indicates rel r
-ay 1, terminal 13; ry-2(10-6) int
-i dicates relay 2,
+32 is common to all low voltage power sources.
+35 is -28 volts D.C.
 
-relays :
-ais 10 and 6. Blade switches are numbered in accordance with figure 8
-, page 18E.
-
-termina
-
-mon
-
-to all low voltage power sources.
-
+40 is 24 volts A.C,
 LEGEND
+
 TYPICAL SWITCH ILLUSTRATION
 
-JUMPER .— pips ta
-RESISTOR Ca ey
+Ce JUMPER ae Soe
+C}—___ NORMALLY
+A/\V/\-__ RESISTOR > OPEN
 
-4b CAPACITOR
-SINGLE
-COIL OF — ous
-IL OR DOUBLE
-AQQQ-  SoLenoin THROW
+- ~ CAPACITOR SINGLE
+at
+
+COIL OR O———_ pouste
+AQQQ-  SoLENoID THROW
 ALL SWITCHES SHOWN
-+ DIODE IN REST POSITION
+oe DIODE IN REST POSITION
 
-ECTION SEQUENCE,
-
-0¢ Coin Switch
-
+3200 SELECTION SEQUENCE
+1. 10¢ Coin Switch
 Common 32 through 10¢ coin switch, through 10¢ coin magnet, through circuit breaker to 40. The coin
 
-agnet releases the accumulator and cancel wheels allowing the cancel wheel to advance to the one
-t position closing the key switch.
+magnet releases the accumulator and cancel wheels allowing the cance! whecl to advance to the one
+credit position closing the key switch.
 
-we 10¢
-COIN coin CIRCUIT
-switch MAGNET BREAKER
-
-= = ee ne
-ca
+WE io¢
+coun COIN CIRCUIT
+| Switch MAGNET §REAKER
+QD TOG 0)
 
 2. Key Switch - Relay 1
 
-: 3 i 1 coil to 55
-mmon 32 thre the key switch to 42, through selector series switches to 47, through ry
-f oe a Common 32 to 147, through xy-1(8-12) to ry-1 coll
+Common 32 through the key switch to 42, through selector series switches to 47, through ry-1 coil to 55
+to 58, through ry-4(9-1) to 35, Ry-1 is energized. Common 32 to 147, through ry-1(8-12) to ry-1 coil
+interlocks ry-l.
 
-58, through ry-4(9-1) to 95. Ry-1 18 energized.
-rlocks ry-1.
+2 re SERIES ave
+— SWITCHES aah "9
+@)— COIL (35)
 
-RY4
+3. Selector Switch Latch Solenoid
 
-rey
-2 swircn SENIES, ryt ve
-( ) SWITCHES coll
+a. Common 32 through ry-1(L0-6) to 78, through letter selector switches to 177, through button
+release switch, through latch solenoid, through control switch contacts 5-4 to 35, The latch
+solenoid is energized,
 
-3.
-
-Selector Switch Latch Solenoid
-to 177, through button
-
-hes
-er selector switel 4 to 85. The latch
-
-r
-1(10-6) to 78, through 16° witch contacts 5:
-
-a. a
-‘common 32 through TY: tatch solenoid, through control §'
-
-release switch, through
-solenoid is energized- Page 13E
-age
-
-WURLITZER
+WURLITZER MaxManuals Page 13E

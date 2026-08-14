@@ -1,71 +1,70 @@
-ae; lenoid. The 85 ohm resistor
-i by the latch sole
-- mechanically opened
+SECTION E
 
-limits the current thi tncee Od
+b. Control switch contacts 5-4 are mechanically opened by the latch solenoid, The 85 ohm resistor
+limits the current through the latch solenoid to prevent overheating.
 
-ugh control switch or
-
-through 175 ohm resistor, thro!
-
-Common 32 through select lamp»
+c. Common 32 through select lamp, through 175 ohm resistor, through control switch contacts 3-4
 to 35. Select lamp lights.
-
-LETTER Pron
-SWITCHES eoinoe LATCH
-RELEASE 501 ENOID
+LETTER —
+SWITCHES ae : Ase LATCH 88
+A LEASE soLENoiD OHM
 
 CONTROL
+SWITGH
+5
 
-SELECT SWITCH
+(2) Dann O3
 
-Al Selected - Latch Switches Close
-Common 32 through ry-1(9-5) to 74 to 54, through letter latch switch contacts 4-3, eee bee
-switch contacts 2-4, through number selector switch to 1, through number 1 number 60° to 30,
+4. Al Selected - Latch Switches Close
+
+SELECT
+LAMP 175
+
+Common 32 through ry-1(9-5) to 74 to 54, through letter latch switch contacts 4-3, through number latch
+switch contacts 3-4, through number selector switch to 1, through number 1 number coil to 30, through
 both ry-2 coil and the 303 lamp to 35. The number 1 number coil and ry-2 are energized.
 
 303
+NUMBER LAMP
 
-NUMBER LAMP.
+SWITCHES
+RY | LATCH NUMBER
+4 9-5 SWITGHES 6 9
+C}+—CI
+© Tea@< s 8
+oO
 
-SwiTcH!
-
-LATCH Be 8 NUMBER
-
-SWITCHES. 9
-°
-
-Ry-2 - Latch Solenoid Interlock
+5. Ry-2 - Latch Solenoid Interlock
 
 Common 32 through ry-2(10-6) to 77, through the 270 ohm resistor, through the latch solenoid and the
 85 ohm resistor to 35. The latch solenoid is interlocked.
-RY2
 
-to-6 270 LaTcH oy
-SOLEHOID OHM.
+RY 2
+9 10-6 270 LATCH 85
+OHM SOLENOID OHM
 
-Ry-2 - Selection Motor
+LM VN~ VIDA ~)
+
+6. Ry-2 - Selection Motor
 
 Common 32 through thermostat (in selection motor) to 69, through ry-2(8-12) to 60, through forward
+winding of selection motor to 40. The motor drives the rotating plate, the number | number coil and
+the number quadrant clockwise, mechanically operating the reverse and the start switches.
 
-winding of election motor to 40. The motor drives the rotating plate, the’ kumber 1 aunbe abe
+SELECTION
+MOTOR
 
-the number quadrant clockwise, mechanically operating the reverse and the start switches. and
-SELECTION ‘
+(40)
 
-6 THERMostaT
+7, Ry-3 - Reverse Switch
 
-Ry-3 - Reverse Switch
-
-Common 32 through thermostat to 69, through
+Common 32 through thermostat to 69, through reverse switch to 64, through ry-2(11-7) to 63, through
 ry-3 coil to 35. Ry-3 is energized.
 
 REVERSE
-7 THERMOSTAT ‘Switch we
+1 THERMOSTAT SWITCH RY 2
+69)_] Wet re
+COIL
+8)
 
-Oo
-
-Page 14E
-
-reverse switch to 64, through
-: ry-2(11-7) to 63, through
+Page 14E MaxManuals WURLITZER

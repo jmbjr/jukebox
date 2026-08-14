@@ -1,88 +1,69 @@
 SECTION E
 
-‘29303
-
-PRINTED CIRCUIT BOARD
-
+YELLOW GOT , ~ELLOW DOT
+129305 (25017
+| REG WHITE j
+' 1
+y ' a
+# YULLOw GOT
+13424 & Pe 131425
+YELLOW ww
+fx
+f ‘
+' c iL
+| of _
+12077? OY L \27612
+fain
+FIG. 7. PHONOGRAPH SPEAKER LAYOUT -REAR VIEW
+A.C. VOLTAGE MEASUREMENTS A.C. measurements made with
+CONDITION |CONDITION | CONDITION A&.C, VTVM RCA WV-764
+NO. | NO. 2 NO. 3 Load each channel with 5 OHMS A lo G.
+FREQUENCY - 500 TO 1500 CPS
+1 7 0027 V. 0027 V 0270V TONES - MAXIMUM
+: —- BALANCE - MID-POSITION
+2 O028V O028V 02729 J ; . .
+oe on INPUTS A&B - PARALLELED
+z 3 || 9 | .o93v -0094V .90V oO
+g 2 {4 |] 10 | .o1v 0125¥ | LOUDNESS
+e 2 .144V J7OV any iB ASE psu eK /S0
+5 S{& ji" [rer onty|ReF. ONLY TURNED lala 6.8K /S%
+uO
+rd : “ AAV r Pye TS
+= be 6 ]2 O44 -OLON OF] iO MY 400 MV
+ea]
+oO Ff 13 050V .050¥V 50%
+= ; 1.34 100 CLS 8 3.0K /S¥
+S 14 OV OV Vb. A % SOK S/R
+a. DRIVER 1L43V
+OUTPUT IREF. ONLY = 7
++ LOAD| 1.134 ATTENUATOR ATTENUATOR
+A TOG NO. | NO. 2
+CONDITION #
+10 MV Input or use | Volt and Attenuator, #1, Loudness Full On.
+CONDITION #2
+Same as Condition #1 except 3 Amp Iuses pulled. (No feedback)
+CONDITION #3
+300 MV Input or use | Volt and Attentuator #2, Loudness off (ALC test)
 NOTES:
 
-Rwowe
+1, Line Volatge - 117 V.A.C.
 
-an
+Channel A&B are identical, therefore they are assigned the same values and part numbers.
 
-Page 10E
+K=L000 Ohms--- = Ohms
 
-yeLiow
-Voor
+Test points | thru 6 for channel A&? thru 12 for chanel B are corresponding circuit points and should
+be compared to each other both A.C.&D,C.
 
-ry oD |)]|_vetrow 007
+Test voltage should be within 10% of value shown unless marked REF. ONLY.
 
-131425
+D.C. Voltages are with no signal applied and are shown adjacent to the test points measured from
+chassis.
 
-Bn
+7. A.C. Voltages are shown in chart above measured from chassis,
 
-toes 3
-yeuow | ike | rel
-)
-nal fo
+& Wh
 
-RED i27612
-por
-20777
+ow
 
-otaial
-
-FIG. 7. PI PH SP) 3 IT - RE. VIEW
-IG. 7. PHONOGRAPH SPEAKER LAYOU' AR
-A.C. measurements made with
-
-A.C. VOLTAGE MEASUREMENTS
-INDITION A.C. VTVM RCA WV-76A
-eee |S Load each channel with 5 OHMS A to G,
-
-Bee ENO: AY FREQUENCY - 500 TO 1500 EPs
-0027 V. .0027V -0270V TONES - MAXIMUM .
-BALANCE - MID-POSITION
-eaO28. gO028Y + HAE INPUTS A&B - PARALLELED:
--093V | .0094V .90V 1.0V 1.0V
-n -044V -0125V ai LOUDNESS, z
-2 a44v__]__.70V
-a REF. ONLY [REF OnLy} TURNED LOK /5% 6.8K/5%
-eB .044V -010V OFF
-a = 7 10 Mv 300 MV
-a .050V -50V _|
-ov 184 100
-VEDIC. SZ 3.0K/5%
-ATTENUATOR ATTENUATOR
-CONDITION #1 NO. 1 NO. 2
-
-10 MV Input or use 1 Volt and Attenuat
-CONDITION #2 ator, #1, Loudn
-
-Same as Condition #1 except 3 Amp wy.
-CONDITION #3 ™P Fuses pulled, (No feedback)
-
-300 MV Input or use 1 Volt and Ate
-entuuator: #2) Toudn
-5 es off
-
-ess Full On.
-
-(ALC testy
-Line Volatge - 117 V.A.c,
-Channel A&B are identical, therefor
-K=1000 Ohms--- = Ohms
-Test points 1 thru 6 for channel A&7 thr, 12 fo
-be compared to each other both A.C.ap cg. {°° Channel B
-Test yoltage should be within 19% o¢ value Sho)
-D.C. Voltages are with no signa) applied and a wn unless Marked R.
-chassis. Te shown aq;
-A.C. Voltages are shown in chart above Measure,
-
-‘d from
-
-EF. ONLy,
-the test points measured fro
-chassis 6 i
-
-djacent to
+Page 10E MaxManuals WURLITZER

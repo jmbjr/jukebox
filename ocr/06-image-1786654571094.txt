@@ -1,321 +1,899 @@
-SECTION E
+COIN MECHANISM SOCKET
 
-oton
+SELECTOR COW PLUG #
+
+'
+
+SELECTOR COIL PLUG # 2
+
+SELECTOR COIL PLUG te 3
+
+SELECTOR COL PLUG t 4
+
+a
+
+CHASSIS
+
+MOTOR
+
+a
+
+REVERSING SWITCH SOCKET
+
+i — I re Se
+
+—
 
 .
 
-peo Pe
+5
 
-Tat
+6 7
 
-rT
+9
 
-}- ES
-
-TT
-
-E
-
-rite yee |
-
-HRuY
-
-————!
-
-(erection each
-
-beete
-
-Seuevon cen rae HE
-
-Toye gee
-
-|
-
-Suoue er
-
-ort
-
-tote
-
-rei it
-
-Thaw
-
-yyy yyy)
-
-yyy)
-
-oa:
-
-) |
-
-()
-
-wa
-
-aS
-
-(3)
-
-pa
-
-a
-
-sti
-
-ate
-
-Tare
-
-Se
-
-[|
-
-ire
-
-lar
-
-»
-
-\S
-
-aur
-
-po
-
-Hi
-
-tl
-
-4
-
-te
-
-in
-
-ert
-
-ao
-
-tie
-
-res
-
-aay
-
-lt
-
-Fi=|2
-
-Sa
-
-aS
-
-Su—_4
+10 Il
 
 i
-
-fA
-
-=
-
-res
-
-4
-
-«|e
-
-esr
-
-ySe5
-
-whe
-
-om
-
-Aa
-
-e
-
-ii
-
-iI
-
-si
-
-Cea
-
-— 4+
-
-= it
-
-3
-
-et
-
-i.
-
-#
-
-i
-
-"
-
-me
-
-aa
-
-mu
-
-=
-
-ae
-
-lees
-
-esl Hm
-
-a
-
-ae
-
-hy
-
-im
-
-=
-
-[-
-
-room
-
-4
-
-|
-
-ft
-
-Lt
-
-iil!
-
-oul
-
-a
-
-=
-
-F444
-
-aa eyes
 
 2
 
-‘et
+3 4
 
-Eo
+s
 
-pane!
+23
 
-a
+!
 
-iE
+2
 
-rare
+3 4
 
-at
+56789
 
-hi
+10 1H
 
-tt
+WW
 
-—boe
+io
 
-Bi
+9 8
 
-%
+765
+
+432
+
+t
+
+]
+
+1
+
+Set
+
+I
+
+23456 78910
+
+"
 
 i
 
-et
+2345 6
 
-set
+7 8 9 10 I
 
-aur ye|
+'
 
-Vase lect
+23 4
 
-——
+s
 
-wea
+8
 
-Sort
+Y
 
-TUTE rere acer non
+T
 
-erereen suuers rows
+T
 
-cH
+T
 
-Hos
+|
+
+T
+
+J
+
+T
+
+I
+
+T
+
+i
+
+T
+
+T
+
+T
+
+I
+
+T
+
+T
+
+J
+
+T
+
+T
+
+Ty
+
+]
+
+T
+
+T
+
+T
+
+T
+
+T
+
+i}
+
+T
+
+1
+
+T
+
+T
+
+T
+
+T
+
+i
+
+T
+
+|
+
+T
+
+T
+
+T
+
+]
+
+“TT
+
+T 4
+
+T
+
+T
+
+T
+
+I
+
+T
+
+T
+
+T
+
+T
+
+T
+
+!
+
+]
+
+T
+
+I
+
+=
+
+T
+
+T
+
+T
+
+T
+
+]
+
+T
+
+Da kd
+
+|
+
+n
+
+-um_ nO rn aao
+
+-~NN
+
+wo
+
+oO
+
+aw
+
+no
+
+Mm
+
+or
+
+m
+
+“a
+
+um
+
+al
+
+nm
+
+C2)
+
+ao
+
+oOo nm
+
+-
+
+rie
+
+“o
+
+ey Tom
+
+ao
+
+=
+
+o
+
+432 ¢
+
+tbuoun erred
+
+oe OL Be hoa
+
+eo
+
+fal
+
+mn
+
+st
+
+©
+
+-
+
+a
+
+Ll
+
+J
+
+-
+
+e
+
+RERGRGGEE
+
+LLL)
+
+LLLL))L)
+
+24
+
+VFD
+
+} MED
+
+LAMP
+
+—-
+
+GE. 303
+
+IMF D
+
+CIRCUIT
+
+SERVICE
+
+{ | ——- 6, BREAKER
+
+SWITCH
+
+i
+
+1 MFO
+
+=
+
+310_n
+
+t+ G
+
+| MFD
+
+#5
+
+5 WwW
+
+— H
+
+MFD.
+
+j
+
+rr J
+
+-|
+
+10
+
+r— K
+
+1
+
+=-.|MFD
+
+\4
+
+i"
+
+r—-73
+
+12
+
+b-75
+
+3
+
+58
+
+i 79
+
+12 C69
+
+i
+
+mot
+
+35
+
+pe S32
+
+7 &—esi
+
+7 &—_e
+
+5 &—e45
+
+8 &—#65
+
+8 &—e60
+
+mi
+
+2
+
+3
+
+*
+
+73
+
+140
+
+3
+
+‘—-M
+
+10
+
+32-4
+
+WW 64
+
+35
+
+12
+
+40
+
+i
+
+=
+
+r—-N
+
+6 *—e78
+
+5 &—62
+
+8 4#—e50
+
+7 &— #65
+
+7 &—e63
+
+}—- P
+
+2
+
+49
+
+r— Q
+
+re |
+
+7
+
+10
+
+40———_—4
+
+i“
+
+40 -__—_—-¢«
+
+10
+
+82
+
+rR
+
+6 &—e77
+
+6 4&—\e75
+
+7 M— 046
+
+6
+
+5 4—e74—+
+
+| —eao
+
+f— 3
+
+1
+
+21
+
+56—_
+
+76—
+
+r- T
 
 :
 
-IH
+_. |
 
-3s
+9
 
-Py
+32——@
 
-wy)
+si
 
-oa
+76—
 
-eu
+ot _e82
 
-\|
+r— vu
 
-Py aed
+5 —es57—
 
-aaae
+3 4—-e 48,
 
-bed
+6 &—o
 
-ECE =
+5 &—e 664
 
-Th Prmeeawwen Soot
+10
 
-4}
+r— V
 
-1 ee
+13
 
-LY creases
+|
 
-Coo
+14
 
-iiioe werent a
+30
 
-— fio et
+14
 
-- GS
+10)
 
-[Past tan saint
+66———-
 
-BECTON tm woe
+r-50
 
-woUey ok 32s Ae
+42
 
-NOTE, BLL SUTTCHES
+$7
 
-THIS SCHEMATIC 18 SHOWN IK
+au
 
-Latest
+48
 
-3200 WIRING DIAGRAM SECTION B-131159
+MF DO.
 
-ane enon
+|
 
-CONDITION AT THE TIME OF PRINTING
+14
 
-FIG. 2. SERIES 9200 WintHo pgp ,m- SECTION
+RY 6
+
+RY. 1
+
+13
+
+RY. 3
+
+RY 4
+
+4
+
+RY 2
+
+re
+
+F— 2
+
+I 3
+
+r—- 4
+
+9
+
+toro
+
+We 53
+
+12-26
+
+31
+
+|
+
+COMMON
+
+32
+
+r- 32
+
+117 _V.
+
+33
+
+| 33—
+
+34
+
+-28 Vv. OC
+
+35
+
+r735
+
+36
+
+44
+
++74
+
+3:7
+
+38
+
+kr S4
+
+39
+
+— 39 ——_.
+
+24v. AC
+
+40
+
+107-40
+
+24Vv. AC
+
+U7 Vv
+
+4l
+
+Psi
+
+WITHOUT STEPPER JUMPER PINS
+
+6,7 &8 ON STEPPER SOCKET NO.4
+
+270
+
+756
+
+—
+
+|
+
+t
+
+e
+
+r
+
+VVYVVS SYA
+
+wy
+
+tanner
+
+ann On
+
+oO
+
+o
+
+ono” an
+
+-wo-noorv
+
+aw
+
+nm
+
+©
+
+Nr nN Ooo
+
+6
+
+one
+
+VVAVVSASSA
+
+-NOT NOP ooo
+
+wr%rw"
+
+RRA RR
+
+o
+
+tN
+
+om nam
+
+unnogrg¢rn
+
+-T m
+
+w
+
+n
+
+Manner
+
+i
+
+7
+
+oo
+
+qnggygawwvvsr~rx
+
+aszageunrr>Sn
+
+L
+
+=
+
+|
+
+|
+
+Lis
+
+woTty
+
+|
+
+|
+
+srvt
+
+Li
+
+!
+
+sir
+
+|
+
+i
+
+|
+
+}
+
+4
+
+L
+
+|
+
+i
+
+1
+
+1
+
+J
+
+jt
+
+jt
+
+|
+
+J
+
+|
+
+i
+
+l
+
+!
+
+|
+
+!
+
+iT
+
+j
+
+i
+
+)
+
+jt
+
+i]
+
+ty)
+
+|
+
+js
+
+mi
+
+|
+
+a
+
+{isi
+
+|
+
+23456789101 t2
+
+123456789 W014i
+
+12345
+
+6789 0 It 12
+
+123 4
+
+12345
+
+6789101 t2
+
+ie
+
+—
+
+12 34
+
+I
+
+|
+
+2345678
+
+9
+
+lo It ta
+
+a anal aie Se ee a Se ee
+
+(2345678691011
+
+—
+
+TT
+
+SELECTOR SW. SOCKET #1
+
+SELECTOR SW. SOCKET #2
+
+SELECTOR SW. SOCKETY3
+
+SELECTOR
+
+SW. SOCKET #4
+
+TOP TUNES SOCKET
+
+LP
+
+L.R PROGRAMMER SOCKET
+
+WITHOUT TEN TOP TUNES
+
+JUMPER 1&3
+
+WITHOUT L.P. JUMPER
+
+INS
+
+3
+
+JUMPER PINS 3-4 AND li-I2
+
+WITHOUT T.T.
+
+4 AND ti-t2
+
+NOTE, ALL SWITCHES ARE SHOWN IN A
+
+THIS SCHEMATIC IS SHOWN IN THE LATEST
+
+MECHANICAL AT REST” POSITION
+
+CONDITION AT THE TIME OF PRI'NTING
+
+3200 WIRING DIAGRAM SECTION B-I3II59
+
+MaxManuals
+
+FIG,
+
+2Z.
+
+SERIES 3200 WIRING DIAGRAM, SECTION B
+
+WURLITZER
+
+Page 4E

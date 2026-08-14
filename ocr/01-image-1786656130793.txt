@@ -1,196 +1,236 @@
-SECTION B
+SECTION
 
-S
-
-S
-
-ST,
-
-S
-
-Ss
-
->
-
-SGD
-
->
-
-<n
-
-SOT
-
-aS
-
-Ss
-
-Gf
-
-2
-
-<2
-
-WA
-
-$
-
-WF
-
-aS
+D2
 
 SS
 
-Le,
+=
 
-S
+SS
 
-Zz
+Sse mt me “Wirp
 
-Pe
+fe
 
-=>
+=
 
-Sy
+PVAMAVELEEEE GUS
 
-STS
+@aw-+ 202
 
-<p
+°
 
-SD
+atte
 
-S
+cee
 
-Sz
+oe.
 
-Ltty
+=
 
-ETTOTETAASASS
-
-S
+=
 
 SS
 
 SSS
 
-SS
+€
 
-)
+Cas
 
-CAT AAAS
+t4,
 
-ome
+—.
 
-|
+—_
 
-g
+:
 
-10,
+—
 
-a
-
-2 TE
-
-@
-
-———
-
-Zale
-
-aA
-
-MV
-
-==—
-
-it
-
-is
-
-)
-
-K_ Vio!
-
-ah
-
-\\s
+hae
 
 =
 
-23
+—
 
-————
+=>
 
-wie
+=
 
-21
+fe
 
-Ax \
+CZ
 
-@
+RSS
 
-li,
+—_
 
-|
+LeP
 
-ce,
+vw
 
-vat
+4/
 
-—=
+ts
 
-@)
+SPPTELUAAVVVUANAAN
 
-as
+RO
 
-18
+——
 
--—S
+SS
 
-Bee
+—
+
+—
+
+SS
+
+S77 /
+
+—-
+
+“
+
+447
+
+SOULLIEEAAINN Awe
+
+ee.
+
+ZB
+
+a
+
+g
+
+10
+
+oH)
+
+wr;
+
+a
+
+“
+
+o)
+
+ae eae
+
+-*
+
+°
+
+pa
+
+i>
+
+mt
+
+J
+
+i 7
+
+if
+
+Yi
+
+Or
+
+en 4
+
+a be
+
+E|
+
+&
+
+jt
+
+\—
+
+5
+
+fled
+
+\¥
+
+er \
+
+=
+
+ON
+
+eG
+
+\
+
+= ——s>
+
+LS
+
+ue
+
+Ig
+
+>
+
+&
+
+vy
+
+19
+
+(8)
 
 FIG.
 
-ek,
+19,
 
 ELECTRIC SELECTOR - 200
-
-il
 
 Switch (4)
 
 65952
 
-155
+LS.
 
-Solenoid, Selector Stop (1)
+Selencid, Selector Stop (1)
 
 68804
+
+23
 
 Socket, 3 Circuit
 
 117824
 
+68608
+
 Plunger
 
-Cap, 3 Gircuit
+Cap, 3 Circuit
 
 117823
 
 Washer
 
-68608
+64766
 
 3
 
 67927
 
-64766
-
-Wobble Ring
-
 Spring
 
 64780
+
+Wobble Ring
+
+74402-1
 
 Spacer (4)
 
@@ -204,23 +244,19 @@ Selector Plates & Spacer
 
 16
 
-74402-1
-
-5
-
-Cap, 6 Circuit
+Cup, 6 Circuil
 
 113527
 
-Latch Pin, Inner (100)
-
-110941
+LLO941
 
 17
 
-Socket, 6 Circuit
-
 113528
+
+Latch Pin, Inner (100)
+
+Socker, 6 Circuit
 
 Switch, Reverse
 
@@ -228,47 +264,47 @@ Switch, Reverse
 
 Contact (10)
 
-111527
+LL1527
 
-Switch, Start
+60655
 
-60655,
-
-18.
+18
 
 Motor & Gear
 
-111913
+LLi9L3
+
+Switch, Start
 
 Stud
 
 69246
 
-195
+19,
 
 Gear, Pinion
 
 68717
 
-Roll Pin
+Koll Pin
+
+73782 -32
 
 Nut, 1/2-20
 
-73602-77
-
-73782 ~-32
-
-Latch Pin, Outer (100)
-
-110942
+73602 -77
 
 20
 
-Solenoid, Selector Stop (9)
-
 68617
 
-110480.
+Latch Pin, Outer (100)
+
+LLO942
+
+Solenoid, Selector Stop (9)
+
+110480
 
 21
 
@@ -278,6 +314,8 @@ Solenoid, Selector (20)
 
 Spring, Latch Pin (200)
 
+130461
+
 10
 
 Rotating Plate
@@ -286,25 +324,23 @@ Rotating Plate
 
 Plunger
 
-130461
-
-Stop Pin (20)
-
-115411
+Li54i1
 
 Washer
 
 64766
 
-28078
+Stop Pin (20)
 
 Spring
 
-Washer (20)
-
 64780
 
-11
+Washer (20)
+
+28078
+
+ll
 
 Rocker, Rotating Plate (20)
 
@@ -314,43 +350,41 @@ Internal Hair Pin
 
 74402-1
 
-12.
-
-48501
-
 22
 
 Bracket & Roller (3)
 
 68651
 
-Plug, 11 Prong
+12
+
+Plug, Ll Prong
+
+48501
 
 23
 
+68755
+
 Socket, 11 Prong (3)
 
-38492
+38402
 
 Spring, Rotating Plate
 
-68755
-
-13
-
-Spring, Number Quadrant
-
 62773
 
-24,
+&
+
+24
 
 Roller, Guide (3)
 
 68656
 
-66186
+L3
 
-Stud, Eccentric, Guide Roller (3)
+Spring, Number Quadrant
 
 69659
 
@@ -358,12 +392,16 @@ Stud, Eccentric, Guide Roller (3)
 
 Contact Plate
 
+66186
+
+Stud, Eccentric, Guide Roller (3)
+
 Retaining Ring (3)
 
 73724-31
 
+MaxManuals
+
 WURLITZER
 
 Page 11B
-
-eee  —

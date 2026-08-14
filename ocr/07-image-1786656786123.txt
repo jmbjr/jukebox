@@ -1,70 +1,63 @@
-ACTION &
+SECTION E
+8. Ry-4
+Common 32 through ry-1(9-5) to 74 to 44, through number latch switch contacts 2-1, letter latch switch
 
-ay SP through ry=1(=5) to 74 to 44, throu w/ 8 2. letter latch switch
-8 » through number lateh awit y
-Stout ange eh contacts 2-
-t-2 to St, through ry-8(12-8) to 48, through ry=4 coll to 64 to 62 oh eae
-pee h2, through ry-M5-9) to of
+contacts 1-2 to 51, through ry-3(12-8) to 48, through ry-4 coil to 68 to 62, through ry-3(5-9) to 35.
+Ry-4 is energized,
 
-Ryod is &
-Ry!
-, SS
+8 Br |
+LATCH RY 3
+@Ho SWITCHES (2-8 RY 4 RYS
+o(9) 0) F OG) wea 5-8
+o—(48)
 
-LATCH RYS
+9, Ry-4 - Start Switch - Letter Coil
 
-Switch - Letter Coil
+Common 32 through thermostat to 69, through ry-2(12-8) to 60, throngh start switch to 63, through
+circuit breaker to 67, through A letter coil to a, through A letter selector switch, through control
+switch contacts 1-2 to 46, through ry-4(7-11) to 40. Letter coil is energized, Al selector pin is
 
-> through thermostat to 69, through ry-2(12-8) to 60, through s
-
-; ‘therm y , tart switch to 63, through
-aker tS , through A letter coil to a, through A letter selector switch, through control
-cacts 1-2 to 46, through ry-4(7-11) to 40. Letter coil is energized, Al selector pin is
-
+released.
 LETTER CONTROL
-‘SWITCHES SwitcH are
+SWITCHES SWITCH RY 4
+Ry2 eat]
+9 THERMOSTAT i2-8 START A 20-46)
+SWITCH CIRCUIT LETTER
+e yy BREAKER COIL
 
-START a
-Switch CIRCUIT LETTER
-I BREAKER COIL
+LO. Ry-4 - Counter
 
-LONWCOTOD
+Common 32 through free play switch, through counter to 50, through ry-4(8-12) to 40. Counter registers
+one selection.
+FREE
 
-hrough free play switch, through counter to 50, through ry-4(8-12) to 40. Counter registers
+PLAY RY 4
+jg swiTcH COUNTER 8-12
 
-RY4
-COUNTER 8-12
+8)
 
-:
+Li. Ry-4 - Cancel Solenoid
 
--4 - Cancel Solenoid
+Common 32 through cancel solenoid to 45, through ry-4(5-9) to 35. Cancel solenoid cancels one credit.
 
-non 32 through cancel solenoid to 45, through ry-4(5-9) to $5. Cancel solenoid cancels one cresit-
+GANGEL RY4
+I SOLENOID 5-9
 
-AL steno me
-~~ TIO. 48)
-Ry-4 - Ry-1
+©
 
-istor across ry-l
-Ky-4(9-1) open removing 35 from ry-1 coll (see schematic 2). The capacitor and res!
-length of the letter coil pulse.
+12. Ry-4 - Ry-1
 
-ll hold ry-1 momentarily to control the
-Ry-l Releases
+Ry-4(9-1) open removing 35 from ry-1 coil (see schematic 2), The capacitor and resistor across ry~1l
+coil hold ry-l momentarily to control the length of the letter coil pulse.
 
-Ky-1(9-5) open releasing number 1 number coll and ry~2 (see schematic 4).
+13. Ry-1 Releases
+Ry-1(9-5) open releasing number 1 number coil and ry-2 (see schematic 4),
 
-Ry-2 Releases
-atic 5). Latch
-from 77 and latch solenoid infor tea act sn Jonata.
-{tion, Contacts I~ pe
-iges lamp, 4-5 close t0 restore shunt across
+14. Ry-2 Releases
+Ry-2(10-6) open removing common 32 from 77 and latch solenoid interlock (see schematic 3). Latch
+solenoid releases, control switches return to rest position, Contacts 1-2 open the circuit to the letter
+coil (see schematic 9), 3-4 open the circuit to the select lamp, 4-5 close to restore shunt across 85 ohm
 
-ext selection.
+resistor (see schematic 3) in preparation for the next selection,
 
-Ry-2(10-6) open removing common 32
-volenold releases, control switches return to rest
-©0ll (see schematic 9), 3-4 open the circult (0 the
-resistor (see schematic 3) in preparation for te
-
-i Page 1SE
-“URLITZER
+WURLITZER MaxManuals Page 15E

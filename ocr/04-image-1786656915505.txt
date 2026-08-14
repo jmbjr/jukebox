@@ -1,79 +1,63 @@
 SECTION E
 
+NUMBER mk
+SWITCHES
+9 ee ‘a ; DRIVER
+onu SOLENOID >
+©) O 38
+ce)
+
+10. Letter Coil Energized
+
+Common 32 through Al-5 letter coil to Al, through letter switch, through number switch, through control
+switch contacts 2-1 to 46, through circuit breaker, through ry-4 (7-11), through ry-1 (3-11) to 40. Al-5
+coil is energized, Al selector pin released.
 NUMBER
-SWITCHES | ta6
-ORIVER,
-SOLENOID
-
-auer Coil Energized
-
-on ae
-
-through Al-S letter coil to Al, through letter switch, through number switch, through i
-‘ control
-
-common 32 three, to 46, through circuit break
-arch contacts 2— , cult breaker, through ry-4 (7-11 -
-switch orregized, Al selector pin released. remedial ee MEE MOEEL: Li
-ae NUMBER
 LETTER SWITCH
 
-SWITCH | CONTROL
-SWITCH GIRCUIT
-ry 2 BReaKen oy; AY!
-Bl
-=
+CONTROL
+eerron | SWITCH CIRCUIT Ry4
+is Al 2 BREAKER 7-11 a
+10 a
+COIL ,O (46) = {40)
+(32) 000 (al) . o— as
 
-Oe ee
+1l. Counter
+
+Common 32 through free play switch; through counter to 50, through ry~4 (6-10) to 40. Counter registers
+one selection.
 
 FREE
-PLAY
+PLAY RY 4
+|| SWITCH COUNTER 8-10
 
-1
+©
 
-COUNTER 10
+12. Cancel Solenoid
 
-2] Solenoid
+Common 32 through cancel solenoid to 45, through ry-4 (5-9) to 35, Cancel solenoid cancels one credit. -
 
-common 82 through cancel solenoid to 45, through ry-4 (5-9) to 35. Cancel solenoid cancels one credit.
+| 9 CANGEL RY 4
+SOLENOID 5-9
 
-J SOLENOID 6-9
-) S
+000 (45-1
 
-Released
-Ry-2 released after capacitor discharges through
+5 @)
 
-4 (1-9) open removing -D.G. 35 from ry-2 coil.
-sistor and ry-2 coil (see schematic 4).
+13. Ry-2 Released
 
-3S
+Ry-4 (1-9) open removing -D.C. 35 from ry-2 coil. Ry-2 released after capacitor discharges through
+resistor and ry-2 coil (see schematic 4),
 
-h Solenoid Released
-
+14. Latch Solenoid Released
 a. Ry-2 (11-7) open releasing latch solenoid (see schematic 5).
-
-atic 10). Contacts 3-4
-
-reuit to the letter coil (see schem:
-85 ohm resistor (see
-
-b. Control switch contacts 1-2 open the cl
-5 close to restore shunt across
-
-open the circuit to the select lamp, 4~
+b. Control switch contacts 1-2 open the circuit to the letter coil (see schematic 10). Contacts 3-4
+open the circuit to the select lamp, 4-5 close to restore shunt across 85 ohm resistor (see
 schematic 3).
+15. Ry-4 Released
+a. Ry-4 (12-8) open releasing driver solenoid (see schematic 9),
+b. Ry-4 (6-10) open releasing counter (see schematic 11).
 
-4 Released
+c. Ry-4 (5-9) open releasing cancel solenoid (see schematic 12).
 
-@. Ry-4 (12-8) open releasing driver solenoid (see schematic 9).
-
-b. Ry-4 (6-10) open releasing counter (see echematic 11).
-
-©. Ry-4 (5-9) open releasing cancel solenoid (see schematic 12).
-
-ae
-
-ZER
-Page 21E
-
-WORUTZER
+WURLITZER MaxManuals Page 21E

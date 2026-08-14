@@ -1,12 +1,20 @@
+SECTION E
+
 WIRING DIAGRAM COLOR CODE
 
 SOLID
 
 SOLID
 
-‘COLOR
+COLOR
 
 COLOR
+
+TRACER
+
+WIRE
+
+TRACER
 
 100
 
@@ -14,15 +22,7 @@ COLOR
 
 WIRE
 
-TRACER
-
 100-200
-
-WIRE
-
-TRACER
-
-Al
 
 Tan
 
@@ -34,6 +34,10 @@ White
 
 None
 
+Al
+
+None
+
 Red
 
 Brown
@@ -42,9 +46,7 @@ Brown
 
 Black
 
-None
-
-BL
+By
 
 Orange
 
@@ -66,9 +68,11 @@ Red
 
 Yellow
 
-Ci
+Cc)
 
-Lt. Green Brown
+Lt. Green
+
+Brown
 
 43
 
@@ -78,7 +82,7 @@ Yellow
 
 C6
 
-t. Blue
+Lt. Blue
 
 Brown
 
@@ -88,17 +92,19 @@ Tan
 
 Yellow
 
+45
+
+Dr. Green
+
+Yellow
+
 Di
 
 Purple
 
 Brown
 
-45
-
-Dr. Green
-
-Yellow
+D6
 
 Gray
 
@@ -110,8 +116,6 @@ Dr. Blue
 
 Yellow
 
-El
-
 White
 
 Brown
@@ -122,9 +126,9 @@ Purple
 
 Yellow
 
-E6
+El
 
-K
+E6
 
 Pink
 
@@ -136,7 +140,7 @@ Gray
 
 Yellow
 
-Fl
+F}
 
 Brown
 
@@ -150,8 +154,6 @@ Yellow
 
 Red
 
-F6
-
 Black
 
 50
@@ -160,15 +162,15 @@ Black
 
 Yellow
 
-Gi
+F6
 
-N
+Gj
 
 Orange
 
 Black
 
-51
+sl
 
 Brown
 
@@ -178,25 +180,25 @@ Yellow
 
 Black
 
-G6
-
 52
 
 Red
 
 Green
 
-AL
-
-Lt. Green Black
-
 53
-
-Orange
 
 Green
 
-He
+H1
+
+Lt. Green
+
+Black
+
+Orange
+
+H6
 
 Lt. Blue
 
@@ -208,10 +210,6 @@ Yellow
 
 Green
 
-ii
-
-Purple
-
 Black
 
 55
@@ -220,19 +218,21 @@ Tan
 
 Green
 
+J
+
+Purple
+
 Jo
+
+Gray
 
 Black
 
 56
 
-t. Blue
-
-Gray
+Lt. Blue
 
 Green
-
-Ki
 
 White
 
@@ -244,15 +244,17 @@ Purple
 
 Green
 
-Ko
+Ki
+
+Green
+
+K6
 
 Tan
 
 Black
 
 58
-
-Green
 
 Gray
 
@@ -264,19 +266,19 @@ Green
 
 Brown
 
-Orange
-
 60
 
 Black
 
 Green
 
+Orange
+
 Red
 
-61
-
 Orange
+
+61
 
 Brown
 
@@ -292,19 +294,21 @@ Red
 
 Blue
 
+63
+
+Blue
+
 Yellow
 
 Orange
 
-63
+Orange
 
-64
+Lt. Green
 
 Orange
 
-Blue
-
-Lt. Green Orange
+64
 
 Yellow
 
@@ -316,7 +320,11 @@ Orange
 
 65
 
-Lt. Green
+Lr, Green
+
+Blue
+
+Tan
 
 Blue
 
@@ -325,10 +333,6 @@ Purple
 Orange
 
 66
-
-Tan
-
-Blue
 
 Gray
 
@@ -342,19 +346,19 @@ Blue
 
 White
 
-Orange
-
 68
 
 Gray
+
+Blue
+
+Orange
 
 Black
 
 Orange
 
 69
-
-Blue
 
 White
 
@@ -372,6 +376,8 @@ Blue
 
 Brown
 
+Purple
+
 19
 
 White
@@ -380,13 +386,11 @@ Purple
 
 72
 
-Purple
-
-21
-
 Red
 
 Purple
+
+21
 
 Brown
 
@@ -395,6 +399,8 @@ Red
 73
 
 Orange
+
+Purple
 
 22
 
@@ -414,15 +420,13 @@ Orange
 
 Red
 
+75-175
+
+Li. Green
+
 Purple
 
 24
-
-75 = 17:
-
-Lt. Green
-
-Purple
 
 Yellow
 
@@ -432,13 +436,17 @@ Red
 
 Lr. Blue
 
+Purple
+
 25
 
-Lt. Green Red
+Lt. Green
 
-77-177
+Red
 
-Tan
+Ti 177
+
+‘Tan
 
 Purple
 
@@ -450,21 +458,21 @@ Red
 
 78
 
-Purple
-
-27
-
-Re
-
 Gray
 
 Purple
 
+White
+
+27
+
 Purple
 
-79-179
+Red
 
-White
+79 -179
+
+Purple
 
 28
 
@@ -486,7 +494,9 @@ Red
 
 81
 
-Purp!
+Brown
+
+White
 
 30-130
 
@@ -494,7 +504,9 @@ Black
 
 Red
 
-Brown
+82
+
+Red
 
 White
 
@@ -502,17 +514,13 @@ White
 
 Tan
 
-82
-
-Red
-
-White
-
 None
 
 83
 
 Orange
+
+White
 
 32
 
@@ -522,9 +530,9 @@ None
 
 84
 
-Yellow
-
 White
+
+Yellow
 
 33
 
@@ -534,6 +542,8 @@ None
 
 85
 
+Lt. Green
+
 White
 
 34
@@ -542,23 +552,23 @@ Yellow
 
 None
 
-Lt. Green
-
-White
-
-Dr. Green None
-
 86
 
 Lt. Blue
 
+White
+
+White
+
 35
+
+Dr. Green
+
+None
 
 87
 
 Purple
-
-White
 
 36
 
@@ -568,19 +578,21 @@ None
 
 88
 
+Gray
+
 White
 
 37
-
-Purple
 
 None
 
 89
 
-Gray
+Tan
 
 White
+
+Purple
 
 38
 
@@ -588,16 +600,14 @@ Gray
 
 None
 
-Tan
-
 90
 
 Black
 
 White
 
-White
+MaxManuals
 
 Page 2E
 
-w .
+WURLITZER

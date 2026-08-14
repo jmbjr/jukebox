@@ -1,90 +1,102 @@
-SECTION 8
+SECTION B
 
-SELECTOR SWITCH ADJ USTMENT
+SELECTOR SWITCH ADJUSTMENT
 
-The selector switch assembly may
-from the cabinet for Servicing. Open the lower front
+The selector switch assembly may be removed
+from the cabinet for servicing. Open the lower front
 door by releasing the two latch levers located near
 the ends of the lower fluorescent lamp. Remove
 the four hex head screws that secure the selector
-Switch assembly mounting brackets to the inner sides
-of the cabinet. Lift the selector
+switch assembly mounting brackets to the inner sides
+of the cabinet. Lift the selector switch assembly
 straight up.
 
-be removed
-
-switch ass
-
-mbly.
-
-a, CONNECTOR LINK PLATE ADJUSTMENT
+a. CONNECTOR LINK PLATE ADJUSTMENT
 
 Should the connector link plate require ad-
-Justment, readjust the entire assembly through the
-following sequences,
+justment, readjust the entire assembly through the
+following sequences.
 
 (1) Loosen the screws (fig. 1, item 3) and
-» items 6 and 8),
+(fig, 2, items 6 and 8),
 
-(fig
-
-(2) Fully depress a number button. Position
+(2) Fully depress a number button, Position
 the lever (fig. 1, item 11) in a vertical position and
-tighten the screws (fig. 1, item 3), Following the
+tighten the screws (fig, 1, item 3). Following the
+same procedure, adjust the letter connector link
+plate.
 
-ne procedure, adjust the connector link
+CONNECTOR LINK PLATE ADJUSTMENT
 
-letter
+FIG. 1.
 
-FIG. 1. CONNECTOR LINK PLATE ADJUSTMENT
-1 Bu 128854
-2 126299
-3 8-3. Hex Hd
-4 Connector Link Plate
-5. Screw, 6-32 x 3/8", Hex Hd
-6 Shoulder Bushing
-7. Spacer
-8. Connector Link 200
-100
-9 Receptacle, 6 Pin 131171
-Contact, Female 50430)
-10. Plug, 12 Pin 131176
-Contact, Male 504300
-Shaft, Link & Lever Assy., Numbers 126510
-Shaft, Link & Lever A: sy., Letters 126507
-Receptacle, 9 Pin 131179
+i. Switch, Button Release 128854
+
+2. Spacer 126299
+3. Screw, 8-32 x 5/8", Hex Hd- 71493-39
+
+4, Connector Link Plate 126521
+S. Screw, 6-32 x 3/5", Ilex Hd. 71l4¥3-24
+
+6. Shoulder Bushing 124018
+
+7. Spacer 124040
+
+8. Connector Link 200 126550
+
+; ‘ Lou 126851
+
+9. Receptacle, 6 Pin 131171
+
 Contact, Female 504301
-ntact, Male 504300
-14. Brace 130439
 
-b. PRELIMINARY ADJUSTMENT OF
+10, Plug, 12 Pin 131176
+
+Contact, Male 504300
+
+il. Shaft, Link & Lever Assy., Numbers 126510
+
+12, Shaft, Link & Lever Assy., Letters 126507
+
+13. Receptacte, 9 Pin L3L179
+
+Contact, Pemale 504301
+
+Contact, Male 504300
+
+14, Brace 130439
+
+bh. PRELIMINARY ADJUSTMENT OF
 LATCH SOLENOID
 
 Turn the adjusting screw (fig. 2, item 4)
-
 in two turns. Loosen the latch solenoid adjusting
-screws (item 2). Manually hold the solenoid plunger
+screws (item 2), Manually hold the solenoid plunger
 (item 1) firmly bottomed in the solenoid, set the
 solenoid to provide 3/64" maximum clearance be-
 
 Page 2B
 
-PRELIMINARY ADJUSTMENT OF
-LATCH SOLENOID
+MaxManuals
 
-the , Latch Solenoid 112104-1
-2. 8-32 x 1/4", R.Hd. 73533-34
+ADJUSTMENT OF
+
+FIG, 2. PRELIMINAR
+
+LATCH SOLENOID
+1. Plunger, Latch Solenoid LE2L04-1
+2. Screw, 8-32 x 1/4", K.Hd. 73533-34
 3. Trip Lever, Letters 117694
-4. Adjusting Setew, 6-32 x 3/4", R. Ha 73503-72
-5. Trip Lever, Num! 117691
-6. Screw, 8-32 x 1/ 73533-34
-7. Stop Tab, Release Lever 129102
-8. Screw, 8-32 x 1/4", R.Hd. 73533-34
-9, Latch Solenoid 112104
+4. Adjusting Seurew, 6-32 x 3/4", R. Ha. 7.3503-72
+5. Trip Lever, Numbers Li769L
+6. Screw, 8-32 x 1,4", R.Hd, 73533 -34
+7. Stop Tah, Release Lever 129102
+8. Screw, 8-32 x 1/4", R-Hd. 73533-34
+9. Latch Solenoid 112104
 
 tween the tab on the release lever (item 7) and the
 number trip lever (item 5). The plunger travel
-should not exceed 3/16 of an inch.
+should not exceed 3/16 of an inch,
 
 c. STOP BRACKET ADJUSTMENT -
 LATCH SOLENOID
@@ -101,7 +113,7 @@ to provide 1/64" clearance between the square stud
 (item 9) and the trip lever (item 5) as shown at
 item 8.
 
-d. LATCH ADJUSTMENT
+¢. LATCH ADJUSTMENT
 
 The latch adjusting screws (fig. 2, items 6
 and 8) were loosened to perform the link adjustments
@@ -113,14 +125,14 @@ lishing a credit on the Playrak, then manually hold
 a number button fully depressed. Move the number
 latch pawl (fig. 4, item 5) to allow the trip lever to
 rest against the stop tab (item 7). The latch lever
-(item 5) should rest firmly against the Square stud
+(item 5) should rest firmly against the square stud
 of the number trip lever (item 4). Maintain this
-Setting as the screw (item 6) is tightened, Release
+setting as the screw (item 6) is tightened. Release
 the number button by depressing the button release,
-Check each number button for Proper latching and
+Check each number button for proper latching and
 selector switch contact engagement.
 
-(2) To adj the letter latch lever? (fig. 4,
+(2) To adjust the letter latch lever: (fig. 4,
 item 1), follow the same procedure outlined in (1).
 
 WURLITZER
