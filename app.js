@@ -88,7 +88,8 @@ function renderFigures(page){
   host.hidden=!items.length;
   host.innerHTML=items.map(f=>{const callouts=[...f.callouts].sort((a,b)=>Number(a.number)-Number(b.number));return `<article class="figure-card">
     <div class="figure-heading"><div><p class="eyebrow">Extracted figure ${f.number}</p><h2>${f.title}</h2></div><small>From page ${f.source.pageLabel}</small></div>
-    <p class="figure-help">${f.hotspotsVerified?'Select a numbered hotspot or the ordered index to identify the referenced part.':'Match the figure’s printed numbers to the ordered index.'}</p>
+    <p class="figure-help">${f.hotspotsVerified?'Select a numbered hotspot or the ordered index to identify the referenced part.':'Select a numbered circle or index entry. Use Adjust positions to align the circles with the figure.'}</p>
+    ${f.hotspotsVerified?'':`<div class="figure-tools"><div class="callout-palette" aria-label="Figure ${f.number} quick callouts">${callouts.map(c=>`<button type="button" data-figure="${f.id}" data-callout="${c.number}" aria-label="Callout ${c.number}: ${c.label}">${c.number}</button>`).join('')}</div><button type="button" class="position-edit-toggle" data-figure="${f.id}">Adjust positions</button><button type="button" class="copy-positions" data-figure="${f.id}" hidden>Copy positions</button><span class="copy-status" aria-live="polite"></span></div>`}
     <div class="figure-layout">
       <div class="figure-image"><img src="${f.image}" alt="Figure ${f.number}: ${f.title}">${f.hotspotsVerified?callouts.map(c=>`<button type="button" class="callout" style="--x:${c.x}%;--y:${c.y}%" data-figure="${f.id}" data-callout="${c.number}" aria-label="Callout ${c.number}: ${c.label}">${c.number}</button>`).join(''):''}</div>
       <div><div class="callout-detail" id="${f.id}-detail" aria-live="polite"><strong>Choose a callout</strong><span>Its manual description and part number will appear here.</span></div>
@@ -96,11 +97,33 @@ function renderFigures(page){
     </div>
     <p class="figure-source">Extracted from the photographed page. The full page remains authoritative.</p>
   </article>`}).join('');
-  host.querySelectorAll('.callout').forEach(button=>button.onclick=()=>{
+  const selectCallout=button=>{
     const figure=figures.find(f=>f.id===button.dataset.figure),callout=figure.callouts.find(c=>c.number===button.dataset.callout);
     host.querySelectorAll(`[data-figure="${figure.id}"]`).forEach(item=>item.classList.toggle('active',item.dataset.callout===button.dataset.callout));
     document.getElementById(`${figure.id}-detail`).innerHTML=`<strong>Item ${callout.number}: ${callout.label}</strong><span>Part number: ${callout.partNumber||'not listed'}</span>`;
+  };
+  host.querySelectorAll('[data-figure][data-callout]').forEach(button=>button.onclick=()=>selectCallout(button));
+  host.querySelectorAll('.position-edit-toggle').forEach(toggle=>toggle.onclick=()=>{
+    const figure=figures.find(f=>f.id===toggle.dataset.figure),card=toggle.closest('.figure-card'),image=card.querySelector('.figure-image'),editing=!image.classList.contains('editing');
+    image.classList.toggle('editing',editing);toggle.textContent=editing?'Finish adjusting':'Adjust positions';card.querySelector('.copy-positions').hidden=!editing;
+    if(editing&&!image.querySelector('.callout')){
+      image.insertAdjacentHTML('beforeend',figure.callouts.map(c=>`<button type="button" class="callout" style="--x:${c.x}%;--y:${c.y}%" data-figure="${figure.id}" data-callout="${c.number}" aria-label="Drag callout ${c.number}: ${c.label}">${c.number}</button>`).join(''));
+      image.querySelectorAll('.callout').forEach(button=>{button.onclick=()=>selectCallout(button);enableCalloutDrag(button,figure);});
+    }
   });
+  host.querySelectorAll('.copy-positions').forEach(button=>button.onclick=async()=>{
+    const figure=figures.find(f=>f.id===button.dataset.figure),payload={id:figure.id,callouts:figure.callouts.map(({number,x,y})=>({number,x:Number(x.toFixed(1)),y:Number(y.toFixed(1))}))},status=button.parentElement.querySelector('.copy-status');
+    try{await navigator.clipboard.writeText(JSON.stringify(payload,null,2));status.textContent='Copied';}catch{status.textContent='Copy failed';}
+  });
+}
+function enableCalloutDrag(button,figure){
+  button.addEventListener('pointerdown',event=>{event.preventDefault();button.setPointerCapture(event.pointerId);button.classList.add('dragging');});
+  button.addEventListener('pointermove',event=>{
+    if(!button.hasPointerCapture(event.pointerId))return;
+    const box=button.parentElement.getBoundingClientRect(),x=Math.max(0,Math.min(100,(event.clientX-box.left)/box.width*100)),y=Math.max(0,Math.min(100,(event.clientY-box.top)/box.height*100)),callout=figure.callouts.find(c=>c.number===button.dataset.callout);
+    callout.x=x;callout.y=y;button.style.setProperty('--x',`${x}%`);button.style.setProperty('--y',`${y}%`);
+  });
+  button.addEventListener('pointerup',event=>{button.releasePointerCapture(event.pointerId);button.classList.remove('dragging');});
 }
 $('#search').addEventListener('input',()=>{renderList();if($('#search').value.trim()&&active==='Contents'){$('#contentsView').hidden=true;$('#pageView').hidden=true;}});
 $('#theme').onclick=()=>document.body.classList.toggle('dark');
