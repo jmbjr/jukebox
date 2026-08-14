@@ -75,6 +75,32 @@
 .callout-detail span {
   color: var(--muted);
 }
+.callout-index {
+  display: grid;
+  gap: 5px;
+  max-height: 260px;
+  margin-top: 10px;
+  overflow: auto;
+}
+.callout-index button {
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+  gap: 8px;
+  padding: 7px 9px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--panel);
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.callout-index button:hover,
+.callout-index button:focus-visible,
+.callout-index button.active {
+  border-color: var(--accent);
+  outline: 2px solid var(--accent);
+}
+.callout-index span { color: var(--muted); }
 .figure-source {
   font-size: .82rem;
   margin-top: 10px;

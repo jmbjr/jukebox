@@ -91,13 +91,14 @@ function renderFigures(page){
     <p class="figure-help">Select a numbered callout to identify the referenced part.</p>
     <div class="figure-layout">
       <div class="figure-image"><img src="${f.image}" alt="Figure ${f.number}: ${f.title}">${f.callouts.map(c=>`<button type="button" class="callout" style="--x:${c.x}%;--y:${c.y}%" data-figure="${f.id}" data-callout="${c.number}" aria-label="Callout ${c.number}: ${c.label}">${c.number}</button>`).join('')}</div>
-      <div class="callout-detail" id="${f.id}-detail" aria-live="polite"><strong>Choose a callout</strong><span>Its manual description and part number will appear here.</span></div>
+      <div><div class="callout-detail" id="${f.id}-detail" aria-live="polite"><strong>Choose a callout</strong><span>Its manual description and part number will appear here.</span></div>
+      <div class="callout-index" aria-label="Figure ${f.number} callout index">${f.callouts.map(c=>`<button type="button" data-figure="${f.id}" data-callout="${c.number}"><strong>${c.number}</strong><span>${c.label}</span></button>`).join('')}</div></div>
     </div>
     <p class="figure-source">Extracted from the photographed page. The full page remains authoritative.</p>
   </article>`).join('');
   host.querySelectorAll('.callout').forEach(button=>button.onclick=()=>{
     const figure=figures.find(f=>f.id===button.dataset.figure),callout=figure.callouts.find(c=>c.number===button.dataset.callout);
-    host.querySelectorAll(`[data-figure="${figure.id}"]`).forEach(item=>item.classList.toggle('active',item===button));
+    host.querySelectorAll(`[data-figure="${figure.id}"]`).forEach(item=>item.classList.toggle('active',item.dataset.callout===button.dataset.callout));
     document.getElementById(`${figure.id}-detail`).innerHTML=`<strong>Item ${callout.number}: ${callout.label}</strong><span>Part number: ${callout.partNumber||'not listed'}</span>`;
   });
 }

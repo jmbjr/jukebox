@@ -22,5 +22,85 @@
       { "number": "8", "label": "Screw, 8-32 × 1/4 in., round head", "partNumber": "73533-34", "x": 48, "y": 80 },
       { "number": "9", "label": "Latch solenoid", "partNumber": "112104", "x": 20, "y": 78 }
     ]
+  },
+  {
+    "id":"2b-fig-1","pageId":"p008","number":"1","title":"Connector link plate adjustment","image":"assets/figures/2b-fig-1.jpg","source":{"pageLabel":"2B","sourceFile":"02-image-1786655943542.jpg","crop":{"x":15,"y":390,"width":430,"height":390},"coordinateSpace":"900 px oriented review derivative"},"callouts":[
+      {"number":"1","label":"Switch, button release","partNumber":"128854","x":52,"y":27},{"number":"2","label":"Spacer","partNumber":"126299","x":61,"y":27},{"number":"3","label":"Screw, 8-32 × 5/8 in., hex head","partNumber":"71493-39","x":70,"y":27},{"number":"4","label":"Connector link plate","partNumber":"126521","x":80,"y":27},{"number":"5","label":"Screw, 6-32 × 3/8 in., hex head","partNumber":"71493-24","x":90,"y":27},{"number":"6","label":"Shoulder bushing","partNumber":"124018","x":91,"y":69},{"number":"7","label":"Spacer","partNumber":"124040","x":82,"y":69},{"number":"8","label":"Connector link, 200","partNumber":"126550","x":74,"y":69},{"number":"9","label":"Connector link, 100","partNumber":"126851","x":66,"y":69},{"number":"10","label":"Plug, 12 pin","partNumber":"131176","x":57,"y":69},{"number":"11","label":"Shaft, link and lever assembly, numbers","partNumber":"126510","x":49,"y":69},{"number":"12","label":"Shaft, link and lever assembly, letters","partNumber":"126507","x":38,"y":69},{"number":"13","label":"Receptacle, 9 pin","partNumber":"131179","x":21,"y":69},{"number":"14","label":"Brace","partNumber":"130439","x":11,"y":69}
+    ]
+  },
+  {
+    "id":"3b-fig-3","pageId":"p014","number":"3","title":"Stop bracket adjustment, latch solenoid","image":"assets/figures/3b-fig-3.jpg","source":{"pageLabel":"3B","sourceFile":"03-image-1786655950205.jpg","crop":{"x":470,"y":40,"width":410,"height":330},"coordinateSpace":"900 px oriented review derivative"},"callouts":[
+      {"number":"1","label":"Dimension, 1/64 in. clearance","partNumber":null,"x":91,"y":43},{"number":"2","label":"Screw, 8-32 × 1/4 in., round head","partNumber":"73533-34","x":72,"y":35},{"number":"3","label":"Stop bracket","partNumber":"56628","x":65,"y":35},{"number":"4","label":"Release lever","partNumber":"129102","x":58,"y":35},{"number":"5","label":"Trip lever, letters","partNumber":"117694","x":50,"y":35},{"number":"6","label":"Screw, 8-32 × 1/4 in., round head","partNumber":"73533-34","x":56,"y":70},{"number":"7","label":"Zero clearance","partNumber":null,"x":63,"y":70},{"number":"8","label":"Dimension, 1/64 in. clearance","partNumber":null,"x":69,"y":70},{"number":"9","label":"Latch lever, letters","partNumber":"65009","x":76,"y":70},{"number":"10","label":"Adjusting screw, 6-32 × 3/4 in., round head","partNumber":"73503-72","x":77,"y":35},{"number":"11","label":"Trip lever, numbers","partNumber":"117691","x":82,"y":35}
+    ]
+  },
+  {
+    "id":"3b-fig-4","pageId":"p014","number":"4","title":"Latch adjustment","image":"assets/figures/3b-fig-4.jpg","source":{"pageLabel":"3B","sourceFile":"03-image-1786655950205.jpg","crop":{"x":15,"y":360,"width":430,"height":310},"coordinateSpace":"900 px oriented review derivative"},"callouts":[
+      {"number":"1","label":"Latch pawl, letters","partNumber":"65009","x":46,"y":19},{"number":"2","label":"Trip lever, letters","partNumber":"117694","x":55,"y":19},{"number":"3","label":"Adjusting screw, 6-32 × 3/4 in., round head","partNumber":"73503-72","x":66,"y":19},{"number":"4","label":"Trip lever, numbers","partNumber":"117691","x":78,"y":19},{"number":"5","label":"Latch lever, numbers","partNumber":"117695","x":89,"y":19},{"number":"6","label":"Screw, 8-32 × 1/4 in., round head","partNumber":"73533-34","x":76,"y":57},{"number":"7","label":"Stop tab, release lever","partNumber":"129102","x":68,"y":57},{"number":"8","label":"Screw, 8-32 × 1/4 in., round head","partNumber":"73533-34","x":52,"y":57}
+    ]
+  },
+  {
+    "id":"3b-fig-5","pageId":"p014","number":"5","title":"Control and latch switch adjustment","image":"assets/figures/3b-fig-5.jpg","source":{"pageLabel":"3B","sourceFile":"03-image-1786655950205.jpg","crop":{"x":470,"y":350,"width":410,"height":350},"coordinateSpace":"900 px oriented review derivative"},"callouts":[
+      {"number":"1","label":"Plunger, latch solenoid","partNumber":"112104-1","x":19,"y":29},{"number":"2","label":"Screw, 8-32 × 1/4 in., round head","partNumber":"73533-34","x":27,"y":29},{"number":"3","label":"Zero clearance","partNumber":null,"x":48,"y":29},{"number":"4","label":"Contacts open 1/32 in.","partNumber":null,"x":60,"y":29},{"number":"5","label":"Zero clearance","partNumber":null,"x":79,"y":29},{"number":"6","label":"Screws, 8-32 × 1/4 in., round head","partNumber":"73533-34","x":46,"y":72},{"number":"7","label":"Contacts close with 1/32 in. overtravel","partNumber":null,"x":58,"y":72},{"number":"8","label":"Control switch and mounting bracket","partNumber":"125406","x":67,"y":72},{"number":"9","label":"Contacts close with 1/32 in. overtravel","partNumber":null,"x":76,"y":72},{"number":"10","label":"Screws, 8-32 × 1/4 in., round head","partNumber":"73533-34","x":25,"y":72}
+    ]
+  },
+  {
+    "id":"4b-fig-6","pageId":"p019","number":"6","title":"Electric selector — 200","image":"assets/figures/4b-fig-6.jpg","source":{"pageLabel":"4B","sourceFile":"04-image-1786655983189.jpg","crop":{"x":490,"y":40,"width":390,"height":280},"coordinateSpace":"900 px oriented review derivative"},"callouts":[
+      {"number":"1","label":"Shoulder screw","partNumber":"129531","x":70,"y":28},{"number":"2","label":"Selector plate and latch pin assembly","partNumber":"123831","x":80,"y":34},{"number":"3","label":"Socket, 3 circuit","partNumber":"117824","x":35,"y":40},{"number":"4","label":"Cap, 3 circuit","partNumber":"117823","x":57,"y":78},{"number":"5","label":"Shoulder screw","partNumber":"129531","x":37,"y":68}
+    ]
+  },
+  {
+    "id":"4b-fig-7","pageId":"p019","number":"7","title":"Electric selector — 200, plate and pin assembly removed","image":"assets/figures/4b-fig-7.jpg","source":{"pageLabel":"4B","sourceFile":"04-image-1786655983189.jpg","crop":{"x":480,"y":330,"width":400,"height":280},"coordinateSpace":"900 px oriented review derivative"},"callouts":[
+      {"number":"1","label":"Selector stop solenoid, no. 0","partNumber":"68617","x":51,"y":79},{"number":"2","label":"Selector stop solenoid, no. 1","partNumber":"68804","x":49,"y":27},{"number":"3","label":"Stop pin","partNumber":"115411","x":54,"y":43},{"number":"4","label":"Gear and hub assembly","partNumber":"68717","x":71,"y":69},{"number":"5","label":"Rotating plate and rocker assembly","partNumber":"111481","x":75,"y":50},{"number":"6","label":"Screw, 10-32 × 1 in., hex","partNumber":"73660-159","x":67,"y":31},{"number":"7","label":"Start switch","partNumber":"60655","x":59,"y":31},{"number":"8","label":"Screw, 8-32 × 1 in., hex","partNumber":"73793-88","x":48,"y":31},{"number":"9","label":"Stop-solenoid mounting casting","partNumber":"68276","x":39,"y":50}
+    ]
+  },
+  {
+    "id":"4b-fig-8","pageId":"p019","number":"8","title":"Electric selector detail","image":"assets/figures/4b-fig-8.jpg","source":{"pageLabel":"4B","sourceFile":"04-image-1786655983189.jpg","crop":{"x":490,"y":600,"width":390,"height":250},"coordinateSpace":"900 px oriented review derivative"},"callouts":[
+      {"number":"1","label":"Selector latch pin, K-0","partNumber":"110942","x":48,"y":45},{"number":"2","label":"Tip of rocker","partNumber":"67926","x":56,"y":25},{"number":"3","label":"Dimension, 1/16 in.","partNumber":null,"x":58,"y":45}
+    ]
+  },
+  {
+    "id":"5b-fig-9","pageId":"p024","number":"9","title":"Electric selector — 200","image":"assets/figures/5b-fig-9.jpg","source":{"pageLabel":"5B","sourceFile":"05-image-1786655989640.jpg","crop":{"x":450,"y":30,"width":430,"height":560},"coordinateSpace":"900 px oriented review derivative"},"callouts":[
+      {"number":"1","label":"Start switch","partNumber":"60655","x":75,"y":53},{"number":"2","label":"Screw, 10-32 × 1 in., hex","partNumber":"73660-159","x":86,"y":85},{"number":"3","label":"Spring","partNumber":"62773","x":77,"y":85},{"number":"4","label":"Number-quadrant mounting casting assembly","partNumber":"115915","x":65,"y":85},{"number":"5","label":"Screw, 8-32 × 1 in., hex","partNumber":"73793-88","x":40,"y":59},{"number":"6","label":"Reverse switch","partNumber":"61546","x":52,"y":59}
+    ]
+  },
+  {
+    "id":"5b-fig-10","pageId":"p024","number":"10","title":"Selector plate and latch pin assembly","image":"assets/figures/5b-fig-10.jpg","source":{"pageLabel":"5B","sourceFile":"05-image-1786655989640.jpg","crop":{"x":440,"y":720,"width":440,"height":310},"coordinateSpace":"900 px oriented review derivative"},"callouts":[
+      {"number":"1","label":"Spring","partNumber":"110480","x":37,"y":29},{"number":"2","label":"Latch pin, inner","partNumber":"110941","x":47,"y":29},{"number":"3","label":"Spacer (4)","partNumber":"68650","x":58,"y":29},{"number":"4","label":"Switch assembly","partNumber":"65952","x":70,"y":29},{"number":"5","label":"Wobble ring","partNumber":"67927","x":48,"y":51}
+    ]
+  },
+  {
+    "id":"6b-fig-11","pageId":"p030","number":"11","title":"Override switch — electric selector 100","image":"assets/figures/6b-fig-11.jpg","source":{"pageLabel":"6B","sourceFile":"06-image-1786656000486.jpg","crop":{"x":10,"y":160,"width":430,"height":300},"coordinateSpace":"900 px oriented review derivative"},"callouts":[
+      {"number":"1","label":"Override-switch contact","partNumber":"115918","x":22,"y":65},{"number":"2","label":"Override-switch contact","partNumber":"115918","x":34,"y":65},{"number":"3","label":"Override-switch contact","partNumber":"115918","x":46,"y":65},{"number":"4","label":"Override-switch contact","partNumber":"115918","x":58,"y":65}
+    ]
+  },
+  {
+    "id":"6b-fig-12","pageId":"p030","number":"12","title":"Rotating plate and rocker arm adjustment","image":"assets/figures/6b-fig-12.jpg","source":{"pageLabel":"6B","sourceFile":"06-image-1786656000486.jpg","crop":{"x":5,"y":480,"width":440,"height":330},"coordinateSpace":"900 px oriented review derivative"},"callouts":[
+      {"number":"1","label":"Stop arm","partNumber":"115862","x":20,"y":61},{"number":"2","label":"Stop tab, mounting plate","partNumber":"117986","x":29,"y":61},{"number":"3","label":"Stop tab, stop arm","partNumber":"115862","x":39,"y":61},{"number":"4","label":"Stop bracket, rotating plate","partNumber":"115861","x":49,"y":61},{"number":"5","label":"Stop tab, stop arm","partNumber":"115862","x":60,"y":61},{"number":"6","label":"Stop tab, mounting plate","partNumber":"117986","x":70,"y":61},{"number":"7","label":"Screw, 8-32 × 5/16 in., round head","partNumber":"73533-35","x":80,"y":61},{"number":"8","label":"Solenoid mounting screw","partNumber":"73793-88","x":78,"y":81},{"number":"9","label":"Adjusting screw","partNumber":"73703-88","x":69,"y":81},{"number":"10","label":"Plug and spring assembly","partNumber":"64783","x":62,"y":81},{"number":"11","label":"Centering shaft and plate assembly","partNumber":"115914","x":52,"y":81},{"number":"12","label":"Screws, 10-32 × 7/16 in., round head","partNumber":"73692-49","x":46,"y":81},{"number":"13","label":"Spring and plug assembly","partNumber":"64783","x":35,"y":81},{"number":"14","label":"Screw","partNumber":"73533-35","x":24,"y":81}
+    ]
+  },
+  {
+    "id":"7b-fig-13","pageId":"p036","number":"13","title":"Electric selector assembly — 100","image":"assets/figures/7b-fig-13.jpg","source":{"pageLabel":"7B","sourceFile":"07-image-1786656007102.jpg","crop":{"x":5,"y":330,"width":440,"height":300},"coordinateSpace":"900 px oriented review derivative"},"callouts":[
+      {"number":"1","label":"Selector solenoid (20)","partNumber":"64602","x":33,"y":74},{"number":"2","label":"Contact plate","partNumber":"66186","x":45,"y":74},{"number":"3","label":"Tip of rocker arm, short (10)","partNumber":"117692","x":59,"y":74},{"number":"4","label":"Rocker arm, long (10)","partNumber":"115788","x":73,"y":74}
+    ]
+  },
+  {
+    "id":"7b-fig-14","pageId":"p036","number":"14","title":"Electric selector centering — 200","image":"assets/figures/7b-fig-14.jpg","source":{"pageLabel":"7B","sourceFile":"07-image-1786656007102.jpg","crop":{"x":460,"y":30,"width":420,"height":310},"coordinateSpace":"900 px oriented review derivative"},"callouts":[
+      {"number":"1","label":"Guide bracket, selector support casting","partNumber":"68757","x":21,"y":80},{"number":"2","label":"Guide bracket, left-hand","partNumber":"68759","x":38,"y":80},{"number":"3","label":"Centering shaft","partNumber":"69247","x":51,"y":80},{"number":"4","label":"Guide bracket, right-hand","partNumber":"68760","x":66,"y":80},{"number":"5","label":"Guide bracket, right-hand selector support casting","partNumber":"68758","x":81,"y":80},{"number":"6","label":"Mounting screws, 1/4-20 × 1 in., socket head","partNumber":"73571-66","x":52,"y":60}
+    ]
+  },
+  {
+    "id":"8b-fig-15","pageId":"p040","number":"15","title":"Electric selector adjustment — 200","image":"assets/figures/8b-fig-15.jpg","source":{"pageLabel":"8B","sourceFile":"08-image-1786656015083.jpg","crop":{"x":60,"y":340,"width":390,"height":460},"coordinateSpace":"900 px oriented review derivative"},"callouts":[
+      {"number":"1","label":"Tapping plate","partNumber":"117243","x":51,"y":18},{"number":"2","label":"Screws, 10-32 × 1/2 in., hex","partNumber":"73793-118","x":80,"y":31},{"number":"3","label":"Screws, 10-32 × 1/2 in., hex","partNumber":"73793-118","x":62,"y":69},{"number":"4","label":"Support plate","partNumber":"68799","x":50,"y":49},{"number":"5","label":"Support-plate bracket","partNumber":"117242","x":50,"y":31}
+    ]
+  },
+  {
+    "id":"9b-fig-16","pageId":"p044","number":"16","title":"Electric selector adjustment — 200","image":"assets/figures/9b-fig-16.jpg","source":{"pageLabel":"9B","sourceFile":"09-image-1786656036121.jpg","crop":{"x":5,"y":35,"width":430,"height":350},"coordinateSpace":"900 px oriented review derivative"},"callouts":[
+      {"number":"1","label":"Tip and mounting bracket, inner","partNumber":null,"x":52,"y":26},{"number":"2","label":"Selector latch pin, H-1","partNumber":"110936","x":78,"y":70},{"number":"3","label":"Center line, location of tip (item 1)","partNumber":null,"x":62,"y":78},{"number":"4","label":"Selector latch pin, H-2","partNumber":"110942","x":46,"y":78}
+    ]
+  },
+  {
+    "id":"9b-fig-17","pageId":"p044","number":"17","title":"Electric selector centering — 100","image":"assets/figures/9b-fig-17.jpg","source":{"pageLabel":"9B","sourceFile":"09-image-1786656036121.jpg","crop":{"x":5,"y":410,"width":430,"height":360},"coordinateSpace":"900 px oriented review derivative"},"callouts":[
+      {"number":"1","label":"Stud (3)","partNumber":"115782","x":78,"y":21},{"number":"2","label":"Guide, selector mounting stud (3)","partNumber":"61850","x":86,"y":56},{"number":"3","label":"Screw, 1/4-20 × 1 in., hex","partNumber":"73793-1530","x":62,"y":48},{"number":"4","label":"Centering shaft","partNumber":"69247","x":48,"y":80},{"number":"5","label":"Screws, 8-32 × 3/4 in., round head","partNumber":"73533-40","x":33,"y":21}
+    ]
   }
 ]
