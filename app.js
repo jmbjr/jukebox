@@ -98,7 +98,7 @@ function renderFigures(page){
   host.querySelectorAll('.callout').forEach(button=>button.onclick=()=>{
     const figure=figures.find(f=>f.id===button.dataset.figure),callout=figure.callouts.find(c=>c.number===button.dataset.callout);
     host.querySelectorAll(`[data-figure="${figure.id}"]`).forEach(item=>item.classList.toggle('active',item===button));
-    $(`#${figure.id}-detail`).innerHTML=`<strong>Item ${callout.number}: ${callout.label}</strong><span>Part number: ${callout.partNumber||'not listed'}</span>`;
+    document.getElementById(`${figure.id}-detail`).innerHTML=`<strong>Item ${callout.number}: ${callout.label}</strong><span>Part number: ${callout.partNumber||'not listed'}</span>`;
   });
 }
 $('#search').addEventListener('input',()=>{renderList();if($('#search').value.trim()&&active==='Contents'){$('#contentsView').hidden=true;$('#pageView').hidden=true;}});
