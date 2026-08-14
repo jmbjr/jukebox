@@ -1,37 +1,21 @@
-SECTION F
+LL. Throws records.
 
+. SECTION F
 MECHANICAL AND ELECTRICAL FAILURES CONT'D.
-
-SYMPTOMS
-
-CAUSE
-
-CORRECTIONS
-
-AL. Throws records.
-
-—
-
-(a) Bind in record lift arm guide rollers.
-
-e rollers, wee pages 4C and 5G.
-
-Adjust gu
+SYMPTOMS CAUSE CORRECTIONS
+al! +—
+(a) Bind in record Lift arm guide rollers. Adjust guide rollers, wee pages 4C and 5C.
+(b) Guide tips,on record 1ift arms not Straighten gulde tips, nee puge 4c ’
 
 properly aligned.
 
-nee page 4C
-
-Straighten guide tips
-
-(c) Bent record separators,
+(c) Bent record separators.
 
 Straighten record separators
 
 (a) Carrier not properly indexed.
 
 See page 6C for back stop pawl
-
 adjustment.
 
 12. One side of record
@@ -41,19 +25,17 @@ side does not.
 
 (a) Record track stop brackets not
 adjusted properly, causing record
+
 to drag.
 
 Adjust record track stop bracket, see
 page SC.
 
-(>) Record lift arm coming up too high.
+(b) Record lift arm coming up too high.
 
-+
 ‘Adjust record lift arm height, see page 4C.
 
-ee
-
-13. Tone arm jumps
+Tone arm jumps
 one or two grooves,
 giving a thumping
 sound while record
@@ -61,20 +43,23 @@ is playing.
 
 (a) Worn needie.
 
-(b) Too much end play in turntable shaft.
+] Repia
+
+e needle or turn over to other tip.
+
+ine Too much end play in turntable shaft.
 
 Shim between turntable pulley and
 bushing, see page 17C.
 
-(c) Tone arm not balanced properly.
+(©) Tone arm not balanced properly.
 
 Check tone arm balance, see page 13C.
 
 (d) Tracking pressure of tone arm too
-
 light.
 
-Check tone arm needle pressure, see
+Check tone arm needie pressure, see
 page 13C.
 
 14. Record wear faster
@@ -89,22 +74,13 @@ Replace needle. Replace worn record.
 Examine Gimbal bearings for binds and
 adjust for freedom of action.
 
-Incorrect needle pressure.
-
-(©)
+(c) Incorrect needle pressure.
 
 Adjust to 5 to 7 grams pressure, sce page 13C,
 
-Poor material in records.
-
-(d)
+(d) Poor material in records.
 
 Replace worn records. Check needie wear.
-
-15. Needle skips, sound
-distorted.
-
-(a) Excessive lint and dust on the stylus.
 
 Remove lint from needle and brush with
 small brush, Spray needle, cartridge
@@ -112,17 +88,25 @@ and brush with anti-static cleaner.
 
 (b) Tone arm brush incorrectly adjusted.
 
-1, Turntable turning.
-No sound from
-record.
+Adjust tone arm needle brush, see page 14C.
+
+15. Needle skips, sound
+distorted. (a) Excessive lint and dust on the stylus.
+ot
 
 SOUND FAILURE
 
-Adjust tone arm needle brush, see page 14C.
+SYMPTOMS
 
-CAUSE
+1. Turntable turning.
+No sound from
+record.
+
+—_—
 
 (a) Pick-up cartridge open or shorted.
+
+CAUSE
 
 CORRECTIONS
 
@@ -135,14 +119,14 @@ plug disconnected.
 
 (c) Blown 8 ampere amplifier fuse F3.
 
+(d) Loudness control turned off.
+
 Check pick-up cable for open and shorts.
 
 Check for short circuit. Replace with
 correct size fuse. Fuse located inside
-
 amplifier.
 
-(d) Loudness control turned off. Turn up loudness control.
+Turn up loudness control.
 
 Page 7F
-
