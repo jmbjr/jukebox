@@ -7,6 +7,7 @@ const sections=[
   {key:'Section F',letter:'F',title:'Trouble Shooting'}
 ];
 let catalog=[],figures=[],active='Contents',selected=null;
+const orientedPageCache=new Map();
 const $=s=>document.querySelector(s);
 const pageNumber=p=>Number.parseInt(p.label,10)||Number.MAX_SAFE_INTEGER;
 const canonicalSort=(a,b)=>{
@@ -89,14 +90,15 @@ function renderFigures(page){
   host.innerHTML=items.map(f=>{const callouts=[...f.callouts].sort((a,b)=>Number(a.number)-Number(b.number)),positioned=f.calloutsPositioned===true;return `<article class="figure-card">
     <div class="figure-heading"><div><p class="eyebrow">Extracted figure ${f.number}</p><h2>${f.title}</h2></div><small>From page ${f.source.pageLabel}</small></div>
     <p class="figure-help">${positioned?'Select a numbered hotspot or index entry. Use Adjust positions to refine the saved locations.':'Select a numbered circle or index entry. Use Adjust positions to align the circles with the figure.'}</p>
-    <div class="figure-tools">${positioned?'':`<div class="callout-palette" aria-label="Figure ${f.number} quick callouts">${callouts.map(c=>`<button type="button" data-figure="${f.id}" data-callout="${c.number}" aria-label="Callout ${c.number}: ${c.label}">${c.number}</button>`).join('')}</div>`}<button type="button" class="position-edit-toggle" data-figure="${f.id}">Adjust positions</button><button type="button" class="copy-positions" data-figure="${f.id}" hidden>Copy positions</button><span class="copy-status" aria-live="polite"></span></div>
+    <div class="figure-tools">${positioned?'':`<div class="callout-palette" aria-label="Figure ${f.number} quick callouts">${callouts.map(c=>`<button type="button" data-figure="${f.id}" data-callout="${c.number}" aria-label="Callout ${c.number}: ${c.label}">${c.number}</button>`).join('')}</div>`}<button type="button" class="position-edit-toggle" data-figure="${f.id}">Adjust positions</button><button type="button" class="copy-positions" data-figure="${f.id}" hidden>Copy positions</button><button type="button" class="crop-edit-toggle" data-figure="${f.id}">Adjust crop</button><button type="button" class="copy-crop" data-figure="${f.id}" hidden>Copy crop</button><span class="copy-status" aria-live="polite"></span></div>
     <div class="figure-layout">
-      <div class="figure-image"><img src="${f.image}" alt="Figure ${f.number}: ${f.title}">${positioned?callouts.map(c=>`<button type="button" class="callout" style="--x:${c.x}%;--y:${c.y}%" data-figure="${f.id}" data-callout="${c.number}" aria-label="Callout ${c.number}: ${c.label}">${c.number}</button>`).join(''):''}</div>
+      <div class="figure-image" data-figure-image="${f.id}"><canvas class="figure-canvas" role="img" aria-label="Figure ${f.number}: ${f.title}"></canvas>${positioned?callouts.map(c=>`<button type="button" class="callout" style="--x:${c.x}%;--y:${c.y}%" data-figure="${f.id}" data-callout="${c.number}" aria-label="Callout ${c.number}: ${c.label}">${c.number}</button>`).join(''):''}</div>
       <div><div class="callout-detail" id="${f.id}-detail" aria-live="polite"><strong>Choose a callout</strong><span>Its manual description and part number will appear here.</span></div>
       <div class="callout-index" aria-label="Figure ${f.number} callout index">${callouts.map(c=>`<button type="button" data-figure="${f.id}" data-callout="${c.number}"><strong>${c.number}</strong><span>${c.label}</span></button>`).join('')}</div></div>
     </div>
     <p class="figure-source">Extracted from the photographed page. The full page remains authoritative.</p>
   </article>`}).join('');
+  items.forEach(renderFigureCanvas);
   const selectCallout=button=>{
     const figure=figures.find(f=>f.id===button.dataset.figure),callout=figure.callouts.find(c=>c.number===button.dataset.callout);
     host.querySelectorAll(`[data-figure="${figure.id}"]`).forEach(item=>item.classList.toggle('active',item.dataset.callout===button.dataset.callout));
@@ -106,7 +108,7 @@ function renderFigures(page){
   host.querySelectorAll('.figure-image .callout').forEach(button=>enableCalloutDrag(button,figures.find(f=>f.id===button.dataset.figure)));
   host.querySelectorAll('.position-edit-toggle').forEach(toggle=>toggle.onclick=()=>{
     const figure=figures.find(f=>f.id===toggle.dataset.figure),card=toggle.closest('.figure-card'),image=card.querySelector('.figure-image'),editing=!image.classList.contains('editing');
-    image.classList.toggle('editing',editing);toggle.textContent=editing?'Finish adjusting':'Adjust positions';card.querySelector('.copy-positions').hidden=!editing;
+    image.classList.toggle('editing',editing);toggle.textContent=editing?'Finish adjusting':'Adjust positions';card.querySelector('.copy-positions').hidden=!editing;card.querySelector('.crop-edit-toggle').disabled=editing;
     if(editing&&!image.querySelector('.callout')){
       image.insertAdjacentHTML('beforeend',figure.callouts.map(c=>`<button type="button" class="callout" style="--x:${c.x}%;--y:${c.y}%" data-figure="${figure.id}" data-callout="${c.number}" aria-label="Drag callout ${c.number}: ${c.label}">${c.number}</button>`).join(''));
       image.querySelectorAll('.callout').forEach(button=>{button.onclick=()=>selectCallout(button);enableCalloutDrag(button,figure);});
@@ -115,6 +117,15 @@ function renderFigures(page){
   host.querySelectorAll('.copy-positions').forEach(button=>button.onclick=async()=>{
     const figure=figures.find(f=>f.id===button.dataset.figure),payload={id:figure.id,callouts:figure.callouts.map(({number,x,y})=>({number,x:Number(x.toFixed(1)),y:Number(y.toFixed(1))}))},status=button.parentElement.querySelector('.copy-status');
     try{await navigator.clipboard.writeText(JSON.stringify(payload,null,2));status.textContent='Copied';}catch{status.textContent='Copy failed';}
+  });
+  host.querySelectorAll('.crop-edit-toggle').forEach(toggle=>toggle.onclick=async()=>{
+    const figure=figures.find(f=>f.id===toggle.dataset.figure),card=toggle.closest('.figure-card'),image=card.querySelector('.figure-image'),editing=!image.classList.contains('crop-editing');
+    image.classList.toggle('crop-editing',editing);toggle.textContent=editing?'Finish crop':'Adjust crop';card.querySelector('.copy-crop').hidden=!editing;card.querySelector('.position-edit-toggle').disabled=editing;
+    if(editing)await showCropEditor(figure);else{image.querySelector('.crop-box')?.remove();await renderFigureCanvas(figure);}
+  });
+  host.querySelectorAll('.copy-crop').forEach(button=>button.onclick=async()=>{
+    const figure=figures.find(f=>f.id===button.dataset.figure),crop=getCropPercent(figure),status=button.parentElement.querySelector('.copy-status'),payload={id:figure.id,cropPercent:Object.fromEntries(Object.entries(crop).map(([key,value])=>[key,Number(value.toFixed(2))]))};
+    try{await navigator.clipboard.writeText(JSON.stringify(payload,null,2));status.textContent='Crop copied';}catch{status.textContent='Copy failed';}
   });
 }
 function enableCalloutDrag(button,figure){
@@ -125,6 +136,40 @@ function enableCalloutDrag(button,figure){
     callout.x=x;callout.y=y;button.style.setProperty('--x',`${x}%`);button.style.setProperty('--y',`${y}%`);
   });
   button.addEventListener('pointerup',event=>{button.releasePointerCapture(event.pointerId);button.classList.remove('dragging');});
+}
+function getCropPercent(figure){
+  if(figure.source.cropPercent)return figure.source.cropPercent;
+  const crop=figure.source.crop;
+  return {x:crop.x/9,y:crop.y/12,width:crop.width/9,height:crop.height/12};
+}
+async function getOrientedPage(page){
+  if(orientedPageCache.has(page.id))return orientedPageCache.get(page.id);
+  const promise=new Promise((resolve,reject)=>{const image=new Image();image.onload=()=>{
+    const rotation=page.rotation||0,quarter=rotation===90||rotation===270,canvas=document.createElement('canvas');canvas.width=quarter?image.naturalHeight:image.naturalWidth;canvas.height=quarter?image.naturalWidth:image.naturalHeight;
+    const context=canvas.getContext('2d');
+    if(rotation===90){context.translate(canvas.width,0);context.rotate(Math.PI/2);}else if(rotation===180){context.translate(canvas.width,canvas.height);context.rotate(Math.PI);}else if(rotation===270){context.translate(0,canvas.height);context.rotate(-Math.PI/2);}
+    context.drawImage(image,0,0);resolve(canvas);
+  };image.onerror=reject;image.src=page.image;});
+  orientedPageCache.set(page.id,promise);return promise;
+}
+async function renderFigureCanvas(figure){
+  const host=document.querySelector(`[data-figure-image="${figure.id}"]`);if(!host)return;
+  const page=catalog.find(item=>item.id===figure.pageId),source=await getOrientedPage(page),crop=getCropPercent(figure),sx=source.width*crop.x/100,sy=source.height*crop.y/100,sw=source.width*crop.width/100,sh=source.height*crop.height/100,canvas=host.querySelector('.figure-canvas'),scale=Math.min(1,1200/sw);
+  canvas.width=Math.max(1,Math.round(sw*scale));canvas.height=Math.max(1,Math.round(sh*scale));canvas.getContext('2d').drawImage(source,sx,sy,sw,sh,0,0,canvas.width,canvas.height);
+}
+async function showCropEditor(figure){
+  const host=document.querySelector(`[data-figure-image="${figure.id}"]`),page=catalog.find(item=>item.id===figure.pageId),source=await getOrientedPage(page),canvas=host.querySelector('.figure-canvas'),scale=Math.min(1,1200/source.width),crop=getCropPercent(figure);
+  canvas.width=Math.round(source.width*scale);canvas.height=Math.round(source.height*scale);canvas.getContext('2d').drawImage(source,0,0,canvas.width,canvas.height);
+  host.insertAdjacentHTML('beforeend',`<div class="crop-box" style="--crop-x:${crop.x}%;--crop-y:${crop.y}%;--crop-width:${crop.width}%;--crop-height:${crop.height}%"><span class="crop-handle" aria-hidden="true"></span></div>`);
+  enableCropDrag(host.querySelector('.crop-box'),figure);
+}
+function enableCropDrag(box,figure){
+  let mode,startX,startY,start;
+  box.addEventListener('pointerdown',event=>{event.preventDefault();mode=event.target.classList.contains('crop-handle')?'resize':'move';startX=event.clientX;startY=event.clientY;start={...getCropPercent(figure)};box.setPointerCapture(event.pointerId);});
+  box.addEventListener('pointermove',event=>{if(!box.hasPointerCapture(event.pointerId))return;const bounds=box.parentElement.getBoundingClientRect(),dx=(event.clientX-startX)/bounds.width*100,dy=(event.clientY-startY)/bounds.height*100,crop={...start};
+    if(mode==='move'){crop.x=Math.max(0,Math.min(100-crop.width,start.x+dx));crop.y=Math.max(0,Math.min(100-crop.height,start.y+dy));}else{crop.width=Math.max(3,Math.min(100-start.x,start.width+dx));crop.height=Math.max(3,Math.min(100-start.y,start.height+dy));}
+    figure.source.cropPercent=crop;box.style.setProperty('--crop-x',`${crop.x}%`);box.style.setProperty('--crop-y',`${crop.y}%`);box.style.setProperty('--crop-width',`${crop.width}%`);box.style.setProperty('--crop-height',`${crop.height}%`);
+  });
 }
 $('#search').addEventListener('input',()=>{renderList();if($('#search').value.trim()&&active==='Contents'){$('#contentsView').hidden=true;$('#pageView').hidden=true;}});
 $('#theme').onclick=()=>document.body.classList.toggle('dark');

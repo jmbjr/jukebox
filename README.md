@@ -44,3 +44,5 @@ Printed section/page labels are mapped to their corresponding reference-PDF page
 Manually verified structured transcriptions live under `ocr/curated/` and take precedence over generated OCR, so future full OCR runs do not overwrite them.
 
 Unpositioned figure hotspots appear as a sequential quick-callout tray. Use **Adjust positions** to drag them onto the printed figure numbers, then **Copy positions** to export the figure ID and percentage coordinates for review and curation. Figures marked `calloutsPositioned` hide the tray and display their saved spatial overlays by default.
+
+Figures are rendered at runtime from their authoritative page image and crop metadata; the derived JPEGs remain as legacy assets but are no longer the display source. Use **Adjust crop** to move or resize a crop on the full oriented page, then **Copy crop** to export resolution-independent `cropPercent` metadata.

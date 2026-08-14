@@ -10,6 +10,7 @@
       "pageLabel": "2B",
       "sourceFile": "02-image-1786655943542.jpg",
       "crop": { "x": 590, "y": 92, "width": 505, "height": 300 },
+      "cropPercent": { "x": 51.22, "y": 5.99, "width": 43.84, "height": 19.53 },
       "coordinateSpace": "page image after approved 90 degree clockwise rotation"
     },
     "callouts": [
