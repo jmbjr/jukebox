@@ -5,6 +5,7 @@
     "number": "2",
     "title": "Preliminary adjustment of latch solenoid",
     "image": "assets/figures/2b-fig-2.jpg",
+    "calloutsPositioned": true,
     "source": {
       "pageLabel": "2B",
       "sourceFile": "02-image-1786655943542.jpg",
@@ -12,15 +13,15 @@
       "coordinateSpace": "page image after approved 90 degree clockwise rotation"
     },
     "callouts": [
-      { "number": "1", "label": "Plunger, latch solenoid", "partNumber": "112104-1", "x": 20, "y": 10 },
-      { "number": "2", "label": "Screw, 8-32 × 1/4 in., round head", "partNumber": "73533-34", "x": 30, "y": 10 },
-      { "number": "3", "label": "Trip lever, letters", "partNumber": "117694", "x": 49, "y": 8 },
-      { "number": "4", "label": "Adjusting screw, 6-32 × 3/4 in., round head", "partNumber": "73503-72", "x": 60, "y": 8 },
-      { "number": "5", "label": "Trip lever, numbers", "partNumber": "117691", "x": 76, "y": 8 },
-      { "number": "6", "label": "Screw, 8-32 × 1/4 in., round head", "partNumber": "73533-34", "x": 78, "y": 80 },
-      { "number": "7", "label": "Stop tab, release lever", "partNumber": "129102", "x": 64, "y": 80 },
-      { "number": "8", "label": "Screw, 8-32 × 1/4 in., round head", "partNumber": "73533-34", "x": 48, "y": 80 },
-      { "number": "9", "label": "Latch solenoid", "partNumber": "112104", "x": 20, "y": 78 }
+      { "number": "1", "label": "Plunger, latch solenoid", "partNumber": "112104-1", "x": 24.3, "y": 14.7 },
+      { "number": "2", "label": "Screw, 8-32 × 1/4 in., round head", "partNumber": "73533-34", "x": 32.1, "y": 15.3 },
+      { "number": "3", "label": "Trip lever, letters", "partNumber": "117694", "x": 50.2, "y": 14.1 },
+      { "number": "4", "label": "Adjusting screw, 6-32 × 3/4 in., round head", "partNumber": "73503-72", "x": 60.9, "y": 15.6 },
+      { "number": "5", "label": "Trip lever, numbers", "partNumber": "117691", "x": 76.3, "y": 14.1 },
+      { "number": "6", "label": "Screw, 8-32 × 1/4 in., round head", "partNumber": "73533-34", "x": 79.6, "y": 84.2 },
+      { "number": "7", "label": "Stop tab, release lever", "partNumber": "129102", "x": 65.2, "y": 84.2 },
+      { "number": "8", "label": "Screw, 8-32 × 1/4 in., round head", "partNumber": "73533-34", "x": 49.3, "y": 83 },
+      { "number": "9", "label": "Latch solenoid", "partNumber": "112104", "x": 20.7, "y": 82.4 }
     ]
   },
   {
@@ -29,18 +30,18 @@
     ]
   },
   {
-    "id":"3b-fig-3","pageId":"p014","number":"3","title":"Stop bracket adjustment, latch solenoid","image":"assets/figures/3b-fig-3.jpg","source":{"pageLabel":"3B","sourceFile":"03-image-1786655950205.jpg","crop":{"x":470,"y":40,"width":410,"height":330},"coordinateSpace":"900 px oriented review derivative"},"callouts":[
-      {"number":"1","label":"Dimension, 1/64 in. clearance","partNumber":null,"x":91,"y":43},{"number":"2","label":"Screw, 8-32 × 1/4 in., round head","partNumber":"73533-34","x":72,"y":35},{"number":"3","label":"Stop bracket","partNumber":"56628","x":65,"y":35},{"number":"4","label":"Release lever","partNumber":"129102","x":58,"y":35},{"number":"5","label":"Trip lever, letters","partNumber":"117694","x":50,"y":35},{"number":"6","label":"Screw, 8-32 × 1/4 in., round head","partNumber":"73533-34","x":56,"y":70},{"number":"7","label":"Zero clearance","partNumber":null,"x":63,"y":70},{"number":"8","label":"Dimension, 1/64 in. clearance","partNumber":null,"x":69,"y":70},{"number":"9","label":"Latch lever, letters","partNumber":"65009","x":76,"y":70},{"number":"10","label":"Adjusting screw, 6-32 × 3/4 in., round head","partNumber":"73503-72","x":77,"y":35},{"number":"11","label":"Trip lever, numbers","partNumber":"117691","x":82,"y":35}
+    "id":"3b-fig-3","pageId":"p014","number":"3","title":"Stop bracket adjustment, latch solenoid","image":"assets/figures/3b-fig-4.jpg","source":{"pageLabel":"3B","sourceFile":"03-image-1786655950205.jpg","crop":{"x":15,"y":360,"width":430,"height":310},"coordinateSpace":"900 px oriented review derivative"},"callouts":[
+      {"number":"1","label":"Dimension, 1/64 in. clearance","partNumber":null,"x":87.3,"y":33.2},{"number":"2","label":"Screw, 8-32 × 1/4 in., round head","partNumber":"73533-34","x":75,"y":75.8},{"number":"3","label":"Stop bracket","partNumber":"56628","x":69.1,"y":75.8},{"number":"4","label":"Release lever","partNumber":"129102","x":61.4,"y":75.3},{"number":"5","label":"Trip lever, letters","partNumber":"117694","x":56.3,"y":74.1},{"number":"6","label":"Screw, 8-32 × 1/4 in., round head","partNumber":"73533-34","x":50.2,"y":75},{"number":"7","label":"Zero clearance","partNumber":null,"x":38.6,"y":31.2},{"number":"8","label":"Dimension, 1/64 in. clearance","partNumber":null,"x":51.2,"y":27},{"number":"9","label":"Latch lever, letters","partNumber":"65009","x":76,"y":70},{"number":"10","label":"Adjusting screw, 6-32 × 3/4 in., round head","partNumber":"73503-72","x":77,"y":35},{"number":"11","label":"Trip lever, numbers","partNumber":"117691","x":82,"y":35}
     ]
   },
   {
-    "id":"3b-fig-4","pageId":"p014","number":"4","title":"Latch adjustment","image":"assets/figures/3b-fig-4.jpg","source":{"pageLabel":"3B","sourceFile":"03-image-1786655950205.jpg","crop":{"x":15,"y":360,"width":430,"height":310},"coordinateSpace":"900 px oriented review derivative"},"callouts":[
+    "id":"3b-fig-4","pageId":"p014","number":"4","title":"Latch adjustment","image":"assets/figures/3b-fig-3.jpg","source":{"pageLabel":"3B","sourceFile":"03-image-1786655950205.jpg","crop":{"x":470,"y":40,"width":410,"height":330},"coordinateSpace":"900 px oriented review derivative"},"callouts":[
       {"number":"1","label":"Latch pawl, letters","partNumber":"65009","x":46,"y":19},{"number":"2","label":"Trip lever, letters","partNumber":"117694","x":55,"y":19},{"number":"3","label":"Adjusting screw, 6-32 × 3/4 in., round head","partNumber":"73503-72","x":66,"y":19},{"number":"4","label":"Trip lever, numbers","partNumber":"117691","x":78,"y":19},{"number":"5","label":"Latch lever, numbers","partNumber":"117695","x":89,"y":19},{"number":"6","label":"Screw, 8-32 × 1/4 in., round head","partNumber":"73533-34","x":76,"y":57},{"number":"7","label":"Stop tab, release lever","partNumber":"129102","x":68,"y":57},{"number":"8","label":"Screw, 8-32 × 1/4 in., round head","partNumber":"73533-34","x":52,"y":57}
     ]
   },
   {
-    "id":"3b-fig-5","pageId":"p014","number":"5","title":"Control and latch switch adjustment","image":"assets/figures/3b-fig-5.jpg","source":{"pageLabel":"3B","sourceFile":"03-image-1786655950205.jpg","crop":{"x":470,"y":350,"width":410,"height":350},"coordinateSpace":"900 px oriented review derivative"},"callouts":[
-      {"number":"1","label":"Plunger, latch solenoid","partNumber":"112104-1","x":19,"y":29},{"number":"2","label":"Screw, 8-32 × 1/4 in., round head","partNumber":"73533-34","x":27,"y":29},{"number":"3","label":"Zero clearance","partNumber":null,"x":48,"y":29},{"number":"4","label":"Contacts open 1/32 in.","partNumber":null,"x":60,"y":29},{"number":"5","label":"Zero clearance","partNumber":null,"x":79,"y":29},{"number":"6","label":"Screws, 8-32 × 1/4 in., round head","partNumber":"73533-34","x":46,"y":72},{"number":"7","label":"Contacts close with 1/32 in. overtravel","partNumber":null,"x":58,"y":72},{"number":"8","label":"Control switch and mounting bracket","partNumber":"125406","x":67,"y":72},{"number":"9","label":"Contacts close with 1/32 in. overtravel","partNumber":null,"x":76,"y":72},{"number":"10","label":"Screws, 8-32 × 1/4 in., round head","partNumber":"73533-34","x":25,"y":72}
+    "id":"3b-fig-5","pageId":"p014","number":"5","title":"Control and latch switch adjustment","image":"assets/figures/3b-fig-5.jpg","calloutsPositioned":true,"source":{"pageLabel":"3B","sourceFile":"03-image-1786655950205.jpg","crop":{"x":470,"y":350,"width":410,"height":350},"coordinateSpace":"900 px oriented review derivative"},"callouts":[
+      {"number":"1","label":"Plunger, latch solenoid","partNumber":"112104-1","x":12.7,"y":37.4},{"number":"2","label":"Screw, 8-32 × 1/4 in., round head","partNumber":"73533-34","x":21.4,"y":36.8},{"number":"3","label":"Zero clearance","partNumber":null,"x":45.4,"y":37},{"number":"4","label":"Contacts open 1/32 in.","partNumber":null,"x":56.6,"y":37.2},{"number":"5","label":"Zero clearance","partNumber":null,"x":74.5,"y":37.6},{"number":"6","label":"Screws, 8-32 × 1/4 in., round head","partNumber":"73533-34","x":80.4,"y":74.7},{"number":"7","label":"Contacts close with 1/32 in. overtravel","partNumber":null,"x":60,"y":97.3},{"number":"8","label":"Control switch and mounting bracket","partNumber":"125406","x":50.9,"y":97.7},{"number":"9","label":"Contacts close with 1/32 in. overtravel","partNumber":null,"x":39.1,"y":97.7},{"number":"10","label":"Screws, 8-32 × 1/4 in., round head","partNumber":"73533-34","x":24.6,"y":96}
     ]
   },
   {
