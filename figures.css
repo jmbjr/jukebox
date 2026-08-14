@@ -43,7 +43,9 @@
 .callout-palette button:focus-visible,
 .callout-palette button.active { background: #fff; color: #111; border-color: var(--accent); outline: 2px solid var(--accent); }
 .position-edit-toggle,
-.copy-positions { padding: 7px 10px; border: 1px solid var(--line); border-radius: 6px; background: var(--panel); color: inherit; cursor: pointer; }
+.copy-positions,
+.crop-edit-toggle,
+.copy-crop { padding: 7px 10px; border: 1px solid var(--line); border-radius: 6px; background: var(--panel); color: inherit; cursor: pointer; }
 .copy-status { color: var(--muted); font-size: .82rem; }
 .figure-layout {
   display: grid;
@@ -57,10 +59,34 @@
   border-radius: 8px;
   overflow: hidden;
 }
-.figure-image img {
+.figure-image canvas {
   display: block;
   width: 100%;
   height: auto;
+}
+.figure-image.crop-editing .callout { display: none; }
+.crop-box {
+  position: absolute;
+  left: var(--crop-x);
+  top: var(--crop-y);
+  width: var(--crop-width);
+  height: var(--crop-height);
+  border: 3px solid #e9b949;
+  background: rgba(233,185,73,.12);
+  box-shadow: 0 0 0 9999px rgba(0,0,0,.38);
+  cursor: move;
+  touch-action: none;
+}
+.crop-handle {
+  position: absolute;
+  right: -9px;
+  bottom: -9px;
+  width: 18px;
+  height: 18px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background: #8a2d25;
+  cursor: nwse-resize;
 }
 .callout {
   position: absolute;
