@@ -18,8 +18,10 @@ Open `index.html` directly in a browser. No build step or server is required. Th
 ## Contents
 
 - `assets/pages/` — efficient original JPEG photographs
+- `assets/figures/` — reviewed figure crops derived from the photographed pages
 - `ocr/` — searchable OCR text per image
 - `data/pages.json` — page catalog and provenance
+- `data/figures.json` — extracted-figure provenance and structured callout records
 - `knowledge/selection-sequence.md` — curated operating sequence
 - `knowledge/troubleshooting.md` — symptom-oriented diagnostic notes
 - `knowledge/project-summary.md` — project scope and digital-twin plan
