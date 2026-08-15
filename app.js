@@ -85,10 +85,10 @@ function select(p){
   $('#previous').onclick=()=>index>0&&select(ordered[index-1]);$('#next').onclick=()=>index<ordered.length-1&&select(ordered[index+1]);
 }
 function renderFigures(page){
-  const host=$('#figures'),items=figures.filter(f=>f.pageId===page.id).sort((a,b)=>Number(a.number)-Number(b.number));
+  const host=$('#figures'),items=figures.filter(f=>f.pageId===page.id||f.pageIds?.includes(page.id)).sort((a,b)=>Number(a.number)-Number(b.number));
   host.hidden=!items.length;
   host.innerHTML=items.map(f=>{const callouts=[...f.callouts].sort((a,b)=>Number(a.number)-Number(b.number)),positioned=f.calloutsPositioned===true;return `<article class="figure-card">
-    <div class="figure-heading"><div><p class="eyebrow">Extracted figure ${f.number}</p><h2>${f.title}</h2></div><small>From page ${f.source.pageLabel}</small></div>
+    <div class="figure-heading"><div><p class="eyebrow">Extracted figure ${f.number}</p><h2>${f.title}</h2></div><small>From page${f.source.pageLabels?'s':''} ${f.source.pageLabels?.join('–')||f.source.pageLabel}</small></div>
     <p class="figure-help">${positioned?'Select a numbered hotspot or index entry. Use Adjust positions to refine the saved locations.':'Select a numbered circle or index entry. Use Adjust positions to align the circles with the figure.'}</p>
     <div class="figure-tools">${positioned?'':`<div class="callout-palette" aria-label="Figure ${f.number} quick callouts">${callouts.map(c=>`<button type="button" data-figure="${f.id}" data-callout="${c.number}" aria-label="Callout ${c.number}: ${c.label}">${c.number}</button>`).join('')}</div>`}<button type="button" class="position-edit-toggle" data-figure="${f.id}">Adjust positions</button><button type="button" class="copy-positions" data-figure="${f.id}" hidden>Copy positions</button><button type="button" class="crop-edit-toggle" data-figure="${f.id}">Adjust crop</button><button type="button" class="copy-crop" data-figure="${f.id}" hidden>Copy crop</button><span class="copy-status" aria-live="polite"></span></div>
     <div class="figure-layout">
@@ -110,6 +110,7 @@ function renderFigures(page){
     const figure=figures.find(f=>f.id===toggle.dataset.figure),card=toggle.closest('.figure-card'),image=card.querySelector('.figure-image'),editing=!image.classList.contains('editing');
     image.classList.toggle('editing',editing);toggle.textContent=editing?'Finish adjusting':'Adjust positions';card.querySelector('.copy-positions').hidden=!editing;card.querySelector('.crop-edit-toggle').disabled=editing;
     if(editing&&!image.querySelector('.callout')){
+      figure.callouts.forEach((callout,index)=>{if(!Number.isFinite(callout.x)||!Number.isFinite(callout.y)){callout.x=6+(index%10)*9.7;callout.y=7+Math.floor(index/10)*10;}});
       image.insertAdjacentHTML('beforeend',figure.callouts.map(c=>`<button type="button" class="callout" style="--x:${c.x}%;--y:${c.y}%" data-figure="${figure.id}" data-callout="${c.number}" aria-label="Drag callout ${c.number}: ${c.label}">${c.number}</button>`).join(''));
       image.querySelectorAll('.callout').forEach(button=>{button.onclick=()=>selectCallout(button);enableCalloutDrag(button,figure);});
     }
@@ -154,11 +155,11 @@ async function getOrientedPage(page){
 }
 async function renderFigureCanvas(figure){
   const host=document.querySelector(`[data-figure-image="${figure.id}"]`);if(!host)return;
-  const page=catalog.find(item=>item.id===figure.pageId),source=await getOrientedPage(page),crop=getCropPercent(figure),sx=source.width*crop.x/100,sy=source.height*crop.y/100,sw=source.width*crop.width/100,sh=source.height*crop.height/100,canvas=host.querySelector('.figure-canvas'),scale=Math.min(1,1200/sw);
+  const page=catalog.find(item=>item.id===(figure.sourcePageId||figure.pageId)),source=await getOrientedPage(page),crop=getCropPercent(figure),sx=source.width*crop.x/100,sy=source.height*crop.y/100,sw=source.width*crop.width/100,sh=source.height*crop.height/100,canvas=host.querySelector('.figure-canvas'),scale=Math.min(1,1200/sw);
   canvas.width=Math.max(1,Math.round(sw*scale));canvas.height=Math.max(1,Math.round(sh*scale));canvas.getContext('2d').drawImage(source,sx,sy,sw,sh,0,0,canvas.width,canvas.height);
 }
 async function showCropEditor(figure){
-  const host=document.querySelector(`[data-figure-image="${figure.id}"]`),page=catalog.find(item=>item.id===figure.pageId),source=await getOrientedPage(page),canvas=host.querySelector('.figure-canvas'),scale=Math.min(1,1200/source.width),crop=getCropPercent(figure);
+  const host=document.querySelector(`[data-figure-image="${figure.id}"]`),page=catalog.find(item=>item.id===(figure.sourcePageId||figure.pageId)),source=await getOrientedPage(page),canvas=host.querySelector('.figure-canvas'),scale=Math.min(1,1200/source.width),crop=getCropPercent(figure);
   canvas.width=Math.round(source.width*scale);canvas.height=Math.round(source.height*scale);canvas.getContext('2d').drawImage(source,0,0,canvas.width,canvas.height);
   host.insertAdjacentHTML('beforeend',`<div class="crop-box" style="--crop-x:${crop.x}%;--crop-y:${crop.y}%;--crop-width:${crop.width}%;--crop-height:${crop.height}%"><span class="crop-handle" aria-hidden="true"></span></div>`);
   enableCropDrag(host.querySelector('.crop-box'),figure);
