@@ -130,13 +130,24 @@ function renderFigures(page){
   });
 }
 function enableCalloutDrag(button,figure){
-  button.addEventListener('pointerdown',event=>{if(!button.parentElement.classList.contains('editing'))return;event.preventDefault();button.setPointerCapture(event.pointerId);button.classList.add('dragging');});
+  let activePointerId=null;
+  const finishDrag=event=>{
+    if(event.pointerId!==activePointerId)return;
+    if(button.hasPointerCapture(event.pointerId))button.releasePointerCapture(event.pointerId);
+    activePointerId=null;button.classList.remove('dragging');
+  };
+  button.addEventListener('pointerdown',event=>{
+    if(!button.parentElement.classList.contains('editing'))return;
+    event.preventDefault();activePointerId=event.pointerId;button.setPointerCapture(event.pointerId);button.classList.add('dragging');
+  });
   button.addEventListener('pointermove',event=>{
-    if(!button.hasPointerCapture(event.pointerId))return;
+    if(event.pointerId!==activePointerId||!button.parentElement.classList.contains('editing')||!button.hasPointerCapture(event.pointerId))return;
     const box=button.parentElement.getBoundingClientRect(),x=Math.max(0,Math.min(100,(event.clientX-box.left)/box.width*100)),y=Math.max(0,Math.min(100,(event.clientY-box.top)/box.height*100)),callout=figure.callouts.find(c=>c.number===button.dataset.callout);
     callout.x=x;callout.y=y;button.style.setProperty('--x',`${x}%`);button.style.setProperty('--y',`${y}%`);
   });
-  button.addEventListener('pointerup',event=>{button.releasePointerCapture(event.pointerId);button.classList.remove('dragging');});
+  button.addEventListener('pointerup',finishDrag);
+  button.addEventListener('pointercancel',finishDrag);
+  button.addEventListener('lostpointercapture',event=>{if(event.pointerId===activePointerId){activePointerId=null;button.classList.remove('dragging');}});
 }
 function getCropPercent(figure){
   if(figure.source.cropPercent)return figure.source.cropPercent;
