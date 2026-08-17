@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "pin-to-scan-start",
+  "title": "Released selector pin to record-carrier scan start",
+  "startsAfter": "A1 selector pin released",
+  "boundary": {
+    "startsAt": "selected pin released",
+    "endsAt": "chassis motor forward and carrier scan started",
+    "nextModel": "carriage switch, RY-6, and record transfer"
+  },
+  "sourcePolicy": "The photographed manual is authoritative. Wobble-ring movement is modeled as an explicit mechanical event.",
+  "sources": [
+    {"id":"16e-changer-1-3","pageId":"p043","pageLabel":"16E","title":"3200 record changer sequence 1–3","confidence":"manual-verified"},
+    {"id":"5b-override-mechanism","pageId":"p024","pageLabel":"5B","title":"Override switch and wobble-ring adjustment","confidence":"manual-verified"}
+  ],
+  "stages": [
+    {"id":"pin-released","label":"A1 selector pin released","instruction":"Advance to model the pin spring raising the wobble ring.","sourceRefs":[{"sourceId":"5b-override-mechanism","step":"override-switch adjustment"}]},
+    {"id":"override-closed","label":"Wobble ring raised; override switch closed","instruction":"Continue through transfer contact 3-2 to energize RY-5.","sourceRefs":[{"sourceId":"16e-changer-1-3","step":"1"}]},
+    {"id":"ry5-energized","label":"RY-5 energized","instruction":"Start the turntable and chassis-motor forward branches.","sourceRefs":[{"sourceId":"16e-changer-1-3","step":"1–3"}]},
+    {"id":"scan-started","label":"Turntable and record-carrier scan started","sourceRefs":[{"sourceId":"16e-changer-1-3","step":"2–3"}]}
+  ],
+  "faults": [
+    {"id":"bound-wobble-ring","stage":"pin-released","branch":"mechanical","label":"Wobble ring does not rise","stopReason":"wobble-ring-did-not-move"},
+    {"id":"open-override-switch","stage":"pin-released","branch":"ry5","label":"Override switch fails to close","stopReason":"override-switch-open"},
+    {"id":"open-transfer-3-2","stage":"override-closed","branch":"ry5","label":"Transfer-switch contact 3-2 is open","stopReason":"ry5-pickup-path-open"},
+    {"id":"open-ry5-coil","stage":"override-closed","branch":"ry5","label":"RY-5 coil is open","stopReason":"ry5-pickup-path-open"},
+    {"id":"open-line-fuse","stage":"ry5-energized","branch":"turntable","label":"Turntable line fuse is open","stopReason":"turntable-path-open"},
+    {"id":"open-safety-switch","stage":"ry5-energized","branch":"turntable","label":"Turntable safety switch is open","stopReason":"turntable-path-open"},
+    {"id":"open-ry5-5-4","stage":"ry5-energized","branch":"turntable","label":"RY-5 contact 5-4 is open","stopReason":"turntable-path-open"},
+    {"id":"open-turntable-motor","stage":"ry5-energized","branch":"turntable","label":"Turntable motor circuit is open","stopReason":"turntable-path-open"},
+    {"id":"open-ry5-2-1","stage":"ry5-energized","branch":"chassis","label":"RY-5 contact 2-1 is open","stopReason":"chassis-motor-path-open"},
+    {"id":"open-transfer-5-6","stage":"ry5-energized","branch":"chassis","label":"Transfer-switch contact 5-6 is open","stopReason":"chassis-motor-path-open"},
+    {"id":"open-ry6-10-2","stage":"ry5-energized","branch":"chassis","label":"RY-6 normally-closed contact 10-2 is open","stopReason":"chassis-motor-path-open"},
+    {"id":"open-loading-switch","stage":"ry5-energized","branch":"chassis","label":"Loading-switch path is open","stopReason":"chassis-motor-path-open"},
+    {"id":"open-chassis-motor-forward","stage":"ry5-energized","branch":"chassis","label":"Chassis-motor forward winding is open","stopReason":"chassis-motor-path-open"},
+    {"id":"open-chassis-thermostat","stage":"ry5-energized","branch":"chassis","label":"Chassis-motor thermostat is open","stopReason":"chassis-motor-path-open"}
+  ]
+}

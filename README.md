@@ -29,7 +29,7 @@ Open `index.html` directly in a browser. No build step or server is required. Th
 
 ## Interactive circuit lab
 
-Open `simulator.html` through a local web server to run the first deterministic circuit path. It models an A1 selection from credit establishment through 200-selector indexing and A1 selector-pin release, with observable component states and curated fault injection.
+Open `simulator.html` through a local web server to run the first deterministic circuit path. It models an A1 selection from credit establishment through 200-selector indexing, A1 selector-pin release, override-switch operation, RY-5 pickup, and record-carrier scan start, with observable component states and curated fault injection.
 
 The circuit definition is data-driven in `data/circuits/a1-selection-start.json`; the evaluator is in `simulation/a1-selection.js`. Run its tests with:
 
