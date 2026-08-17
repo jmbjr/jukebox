@@ -1,0 +1,8 @@
+{
+  "name": "wurlitzer-3210-virtual-service-manual",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  }
+}

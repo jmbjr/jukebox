@@ -25,6 +25,17 @@ Open `index.html` directly in a browser. No build step or server is required. Th
 - `knowledge/selection-sequence.md` — curated operating sequence
 - `knowledge/troubleshooting.md` — symptom-oriented diagnostic notes
 - `knowledge/project-summary.md` — project scope and digital-twin plan
+- `knowledge/a1-selection-simulation.md` — first interactive circuit-model scope and assumptions
+
+## Interactive circuit lab
+
+Open `simulator.html` through a local web server to run the first deterministic circuit path. It models an A1 selection from credit establishment through 200-selector indexing and A1 selector-pin release, with observable component states and curated fault injection.
+
+The circuit definition is data-driven in `data/circuits/a1-selection-start.json`; the evaluator is in `simulation/a1-selection.js`. Run its tests with:
+
+```sh
+node --test
+```
 
 ## Known gaps
 

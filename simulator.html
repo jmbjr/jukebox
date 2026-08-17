@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>A1 Circuit Lab · Wurlitzer 3210</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="simulator.css">
+</head>
+<body>
+  <header><a class="brand simulator-brand" href="index.html"><span class="eyebrow">Series 3200 • Model 3210</span><span>Interactive Circuit Lab</span></a></header>
+  <main class="simulator-shell">
+    <article class="simulator-page">
+      <p class="eyebrow">First modeled path • A1</p>
+      <h1>Credit to selection-motor start</h1>
+      <p class="lede">Step through the manual sequence, watch observable loads, or inject one fault and compare where the circuit stops.</p>
+
+      <section class="sim-controls" aria-label="Simulation controls">
+        <button id="reset" type="button">Reset</button>
+        <button id="credit" type="button">Establish credit</button>
+        <button id="selectA1" type="button">Press A1</button>
+        <button id="advanceSelector" type="button" hidden>Advance selector</button>
+        <label>Fault
+          <select id="fault"><option value="">None</option></select>
+        </label>
+      </section>
+
+      <section class="sim-status" aria-live="polite">
+        <span id="statusBadge"></span><div><strong id="phase"></strong><p id="stopReason"></p></div>
+      </section>
+
+      <section>
+        <h2>Observable components</h2>
+        <div id="observations" class="observation-grid"></div>
+      </section>
+      <section class="sim-columns">
+        <div><h2>Conducting paths</h2><ol id="paths" class="path-list"></ol></div>
+        <div><h2>Action trace</h2><ol id="trace" class="trace-list"></ol></div>
+      </section>
+      <p class="sim-boundary"><strong>Model boundary:</strong> this slice ends when the A1 selector pin releases. Wobble/override-switch operation and changer scan start come next.</p>
+      <p class="sim-source">Curated from manual pages <a href="index.html">13E, 14E, 20E, 21E, and Figure 16 on 9B</a>. The photographed manual remains authoritative.</p>
+    </article>
+  </main>
+  <script type="module" src="simulator-ui.js"></script>
+</body>
+</html>

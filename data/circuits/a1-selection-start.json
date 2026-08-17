@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-selection-start",
+  "title": "A1 selection start — credit through selection motor forward",
+  "boundary": {
+    "startsAt": "credit establishment",
+    "endsAt": "selection motor forward winding energized",
+    "nextModel": "selector indexing and pin registration"
+  },
+  "sourcePolicy": "The photographed manual page is authoritative. This model is a curated functional interpretation of the sequence text, not a SPICE model or a live-service procedure.",
+  "sources": [
+    {
+      "id": "13e-sequence-1-3",
+      "pageId": "p027",
+      "pageLabel": "13E",
+      "title": "Selection sequence 1–3",
+      "confidence": "manual-verified"
+    },
+    {
+      "id": "14e-sequence-3-6",
+      "pageId": "p033",
+      "pageLabel": "14E",
+      "title": "Selection sequence 3–6",
+      "confidence": "manual-verified"
+    }
+  ],
+  "components": [
+    {"id":"key-switch","type":"contact","label":"Key switch","normalState":"open"},
+    {"id":"selector-series-switches","type":"contact","label":"Selector series switches","normalState":"closed"},
+    {"id":"ry4-contact-9-1","type":"contact","label":"RY-4 contact 9-1","normalState":"closed"},
+    {"id":"ry1-coil","type":"coil","label":"RY-1 coil"},
+    {"id":"ry1-contact-8-12","type":"contact","label":"RY-1 interlock contact 8-12","normalState":"open"},
+    {"id":"ry1-contact-10-6","type":"contact","label":"RY-1 contact 10-6","normalState":"open"},
+    {"id":"ry1-contact-9-5","type":"contact","label":"RY-1 contact 9-5","normalState":"open"},
+    {"id":"letter-selector-a","type":"contact","label":"Letter selector switch A","normalState":"open"},
+    {"id":"button-release-switch","type":"contact","label":"Button-release switch","normalState":"closed"},
+    {"id":"latch-solenoid","type":"solenoid","label":"Selector-switch latch solenoid"},
+    {"id":"control-switch-5-4","type":"contact","label":"Control-switch contact 5-4","normalState":"closed"},
+    {"id":"control-switch-3-4","type":"contact","label":"Control-switch contact 3-4","normalState":"open"},
+    {"id":"resistor-85","type":"resistor","label":"85 ohm latch-solenoid resistor"},
+    {"id":"resistor-175","type":"resistor","label":"175 ohm Select-lamp resistor"},
+    {"id":"resistor-270","type":"resistor","label":"270 ohm latch-hold resistor"},
+    {"id":"select-lamp","type":"lamp","label":"Select lamp"},
+    {"id":"letter-latch-switch-4-3","type":"contact","label":"Letter latch-switch contact 4-3","normalState":"open"},
+    {"id":"number-latch-switch-3-4","type":"contact","label":"Number latch-switch contact 3-4","normalState":"open"},
+    {"id":"number-selector-switch-1","type":"contact","label":"Number selector switch position 1","normalState":"open"},
+    {"id":"number-1-coil","type":"coil","label":"Number 1 coil"},
+    {"id":"ry2-coil","type":"coil","label":"RY-2 coil"},
+    {"id":"lamp-303","type":"lamp","label":"No. 303 lamp"},
+    {"id":"ry2-contact-10-6","type":"contact","label":"RY-2 latch interlock contact 10-6","normalState":"open"},
+    {"id":"ry2-contact-8-12","type":"contact","label":"RY-2 selection-motor contact 8-12","normalState":"open"},
+    {"id":"selection-motor-thermostat","type":"contact","label":"Selection-motor thermostat","normalState":"closed"},
+    {"id":"selection-motor-forward","type":"motor-winding","label":"Selection-motor forward winding"}
+  ],
+  "paths": [
+    {
+      "id": "ry1-pickup",
+      "label": "Key-switch path to RY-1",
+      "from": "32",
+      "to": "35",
+      "elements": ["key-switch","selector-series-switches","ry1-coil","ry4-contact-9-1"],
+      "conductors": ["32","42","47","55","58","35"],
+      "energizes": ["ry1-coil"],
+      "sourceRefs": [{"sourceId":"13e-sequence-1-3","step":"2"}]
+    },
+    {
+      "id": "ry1-interlock",
+      "label": "RY-1 interlock",
+      "from": "32",
+      "to": "35",
+      "elements": ["ry1-contact-8-12","ry1-coil","ry4-contact-9-1"],
+      "conductors": ["32","147","55","58","35"],
+      "energizes": ["ry1-coil"],
+      "sourceRefs": [{"sourceId":"13e-sequence-1-3","step":"2"}]
+    },
+    {
+      "id": "latch-solenoid-pickup",
+      "label": "RY-1 through selected letter to latch solenoid",
+      "from": "32",
+      "to": "35",
+      "elements": ["ry1-contact-10-6","letter-selector-a","button-release-switch","latch-solenoid","control-switch-5-4"],
+      "conductors": ["32","78","177","35"],
+      "energizes": ["latch-solenoid"],
+      "sourceRefs": [{"sourceId":"13e-sequence-1-3","step":"3a"}]
+    },
+    {
+      "id": "select-lamp",
+      "label": "Select-lamp circuit after control-switch operation",
+      "from": "32",
+      "to": "35",
+      "elements": ["select-lamp","resistor-175","control-switch-3-4"],
+      "conductors": ["32","35"],
+      "energizes": ["select-lamp"],
+      "sourceRefs": [{"sourceId":"14e-sequence-3-6","step":"3c"}]
+    },
+    {
+      "id": "a1-selection-prefix",
+      "label": "A1 latch and number-coil path to conductor 30",
+      "from": "32",
+      "to": "30",
+      "elements": ["ry1-contact-9-5","letter-latch-switch-4-3","number-latch-switch-3-4","number-selector-switch-1","number-1-coil"],
+      "conductors": ["32","74","54","1","30"],
+      "energizes": ["number-1-coil"],
+      "sourceRefs": [{"sourceId":"14e-sequence-3-6","step":"4"}]
+    },
+    {
+      "id": "ry2-pickup",
+      "label": "RY-2 branch from conductor 30",
+      "from": "30",
+      "to": "35",
+      "requires": ["a1-selection-prefix"],
+      "elements": ["ry2-coil"],
+      "conductors": ["30","35"],
+      "energizes": ["ry2-coil"],
+      "sourceRefs": [{"sourceId":"14e-sequence-3-6","step":"4"}],
+      "topologyConfidence": "functional interpretation of sequence text"
+    },
+    {
+      "id": "lamp-303-branch",
+      "label": "No. 303 lamp branch from conductor 30",
+      "from": "30",
+      "to": "35",
+      "requires": ["a1-selection-prefix"],
+      "elements": ["lamp-303"],
+      "conductors": ["30","35"],
+      "energizes": ["lamp-303"],
+      "sourceRefs": [{"sourceId":"14e-sequence-3-6","step":"4"}],
+      "topologyConfidence": "functional interpretation of sequence text"
+    },
+    {
+      "id": "latch-solenoid-hold",
+      "label": "RY-2 latch-solenoid interlock",
+      "from": "32",
+      "to": "35",
+      "elements": ["ry2-contact-10-6","resistor-270","latch-solenoid","resistor-85"],
+      "conductors": ["32","77","35"],
+      "energizes": ["latch-solenoid"],
+      "sourceRefs": [{"sourceId":"14e-sequence-3-6","step":"5"}]
+    },
+    {
+      "id": "selection-motor-forward",
+      "label": "RY-2 selection-motor forward path",
+      "from": "32",
+      "to": "40",
+      "elements": ["selection-motor-thermostat","ry2-contact-8-12","selection-motor-forward"],
+      "conductors": ["32","69","60","40"],
+      "energizes": ["selection-motor-forward"],
+      "sourceRefs": [{"sourceId":"14e-sequence-3-6","step":"6"}]
+    }
+  ],
+  "faults": [
+    {"id":"open-key-switch","type":"forced-open","target":"key-switch","label":"Key switch does not close"},
+    {"id":"open-series-switch","type":"forced-open","target":"selector-series-switches","label":"Selector series-switch path is open"},
+    {"id":"open-ry1-coil","type":"forced-open","target":"ry1-coil","label":"RY-1 coil is open"},
+    {"id":"open-latch-solenoid","type":"forced-open","target":"latch-solenoid","label":"Latch-solenoid winding is open"},
+    {"id":"bound-latch-mechanism","type":"mechanical-binding","target":"latch-mechanism","label":"Latch solenoid energizes but the mechanism does not move"},
+    {"id":"open-button-release-switch","type":"forced-open","target":"button-release-switch","label":"Button-release switch is open"},
+    {"id":"open-letter-latch-switch","type":"forced-open","target":"letter-latch-switch-4-3","label":"Letter latch switch fails to close"},
+    {"id":"open-number-latch-switch","type":"forced-open","target":"number-latch-switch-3-4","label":"Number latch switch fails to close"},
+    {"id":"open-number-1-coil","type":"forced-open","target":"number-1-coil","label":"Number 1 coil is open"},
+    {"id":"open-ry2-coil","type":"forced-open","target":"ry2-coil","label":"RY-2 coil is open"},
+    {"id":"open-ry2-motor-contact","type":"forced-open","target":"ry2-contact-8-12","label":"RY-2 motor contact 8-12 fails to close"},
+    {"id":"open-selection-motor-forward","type":"forced-open","target":"selection-motor-forward","label":"Selection-motor forward winding is open"}
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "a1-index-registration-200",
+  "title": "A1 selector indexing and pin registration — 200 selector",
+  "startsAfter": "selection-motor-forward",
+  "boundary": {
+    "startsAt": "selection motor forward winding energized",
+    "endsAt": "A1 selector pin released",
+    "nextModel": "wobble/override switch and record-changer scan start"
+  },
+  "sourcePolicy": "The photographed manual page is authoritative. Mechanical transitions are explicit user-driven events rather than assumed instantaneous effects.",
+  "sources": [
+    {"id":"20e-sequence-6-9","pageId":"p018","pageLabel":"20E","title":"3200 selection sequence 5–9","confidence":"manual-verified"},
+    {"id":"21e-sequence-10","pageId":"p022","pageLabel":"21E","title":"3200 selection sequence 9–15","confidence":"manual-verified"},
+    {"id":"9b-figure-16","pageId":"p044","pageLabel":"9B","title":"Electric selector adjustment — 200","confidence":"manual-verified"}
+  ],
+  "stages": [
+    {
+      "id":"motor-forward",
+      "label":"Selection motor running forward",
+      "instruction":"Advance the selector to model the rotating plate reaching the number-1 rocker alignment.",
+      "sourceRefs":[{"sourceId":"20e-sequence-6-9","step":"6"}]
+    },
+    {
+      "id":"number-indexed",
+      "label":"Number-1 rockers indexed",
+      "energized":["driver-solenoid-1-6"],
+      "instruction":"Continue to model RY-1 releasing and RY-4 picking up after indexing time.",
+      "sourceRefs":[{"sourceId":"20e-sequence-6-9","step":"6–8"}]
+    },
+    {
+      "id":"ry4-energized",
+      "label":"RY-4 energized; driver held",
+      "energized":["driver-solenoid-1-6","ry4-coil"],
+      "instruction":"Continue to energize the A1–5 letter coil and test whether the A1 pin releases.",
+      "sourceRefs":[{"sourceId":"20e-sequence-6-9","step":"8–9"}]
+    },
+    {
+      "id":"pin-registered",
+      "label":"A1 selector pin released",
+      "energized":["driver-solenoid-1-6","ry4-coil","a1-5-letter-coil"],
+      "sourceRefs":[{"sourceId":"21e-sequence-10","step":"10"},{"sourceId":"9b-figure-16","step":"selector pin mechanism"}]
+    }
+  ],
+  "faults": [
+    {"id":"open-driver-solenoid-1-6","stage":"motor-forward","label":"1-and-6 driver-solenoid circuit is open","stopReason":"driver-solenoid-path-open"},
+    {"id":"bound-rotating-plate","stage":"motor-forward","label":"Rotating plate or number quadrant binds","stopReason":"selector-failed-to-index"},
+    {"id":"open-ry2-11-7","stage":"number-indexed","label":"RY-2 contact 11-7 is open","stopReason":"ry4-pickup-path-open"},
+    {"id":"open-latch-switch-path","stage":"number-indexed","label":"Latch-switch path to conductor 44 is open","stopReason":"ry4-pickup-path-open"},
+    {"id":"open-ry1-10-2","stage":"number-indexed","label":"RY-1 contact 10-2 is open","stopReason":"ry4-pickup-path-open"},
+    {"id":"open-ry4-coil","stage":"number-indexed","label":"RY-4 coil is open","stopReason":"ry4-pickup-path-open"},
+    {"id":"open-ry4-7-11","stage":"ry4-energized","label":"RY-4 letter-coil contact 7-11 is open","stopReason":"letter-coil-path-open"},
+    {"id":"open-letter-circuit-breaker","stage":"ry4-energized","label":"Letter-coil circuit breaker is open","stopReason":"letter-coil-path-open"},
+    {"id":"open-a1-5-letter-coil","stage":"ry4-energized","label":"A1–5 letter coil is open","stopReason":"letter-coil-path-open"},
+    {"id":"stuck-a1-selector-pin","stage":"ry4-energized","label":"A1 selector pin does not release mechanically","stopReason":"selector-pin-stuck"}
+  ]
+}
