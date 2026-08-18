@@ -5,26 +5,48 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Our Records · Wurlitzer 3210</title>
   <link rel="stylesheet" href="portal.css">
+  <link rel="stylesheet" href="records.css">
 </head>
 <body>
-  <main class="subpage-shell">
+  <main class="subpage-shell records-shell">
     <a class="back-link" href="index.html">← Jukebox home</a>
 
     <section class="records-hero">
       <p class="kicker">The collection</p>
       <h1>Our<br>Records</h1>
-      <p class="hero-copy">Mom's working catalog is becoming a searchable jukebox collection: titles, artists, B-sides, condition notes, special collections, and eventually the slot each record occupies in the machine.</p>
+      <p class="hero-copy">Browse Mom's working catalog of 45s, Elvis records, albums, and Christmas selections. Search uses both the structured fields and the source wording so uncertain transcription never hides an entry.</p>
     </section>
 
-    <section class="collection-preview" aria-label="Collection groups">
-      <div class="preview-card"><strong>45s A–Z</strong><span>The main alphabetized collection, including B-side notes and condition annotations.</span></div>
-      <div class="preview-card"><strong>Elvis</strong><span>A dedicated group of Elvis 45s and albums, including sleeve and condition notes.</span></div>
-      <div class="preview-card"><strong>Christmas</strong><span>Seasonal records stored separately from the main jukebox collection.</span></div>
+    <section class="catalog-tools" aria-label="Catalog filters">
+      <label class="search-field">
+        <span>Search title, artist, or notes</span>
+        <input id="recordSearch" type="search" placeholder="Try Billy Joel, Elvis, cracked…" autocomplete="off">
+      </label>
+      <div class="filter-row">
+        <label>Collection
+          <select id="sectionFilter">
+            <option value="">All collections</option>
+          </select>
+        </label>
+        <label>Condition
+          <select id="conditionFilter">
+            <option value="">Any condition</option>
+            <option value="cracked">Cracked</option>
+            <option value="warped">Warped</option>
+            <option value="broken">Broken</option>
+          </select>
+        </label>
+      </div>
+      <div id="letterFilter" class="letter-filter" aria-label="Alphabet filter"></div>
     </section>
 
-    <section class="coming-next">
-      <strong>Next up: searchable catalog.</strong> The source list has been captured. The next development slice will convert it into structured record data and add search, A–Z browsing, filters, and condition badges here.
+    <section class="catalog-summary">
+      <div><strong id="visibleCount">—</strong><span>matching entries</span></div>
+      <p id="catalogNote">Loading catalog…</p>
     </section>
+
+    <section id="recordList" class="record-list" aria-live="polite"></section>
   </main>
+  <script type="module" src="records.js"></script>
 </body>
 </html>
