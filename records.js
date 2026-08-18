@@ -30,6 +30,21 @@ function sectionLabel(key) {
   return state.data.sections[key]?.label || key;
 }
 
+function unpackEntry(row, index) {
+  const [section, letter, title, artist, conditionText, sourceText, needsReview] = row;
+  const condition = conditionText ? conditionText.split(",").filter(Boolean) : [];
+  return {
+    id: `r${String(index + 1).padStart(4, "0")}`,
+    section,
+    letter,
+    title,
+    artist,
+    condition,
+    sourceText: sourceText || [title, artist].filter(Boolean).join(" — "),
+    needsReview: Boolean(needsReview)
+  };
+}
+
 function renderLetters() {
   const letters = ["", ..."ABCDEFGHIJKLMNOPQRSTUVWXYZ"];
   letterFilter.innerHTML = letters.map(letter => {
@@ -63,7 +78,7 @@ function renderEntry(entry) {
   const conditions = entry.condition.map(item =>
     `<span class="condition-badge condition-${escapeHtml(item)}">${escapeHtml(item)}</span>`
   ).join("");
-  const review = entry.parseConfidence === "low"
+  const review = entry.needsReview
     ? `<span class="review-badge" title="Title/artist split needs review">source-only</span>`
     : "";
 
@@ -98,10 +113,22 @@ function render() {
   list.innerHTML = filtered.map(renderEntry).join("");
 }
 
+async function loadJson(url) {
+  const response = await fetch(url);
+  if (!response.ok) throw new Error(`Catalog request failed for ${url}: ${response.status}`);
+  return response.json();
+}
+
 async function init() {
-  const response = await fetch("data/records.json");
-  if (!response.ok) throw new Error(`Catalog request failed: ${response.status}`);
-  state.data = await response.json();
+  const manifest = await loadJson("data/records.json");
+  const chunks = await Promise.all(manifest.files.map(loadJson));
+  const entries = chunks.flat().map(unpackEntry);
+
+  if (entries.length !== manifest.entryCount) {
+    throw new Error(`Catalog count mismatch: expected ${manifest.entryCount}, received ${entries.length}`);
+  }
+
+  state.data = { ...manifest, entries };
 
   Object.entries(state.data.sections).forEach(([key, section]) => {
     const option = document.createElement("option");
@@ -111,7 +138,7 @@ async function init() {
   });
 
   renderLetters();
-  note.textContent = "Structured from Mom's August 2026 list. Open ‘Source wording’ on any entry to compare the transcription.";
+  note.textContent = `${entries.length.toLocaleString()} source entries from Mom's August 2026 list. “Source-only” marks rows whose title/artist split still needs a human check.`;
   render();
 }
 
@@ -122,7 +149,7 @@ search.addEventListener("input", event => {
 
 sectionFilter.addEventListener("change", event => {
   state.section = event.target.value;
-  if (state.section && state.section !== "main45") {
+  if (state.section && state.section !== "m") {
     state.letter = "";
     renderLetters();
   }
@@ -139,8 +166,8 @@ letterFilter.addEventListener("click", event => {
   if (!button) return;
   state.letter = button.dataset.letter;
   if (state.letter) {
-    state.section = "main45";
-    sectionFilter.value = "main45";
+    state.section = "m";
+    sectionFilter.value = "m";
   }
   renderLetters();
   render();
@@ -149,5 +176,5 @@ letterFilter.addEventListener("click", event => {
 init().catch(error => {
   console.error(error);
   note.textContent = "The catalog could not be loaded.";
-  list.innerHTML = `<div class="empty-state"><strong>Catalog unavailable.</strong><span>Reload the page or check the data file.</span></div>`;
+  list.innerHTML = `<div class="empty-state"><strong>Catalog unavailable.</strong><span>Reload the page or check the data files.</span></div>`;
 });
