@@ -5,58 +5,25 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Our Records · Wurlitzer 3210</title>
   <link rel="stylesheet" href="portal.css">
-  <link rel="stylesheet" href="records.css">
+  <link rel="stylesheet" href="records.css?v=51">
 </head>
 <body>
   <main class="subpage-shell records-shell">
     <a class="back-link" href="index.html">← Jukebox home</a>
-
-    <section class="records-hero">
-      <p class="kicker">The collection</p>
-      <h1>Our<br>Records</h1>
-      <p class="hero-copy">Browse Mom's working catalog as jukebox-style title strips. Search uses both the structured fields and the original source wording, while machine slots are tracked separately so the catalog stays faithful to the source list.</p>
-    </section>
-
+    <section class="records-hero"><p class="kicker">The collection</p><h1>Our<br>Records</h1><p class="hero-copy">Browse Mom's working catalog as jukebox-style title strips. Search uses both the structured fields and the original source wording, while machine slots are tracked separately so the catalog stays faithful to the source list.</p></section>
     <section class="catalog-tools" aria-label="Catalog filters">
-      <label class="search-field">
-        <span>Search title, artist, slot, or notes</span>
-        <input id="recordSearch" type="search" placeholder="Try Billy Joel, Elvis, A1, cracked…" autocomplete="off">
-      </label>
+      <label class="search-field"><span>Search title, artist, slot, or notes</span><input id="recordSearch" type="search" placeholder="Try Billy Joel, Elvis, A1, cracked…" autocomplete="off"></label>
       <div class="filter-row">
-        <label>Collection
-          <select id="sectionFilter"><option value="">All collections</option></select>
-        </label>
-        <label>Condition
-          <select id="conditionFilter">
-            <option value="">Any condition</option>
-            <option value="cracked">Cracked</option>
-            <option value="warped">Warped</option>
-            <option value="broken">Broken</option>
-          </select>
-        </label>
-        <label>Jukebox location
-          <select id="slotFilter">
-            <option value="">All records</option>
-            <option value="assigned">Assigned to a slot</option>
-            <option value="unassigned">Not assigned</option>
-          </select>
-        </label>
+        <label>Collection<select id="sectionFilter"><option value="">All collections</option></select></label>
+        <label>Condition<select id="conditionFilter"><option value="">Any condition</option><option value="cracked">Cracked</option><option value="warped">Warped</option><option value="broken">Broken</option></select></label>
+        <label>Jukebox location<select id="slotFilter"><option value="">All records</option><option value="assigned">Assigned to a slot</option><option value="unassigned">Not assigned</option></select></label>
       </div>
-      <div class="review-actions">
-        <button id="reviewUncertain" type="button">Review uncertain <span id="uncertainCount">—</span></button>
-        <button id="copyEdits" type="button">Copy edits <span id="editCount">0</span></button>
-        <span id="editStatus" role="status"></span>
-      </div>
+      <div class="review-actions"><button id="reviewUncertain" type="button">Review uncertain <span id="uncertainCount">—</span></button><button id="copyEdits" type="button">Copy edits <span id="editCount">0</span></button><span id="editStatus" role="status"></span></div>
       <div id="letterFilter" class="letter-filter" aria-label="Alphabet filter"></div>
     </section>
-
-    <section class="catalog-summary">
-      <div><strong id="visibleCount">—</strong><span>matching entries</span></div>
-      <p id="catalogNote">Loading catalog…</p>
-    </section>
-
+    <section class="catalog-summary"><div><strong id="visibleCount">—</strong><span>matching entries</span></div><p id="catalogNote">Loading catalog…</p></section>
     <section id="recordList" class="record-list" aria-live="polite"></section>
   </main>
-  <script type="module" src="records.js"></script>
+  <script type="module" src="records.js?v=51"></script>
 </body>
 </html>
