@@ -3,39 +3,55 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Wurlitzer 3210 Virtual Manual</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="figures.css">
+  <meta name="description" content="Digital companion for our Wurlitzer 3210 jukebox: virtual service manual, interactive lab, and record collection.">
+  <title>Our Wurlitzer 3210</title>
+  <link rel="stylesheet" href="portal.css">
 </head>
-<body>
-  <header><button id="home" class="brand" type="button"><span class="eyebrow">Series 3200 • Model 3210</span><span>Virtual Service Manual</span></button><button id="theme" aria-label="Toggle theme">◐</button></header>
-  <main>
-    <aside>
-      <input id="search" type="search" placeholder="Search manual and OCR" autocomplete="off">
-      <nav id="sections" aria-label="Manual sections"></nav>
-      <p id="status"></p>
-      <nav id="pages" aria-label="Manual pages"></nav>
-    </aside>
-    <article>
-      <section id="contentsView" class="contents-view">
-        <p class="eyebrow">Table of contents</p>
-        <h1>Wurlitzer Series 3200 Service Manual</h1>
-        <p class="lede">Choose a manual section. Sections without scans remain listed so this virtual manual matches the printed table of contents.</p>
-        <p><a class="return" href="simulator.html">Open the A1 interactive circuit lab →</a></p>
-        <div id="tocCards" class="toc-cards"></div>
-        <div id="supplemental" class="supplemental"></div>
-      </section>
-      <section id="pageView" hidden>
-        <div class="page-tools"><button id="backToContents" type="button">← Contents</button><div><button id="previous" type="button">← Previous</button><button id="next" type="button">Next →</button></div></div>
-        <section class="notice"><strong>Use the image as authority.</strong> OCR can misread wire numbers, contacts, dimensions and schematic symbols.</section>
-        <div class="viewer"><img id="pageImage" alt="Selected manual page"></div>
-        <div class="meta"><div><p id="pageSection"></p><h2 id="pageTitle">Manual page</h2></div><a id="original" download>Download image</a></div>
-        <section id="figures" class="figures" hidden></section>
-        <details><summary>Searchable OCR text</summary><pre id="ocr"></pre></details>
-        <section class="knowledge"><h2>Curated knowledge</h2><div id="knowledgeLinks"></div></section>
-      </section>
-    </article>
+<body class="portal-body">
+  <main class="portal-shell">
+    <section class="hero">
+      <p class="kicker">Series 3200 · Model 3210</p>
+      <h1>Our Wurlitzer<br><span>Jukebox</span></h1>
+      <p class="hero-copy">A digital companion to the machine: learn how it works, troubleshoot it, experiment with its circuits, and browse the records we have collected for it.</p>
+      <div class="status-line"><span class="status-dot" aria-hidden="true"></span><span>Jukebox project · August 2026</span></div>
+    </section>
+
+    <section class="portal-grid" aria-label="Jukebox tools">
+      <a class="portal-card manual-card" href="manual.html">
+        <span class="card-number">01</span>
+        <div>
+          <p class="card-kicker">Explore & troubleshoot</p>
+          <h2>Virtual Manual</h2>
+          <p>Browse the scanned Wurlitzer service manual, searchable OCR, extracted figures, and clickable callouts.</p>
+        </div>
+        <span class="card-action">Open manual <span aria-hidden="true">→</span></span>
+      </a>
+
+      <a class="portal-card lab-card" href="simulator.html">
+        <span class="card-number">02</span>
+        <div>
+          <p class="card-kicker">Experiment & diagnose</p>
+          <h2>Jukebox Lab</h2>
+          <p>Step through modeled electrical and mechanical sequences, observe components, and inject faults.</p>
+        </div>
+        <span class="card-action">Enter the lab <span aria-hidden="true">→</span></span>
+      </a>
+
+      <a class="portal-card records-card" href="records.html">
+        <span class="card-number">03</span>
+        <div>
+          <p class="card-kicker">Browse the collection</p>
+          <h2>Our Records</h2>
+          <p>Search and explore Mom's catalog of 45s, Elvis records, albums, and Christmas selections.</p>
+        </div>
+        <span class="card-action">Browse records <span aria-hidden="true">→</span></span>
+      </a>
+    </section>
+
+    <footer class="portal-footer">
+      <span>Wurlitzer 3210</span>
+      <span>Manual · Lab · Collection</span>
+    </footer>
   </main>
-  <script src="app.js"></script>
 </body>
 </html>
