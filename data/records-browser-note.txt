@@ -1,0 +1,1 @@
+Record catalog data is split into eight JSON chunks and loaded through data/records.json.
