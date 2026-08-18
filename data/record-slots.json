@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1,
+  "machine": "Wurlitzer 3210",
+  "notes": "Machine slot assignments are intentionally stored separately from Mom's source catalog. Add records here only when a physical jukebox selection has been confirmed.",
+  "assignments": {}
+}
