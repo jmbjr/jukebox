@@ -1,312 +1,80 @@
-const state = {
-  data: null,
-  query: "",
-  artist: "",
-  section: "",
-  condition: "",
-  slotFilter: "",
-  letter: ""
-};
+const STORAGE_KEY = "jukebox-record-edits-v1";
+const state = { data:null, query:"", artist:"", section:"", condition:"", slotFilter:"", letter:"", uncertainOnly:false, edits:{} };
 
-const list = document.querySelector("#recordList");
-const count = document.querySelector("#visibleCount");
-const note = document.querySelector("#catalogNote");
-const search = document.querySelector("#recordSearch");
-const sectionFilter = document.querySelector("#sectionFilter");
-const conditionFilter = document.querySelector("#conditionFilter");
-const slotFilter = document.querySelector("#slotFilter");
-const letterFilter = document.querySelector("#letterFilter");
-const summary = document.querySelector(".catalog-summary");
+const $ = selector => document.querySelector(selector);
+const list=$("#recordList"), count=$("#visibleCount"), note=$("#catalogNote"), search=$("#recordSearch"), sectionFilter=$("#sectionFilter"), conditionFilter=$("#conditionFilter"), slotFilter=$("#slotFilter"), letterFilter=$("#letterFilter"), reviewUncertain=$("#reviewUncertain"), uncertainCount=$("#uncertainCount"), copyEdits=$("#copyEdits"), editCount=$("#editCount"), editStatus=$("#editStatus"), summary=$(".catalog-summary");
+const artistView=document.createElement("section"); artistView.className="artist-view"; artistView.hidden=true; artistView.setAttribute("aria-live","polite"); summary.before(artistView);
 
-const artistView = document.createElement("section");
-artistView.className = "artist-view";
-artistView.hidden = true;
-artistView.setAttribute("aria-live", "polite");
-summary.before(artistView);
+function normalized(v){return (v||"").toLocaleLowerCase()}
+function escapeHtml(v){return String(v??"").replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;")}
+function sectionLabel(k){return state.data.sections[k]?.label||k}
+function loadEdits(){try{return JSON.parse(localStorage.getItem(STORAGE_KEY)||"{}")||{}}catch{return {}}}
+function persistEdits(){localStorage.setItem(STORAGE_KEY,JSON.stringify(state.edits)); updateReviewCounts()}
 
-function normalized(value) {
-  return (value || "").toLocaleLowerCase();
+function unpackEntry(row,index,slots){
+  const [section,letter,title,artist,conditionText,sourceText,needsReview]=row;
+  const id=`r${String(index+1).padStart(4,"0")}`, edit=state.edits[id]||{}, assignment=slots[id]||null;
+  return {id,section,letter,title:edit.title??title,artist:edit.artist??artist,condition:edit.condition??(conditionText?conditionText.split(",").filter(Boolean):[]),sourceText:sourceText||[title,artist].filter(Boolean).join(" — "),needsReview:edit.needsReview??Boolean(needsReview),slot:assignment?.slot||"",location:assignment?.location||"",hasLocalEdit:Boolean(state.edits[id])};
 }
+function rebuildEntries(){state.data.entries=state.data.rawRows.map((row,i)=>unpackEntry(row,i,state.data.slotAssignments));}
 
-function escapeHtml(value) {
-  return String(value ?? "")
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;");
-}
+function artistUrl(artist){const u=new URL(location.href);u.search="";u.searchParams.set("artist",artist);return `${u.pathname}?${u.searchParams.toString()}`}
+function syncUrl(){const u=new URL(location.href);state.artist?u.searchParams.set("artist",state.artist):u.searchParams.delete("artist");history.pushState({},"",`${u.pathname}${u.search}${u.hash}`)}
+function renderArtistView(){if(!state.artist){artistView.hidden=true;artistView.innerHTML="";return}artistView.hidden=false;artistView.innerHTML=`<div><span>Artist</span><strong>${escapeHtml(state.artist)}</strong></div><button type="button" data-clear-artist>Show all records</button>`}
+function resetFilters(){state.query=state.section=state.condition=state.slotFilter=state.letter="";state.uncertainOnly=false;search.value=sectionFilter.value=conditionFilter.value=slotFilter.value="";reviewUncertain.classList.remove("is-active");renderLetters()}
+function selectArtist(artist){state.artist=artist;resetFilters();renderArtistView();syncUrl();render()}
+function clearArtist(){state.artist="";renderArtistView();syncUrl();render()}
 
-function sectionLabel(key) {
-  return state.data.sections[key]?.label || key;
-}
-
-function unpackEntry(row, index, slotAssignments) {
-  const [section, letter, title, artist, conditionText, sourceText, needsReview] = row;
-  const id = `r${String(index + 1).padStart(4, "0")}`;
-  const condition = conditionText ? conditionText.split(",").filter(Boolean) : [];
-  const assignment = slotAssignments[id] || null;
-
-  return {
-    id,
-    section,
-    letter,
-    title,
-    artist,
-    condition,
-    sourceText: sourceText || [title, artist].filter(Boolean).join(" — "),
-    needsReview: Boolean(needsReview),
-    slot: assignment?.slot || "",
-    location: assignment?.location || ""
-  };
-}
-
-function artistUrl(artist) {
-  const url = new URL(window.location.href);
-  url.search = "";
-  url.searchParams.set("artist", artist);
-  return `${url.pathname}?${url.searchParams.toString()}`;
-}
-
-function syncUrl({ replace = false } = {}) {
-  const url = new URL(window.location.href);
-  if (state.artist) url.searchParams.set("artist", state.artist);
-  else url.searchParams.delete("artist");
-
-  const method = replace ? "replaceState" : "pushState";
-  history[method]({}, "", `${url.pathname}${url.search}${url.hash}`);
-}
-
-function renderArtistView() {
-  if (!state.artist) {
-    artistView.hidden = true;
-    artistView.innerHTML = "";
-    return;
-  }
-
-  artistView.hidden = false;
-  artistView.innerHTML = `
-    <div>
-      <span>Artist</span>
-      <strong>${escapeHtml(state.artist)}</strong>
-    </div>
-    <button type="button" data-clear-artist>Show all records</button>`;
-}
-
-function resetOtherFilters() {
-  state.query = "";
-  state.section = "";
-  state.condition = "";
-  state.slotFilter = "";
-  state.letter = "";
-  search.value = "";
-  sectionFilter.value = "";
-  conditionFilter.value = "";
-  slotFilter.value = "";
-  renderLetters();
-}
-
-function selectArtist(artist, { push = true } = {}) {
-  state.artist = artist;
-  resetOtherFilters();
-  renderArtistView();
-  if (push) syncUrl();
-  render();
-  window.scrollTo({ top: artistView.offsetTop - 18, behavior: "smooth" });
-}
-
-function clearArtist({ push = true } = {}) {
-  state.artist = "";
-  renderArtistView();
-  if (push) syncUrl();
-  render();
-}
-
-function renderLetters() {
-  const letters = ["", ..."ABCDEFGHIJKLMNOPQRSTUVWXYZ"];
-  letterFilter.innerHTML = letters.map(letter => {
-    const label = letter || "All";
-    const active = state.letter === letter ? " is-active" : "";
-    return `<button class="letter-button${active}" type="button" data-letter="${letter}">${label}</button>`;
-  }).join("");
-}
-
-function entryMatches(entry) {
-  if (state.artist && normalized(entry.artist) !== normalized(state.artist)) return false;
-  if (state.section && entry.section !== state.section) return false;
-  if (state.condition && !entry.condition.includes(state.condition)) return false;
-  if (state.letter && entry.letter !== state.letter) return false;
-  if (state.slotFilter === "assigned" && !entry.slot) return false;
-  if (state.slotFilter === "unassigned" && entry.slot) return false;
-
-  if (state.query) {
-    const haystack = normalized([
-      entry.title,
-      entry.artist,
-      entry.sourceText,
-      entry.slot,
-      entry.location,
-      entry.condition.join(" "),
-      sectionLabel(entry.section)
-    ].join(" "));
-    if (!haystack.includes(normalized(state.query))) return false;
-  }
+function renderLetters(){letterFilter.innerHTML=["",..."ABCDEFGHIJKLMNOPQRSTUVWXYZ"].map(l=>`<button class="letter-button${state.letter===l?" is-active":""}" type="button" data-letter="${l}">${l||"All"}</button>`).join("")}
+function entryMatches(e){
+  if(state.uncertainOnly&&!e.needsReview)return false;
+  if(state.artist&&normalized(e.artist)!==normalized(state.artist))return false;
+  if(state.section&&e.section!==state.section)return false;
+  if(state.condition&&!e.condition.includes(state.condition))return false;
+  if(state.letter&&e.letter!==state.letter)return false;
+  if(state.slotFilter==="assigned"&&!e.slot)return false;
+  if(state.slotFilter==="unassigned"&&e.slot)return false;
+  if(state.query&&!normalized([e.title,e.artist,e.sourceText,e.slot,e.location,e.condition.join(" "),sectionLabel(e.section)].join(" ")).includes(normalized(state.query)))return false;
   return true;
 }
 
-function renderEntry(entry) {
-  const title = entry.title || entry.sourceText;
-  const artist = entry.artist || "Artist not yet separated";
-  const slot = entry.slot || "—";
-  const slotClass = entry.slot ? "" : " is-unassigned";
-  const conditions = entry.condition.map(item =>
-    `<span class="condition-badge condition-${escapeHtml(item)}">${escapeHtml(item)}</span>`
-  ).join("");
-  const review = entry.needsReview
-    ? `<span class="review-badge" title="Title/artist split needs review">source-only</span>`
-    : "";
-  const artistMarkup = entry.artist
-    ? `<a class="record-artist" href="${escapeHtml(artistUrl(entry.artist))}" data-artist="${escapeHtml(entry.artist)}">${escapeHtml(entry.artist)}</a>`
-    : `<p class="record-artist is-unknown">${escapeHtml(artist)}</p>`;
-
-  return `
-    <article class="record-card" data-record-id="${escapeHtml(entry.id)}">
-      <div class="title-strip">
-        <div class="slot-panel">
-          <span class="slot-label">Selection</span>
-          <strong class="slot-value${slotClass}">${escapeHtml(slot)}</strong>
-        </div>
-        <div class="strip-copy">
-          <h2>${escapeHtml(title)}</h2>
-          ${artistMarkup}
-          <div class="strip-footer">
-            <span>${escapeHtml(sectionLabel(entry.section))}</span>
-            ${entry.letter ? `<span>${escapeHtml(entry.letter)}</span>` : ""}
-            ${entry.location ? `<span>${escapeHtml(entry.location)}</span>` : ""}
-          </div>
-        </div>
-      </div>
-      <details class="record-details">
-        <summary>Catalog details${review}${conditions}</summary>
-        <div class="record-details-body">
-          <p><strong>Record ID:</strong> ${escapeHtml(entry.id)} · <strong>Jukebox slot:</strong> ${entry.slot ? escapeHtml(entry.slot) : "Unassigned"}</p>
-          <p><strong>Source wording:</strong> ${escapeHtml(entry.sourceText)}</p>
-        </div>
-      </details>
-    </article>`;
+function renderEntry(e){
+  const title=e.title||e.sourceText, artist=e.artist||"Artist not yet separated", slot=e.slot||"—", slotClass=e.slot?"":" is-unassigned";
+  const conditions=e.condition.map(x=>`<span class="condition-badge condition-${escapeHtml(x)}">${escapeHtml(x)}</span>`).join("");
+  const review=e.needsReview?`<span class="review-badge">uncertain</span>`:"";
+  const edited=e.hasLocalEdit?`<span class="edited-badge">edited</span>`:"";
+  const artistMarkup=e.artist?`<a class="record-artist" href="${escapeHtml(artistUrl(e.artist))}" data-artist="${escapeHtml(e.artist)}">${escapeHtml(e.artist)}</a>`:`<p class="record-artist is-unknown">${escapeHtml(artist)}</p>`;
+  return `<article class="record-card${e.hasLocalEdit?" has-local-edit":""}" data-record-id="${e.id}">
+    <div class="title-strip"><div class="slot-panel"><span class="slot-label">Selection</span><strong class="slot-value${slotClass}">${escapeHtml(slot)}</strong></div><div class="strip-copy"><h2>${escapeHtml(title)}</h2>${artistMarkup}<div class="strip-footer"><span>${escapeHtml(sectionLabel(e.section))}</span>${e.letter?`<span>${e.letter}</span>`:""}${e.location?`<span>${escapeHtml(e.location)}</span>`:""}</div></div></div>
+    <details class="record-details"><summary>Catalog details${review}${edited}${conditions}</summary><div class="record-details-body"><p><strong>Record ID:</strong> ${e.id} · <strong>Jukebox slot:</strong> ${e.slot?escapeHtml(e.slot):"Unassigned"}</p><p><strong>Source wording:</strong> ${escapeHtml(e.sourceText)}</p><div class="details-actions"><button class="edit-entry" type="button" data-edit="${e.id}">Edit</button></div></div></details>
+    <div class="editor-host"></div>
+  </article>`;
 }
+function render(){const filtered=state.data.entries.filter(entryMatches);count.textContent=filtered.length.toLocaleString();list.innerHTML=filtered.length?filtered.map(renderEntry).join(""):`<div class="empty-state"><strong>No matches.</strong><span>Try clearing a filter or reviewing a different set.</span></div>`;updateReviewCounts()}
 
-function render() {
-  const filtered = state.data.entries.filter(entryMatches);
-  count.textContent = filtered.length.toLocaleString();
+function editorMarkup(e){return `<form class="entry-editor" data-editor="${e.id}"><div class="entry-editor-grid"><label>Title<input name="title" value="${escapeHtml(e.title)}"></label><label>Artist<input name="artist" value="${escapeHtml(e.artist)}"></label><label class="editor-wide">Condition tags<input name="condition" value="${escapeHtml(e.condition.join(", "))}" placeholder="cracked, warped, broken"></label></div><label class="uncertain-check"><input name="needsReview" type="checkbox" ${e.needsReview?"checked":""}> Still uncertain / needs another look</label><p class="source-readonly"><strong>Original source wording:</strong> ${escapeHtml(e.sourceText)}</p><div class="editor-actions"><button type="button" data-cancel-edit>Cancel</button><button class="save-edit" type="submit">Save</button></div></form>`}
+function openEditor(id){const e=state.data.entries.find(x=>x.id===id), card=list.querySelector(`[data-record-id="${id}"]`);if(!e||!card)return;card.querySelector(".editor-host").innerHTML=editorMarkup(e);card.querySelector(".entry-editor input")?.focus()}
+function saveEditor(form){const id=form.dataset.editor, e=state.data.entries.find(x=>x.id===id);if(!e)return;const fd=new FormData(form);state.edits[id]={title:String(fd.get("title")||"").trim(),artist:String(fd.get("artist")||"").trim(),condition:String(fd.get("condition")||"").split(",").map(x=>x.trim()).filter(Boolean),needsReview:fd.get("needsReview")==="on"};persistEdits();rebuildEntries();render();editStatus.textContent=`Saved ${id}`}
+function updateReviewCounts(){if(!state.data)return;uncertainCount.textContent=state.data.entries.filter(e=>e.needsReview).length;editCount.textContent=Object.keys(state.edits).length;reviewUncertain.classList.toggle("is-active",state.uncertainOnly)}
+async function copyEditPatch(){const ids=Object.keys(state.edits);if(!ids.length){editStatus.textContent="No edits yet";return}const patch={schemaVersion:1,recordEdits:ids.map(id=>({id,...state.edits[id]}))};const text=JSON.stringify(patch,null,2);try{await navigator.clipboard.writeText(text);editStatus.textContent=`Copied ${ids.length} edit${ids.length===1?"":"s"}`;}catch{editStatus.textContent="Copy failed — browser blocked clipboard"}}
 
-  if (!filtered.length) {
-    list.innerHTML = `<div class="empty-state"><strong>No matches.</strong><span>Try clearing a filter or searching the source wording.</span></div>`;
-    return;
-  }
-
-  list.innerHTML = filtered.map(renderEntry).join("");
-}
-
-async function loadJson(url) {
-  const response = await fetch(url);
-  if (!response.ok) throw new Error(`Catalog request failed for ${url}: ${response.status}`);
-  return response.json();
-}
-
-async function init() {
-  const [manifest, slots] = await Promise.all([
-    loadJson("data/records.json"),
-    loadJson("data/record-slots.json")
-  ]);
-  const chunks = await Promise.all(manifest.files.map(loadJson));
-  const entries = chunks.flat().map((row, index) => unpackEntry(row, index, slots.assignments || {}));
-
-  if (entries.length !== manifest.entryCount) {
-    throw new Error(`Catalog count mismatch: expected ${manifest.entryCount}, received ${entries.length}`);
-  }
-
-  state.data = { ...manifest, entries };
-
-  Object.entries(state.data.sections).forEach(([key, section]) => {
-    const option = document.createElement("option");
-    option.value = key;
-    option.textContent = section.label;
-    sectionFilter.append(option);
-  });
-
-  const assignedCount = entries.filter(entry => entry.slot).length;
-  renderLetters();
-  note.textContent = `${entries.length.toLocaleString()} source entries · ${assignedCount.toLocaleString()} currently mapped to jukebox slots. Click any artist name to see only that artist.`;
-
-  const requestedArtist = new URL(window.location.href).searchParams.get("artist") || "";
-  if (requestedArtist) {
-    const canonicalArtist = entries.find(entry => normalized(entry.artist) === normalized(requestedArtist))?.artist || requestedArtist;
-    state.artist = canonicalArtist;
-    renderArtistView();
-    syncUrl({ replace: true });
-  }
-
+async function loadJson(url){const r=await fetch(url);if(!r.ok)throw new Error(`${url}: ${r.status}`);return r.json()}
+async function init(){
+  state.edits=loadEdits();
+  const [manifest,slots]=await Promise.all([loadJson("data/records.json"),loadJson("data/record-slots.json")]);
+  const chunks=await Promise.all(manifest.files.map(loadJson)), rawRows=chunks.flat();if(rawRows.length!==manifest.entryCount)throw new Error("Catalog count mismatch");
+  state.data={...manifest,rawRows,slotAssignments:slots.assignments||{},entries:[]};rebuildEntries();
+  Object.entries(state.data.sections).forEach(([k,s])=>{const o=document.createElement("option");o.value=k;o.textContent=s.label;sectionFilter.append(o)});
+  renderLetters();note.textContent=`${rawRows.length.toLocaleString()} source entries. Use Review uncertain, then Edit. Your changes stay in this browser until you Copy edits and paste them back here.`;
+  const requested=new URL(location.href).searchParams.get("artist")||"";if(requested){state.artist=state.data.entries.find(e=>normalized(e.artist)===normalized(requested))?.artist||requested;renderArtistView()}
   render();
 }
 
-list.addEventListener("click", event => {
-  const artistLink = event.target.closest("[data-artist]");
-  if (!artistLink) return;
-  event.preventDefault();
-  selectArtist(artistLink.dataset.artist);
-});
-
-artistView.addEventListener("click", event => {
-  if (!event.target.closest("[data-clear-artist]")) return;
-  clearArtist();
-});
-
-search.addEventListener("input", event => {
-  state.query = event.target.value.trim();
-  render();
-});
-
-sectionFilter.addEventListener("change", event => {
-  state.section = event.target.value;
-  if (state.section && state.section !== "m") {
-    state.letter = "";
-    renderLetters();
-  }
-  render();
-});
-
-conditionFilter.addEventListener("change", event => {
-  state.condition = event.target.value;
-  render();
-});
-
-slotFilter.addEventListener("change", event => {
-  state.slotFilter = event.target.value;
-  render();
-});
-
-letterFilter.addEventListener("click", event => {
-  const button = event.target.closest("[data-letter]");
-  if (!button) return;
-  state.letter = button.dataset.letter;
-  if (state.letter) {
-    state.section = "m";
-    sectionFilter.value = "m";
-  }
-  renderLetters();
-  render();
-});
-
-window.addEventListener("popstate", () => {
-  const artist = new URL(window.location.href).searchParams.get("artist") || "";
-  state.artist = artist;
-  resetOtherFilters();
-  renderArtistView();
-  render();
-});
-
-init().catch(error => {
-  console.error(error);
-  note.textContent = "The catalog could not be loaded.";
-  list.innerHTML = `<div class="empty-state"><strong>Catalog unavailable.</strong><span>Reload the page or check the data files.</span></div>`;
-});
+list.addEventListener("click",e=>{const artist=e.target.closest("[data-artist]");if(artist){e.preventDefault();selectArtist(artist.dataset.artist);return}const edit=e.target.closest("[data-edit]");if(edit){openEditor(edit.dataset.edit);return}if(e.target.closest("[data-cancel-edit]"))e.target.closest(".editor-host").innerHTML=""});
+list.addEventListener("submit",e=>{if(!e.target.matches(".entry-editor"))return;e.preventDefault();saveEditor(e.target)});
+artistView.addEventListener("click",e=>{if(e.target.closest("[data-clear-artist]"))clearArtist()});
+reviewUncertain.addEventListener("click",()=>{state.uncertainOnly=!state.uncertainOnly;if(state.uncertainOnly){state.artist="";resetFilters();state.uncertainOnly=true;reviewUncertain.classList.add("is-active");renderArtistView()}render()});
+copyEdits.addEventListener("click",copyEditPatch);
+search.addEventListener("input",e=>{state.query=e.target.value.trim();render()});sectionFilter.addEventListener("change",e=>{state.section=e.target.value;render()});conditionFilter.addEventListener("change",e=>{state.condition=e.target.value;render()});slotFilter.addEventListener("change",e=>{state.slotFilter=e.target.value;render()});letterFilter.addEventListener("click",e=>{const b=e.target.closest("[data-letter]");if(!b)return;state.letter=b.dataset.letter;if(state.letter){state.section="m";sectionFilter.value="m"}renderLetters();render()});
+window.addEventListener("popstate",()=>{state.artist=new URL(location.href).searchParams.get("artist")||"";resetFilters();renderArtistView();render()});
+init().catch(err=>{console.error(err);note.textContent="The catalog could not be loaded.";list.innerHTML=`<div class="empty-state"><strong>Catalog unavailable.</strong></div>`});
