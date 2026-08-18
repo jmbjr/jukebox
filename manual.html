@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Wurlitzer 3210 Virtual Manual</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="figures.css">
+</head>
+<body>
+  <header><button id="home" class="brand" type="button"><span class="eyebrow">Series 3200 • Model 3210</span><span>Virtual Service Manual</span></button><button id="theme" aria-label="Toggle theme">◐</button></header>
+  <main>
+    <aside>
+      <input id="search" type="search" placeholder="Search manual and OCR" autocomplete="off">
+      <nav id="sections" aria-label="Manual sections"></nav>
+      <p id="status"></p>
+      <nav id="pages" aria-label="Manual pages"></nav>
+    </aside>
+    <article>
+      <section id="contentsView" class="contents-view">
+        <p class="eyebrow">Table of contents</p>
+        <h1>Wurlitzer Series 3200 Service Manual</h1>
+        <p class="lede">Choose a manual section. Sections without scans remain listed so this virtual manual matches the printed table of contents.</p>
+        <p><a class="return" href="index.html">← Jukebox home</a> · <a class="return" href="simulator.html">Open the interactive circuit lab →</a></p>
+        <div id="tocCards" class="toc-cards"></div>
+        <div id="supplemental" class="supplemental"></div>
+      </section>
+      <section id="pageView" hidden>
+        <div class="page-tools"><button id="backToContents" type="button">← Contents</button><div><button id="previous" type="button">← Previous</button><button id="next" type="button">Next →</button></div></div>
+        <section class="notice"><strong>Use the image as authority.</strong> OCR can misread wire numbers, contacts, dimensions and schematic symbols.</section>
+        <div class="viewer"><img id="pageImage" alt="Selected manual page"></div>
+        <div class="meta"><div><p id="pageSection"></p><h2 id="pageTitle">Manual page</h2></div><a id="original" download>Download image</a></div>
+        <section id="figures" class="figures" hidden></section>
+        <details><summary>Searchable OCR text</summary><pre id="ocr"></pre></details>
+        <section class="knowledge"><h2>Curated knowledge</h2><div id="knowledgeLinks"></div></section>
+      </section>
+    </article>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
