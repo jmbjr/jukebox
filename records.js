@@ -1,6 +1,7 @@
 const state = {
   data: null,
   query: "",
+  artist: "",
   section: "",
   condition: "",
   slotFilter: "",
@@ -15,6 +16,13 @@ const sectionFilter = document.querySelector("#sectionFilter");
 const conditionFilter = document.querySelector("#conditionFilter");
 const slotFilter = document.querySelector("#slotFilter");
 const letterFilter = document.querySelector("#letterFilter");
+const summary = document.querySelector(".catalog-summary");
+
+const artistView = document.createElement("section");
+artistView.className = "artist-view";
+artistView.hidden = true;
+artistView.setAttribute("aria-live", "polite");
+summary.before(artistView);
 
 function normalized(value) {
   return (value || "").toLocaleLowerCase();
@@ -52,6 +60,67 @@ function unpackEntry(row, index, slotAssignments) {
   };
 }
 
+function artistUrl(artist) {
+  const url = new URL(window.location.href);
+  url.search = "";
+  url.searchParams.set("artist", artist);
+  return `${url.pathname}?${url.searchParams.toString()}`;
+}
+
+function syncUrl({ replace = false } = {}) {
+  const url = new URL(window.location.href);
+  if (state.artist) url.searchParams.set("artist", state.artist);
+  else url.searchParams.delete("artist");
+
+  const method = replace ? "replaceState" : "pushState";
+  history[method]({}, "", `${url.pathname}${url.search}${url.hash}`);
+}
+
+function renderArtistView() {
+  if (!state.artist) {
+    artistView.hidden = true;
+    artistView.innerHTML = "";
+    return;
+  }
+
+  artistView.hidden = false;
+  artistView.innerHTML = `
+    <div>
+      <span>Artist</span>
+      <strong>${escapeHtml(state.artist)}</strong>
+    </div>
+    <button type="button" data-clear-artist>Show all records</button>`;
+}
+
+function resetOtherFilters() {
+  state.query = "";
+  state.section = "";
+  state.condition = "";
+  state.slotFilter = "";
+  state.letter = "";
+  search.value = "";
+  sectionFilter.value = "";
+  conditionFilter.value = "";
+  slotFilter.value = "";
+  renderLetters();
+}
+
+function selectArtist(artist, { push = true } = {}) {
+  state.artist = artist;
+  resetOtherFilters();
+  renderArtistView();
+  if (push) syncUrl();
+  render();
+  window.scrollTo({ top: artistView.offsetTop - 18, behavior: "smooth" });
+}
+
+function clearArtist({ push = true } = {}) {
+  state.artist = "";
+  renderArtistView();
+  if (push) syncUrl();
+  render();
+}
+
 function renderLetters() {
   const letters = ["", ..."ABCDEFGHIJKLMNOPQRSTUVWXYZ"];
   letterFilter.innerHTML = letters.map(letter => {
@@ -62,6 +131,7 @@ function renderLetters() {
 }
 
 function entryMatches(entry) {
+  if (state.artist && normalized(entry.artist) !== normalized(state.artist)) return false;
   if (state.section && entry.section !== state.section) return false;
   if (state.condition && !entry.condition.includes(state.condition)) return false;
   if (state.letter && entry.letter !== state.letter) return false;
@@ -94,6 +164,9 @@ function renderEntry(entry) {
   const review = entry.needsReview
     ? `<span class="review-badge" title="Title/artist split needs review">source-only</span>`
     : "";
+  const artistMarkup = entry.artist
+    ? `<a class="record-artist" href="${escapeHtml(artistUrl(entry.artist))}" data-artist="${escapeHtml(entry.artist)}">${escapeHtml(entry.artist)}</a>`
+    : `<p class="record-artist is-unknown">${escapeHtml(artist)}</p>`;
 
   return `
     <article class="record-card" data-record-id="${escapeHtml(entry.id)}">
@@ -104,7 +177,7 @@ function renderEntry(entry) {
         </div>
         <div class="strip-copy">
           <h2>${escapeHtml(title)}</h2>
-          <p class="record-artist">${escapeHtml(artist)}</p>
+          ${artistMarkup}
           <div class="strip-footer">
             <span>${escapeHtml(sectionLabel(entry.section))}</span>
             ${entry.letter ? `<span>${escapeHtml(entry.letter)}</span>` : ""}
@@ -163,9 +236,30 @@ async function init() {
 
   const assignedCount = entries.filter(entry => entry.slot).length;
   renderLetters();
-  note.textContent = `${entries.length.toLocaleString()} source entries · ${assignedCount.toLocaleString()} currently mapped to jukebox slots. Slot assignments live separately from Mom's source catalog.`;
+  note.textContent = `${entries.length.toLocaleString()} source entries · ${assignedCount.toLocaleString()} currently mapped to jukebox slots. Click any artist name to see only that artist.`;
+
+  const requestedArtist = new URL(window.location.href).searchParams.get("artist") || "";
+  if (requestedArtist) {
+    const canonicalArtist = entries.find(entry => normalized(entry.artist) === normalized(requestedArtist))?.artist || requestedArtist;
+    state.artist = canonicalArtist;
+    renderArtistView();
+    syncUrl({ replace: true });
+  }
+
   render();
 }
+
+list.addEventListener("click", event => {
+  const artistLink = event.target.closest("[data-artist]");
+  if (!artistLink) return;
+  event.preventDefault();
+  selectArtist(artistLink.dataset.artist);
+});
+
+artistView.addEventListener("click", event => {
+  if (!event.target.closest("[data-clear-artist]")) return;
+  clearArtist();
+});
 
 search.addEventListener("input", event => {
   state.query = event.target.value.trim();
@@ -200,6 +294,14 @@ letterFilter.addEventListener("click", event => {
     sectionFilter.value = "m";
   }
   renderLetters();
+  render();
+});
+
+window.addEventListener("popstate", () => {
+  const artist = new URL(window.location.href).searchParams.get("artist") || "";
+  state.artist = artist;
+  resetOtherFilters();
+  renderArtistView();
   render();
 });
 
