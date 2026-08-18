@@ -78,6 +78,51 @@
   outline: none;
 }
 
+.artist-view {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  margin: 30px 0 4px;
+  padding: 18px 20px;
+  border: 1px solid rgba(230, 184, 95, 0.35);
+  border-radius: 8px;
+  background: rgba(230, 184, 95, 0.07);
+}
+
+.artist-view[hidden] { display: none; }
+.artist-view div { display: grid; gap: 3px; }
+.artist-view span {
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 850;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.artist-view strong {
+  color: var(--cream);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.35rem, 3vw, 2rem);
+  font-weight: 500;
+}
+.artist-view button {
+  flex: 0 0 auto;
+  padding: 9px 12px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: var(--panel);
+  color: var(--gold);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+.artist-view button:hover,
+.artist-view button:focus-visible {
+  border-color: var(--gold);
+  outline: none;
+}
+
 .catalog-summary {
   display: flex;
   align-items: end;
@@ -171,12 +216,34 @@
 }
 
 .record-artist {
-  margin: 8px 0 0;
+  width: fit-content;
+  max-width: 100%;
+  margin: 8px auto 0;
+  border: 0;
+  background: transparent;
   color: #8c302b;
   font-size: 0.82rem;
   font-weight: 850;
   letter-spacing: 0.08em;
+  line-height: 1.3;
+  text-decoration: underline;
+  text-decoration-color: rgba(140, 48, 43, 0.35);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
   text-transform: uppercase;
+}
+
+.record-artist:hover,
+.record-artist:focus-visible {
+  color: #641f1c;
+  text-decoration-color: currentColor;
+  outline: none;
+}
+
+.record-artist.is-unknown {
+  cursor: default;
+  color: #8f7f69;
+  text-decoration: none;
 }
 
 .strip-footer {
@@ -258,6 +325,7 @@
   .filter-row { grid-template-columns: 1fr; }
   .catalog-summary { align-items: start; flex-direction: column; }
   .catalog-summary p { text-align: left; }
+  .artist-view { align-items: flex-start; flex-direction: column; }
 }
 
 @media (max-width: 440px) {
