@@ -3,6 +3,7 @@ const state = {
   query: "",
   section: "",
   condition: "",
+  slotFilter: "",
   letter: ""
 };
 
@@ -12,6 +13,7 @@ const note = document.querySelector("#catalogNote");
 const search = document.querySelector("#recordSearch");
 const sectionFilter = document.querySelector("#sectionFilter");
 const conditionFilter = document.querySelector("#conditionFilter");
+const slotFilter = document.querySelector("#slotFilter");
 const letterFilter = document.querySelector("#letterFilter");
 
 function normalized(value) {
@@ -30,18 +32,23 @@ function sectionLabel(key) {
   return state.data.sections[key]?.label || key;
 }
 
-function unpackEntry(row, index) {
+function unpackEntry(row, index, slotAssignments) {
   const [section, letter, title, artist, conditionText, sourceText, needsReview] = row;
+  const id = `r${String(index + 1).padStart(4, "0")}`;
   const condition = conditionText ? conditionText.split(",").filter(Boolean) : [];
+  const assignment = slotAssignments[id] || null;
+
   return {
-    id: `r${String(index + 1).padStart(4, "0")}`,
+    id,
     section,
     letter,
     title,
     artist,
     condition,
     sourceText: sourceText || [title, artist].filter(Boolean).join(" — "),
-    needsReview: Boolean(needsReview)
+    needsReview: Boolean(needsReview),
+    slot: assignment?.slot || "",
+    location: assignment?.location || ""
   };
 }
 
@@ -58,12 +65,16 @@ function entryMatches(entry) {
   if (state.section && entry.section !== state.section) return false;
   if (state.condition && !entry.condition.includes(state.condition)) return false;
   if (state.letter && entry.letter !== state.letter) return false;
+  if (state.slotFilter === "assigned" && !entry.slot) return false;
+  if (state.slotFilter === "unassigned" && entry.slot) return false;
 
   if (state.query) {
     const haystack = normalized([
       entry.title,
       entry.artist,
       entry.sourceText,
+      entry.slot,
+      entry.location,
       entry.condition.join(" "),
       sectionLabel(entry.section)
     ].join(" "));
@@ -74,7 +85,9 @@ function entryMatches(entry) {
 
 function renderEntry(entry) {
   const title = entry.title || entry.sourceText;
-  const artist = entry.artist ? `<p class="record-artist">${escapeHtml(entry.artist)}</p>` : "";
+  const artist = entry.artist || "Artist not yet separated";
+  const slot = entry.slot || "—";
+  const slotClass = entry.slot ? "" : " is-unassigned";
   const conditions = entry.condition.map(item =>
     `<span class="condition-badge condition-${escapeHtml(item)}">${escapeHtml(item)}</span>`
   ).join("");
@@ -83,20 +96,28 @@ function renderEntry(entry) {
     : "";
 
   return `
-    <article class="record-card">
-      <div class="record-card-main">
-        <div class="record-meta">
-          <span>${escapeHtml(sectionLabel(entry.section))}</span>
-          ${entry.letter ? `<span>${escapeHtml(entry.letter)}</span>` : ""}
-          ${review}
-          ${conditions}
+    <article class="record-card" data-record-id="${escapeHtml(entry.id)}">
+      <div class="title-strip">
+        <div class="slot-panel">
+          <span class="slot-label">Selection</span>
+          <strong class="slot-value${slotClass}">${escapeHtml(slot)}</strong>
         </div>
-        <h2>${escapeHtml(title)}</h2>
-        ${artist}
+        <div class="strip-copy">
+          <h2>${escapeHtml(title)}</h2>
+          <p class="record-artist">${escapeHtml(artist)}</p>
+          <div class="strip-footer">
+            <span>${escapeHtml(sectionLabel(entry.section))}</span>
+            ${entry.letter ? `<span>${escapeHtml(entry.letter)}</span>` : ""}
+            ${entry.location ? `<span>${escapeHtml(entry.location)}</span>` : ""}
+          </div>
+        </div>
       </div>
-      <details class="source-details">
-        <summary>Source wording</summary>
-        <p>${escapeHtml(entry.sourceText)}</p>
+      <details class="record-details">
+        <summary>Catalog details${review}${conditions}</summary>
+        <div class="record-details-body">
+          <p><strong>Record ID:</strong> ${escapeHtml(entry.id)} · <strong>Jukebox slot:</strong> ${entry.slot ? escapeHtml(entry.slot) : "Unassigned"}</p>
+          <p><strong>Source wording:</strong> ${escapeHtml(entry.sourceText)}</p>
+        </div>
       </details>
     </article>`;
 }
@@ -120,9 +141,12 @@ async function loadJson(url) {
 }
 
 async function init() {
-  const manifest = await loadJson("data/records.json");
+  const [manifest, slots] = await Promise.all([
+    loadJson("data/records.json"),
+    loadJson("data/record-slots.json")
+  ]);
   const chunks = await Promise.all(manifest.files.map(loadJson));
-  const entries = chunks.flat().map(unpackEntry);
+  const entries = chunks.flat().map((row, index) => unpackEntry(row, index, slots.assignments || {}));
 
   if (entries.length !== manifest.entryCount) {
     throw new Error(`Catalog count mismatch: expected ${manifest.entryCount}, received ${entries.length}`);
@@ -137,8 +161,9 @@ async function init() {
     sectionFilter.append(option);
   });
 
+  const assignedCount = entries.filter(entry => entry.slot).length;
   renderLetters();
-  note.textContent = `${entries.length.toLocaleString()} source entries from Mom's August 2026 list. “Source-only” marks rows whose title/artist split still needs a human check.`;
+  note.textContent = `${entries.length.toLocaleString()} source entries · ${assignedCount.toLocaleString()} currently mapped to jukebox slots. Slot assignments live separately from Mom's source catalog.`;
   render();
 }
 
@@ -158,6 +183,11 @@ sectionFilter.addEventListener("change", event => {
 
 conditionFilter.addEventListener("change", event => {
   state.condition = event.target.value;
+  render();
+});
+
+slotFilter.addEventListener("change", event => {
+  state.slotFilter = event.target.value;
   render();
 });
 
