@@ -1,0 +1,183 @@
+/* Record catalog */
+.records-shell { width: min(1120px, calc(100% - 40px)); }
+
+.catalog-tools {
+  margin-top: 48px;
+  padding: 26px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.search-field {
+  display: grid;
+  gap: 9px;
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 750;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.search-field input,
+.filter-row select {
+  width: 100%;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  color: var(--text);
+  border-radius: 8px;
+  font: inherit;
+}
+
+.search-field input {
+  padding: 16px 18px;
+  font-size: 1.05rem;
+}
+
+.filter-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.filter-row label {
+  display: grid;
+  gap: 7px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 750;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.filter-row select { padding: 12px 14px; }
+
+.letter-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 18px;
+}
+
+.letter-button {
+  min-width: 34px;
+  padding: 8px 9px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  font: inherit;
+}
+
+.letter-button:hover,
+.letter-button:focus-visible,
+.letter-button.is-active {
+  border-color: var(--gold);
+  color: var(--cream);
+  outline: none;
+}
+
+.catalog-summary {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 24px;
+  margin: 34px 0 14px;
+}
+
+.catalog-summary div { display: flex; align-items: baseline; gap: 10px; }
+.catalog-summary strong {
+  color: var(--gold);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+.catalog-summary span,
+.catalog-summary p { color: var(--muted); }
+.catalog-summary p { max-width: 620px; margin: 0; text-align: right; line-height: 1.5; }
+
+.record-list { border-top: 1px solid var(--line); }
+
+.record-card {
+  padding: 22px 4px;
+  border-bottom: 1px solid var(--line);
+}
+
+.record-card-main { min-width: 0; }
+
+.record-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 8px;
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 750;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.record-meta > span {
+  padding-right: 7px;
+  border-right: 1px solid var(--line);
+}
+.record-meta > span:last-child { border-right: 0; }
+
+.record-card h2 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.35rem, 2.6vw, 2rem);
+  font-weight: 500;
+  letter-spacing: -0.025em;
+}
+
+.record-artist {
+  margin: 6px 0 0;
+  color: var(--gold);
+  font-size: 0.98rem;
+}
+
+.condition-badge,
+.review-badge {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 3px 7px !important;
+  border-right: 1px solid var(--line) !important;
+}
+
+.condition-cracked,
+.condition-broken { color: #ff9f90; }
+.condition-warped { color: #e7c987; }
+.review-badge { color: var(--muted); }
+
+.source-details { margin-top: 12px; color: var(--muted); }
+.source-details summary {
+  width: fit-content;
+  cursor: pointer;
+  font-size: 0.78rem;
+  font-weight: 750;
+}
+.source-details p {
+  margin: 9px 0 0;
+  padding: 12px 14px;
+  border-left: 2px solid var(--line);
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.empty-state {
+  display: grid;
+  gap: 8px;
+  padding: 44px 8px;
+  color: var(--muted);
+}
+.empty-state strong { color: var(--text); font-size: 1.2rem; }
+
+@media (max-width: 760px) {
+  .catalog-tools { padding: 18px; }
+  .filter-row { grid-template-columns: 1fr; }
+  .catalog-summary { align-items: start; flex-direction: column; }
+  .catalog-summary p { text-align: left; }
+}
