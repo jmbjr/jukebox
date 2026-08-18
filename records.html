@@ -14,13 +14,13 @@
     <section class="records-hero">
       <p class="kicker">The collection</p>
       <h1>Our<br>Records</h1>
-      <p class="hero-copy">Browse Mom's working catalog of 45s, Elvis records, albums, and Christmas selections. Search uses both the structured fields and the source wording so uncertain transcription never hides an entry.</p>
+      <p class="hero-copy">Browse Mom's working catalog as jukebox-style title strips. Search uses both the structured fields and the original source wording, while machine slots are tracked separately so the catalog stays faithful to the source list.</p>
     </section>
 
     <section class="catalog-tools" aria-label="Catalog filters">
       <label class="search-field">
-        <span>Search title, artist, or notes</span>
-        <input id="recordSearch" type="search" placeholder="Try Billy Joel, Elvis, cracked…" autocomplete="off">
+        <span>Search title, artist, slot, or notes</span>
+        <input id="recordSearch" type="search" placeholder="Try Billy Joel, Elvis, A1, cracked…" autocomplete="off">
       </label>
       <div class="filter-row">
         <label>Collection
@@ -34,6 +34,13 @@
             <option value="cracked">Cracked</option>
             <option value="warped">Warped</option>
             <option value="broken">Broken</option>
+          </select>
+        </label>
+        <label>Jukebox location
+          <select id="slotFilter">
+            <option value="">All records</option>
+            <option value="assigned">Assigned to a slot</option>
+            <option value="unassigned">Not assigned</option>
           </select>
         </label>
       </div>
