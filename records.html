@@ -24,9 +24,7 @@
       </label>
       <div class="filter-row">
         <label>Collection
-          <select id="sectionFilter">
-            <option value="">All collections</option>
-          </select>
+          <select id="sectionFilter"><option value="">All collections</option></select>
         </label>
         <label>Condition
           <select id="conditionFilter">
@@ -43,6 +41,11 @@
             <option value="unassigned">Not assigned</option>
           </select>
         </label>
+      </div>
+      <div class="review-actions">
+        <button id="reviewUncertain" type="button">Review uncertain <span id="uncertainCount">—</span></button>
+        <button id="copyEdits" type="button">Copy edits <span id="editCount">0</span></button>
+        <span id="editStatus" role="status"></span>
       </div>
       <div id="letterFilter" class="letter-filter" aria-label="Alphabet filter"></div>
     </section>
